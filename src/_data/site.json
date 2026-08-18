@@ -1,17 +1,42 @@
 {
-  "title": "MNR",
-  "shortMark": "MNR",
-  "tagline": "Things, in context.",
-  "description": "Writing and data visualisation — timelines, charts, and the wider context.",
-  "author": "MNR",
+  "title": "Malathi Renati",
+  "shortMark": "MR",
+  "tagline": "Curriculum, programmes, and the move from sport into a working life.",
+  "description": "Malathi Renati — Head of Policy School and Associate Dean at the Takshashila Institution. Curriculum and programme design, sport and public policy, and the athlete transition.",
+  "author": "Malathi Renati",
   "lang": "en",
-
   "//repo": "owner/name on GitHub. Feeds the 'suggest via GitHub' links and the submission relay. Update if the repository is renamed.",
   "repo": "malathirenati/malathirenati.github.io",
-
   "//turnstileSiteKey": "Optional Cloudflare Turnstile site key for bot protection on the public form. The matching secret goes in the hosting environment, never here.",
   "turnstileSiteKey": "",
-
+  "//profile": "Home-page identity. `portrait` is a path under src/assets/. `email` is split into user/domain and reassembled in the template so it is not sitting in the HTML as a scrapeable string. Add or remove `links` freely — the page renders whatever is here.",
+  "profile": {
+    "name": "Malathi Renati",
+    "role": "Head of Policy School & Associate Dean, Takshashila Institution",
+    "location": "Bangalore, India",
+    "portrait": "/assets/img/portrait-placeholder.svg",
+    "portraitAlt": "Malathi Renati",
+    "emailUser": "malathi.renati",
+    "emailDomain": "gmail.com",
+    "links": [
+      {
+        "text": "LinkedIn",
+        "url": "https://www.linkedin.com/in/malathi-renati-b922a71a/"
+      },
+      {
+        "text": "Medium",
+        "url": ""
+      },
+      {
+        "text": "Substack",
+        "url": ""
+      },
+      {
+        "text": "Podcast",
+        "url": ""
+      }
+    ]
+  },
   "//sections": "Top-level areas of the site. Add one here and create a matching src/<slug>/ folder with its own pages — the nav, the home page and the section headers all read from this list.",
   "sections": [
     {
@@ -20,9 +45,18 @@
       "url": "/sports/",
       "blurb": "Games against the backdrop of politics, money and policy — and a timeline that puts them on one axis.",
       "nav": [
-        { "text": "Timeline", "url": "/sports/timeline/" },
-        { "text": "Data",     "url": "/sports/data/" },
-        { "text": "Suggest",  "url": "/sports/submit/" }
+        {
+          "text": "Timeline",
+          "url": "/sports/timeline/"
+        },
+        {
+          "text": "Data",
+          "url": "/sports/data/"
+        },
+        {
+          "text": "Suggest",
+          "url": "/sports/submit/"
+        }
       ]
     }
   ]

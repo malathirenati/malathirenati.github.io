@@ -845,3 +845,86 @@ table.data tr.is-dim td, table.data tr.is-dim th { opacity: 0.42; }
   padding: 0.6rem 1.1rem;
   border-radius: var(--radius);
 }
+
+/* =========================================================================
+   Home / profile page
+
+   Two columns on desktop: portrait and identity on the left, prose on the
+   right. Stacks on narrow screens with the portrait first, so a phone reader
+   still gets a face before a wall of text.
+   ========================================================================= */
+
+.profile {
+  display: grid;
+  gap: clamp(1.5rem, 4vw, 3rem);
+  padding-block: clamp(1.5rem, 4vw, 2.5rem);
+}
+@media (min-width: 820px) {
+  .profile { grid-template-columns: 260px minmax(0, 1fr); align-items: start; }
+  /* Sticky so the name stays with you while reading the prose beside it. */
+  .profile-aside { position: sticky; top: calc(var(--header-h, 60px) + 1.5rem); }
+}
+
+.portrait {
+  display: block;
+  width: min(200px, 60vw);
+  height: auto;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+}
+
+.profile-name {
+  font-size: clamp(1.5rem, 1.2rem + 1vw, 1.9rem);
+  margin: 1rem 0 0.2rem;
+  letter-spacing: -0.022em;
+}
+.profile-role { margin: 0 0 0.2rem; color: var(--ink-2); font-size: 0.925rem; line-height: 1.45; }
+.profile-location { margin: 0; color: var(--muted); font-size: 0.85rem; }
+
+.profile-links {
+  list-style: none; margin: 1rem 0 0; padding: 0;
+  display: flex; flex-wrap: wrap; gap: 0.4rem;
+}
+.profile-links a {
+  display: inline-block;
+  padding: 0.28rem 0.65rem;
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  font-size: 0.85rem; font-weight: 550;
+  text-decoration: none; color: var(--ink-2);
+}
+.profile-links a:hover { background: var(--surface-2); color: var(--ink); text-decoration: none; }
+
+/* Prose column ------------------------------------------------------------ */
+.profile-main > section + section {
+  margin-top: 2.25rem;
+  padding-top: 2.25rem;
+  border-top: 1px solid var(--border);
+}
+.profile-main h2 {
+  font-size: 0.78rem; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.08em;
+  color: var(--muted);
+  margin: 0 0 0.9rem;
+}
+.profile-main p { max-width: 62ch; }
+.profile-main > section:first-child p:first-of-type { font-size: 1.075rem; }
+
+/* Label -> value rows, reused for "what I work on". */
+.deflist { margin: 0; display: grid; gap: 0.7rem; }
+@media (min-width: 620px) {
+  .deflist { grid-template-columns: 13rem minmax(0, 1fr); gap: 0.7rem 1.25rem; }
+}
+.deflist dt { font-weight: 650; color: var(--ink); font-size: 0.925rem; }
+.deflist dd { margin: 0; color: var(--ink-2); max-width: 52ch; }
+
+.worklist { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.85rem; }
+.worklist li { display: flex; flex-direction: column; gap: 0.15rem; }
+.worklist-title { font-weight: 650; color: var(--ink); }
+.worklist-note { color: var(--ink-2); font-size: 0.9rem; max-width: 58ch; }
+
+.email { font-variant-numeric: tabular-nums; }
+.email-at { color: var(--muted); }

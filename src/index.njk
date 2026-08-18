@@ -1,29 +1,132 @@
 ---
 layout: base.njk
 title: null
-description: Writing and data visualisation — timelines, charts, and the wider context.
 ---
+
+{# The home page is the introduction. Everything on it comes from `profile` and
+   `sections` in src/_data/site.json, so adding a link or a section never means
+   editing this template. #}
 
 <div class="wrap">
 
-  <section class="hero">
-    <p class="eyebrow">{{ site.tagline }}</p>
-    <h1>Things don't happen in a vacuum.</h1>
-    <p class="lede">
-      Events are easier to understand next to what else was going on. This site
-      collects a few threads worth following, and puts them on a shared axis.
-    </p>
-  </section>
+  <div class="profile">
 
-  <div class="grid grid-2">
-    {% for s in site.sections %}
-    <a class="card card-link" href="{{ s.url | url }}">
-      <p class="eyebrow">Section</p>
-      <h3>{{ s.title }}</h3>
-      <p>{{ s.blurb }}</p>
-      <span class="card-cta">Open {{ s.title | lower }} &rarr;</span>
-    </a>
-    {% endfor %}
+    <aside class="profile-aside">
+      <img class="portrait" src="{{ site.profile.portrait | url }}"
+           alt="{{ site.profile.portraitAlt }}" width="600" height="600">
+      <h1 class="profile-name">{{ site.profile.name }}</h1>
+      <p class="profile-role">{{ site.profile.role }}</p>
+      <p class="profile-location">{{ site.profile.location }}</p>
+
+      <ul class="profile-links">
+        {% for l in site.profile.links %}{% if l.url %}
+        <li><a href="{{ l.url }}" rel="noopener">{{ l.text }}</a></li>
+        {% endif %}{% endfor %}
+      </ul>
+    </aside>
+
+    <div class="profile-main">
+
+      <section aria-labelledby="about-heading">
+        <h2 id="about-heading">About</h2>
+        <p>
+          I played hockey and baseball for Karnataka, spent fifteen years managing
+          software programmes, and now build education programmes at the
+          <a href="https://takshashila.org.in/" rel="noopener">Takshashila Institution</a>,
+          where I'm Head of Policy School and Associate Dean.
+        </p>
+        <p>
+          Most of that work is curriculum architecture — deciding what a programme
+          should teach, how it should be assessed, and how you know it worked. I
+          co-teach two courses on sport and public policy: <em>Building a Sporting
+          Nation</em> with Nandan Kamath, and <em>Transforming Women's Sport in
+          India</em> with Aditi Mutatkar. I also teach project management to
+          athletes, working professionals and undergraduates.
+        </p>
+        <p>
+          I write op-eds on sport, animal welfare and eldercare, and record a
+          monthly episode of <em>All Things Policy</em>.
+        </p>
+        <p>
+          The move from sport into a working life runs through most of it. I've
+          made that transition myself.
+        </p>
+      </section>
+
+      <section aria-labelledby="work-heading">
+        <h2 id="work-heading">What I work on</h2>
+        <dl class="deflist">
+          <dt>Curriculum &amp; assessment</dt>
+          <dd>Learning outcomes, assessment design, graduation criteria, and the feedback cycles that improve them.</dd>
+
+          <dt>Sport &amp; public policy</dt>
+          <dd>Two annual courses, op-eds, and the athlete-transition question.</dd>
+
+          <dt>Programme management</dt>
+          <dd>Twenty years of it — banking delivery at 130 people, now education.</dd>
+
+          <dt>Writing &amp; podcasting</dt>
+          <dd>Op-eds in national newspapers, a monthly podcast, and a newsletter on project management.</dd>
+        </dl>
+      </section>
+
+      <section aria-labelledby="made-heading">
+        <h2 id="made-heading">Selected work</h2>
+        <ul class="worklist">
+          <li>
+            <a href="{{ '/sports/timeline/' | url }}">Sporting Timeline</a>
+            <span class="worklist-note">An interactive timeline of sport, politics, policy and natural events, from c. 2600 BC.</span>
+          </li>
+          <li>
+            <span class="worklist-title">Building a Sporting Nation</span>
+            <span class="worklist-note">Annual course, with Nandan Kamath. Since 2024.</span>
+          </li>
+          <li>
+            <span class="worklist-title">Transforming Women's Sport in India</span>
+            <span class="worklist-note">Annual course, with Aditi Mutatkar. Since 2025.</span>
+          </li>
+          <li>
+            <span class="worklist-title">Project Management Simplified</span>
+            <span class="worklist-note">Newsletter on project management and leadership for practitioners.</span>
+          </li>
+        </ul>
+      </section>
+
+      {% if site.sections | length %}
+      <section aria-labelledby="sections-heading">
+        <h2 id="sections-heading">Sections of this site</h2>
+        <div class="grid grid-2">
+          {% for s in site.sections %}
+          <a class="card card-link" href="{{ s.url | url }}">
+            <h3>{{ s.title }}</h3>
+            <p>{{ s.blurb }}</p>
+            <span class="card-cta">Open {{ s.title | lower }} &rarr;</span>
+          </a>
+          {% endfor %}
+        </div>
+      </section>
+      {% endif %}
+
+      <section aria-labelledby="before-heading">
+        <h2 id="before-heading">Before this</h2>
+        <p class="muted">
+          Fifteen years in programme and delivery management at EVRY and Wipro,
+          latterly running a 130-person offshore team under CMMI Level 5.
+          PMP-certified. M.Eng from Concordia, Montreal. I introduced
+          <em>Sphygmus</em>, an inter-collegiate sports festival, which is now in
+          its 30th year.
+        </p>
+      </section>
+
+      <section aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact</h2>
+        {# Written as separate parts rather than a mailto: so the address is not
+           sitting in the HTML as a string a scraper can lift wholesale. #}
+        <p>
+          By email: <span class="email">{{ site.profile.emailUser }}<span class="email-at"> [at] </span>{{ site.profile.emailDomain }}</span>
+        </p>
+      </section>
+
+    </div>
   </div>
-
 </div>
