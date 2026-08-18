@@ -2,7 +2,7 @@
   "title": "Malathi Renati",
   "shortMark": "MR",
   "tagline": "Curriculum, programmes, and the move from sport into a working life.",
-  "description": "Malathi Renati — Head of Policy School and Associate Dean at the Takshashila Institution. Curriculum and programme design, sport and public policy, and the athlete transition.",
+  "description": "Malathi Renati — Head of Policy School and Associate Dean at the Takshashila Institution. Educator, curriculum and programme design, sport and public policy, and a mentor for women athlete leaders.",
   "author": "Malathi Renati",
   "lang": "en",
   "//repo": "owner/name on GitHub. Feeds the 'suggest via GitHub' links and the submission relay. Update if the repository is renamed.",
@@ -14,7 +14,7 @@
     "name": "Malathi Renati",
     "role": "Head of Policy School & Associate Dean, Takshashila Institution",
     "location": "Bangalore, India",
-    "portrait": "/assets/img/portrait-placeholder.svg",
+    "portrait": "/assets/img/malathi.jpg",
     "portraitAlt": "Malathi Renati",
     "emailUser": "malathi.renati",
     "emailDomain": "gmail.com",
@@ -25,15 +25,15 @@
       },
       {
         "text": "Medium",
-        "url": ""
+        "url": "https://medium.com/@mnr500"
       },
       {
         "text": "Substack",
-        "url": ""
+        "url": "https://projectmanagementsimplified.substack.com/"
       },
       {
         "text": "Podcast",
-        "url": ""
+        "url": "https://malathi-podcast.netlify.app/"
       }
     ]
   },
@@ -43,7 +43,7 @@
       "slug": "sports",
       "title": "Sport",
       "url": "/sports/",
-      "blurb": "Games against the backdrop of politics, money and policy — and a timeline that puts them on one axis.",
+      "blurb": "Games against the backdrop of politics, economics and policy — and a timeline that puts them on one axis.",
       "nav": [
         {
           "text": "Timeline",
