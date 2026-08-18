@@ -22,8 +22,9 @@ The website is built from it. If the CSV is right, the site is right.
 10. [Changing how the site looks](#changing-how-the-site-looks)
 11. [When something breaks](#when-something-breaks)
 12. [Undoing a mistake](#undoing-a-mistake)
-13. [Secrets, tokens and access](#secrets-tokens-and-access)
-14. [First-time setup](#first-time-setup)
+13. [Access, and why there are no secrets](#access-and-why-there-are-no-secrets)
+14. [Setup — what is done, and the one thing left](#setup--what-is-done-and-the-one-thing-left)
+15. [Routine maintenance](#routine-maintenance)
 
 ---
 
@@ -32,6 +33,7 @@ The website is built from it. If the CSV is right, the site is right.
 | I want to… | Do this |
 |---|---|
 | Publish someone's suggestion | Add the `approved` label to their issue. Done. |
+| See what's waiting | [Open submissions](https://github.com/malathirenati/malathirenati.github.io/issues?q=is:open+label:submission) |
 | Add an event | Edit `data/timeline.csv` on GitHub, commit |
 | Fix a typo | Same — edit the cell, commit |
 | Delete an event | Delete its row, commit |
@@ -48,38 +50,74 @@ if you still see the old version.
 
 ## Approving a submission
 
-Suggestions arrive as GitHub issues, whether they came through the website form
-or from someone with a GitHub account. They're all in one place:
+Suggestions arrive as **GitHub issues**. That is the whole system — there is no
+separate inbox, no form service, and nothing to log into but GitHub.
 
-**`https://github.com/<your-repo>/issues?q=is:open+label:submission`**
+### Where they appear
 
-For each one:
+**https://github.com/malathirenati/malathirenati.github.io/issues?q=is:open+label:submission**
 
-1. **Read it.** Check the date looks right and the source link supports the claim.
-2. **Decide.**
-   - **Publish it** — add the **`approved`** label. That's the entire action.
-   - **Reject it** — close the issue. A short comment saying why is kind but optional.
-   - **Fix it first** — edit the issue body (the pencil icon), correct the field,
-     *then* add `approved`. It publishes what the issue says at the moment you
-     label it, so always edit before labelling.
+GitHub emails you when one arrives (you're watching your own repository by
+default). If you'd rather have them somewhere else, Settings → Notifications.
 
-When you add `approved`, a robot validates the entry, adds it to the spreadsheet,
-commits it, rebuilds the site, comments to confirm, and closes the issue. You do
-nothing else.
+### The link to share
+
+This is what `/sports/submit/` points at, and what you can paste anywhere:
+
+```
+https://github.com/malathirenati/malathirenati.github.io/issues/new?template=timeline-entry.yml
+```
+
+It opens a structured form — one box per timeline column — rather than a blank
+issue. Submitters need a free GitHub account.
+
+### Reviewing one
+
+1. **Read it.** Does the date look right? Does the source actually support the
+   claim? Is the source the body that holds the record, or an encyclopedia?
+2. **Decide:**
+   - **Publish** — add the **`approved`** label. That is the entire action.
+   - **Reject** — close the issue. A one-line comment saying why is kind.
+   - **Fix first** — edit the issue body with the pencil icon, correct the field,
+     *then* add `approved`.
+
+> **Always edit before labelling.** The robot publishes what the issue says at
+> the moment the label goes on. Labelling first and editing after publishes the
+> old version.
+
+### What happens when you label it
+
+Automatically, in about a minute:
+
+1. The entry is validated — same code the site build uses, so anything that
+   passes here is guaranteed to build.
+2. A row is appended to `data/timeline.csv` and committed.
+3. The site rebuilds and redeploys.
+4. The issue gets a confirming comment, a `published` label, and is closed.
+
+You do nothing else. Watch it happen under the **Actions** tab if you like.
 
 ### If it says it couldn't publish
 
 The robot removes the `approved` label and comments with a link to the log. The
-usual cause is a date it can't read. Edit the issue to fix it, then add `approved`
-again. Nothing was committed, so there is nothing to clean up.
+usual cause is a date it can't read. Fix the issue body, add `approved` again.
+Nothing was committed, so there is nothing to clean up.
 
 ### If it says "NEW TRACK"
 
 The entry named a track that didn't exist, so one was created and given the next
-free shape in its group. That's fine and it works — but if you care what colour
-and shape it gets, see [Adding a track](#adding-a-track).
+free shape in its group. That works — but if you care which colour and shape it
+gets, see [Adding a track](#adding-a-track).
 
----
+### Submitting your own entries
+
+Two routes, both ending in the same review:
+
+- **The browser editor.** Open `/sports/timeline/?edit`, add the event, then
+  press **Submit for publishing**. It opens a pre-filled issue. Label it
+  `approved` and it publishes.
+- **Straight to the spreadsheet.** For your own entries you can skip the queue
+  entirely and edit `data/timeline.csv` — see the next section.
 
 ## Adding an event yourself
 
@@ -116,7 +154,7 @@ Olympic Games,Sport,Some event,1896,,"Held in Athens, Greece.",Athens,,
 Open the timeline with `?edit` on the end of the address:
 
 ```
-https://<your-site>/sports/timeline/?edit
+https://malathirenati.github.io/sports/timeline/?edit
 ```
 
 You get an editor bar and an **Edit** button on every row of the table. Add,
@@ -379,121 +417,108 @@ To see the site as it was, open any older commit and click **Browse files**.
 
 ---
 
-## Secrets, tokens and access
+## Access, and why there are no secrets
+
+**There is nothing to store.** No API key, no token, no password, no service
+account. The whole publishing flow runs on GitHub's own permissions.
 
 ### Who can publish
 
-Anyone with **write access to the repository**. Approving is done by labelling an
-issue, so repository access *is* admin access — there is no separate password to
-manage, and nothing for you to store.
+Anyone with **write access to this repository**. Approving is done by labelling
+an issue, so repository access *is* admin access.
 
-Review who has access at **Settings → Collaborators** now and then.
+Review who has it now and then: **Settings → Collaborators**.
 
-### The submission token
+### What the robot uses
 
-The website form needs one credential: a GitHub token that lets it open issues.
-
-It lives **only** in the hosting environment, never in the repository and never
-in the website. Anyone reading the site's source cannot find it.
-
-Create it at **GitHub → Settings → Developer settings → Personal access tokens →
-Fine-grained tokens**:
-
-- **Repository access:** only this repository
-- **Permissions:** *Issues: Read and write*, nothing else
-- **Expiry:** 90 days is sensible
-
-> Do **not** give it *Contents: write*. It only needs to file issues. Publishing
-> is done by the Action, which uses its own separate, automatic credential.
-
-Then in **Cloudflare Pages → your project → Settings → Environment variables**:
-
-| Name | Value |
-|---|---|
-| `GITHUB_TOKEN` | the token you just created |
-| `GITHUB_REPO` | `owner/repository` |
-| `TURNSTILE_SECRET` | *(optional — spam protection)* |
-
-### Rotating it
-
-Tokens expire; GitHub emails you first. To replace one: create a new token, paste
-it over `GITHUB_TOKEN` in Cloudflare, redeploy, delete the old token.
-
-If you ever think a token leaked, **delete it on GitHub immediately** — that
-kills it instantly — then create a replacement. Nothing else is at risk, because
-it can only open issues.
+The approve workflow runs with `GITHUB_TOKEN` — a credential GitHub creates for
+that single run and destroys when it finishes. It is scoped to this repository,
+you never see it, and there is nothing to rotate.
 
 ### Spam
 
-If the form starts attracting junk, turn on Cloudflare Turnstile:
+Submissions require a GitHub account, which stops nearly all of it. If something
+does get through, close the issue — nothing reaches the site without your label.
 
-1. Cloudflare dashboard → **Turnstile** → add a site. You get two keys.
-2. Put the **site key** in `src/_data/site.json` as `turnstileSiteKey`, commit.
-3. Put the **secret key** in the Pages environment as `TURNSTILE_SECRET`.
+Persistent abuse: **Settings → Moderation options** lets you block a user or
+limit who can interact with the repository.
 
-Until then, a hidden honeypot field catches simple bots. Nothing reaches the site
-without your approval regardless — the worst spam can do is make your issues list
-untidy.
+### If you later want a form that needs no GitHub account
 
----
+The code for it is already written and tested — `functions/api/submit.js`, a
+small relay that takes a form post and opens the issue on the submitter's behalf.
+It is **not in use**: GitHub Pages serves static files only and cannot run it.
 
-## First-time setup
+Turning it on means hosting the site on Cloudflare Pages (or running that one
+function as a standalone Cloudflare Worker, keeping the site where it is). Only
+then do you need a token, and the file's own header comment explains exactly
+which permissions it needs and which it must not have.
 
-Only needed once.
+Until then, ignore it. It costs nothing to leave in place.
 
-### 1. Put the code on GitHub
+## Setup — what is done, and the one thing left
 
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/<you>/<repo>.git
-git push -u origin main
-```
+The site is live at **https://malathirenati.github.io/**, published from this
+repository by GitHub Actions on every push to `main`.
 
-Then set `repo` in `src/_data/site.json` to `<you>/<repo>`.
-
-### 2. Create the labels
-
-**Issues → Labels → New label**, twice:
-
-- `submission` — new suggestions
-- `approved` — **the one that publishes.** Give it a loud colour.
-- `published` — added automatically once it's live
-
-### 3. Publish the site
-
-**Cloudflare Pages → Create a project → Connect to Git**, choose the repository:
-
-| Setting | Value |
+| Step | Status |
 |---|---|
-| Build command | `npm run build` |
-| Build output directory | `_site` |
-| Node version | `22` |
+| Repository on GitHub | done |
+| GitHub Pages, Source = GitHub Actions | done |
+| Deploy on every push | done |
+| Submission form (GitHub issue template) | done |
+| Approve-and-publish workflow | done |
+| **The three labels** | **see below** |
 
-Cloudflare rebuilds on every push to `main`. Add your own domain under
-**Custom domains** whenever you're ready.
+### Create the three labels
 
-> **Why not GitHub Pages?** It serves files only — it can't run the submission
-> form, which needs somewhere to keep the token. If you don't want public
-> submissions at all, GitHub Pages works fine and the included
-> `.github/workflows/deploy.yml` handles it; people can still submit as GitHub
-> issues.
+**This is required — the workflow cannot publish without them.** Go to
+**Issues → Labels → New label** and create:
 
-### 4. Add the submission token
+| Label | Purpose | Suggested colour |
+|---|---|---|
+| `submission` | Applied automatically to every new suggestion | grey |
+| `approved` | **The one that publishes.** You add this by hand | something loud — red or green |
+| `published` | Applied automatically once it's live | blue |
 
-See [Secrets, tokens and access](#secrets-tokens-and-access).
+Spell them exactly, in lower case. The workflow matches on the literal string
+`approved`, so `Approved` will not trigger it.
 
-### 5. Check it works
+### Then test it end to end
 
-- Open `/submit/`, send a test entry
-- It appears in **Issues**
-- Add `approved`
-- Watch **Actions** run, then find it on the timeline
-- Delete the test row from `data/timeline.csv` afterwards
+Worth doing once, so you've seen the whole loop:
+
+1. Open the submission form and file a test entry — anything, dated 2032.
+2. It appears in **Issues** with the `submission` label.
+3. Add the `approved` label.
+4. Watch **Actions**; in about a minute the run goes green.
+5. Find it on the timeline at `/sports/timeline/`.
+6. Delete the test row from `data/timeline.csv` and commit.
+
+If step 4 fails, the issue will tell you why.
+
+### Custom domain, if you ever want one
+
+**Settings → Pages → Custom domain**. The build reads its path prefix from Pages
+at build time, so a domain change needs no code edit. A domain is the only thing
+in this entire setup that costs money.
 
 ---
+
+## Routine maintenance
+
+There is no server, no database and no runtime dependencies, so nothing rots on
+its own. Everything below is optional and can be done whenever.
+
+| How often | What |
+|---|---|
+| As they arrive | Review submissions — label or close |
+| Occasionally | Clear `unverified` source flags (see [Sources](#sources-and-the-unverified-marker)) |
+| Once or twice a year | `npm update` locally, check the site still builds, commit the lockfile |
+| Rarely | Check **Settings → Collaborators** is still who you expect |
+
+Build tooling only changes when you choose to update it. If you never run
+`npm update`, the site keeps building and serving exactly as it does today.
 
 ## Working on it locally
 

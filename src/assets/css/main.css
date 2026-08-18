@@ -838,3 +838,10 @@ table.data tr.is-dim td, table.data tr.is-dim th { opacity: 0.42; }
   background: var(--surface); color: var(--ink);
   box-shadow: inset 0 0 0 1px var(--border-strong);
 }
+
+/* Prominent call to action — used on the submission page. */
+.btn-lg {
+  font-size: 1rem;
+  padding: 0.6rem 1.1rem;
+  border-radius: var(--radius);
+}

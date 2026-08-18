@@ -206,36 +206,41 @@ failing the build, so one blank row can't take the site down.
 
 ## Submissions
 
-Readers can suggest entries at `/submit/`, and people with a GitHub account can
-open an issue directly. Both land in the same review queue.
+Readers suggest entries through a **GitHub issue form**. Both the form and the
+review queue live on GitHub — there is no server, no form service and no
+credential to store.
 
 ```
-public form ──→ /api/submit ──→ GitHub issue ──┐
-                (holds the token)              ├──→ you add `approved`
-GitHub issue form ─────────────────────────────┘         │
-                                                         ▼
-                              Action validates, appends a row to
-                              data/timeline.csv, commits, rebuilds
+GitHub issue form ──→ you add the `approved` label ──→ Action validates,
+                                                       appends a row to
+                                                       data/timeline.csv,
+                                                       commits, rebuilds
 ```
 
 Approving is one action: **add the `approved` label**. Everything after that is
-automatic, including the rebuild and a confirmation comment. If validation fails
+automatic, including the rebuild and a confirming comment. If validation fails
 nothing is committed — the label comes back off and the issue explains why.
 
 | File | Role |
 |---|---|
-| `src/submit.njk` | The public form |
-| `functions/api/submit.js` | Relay — the only place a token exists |
-| `.github/ISSUE_TEMPLATE/timeline-entry.yml` | The GitHub-native form |
+| `.github/ISSUE_TEMPLATE/timeline-entry.yml` | The submission form |
+| `.github/workflows/approve.yml` | Triggered by the `approved` label |
 | `scripts/apply-submission.mjs` | Validates and appends |
-| `.github/workflows/approve.yml` | Triggered by the label |
 | `scripts/lib/parse.mjs` | Shared with the build, so review and build agree |
+| `src/sports/submit.njk` | Public page explaining how to submit |
 
-**The token never reaches the browser.** It lives in the hosting environment,
-scoped to Issues on one repository — it cannot write to the repository at all.
-Publishing is done by the Action under its own credential.
+The workflow runs under GitHub's own per-run `GITHUB_TOKEN`, which is created
+for that run and destroyed after it. Nothing to rotate.
 
-Full operational detail is in [docs/ADMIN.md](docs/ADMIN.md).
+### Not currently in use
+
+`functions/api/submit.js` is a tested relay that would let people submit without
+a GitHub account, by taking a form post and opening the issue for them. GitHub
+Pages serves static files only and cannot run it, so it is dormant. Enabling it
+means hosting on Cloudflare Pages, or running that one function as a standalone
+Worker. Its header comment documents the permissions it needs.
+
+Operational detail is in [docs/ADMIN.md](docs/ADMIN.md).
 
 ## Commands
 
