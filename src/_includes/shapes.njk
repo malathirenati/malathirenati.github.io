@@ -1,0 +1,40 @@
+{#
+  Marker shape sprite.
+
+  One shape per colour slot. This is a required accessibility channel, not
+  decoration: the palette's worst adjacent pair sits in the 6-8 CVD band, which
+  is only legal when a second, non-colour channel carries identity too. Shape is
+  that channel, so every category is distinguishable in greyscale and under
+  full-severity colour-vision deficiency.
+
+  Symbols carry no fill, so consumers set `fill` themselves — via CSS on the
+  wrapping <svg> (chips, legend, table) or as an attribute on <use> (the chart).
+#}
+<svg width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute">
+  <defs>
+    <symbol id="shape-circle" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="5.6"/>
+    </symbol>
+    <symbol id="shape-diamond" viewBox="0 0 16 16">
+      <path d="M8 1.6 14.4 8 8 14.4 1.6 8Z"/>
+    </symbol>
+    <symbol id="shape-square" viewBox="0 0 16 16">
+      <rect x="2.7" y="2.7" width="10.6" height="10.6" rx="1.6"/>
+    </symbol>
+    <symbol id="shape-triangle" viewBox="0 0 16 16">
+      <path d="M8 1.9 14.6 13.4H1.4Z"/>
+    </symbol>
+    <symbol id="shape-hexagon" viewBox="0 0 16 16">
+      <path d="M8 1.5 13.6 4.75v6.5L8 14.5 2.4 11.25v-6.5Z"/>
+    </symbol>
+    <symbol id="shape-chevron" viewBox="0 0 16 16">
+      <path d="M2.2 3.4 8 8.2l5.8-4.8v4.3L8 12.6 2.2 7.7Z"/>
+    </symbol>
+    <symbol id="shape-cross" viewBox="0 0 16 16">
+      <path d="M5.9 1.9h4.2v4h4v4.2h-4v4H5.9v-4h-4V5.9h4Z"/>
+    </symbol>
+    <symbol id="shape-star" viewBox="0 0 16 16">
+      <path d="M8 1.4 9.94 5.9l4.86.42-3.68 3.2 1.1 4.76L8 11.76l-4.22 2.52 1.1-4.76-3.68-3.2 4.86-.42Z"/>
+    </symbol>
+  </defs>
+</svg>

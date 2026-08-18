@@ -1,0 +1,88 @@
+name: Timeline entry
+description: Suggest an event for the timeline
+title: "[Entry] "
+labels: ["submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an event.
+
+        Every field below maps to a column in the timeline spreadsheet. The
+        headings are parsed automatically, so please don't rename or reorder
+        them — just fill in the boxes.
+
+        Nothing is published until a maintainer reviews it.
+
+  - type: input
+    id: track
+    attributes:
+      label: Track
+      description: Which thread does this belong to? An existing track name if you know one, otherwise describe it and we'll place it.
+      placeholder: Olympic Games
+    validations:
+      required: true
+
+  - type: input
+    id: group
+    attributes:
+      label: Group
+      description: The broader sector. Leave blank if you're not sure.
+      placeholder: Sport
+
+  - type: input
+    id: event
+    attributes:
+      label: Event
+      description: A short name for what happened.
+      placeholder: First modern Olympic Games
+    validations:
+      required: true
+
+  - type: input
+    id: start
+    attributes:
+      label: Start
+      description: "1896 · 1948-07-29 · July 1948 · 776 BC · AD 79 · c. 3000 BC for approximate dates"
+      placeholder: "1896"
+    validations:
+      required: true
+
+  - type: input
+    id: end
+    attributes:
+      label: End
+      description: Only for things that lasted — leave blank for a single moment. Adding an end draws the event as a bar.
+      placeholder: "1918"
+
+  - type: textarea
+    id: detail
+    attributes:
+      label: Detail
+      description: One or two sentences. This is what appears in the tooltip.
+      placeholder: 241 athletes from 14 nations competed.
+
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      placeholder: Athens
+
+  - type: input
+    id: link
+    attributes:
+      label: Source link
+      description: >-
+        Please link the body that actually holds the record — the governing
+        federation, the statute, the archive, the agency. An encyclopedia is a
+        last resort and gets published with an "unverified" marker until a
+        primary source replaces it.
+      placeholder: https://olympics.com/en/olympic-games/athens-1896
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Before submitting
+      options:
+        - label: The date is as accurate as I can make it, and I've marked it `c.` if it's approximate.
+          required: true

@@ -1,0 +1,56 @@
+---
+layout: base.njk
+title: null
+description: Sports writing and data visualisation — timelines, charts, and the wider context around the games.
+---
+
+<div class="wrap">
+
+  <section class="hero">
+    <p class="eyebrow">{{ site.tagline }}</p>
+    <h1>Sport doesn't happen in a vacuum.</h1>
+    <p class="lede">
+      Games are played against a backdrop of politics, money and policy. This site
+      puts those threads on the same axis — so you can see what else was happening
+      the year a record fell.
+    </p>
+  </section>
+
+  <div class="grid grid-2">
+
+    <a class="card card-link" href="{{ '/timeline/' | url }}">
+      <p class="eyebrow">Interactive</p>
+      <h3>The Timeline</h3>
+      <p>
+        {{ timeline.events | length }} events across {{ timeline.categories | length }} tracks,
+        from {{ timeline.minYear | formatYear }} to {{ timeline.maxYear | formatYear }}. Filter by track, narrow the
+        period, or overlay every track on a single axis.
+      </p>
+      <span class="card-cta">Open the timeline &rarr;</span>
+    </a>
+
+    <a class="card card-link" href="{{ '/data/' | url }}">
+      <p class="eyebrow">Charts &amp; tools</p>
+      <h3>Data &amp; Visual Tools</h3>
+      <p>
+        The datasets behind the site, how they are put together, and the tools used
+        to check them before they are published.
+      </p>
+      <span class="card-cta">Browse the data &rarr;</span>
+    </a>
+
+  </div>
+
+  <section class="card" style="margin-top:1.5rem">
+    <h2 style="font-size:1.075rem">What's on the timeline</h2>
+    <div class="stat-row" style="margin-top:0.9rem">
+      {% for cat in timeline.categories %}
+      <div class="stat">
+        <div class="stat-label">{{ cat.name }}</div>
+        <div class="stat-value">{{ cat.count }}</div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+</div>

@@ -1,0 +1,17 @@
+node_modules/
+_site/
+
+# Generated from data/ by `npm run data` — the spreadsheet is the source of truth.
+src/_data/timeline.json
+
+.DS_Store
+*.log
+npm-debug.log*
+
+# Excel lock files, created while a workbook is open
+~$*.xlsx
+.~lock.*
+
+# Claude Code local tool permissions — machine-specific, not project config.
+# .claude/launch.json IS committed: it is the shared dev-server definition.
+.claude/settings.local.json

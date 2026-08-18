@@ -1,0 +1,248 @@
+---
+layout: base.njk
+title: Timeline
+description: A filterable horizontal timeline of sporting, political and economic events — overlay any set of tracks against a shared time axis.
+---
+
+{% include "shapes.njk" %}
+
+<div class="wrap wrap-wide">
+
+  <div class="page-head">
+    <p class="eyebrow">Interactive</p>
+    <h1>Timeline</h1>
+    <p class="lede">
+      {{ timeline.events | length }} events across {{ timeline.categories | length }} tracks,
+      grouped into {{ timeline.groups | length }} threads on a shared time axis. Turn tracks on
+      and off, narrow the period, roll a whole thread into one lane, or pin two
+      tracks side by side to see how they line up.
+    </p>
+  </div>
+
+  <section class="card timeline-card" aria-labelledby="tl-heading">
+    <h2 id="tl-heading" class="visually-hidden">Timeline chart</h2>
+
+    {# ---- track filter -------------------------------------------------- #}
+    <div class="filter" id="tl-filter">
+      <div class="filter-summary">
+        <button type="button" class="btn filter-toggle" id="tl-filter-toggle"
+                aria-expanded="false" aria-controls="tl-filter-body">
+          Tracks <span class="filter-count" id="tl-filter-count">{{ timeline.categories | length }} of {{ timeline.categories | length }}</span>
+        </button>
+        <div class="filter-keys" id="tl-filter-keys" aria-hidden="true"></div>
+      </div>
+
+      <div class="filter-body" id="tl-filter-body" hidden>
+        <div class="filter-tools">
+          <label class="visually-hidden" for="tl-track-search">Find a track</label>
+          <input class="field field-search" type="search" id="tl-track-search"
+                 placeholder="Find a track&hellip;" autocomplete="off">
+          <button type="button" class="btn" id="tl-select-all">Select all</button>
+          <button type="button" class="btn" id="tl-clear-all">Clear</button>
+        </div>
+
+        <div class="filter-groups">
+          {% for group in timeline.groups %}
+          <div class="filter-group" role="group" aria-labelledby="grp-{{ group.slug }}-label">
+            <div class="filter-group-head">
+              <label class="filter-check" id="grp-{{ group.slug }}-label">
+                <input type="checkbox" class="tl-group-check" data-group="{{ group.slug }}" checked>
+                <span class="filter-swatch" style="background: var(--s{{ group.colorIndex + 1 }})"></span>
+                <span class="filter-group-name">{{ group.name }}</span>
+              </label>
+              <span class="chip-count">{{ group.count }}</span>
+            </div>
+
+            <div class="filter-tracks">
+              {% for cat in timeline.categories %}{% if cat.groupSlug == group.slug %}
+              <div class="filter-track" data-search="{{ (cat.name + ' ' + cat.group) | lower }}">
+                <label class="filter-check">
+                  <input type="checkbox" class="tl-track-check" data-track="{{ cat.slug }}" checked>
+                  <svg class="filter-key" viewBox="0 0 16 16" aria-hidden="true"
+                       style="fill: var(--s{{ cat.colorIndex + 1 }})">
+                    <use href="#shape-{{ cat.shape }}"></use>
+                  </svg>
+                  <span class="filter-track-name">{{ cat.name }}</span>
+                </label>
+                <span class="chip-count">{{ cat.count }}</span>
+                <button type="button" class="btn btn-tiny tl-only" data-track="{{ cat.slug }}"
+                        title="Show only this track">Only</button>
+                <button type="button" class="btn btn-tiny tl-pin" data-track="{{ cat.slug }}"
+                        aria-pressed="false" title="Pin for comparison">Pin</button>
+              </div>
+              {% endif %}{% endfor %}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    {# ---- view / period / zoom / find ------------------------------------ #}
+    <div class="controls" id="tl-controls">
+
+      <div class="control-group">
+        <span class="control-label" id="tl-view-label">View</span>
+        <div class="control-row" role="group" aria-labelledby="tl-view-label">
+          <div class="seg">
+            <button type="button" class="btn" data-mode="lanes" aria-pressed="true"
+                    title="One lane per track">Lanes</button>
+            <button type="button" class="btn" data-mode="rollup" aria-pressed="false"
+                    title="One lane per group">Threads</button>
+            <button type="button" class="btn" data-mode="compact" aria-pressed="false"
+                    title="One thin row per track">Compact</button>
+            <button type="button" class="btn" data-mode="compare" aria-pressed="false"
+                    title="Only the tracks you pinned">Compare</button>
+            <button type="button" class="btn" data-mode="merged" aria-pressed="false"
+                    title="Everything on one axis">Merged</button>
+          </div>
+        </div>
+      </div>
+
+      {# Text, not number: "776 BC" has to be typeable. Parsed by parseYearInput(). #}
+      <div class="control-group">
+        <span class="control-label" id="tl-period-label">Period</span>
+        <div class="control-row" role="group" aria-labelledby="tl-period-label">
+          <label class="visually-hidden" for="tl-from">From year — accepts 776 BC, AD 79 or 1896</label>
+          <input class="field field-year" type="text" id="tl-from" autocomplete="off"
+                 spellcheck="false" value="{{ timeline.minYear | formatYear }}">
+          <span class="muted small" aria-hidden="true">to</span>
+          <label class="visually-hidden" for="tl-to">To year — accepts 776 BC, AD 79 or 1896</label>
+          <input class="field field-year" type="text" id="tl-to" autocomplete="off"
+                 spellcheck="false" value="{{ timeline.maxYear | formatYear }}">
+        </div>
+      </div>
+
+      <div class="control-group">
+        <span class="control-label">Era</span>
+        <div class="control-row" id="tl-presets">
+          <button type="button" class="btn" data-range="all">All</button>
+          <button type="button" class="btn" data-range="3000 BC,AD 500">Ancient</button>
+          <button type="button" class="btn" data-range="AD 500,1500">Medieval</button>
+          <button type="button" class="btn" data-range="1500,1900">Modern</button>
+          <button type="button" class="btn" data-range="1900,">Since 1900</button>
+          <button type="button" class="btn" data-range="~25">Last 25 years</button>
+        </div>
+      </div>
+
+      <div class="control-group">
+        <label class="control-label" for="tl-duration">Lasting at least</label>
+        <div class="control-row">
+          <select class="field" id="tl-duration">
+            <option value="0">Any length</option>
+            <option value="1">1 year</option>
+            <option value="5">5 years</option>
+            <option value="10">10 years</option>
+            <option value="50">50 years</option>
+            <option value="100">100 years</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="control-group">
+        <span class="control-label" id="tl-zoom-label">Zoom</span>
+        <div class="control-row" role="group" aria-labelledby="tl-zoom-label">
+          <button type="button" class="btn btn-icon" id="tl-zoom-out" aria-label="Zoom out">&minus;</button>
+          <button type="button" class="btn btn-icon" id="tl-zoom-in" aria-label="Zoom in">+</button>
+          <button type="button" class="btn" id="tl-reset">Reset</button>
+        </div>
+      </div>
+
+      <div class="control-group">
+        <label class="control-label" for="tl-search">Find</label>
+        <div class="control-row">
+          <input class="field field-search" type="search" id="tl-search"
+                 placeholder="Search events&hellip;" autocomplete="off">
+        </div>
+      </div>
+
+    </div>
+
+    <div class="timeline-axis-sticky" id="tl-axis" hidden></div>
+
+    <div class="timeline-viewport" id="tl-viewport">
+      <noscript>
+        <p class="timeline-empty">
+          The interactive chart needs JavaScript. The full list of events is in the
+          table below.
+        </p>
+      </noscript>
+    </div>
+
+    {# Overview strip. With an axis that pans past the data in both directions,
+       this is how you find your way back. #}
+    <div class="tl-minimap" id="tl-minimap" hidden></div>
+
+    <div class="tl-legend" id="tl-legend" hidden></div>
+
+    <div class="tl-status">
+      <span id="tl-count" aria-live="polite"></span>
+      <span>
+        {% if timeline.updated %}
+          Data updated <time datetime="{{ timeline.updated | isoDate }}">{{ timeline.updated | humanDate }}</time> ·
+        {% endif %}
+        Source: <code>data/{{ timeline.source }}</code>
+      </span>
+    </div>
+  </section>
+
+  {# Rendered server-side and visible by default. JS hides it behind a toggle;
+     without JS it stays open, so the data is never gated behind the chart.
+     It is also the documented relief channel for the light-mode series colours
+     that sit below 3:1 against the surface. #}
+  <section class="card" style="margin-top:1.25rem" aria-labelledby="tl-table-heading">
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap">
+      <h2 id="tl-table-heading" style="margin:0;font-size:1.075rem">All events</h2>
+      <button type="button" class="btn" id="tl-table-toggle" aria-expanded="true"
+              aria-controls="tl-table-wrap" hidden>Hide table</button>
+    </div>
+
+    <div class="table-scroll" id="tl-table-wrap">
+      <table class="data" id="tl-table">
+        <caption id="tl-table-caption">{{ timeline.events | length }} events across {{ timeline.categories | length }} tracks.</caption>
+        <thead>
+          <tr>
+            <th scope="col">Date</th>
+            <th scope="col">Event</th>
+            <th scope="col">Thread</th>
+            <th scope="col">Track</th>
+            <th scope="col">Detail</th>
+            <th scope="col">Location</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for event in timeline.events %}
+          {% set cat = (timeline.categories | selectattr("slug", "equalto", event.categorySlug) | first) %}
+          <tr data-category="{{ event.categorySlug }}" data-group="{{ event.groupSlug }}"
+              data-event-id="{{ event.id }}"
+              data-start="{{ event.startYear }}" data-end="{{ event.endYear or event.startYear }}">
+            <td class="col-date">{{ event.start }}{% if event.end %} &ndash; {{ event.end }}{% endif %}</td>
+            <th scope="row" style="font-weight:600">
+              {% if event.link %}<a href="{{ event.link }}" rel="noopener">{{ event.title }}</a>{% else %}{{ event.title }}{% endif %}
+            </th>
+            <td>{{ event.group }}</td>
+            <td>
+              <span class="cat-cell">
+                <svg class="cat-key" viewBox="0 0 16 16" aria-hidden="true"
+                     style="fill: var(--s{{ cat.colorIndex + 1 }})">
+                  <use href="#shape-{{ cat.shape }}"></use>
+                </svg>
+                {{ event.category }}
+              </span>
+            </td>
+            <td>{{ event.detail or "" }}</td>
+            <td>{{ event.location or "" }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+</div>
+
+{# data-editor-src carries the path-prefixed URL so the editor still resolves
+   when the site is served from a GitHub Pages subdirectory. #}
+<script type="application/json" id="tl-data"
+        data-editor-src="{{ '/assets/js/timeline-editor.js' | url }}">{{ timeline | jsonScript | safe }}</script>
+<script src="{{ '/assets/js/timeline.js' | url }}" defer></script>

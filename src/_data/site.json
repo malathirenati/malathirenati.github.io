@@ -1,0 +1,21 @@
+{
+  "title": "MNR Sport",
+  "shortMark": "MNR",
+  "tagline": "Sport, in context.",
+  "description": "Sports writing and data visualisation — timelines, charts, and the wider context around the games.",
+  "author": "MNR",
+  "lang": "en",
+
+  "//repo": "owner/name on GitHub. Used for the 'suggest via GitHub' links and by the submission relay. Change this if the repository is renamed.",
+  "repo": "malathirenati/Website-MNR",
+
+  "//turnstileSiteKey": "Optional. Set to a Cloudflare Turnstile site key to add bot protection to the public form. Leave empty to run without it. The matching secret goes in the Pages environment, never here.",
+  "turnstileSiteKey": "",
+
+  "nav": [
+    { "text": "Home",     "url": "/" },
+    { "text": "Timeline", "url": "/timeline/" },
+    { "text": "Data",     "url": "/data/" },
+    { "text": "Suggest",  "url": "/submit/" }
+  ]
+}

@@ -1,0 +1,101 @@
+---
+layout: base.njk
+title: Data & Visual Tools
+description: The datasets behind the site, where they come from, and how they are checked before publication.
+---
+
+{% include "shapes.njk" %}
+
+<div class="wrap">
+
+  <div class="page-head">
+    <p class="eyebrow">Behind the charts</p>
+    <h1>Data &amp; Visual Tools</h1>
+    <p class="lede">
+      Every chart on this site is built from a spreadsheet kept alongside the code.
+      Nothing is typed into a page by hand, so a chart can never drift out of step
+      with the data it claims to show.
+    </p>
+  </div>
+
+  <section class="card" aria-labelledby="ds-heading">
+    <h2 id="ds-heading" style="font-size:1.075rem">Datasets</h2>
+
+    <div class="grid grid-2" style="margin-top:1rem">
+      <div class="stat" style="padding:1rem">
+        <div class="stat-label">Timeline</div>
+        <div class="stat-value">{{ timeline.events | length }} events</div>
+        <p class="small muted" style="margin:0.5rem 0 0">
+          {{ timeline.categories | length }} tracks · {{ timeline.minYear | formatYear }}&ndash;{{ timeline.maxYear | formatYear }}<br>
+          Source: <code>data/{{ timeline.source }}</code>{% if timeline.sheet %} · sheet <code>{{ timeline.sheet }}</code>{% endif %}
+          {% if timeline.updated %}<br>Updated <time datetime="{{ timeline.updated | isoDate }}">{{ timeline.updated | humanDate }}</time>{% endif %}
+        </p>
+        <p style="margin:0.7rem 0 0"><a href="{{ '/timeline/' | url }}">View the timeline &rarr;</a></p>
+      </div>
+
+      <div class="stat" style="padding:1rem">
+        <div class="stat-label">Tracks</div>
+        <div style="margin-top:0.5rem;display:flex;flex-direction:column;gap:0.3rem">
+          {% for cat in timeline.categories %}
+          <span style="display:inline-flex;align-items:center;gap:0.45rem;font-size:0.875rem">
+            <svg viewBox="0 0 16 16" aria-hidden="true" width="13" height="13"
+                 style="flex:none;fill: var(--s{{ cat.colorIndex + 1 }})">
+              <use href="#shape-{{ cat.shape }}"></use>
+            </svg>
+            {{ cat.name }}
+            <span class="muted" style="font-variant-numeric:tabular-nums">{{ cat.count }}</span>
+          </span>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="card" style="margin-top:1.25rem" aria-labelledby="how-heading">
+    <div class="prose">
+      <h2 id="how-heading" style="font-size:1.075rem;margin-top:0">How the data gets here</h2>
+      <ol>
+        <li>The data lives at <code>data/timeline.csv</code> in the repository.</li>
+        <li>A build step reads it, checks every date, and writes plain JSON.</li>
+        <li>The site is rebuilt from that JSON and published.</li>
+      </ol>
+      <p>
+        Steps 2 and 3 run automatically whenever the data changes, so updating a
+        chart means editing one file and committing it. Readers only ever download
+        the finished JSON — the parser stays on the build machine.
+      </p>
+      <p>
+        Suggestions from readers join at step 1: they arrive for review, and an
+        approved entry is written into the same file by the same checks.
+        <a href="{{ '/submit/' | url }}">Suggest an entry &rarr;</a>
+      </p>
+
+      <h2 style="font-size:1.075rem">Columns the timeline understands</h2>
+      <p>Headings are matched loosely, so <code>Start Year</code>, <code>start_year</code> and <code>YEAR</code> all work.</p>
+      <div class="table-scroll">
+        <table class="data" style="min-width:34rem">
+          <thead>
+            <tr><th scope="col">Column</th><th scope="col">Required</th><th scope="col">Notes</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">Category</th><td>Yes</td><td>Becomes a track. Also accepts Type, Track, Theme.</td></tr>
+            <tr><th scope="row">Event</th><td>Yes</td><td>The label. Also accepts Title, Name, Milestone.</td></tr>
+            <tr><th scope="row">Start</th><td>Yes</td><td><code>1948</code>, <code>1948-07-29</code>, <code>July 1948</code>, <code>776 BC</code>, <code>AD 79</code>, or <code>c. 3000 BC</code> when approximate.</td></tr>
+            <tr><th scope="row">End</th><td>No</td><td>Present means the event draws as a bar rather than a point.</td></tr>
+            <tr><th scope="row">Detail</th><td>No</td><td>The tooltip body. Also accepts Tooltip, Description, Note.</td></tr>
+            <tr><th scope="row">Location</th><td>No</td><td>Shown in the tooltip and the table.</td></tr>
+            <tr><th scope="row">Link</th><td>No</td><td>Makes the event clickable through to a source.</td></tr>
+            <tr><th scope="row">Highlight</th><td>No</td><td><code>yes</code> keeps the label visible when a lane gets crowded.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="small muted">
+        A companion file, <code>data/categories.csv</code>, pins each track's group,
+        colour and marker shape so they stay stable as rows are added. Colour
+        identifies the group; shape identifies the track within it.
+      </p>
+    </div>
+  </section>
+
+</div>

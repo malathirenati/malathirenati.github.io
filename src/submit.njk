@@ -1,0 +1,212 @@
+---
+layout: base.njk
+title: Suggest an entry
+description: Suggest an event for the timeline. Every submission is reviewed before it appears.
+---
+
+<div class="wrap">
+
+  <div class="page-head">
+    <p class="eyebrow">Contribute</p>
+    <h1>Suggest an entry</h1>
+    <p class="lede">
+      Spotted something missing? Send it over. Every submission is read by a
+      person before it appears — nothing goes live automatically.
+    </p>
+  </div>
+
+  <div class="grid grid-2" style="align-items:start">
+
+    <section class="card" aria-labelledby="form-heading">
+      <h2 id="form-heading" style="font-size:1.075rem;margin-top:0">The details</h2>
+
+      <form id="submit-form" class="submit-form" novalidate>
+        <label class="editor-field">
+          <span class="editor-field-label">Track <span aria-hidden="true">*</span></span>
+          <input class="field" name="track" list="track-options" required
+                 placeholder="Olympic Games" autocomplete="off">
+          <span class="editor-hint">Pick an existing thread, or name a new one.</span>
+        </label>
+        <datalist id="track-options">
+          {% for cat in timeline.categories %}<option value="{{ cat.name }}"></option>{% endfor %}
+        </datalist>
+
+        <label class="editor-field">
+          <span class="editor-field-label">Group</span>
+          <input class="field" name="group" list="group-options" autocomplete="off"
+                 placeholder="Sport">
+          <span class="editor-hint">Optional — the broader sector. Leave blank if unsure.</span>
+        </label>
+        <datalist id="group-options">
+          {% for g in timeline.groups %}<option value="{{ g.name }}"></option>{% endfor %}
+        </datalist>
+
+        <label class="editor-field">
+          <span class="editor-field-label">Event <span aria-hidden="true">*</span></span>
+          <input class="field" name="event" required maxlength="200"
+                 placeholder="First modern Olympic Games">
+        </label>
+
+        <div class="submit-row">
+          <label class="editor-field">
+            <span class="editor-field-label">Start <span aria-hidden="true">*</span></span>
+            <input class="field" name="start" required placeholder="1896" autocomplete="off">
+          </label>
+          <label class="editor-field">
+            <span class="editor-field-label">End</span>
+            <input class="field" name="end" placeholder="optional" autocomplete="off">
+          </label>
+        </div>
+        <p class="editor-hint" style="margin:-0.3rem 0 0">
+          Accepts <code>1896</code>, <code>1948-07-29</code>, <code>July 1948</code>,
+          <code>776 BC</code>, <code>AD 79</code>, or <code>c. 3000 BC</code> when approximate.
+          An end date draws the event as a bar.
+        </p>
+
+        <label class="editor-field">
+          <span class="editor-field-label">Detail</span>
+          <textarea class="field" name="detail" rows="3" maxlength="1000"
+                    placeholder="A sentence or two — this becomes the tooltip."></textarea>
+        </label>
+
+        <label class="editor-field">
+          <span class="editor-field-label">Location</span>
+          <input class="field" name="location" maxlength="120" placeholder="Athens">
+        </label>
+
+        <label class="editor-field">
+          <span class="editor-field-label">Source link</span>
+          <input class="field" name="link" type="url" maxlength="500"
+                 placeholder="https://…">
+          <span class="editor-hint">
+            Please link whoever holds the record — the federation, the statute,
+            the archive. An encyclopedia is a last resort and will be published
+            marked <em>unverified</em>.
+          </span>
+        </label>
+
+        {# Honeypot. Hidden from people, irresistible to bots. #}
+        <div class="hp" aria-hidden="true">
+          <label>Website<input name="website" tabindex="-1" autocomplete="off"></label>
+        </div>
+
+        {% if site.turnstileSiteKey %}
+        <div class="cf-turnstile" data-sitekey="{{ site.turnstileSiteKey }}"></div>
+        {% endif %}
+
+        <p class="editor-error" id="submit-error" hidden></p>
+
+        <div class="control-row" style="margin-top:0.3rem">
+          <button type="submit" class="btn btn-primary" id="submit-button">Send suggestion</button>
+          <span class="small muted" id="submit-status" aria-live="polite"></span>
+        </div>
+      </form>
+
+      <div id="submit-done" hidden>
+        <p><strong>Thank you — that's been filed for review.</strong></p>
+        <p class="small muted" id="submit-done-detail"></p>
+        <p><button type="button" class="btn" id="submit-another">Suggest another</button></p>
+      </div>
+    </section>
+
+    <section class="card" aria-labelledby="how-heading">
+      <div class="prose">
+        <h2 id="how-heading" style="font-size:1.075rem;margin-top:0">What happens next</h2>
+        <ol>
+          <li>Your suggestion is filed for review. Nothing is published yet.</li>
+          <li>A maintainer checks the date and the source.</li>
+          <li>If it holds up, it's approved and appears on the timeline shortly after.</li>
+        </ol>
+
+        <h2 style="font-size:1.075rem">What makes a good entry</h2>
+        <ul>
+          <li><strong>A source of record.</strong> Link the body that actually
+            holds it — the governing federation, the legislation, the archive,
+            the agency. That is the single biggest factor in whether an entry is
+            accepted. An encyclopedia link is accepted, but it publishes with an
+            <em>unverified</em> marker until someone finds a primary source.</li>
+          <li><strong>An honest date.</strong> If it's approximate, write
+            <code>c. 1600 BC</code> rather than pretending to a precision the
+            record doesn't have.</li>
+          <li><strong>A short detail.</strong> One or two sentences. The tooltip
+            is small, and long text gets trimmed.</li>
+        </ul>
+
+        <h2 style="font-size:1.075rem">Prefer GitHub?</h2>
+        <p>
+          If you have an account, you can
+          <a href="https://github.com/{{ site.repo }}/issues/new?template=timeline-entry.yml" rel="noopener">
+            open an entry directly</a>. It goes through exactly the same review.
+        </p>
+        <p class="small muted">
+          This form sends nothing but the fields above. No account, no tracking,
+          no cookies.
+        </p>
+      </div>
+    </section>
+
+  </div>
+</div>
+
+{% if site.turnstileSiteKey %}
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+{% endif %}
+
+<script>
+(function () {
+  var form = document.getElementById("submit-form");
+  if (!form) return;
+  var button = document.getElementById("submit-button");
+  var status = document.getElementById("submit-status");
+  var error = document.getElementById("submit-error");
+  var done = document.getElementById("submit-done");
+
+  function fail(message) {
+    error.textContent = message;
+    error.hidden = false;
+    button.disabled = false;
+    status.textContent = "";
+  }
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    error.hidden = true;
+    button.disabled = true;
+    status.textContent = "Sending…";
+
+    var data = {};
+    new FormData(form).forEach(function (v, k) { data[k] = v; });
+    var t = form.querySelector('[name="cf-turnstile-response"]');
+    if (t) data.turnstileToken = t.value;
+
+    fetch("/api/submit", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify(data),
+    })
+      .then(function (res) {
+        return res.json().catch(function () { return {}; }).then(function (body) {
+          if (!res.ok) throw new Error(body.error || "Something went wrong. Please try again.");
+          return body;
+        });
+      })
+      .then(function (body) {
+        form.hidden = true;
+        done.hidden = false;
+        var detail = document.getElementById("submit-done-detail");
+        detail.textContent = body.number
+          ? "Filed as submission #" + body.number + "."
+          : "It's in the review queue.";
+      })
+      .catch(function (err) { fail(err.message); });
+  });
+
+  document.getElementById("submit-another").addEventListener("click", function () {
+    form.reset();
+    form.hidden = false;
+    done.hidden = true;
+    button.disabled = false;
+    status.textContent = "";
+  });
+})();
+</script>

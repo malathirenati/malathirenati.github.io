@@ -1,0 +1,18 @@
+{
+  "name": "website-mnr",
+  "version": "1.0.0",
+  "description": "A nimble static site for sports writing and data visualisation.",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "data": "node scripts/build-data.mjs",
+    "build": "npm run data && eleventy",
+    "serve": "npm run data && eleventy --serve",
+    "clean": "rm -rf _site"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.6",
+    "read-excel-file": "^9.3.10"
+  }
+}

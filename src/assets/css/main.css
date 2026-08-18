@@ -1,0 +1,801 @@
+/* =========================================================================
+   Design tokens
+
+   Two colour systems, deliberately separated:
+
+   1. Page chrome — warm sand and cream, low chroma. This is the "warm pastel"
+      register: it sets the mood and never competes with data.
+   2. Series colours — the eight validated categorical slots. Saturated on
+      purpose. Pastel data marks fail contrast and collapse under colour-vision
+      deficiency, so the warmth lives in the surfaces, not in the marks.
+
+   The series hexes are not free-form. They are a validated set (see
+   docs/DESIGN.md); the light mode's worst adjacent pair sits in the 6-8 CVD
+   band, which is legal only because every category also carries a distinct
+   marker SHAPE. If you change a hex, re-run the validator and keep the shapes.
+   ========================================================================= */
+
+:root {
+  color-scheme: light;
+
+  --page:       #f6f2e9;
+  --surface:    #fdfbf6;
+  --surface-2:  #efe9dc;
+  --surface-3:  #e5dccb;
+
+  --ink:        #1b1a17;
+  --ink-2:      #55524a;
+  --muted:      #6a6558;   /* >= 4.5:1 on surface, page and surface-2 */
+
+  --grid:       #e7e1d3;
+  --axis:       #c4bcaa;
+  --border:     rgba(27, 26, 23, 0.12);
+  --border-strong: rgba(27, 26, 23, 0.22);
+
+  --accent:     #1a5fae;
+  --accent-ink: #17538f;
+  --focus:      #1a5fae;
+
+  --shadow-sm: 0 1px 2px rgba(60, 50, 30, 0.06);
+  --shadow-md: 0 2px 10px rgba(60, 50, 30, 0.08);
+
+  /* Categorical slots 1-8 (light) */
+  --s1: #2a78d6;  --s2: #1baf7a;  --s3: #eda100;  --s4: #e87ba4;
+  --s5: #008300;  --s6: #e34948;  --s7: #4a3aa7;  --s8: #eb6834;
+
+  --radius:    10px;
+  --radius-lg: 16px;
+  --maxw:      1180px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+
+    --page:       #121110;
+    --surface:    #1b1a17;
+    --surface-2:  #232019;
+    --surface-3:  #2e2a22;
+
+    --ink:        #f7f5ef;
+    --ink-2:      #cac5b7;
+    --muted:      #9d9789;
+
+    --grid:       #2d2b25;
+    --axis:       #45413a;
+    --border:     rgba(247, 245, 239, 0.14);
+    --border-strong: rgba(247, 245, 239, 0.26);
+
+    --accent:     #7db4f0;
+    --accent-ink: #9cc7f5;
+    --focus:      #7db4f0;
+
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+    --shadow-md: 0 2px 12px rgba(0, 0, 0, 0.45);
+
+    --s1: #3987e5;  --s2: #199e70;  --s3: #c98500;  --s4: #d55181;
+    --s5: #008300;  --s6: #e66767;  --s7: #9085e9;  --s8: #d95926;
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+
+  --page:       #121110;
+  --surface:    #1b1a17;
+  --surface-2:  #232019;
+  --surface-3:  #2e2a22;
+
+  --ink:        #f7f5ef;
+  --ink-2:      #cac5b7;
+  --muted:      #9d9789;
+
+  --grid:       #2d2b25;
+  --axis:       #45413a;
+  --border:     rgba(247, 245, 239, 0.14);
+  --border-strong: rgba(247, 245, 239, 0.26);
+
+  --accent:     #7db4f0;
+  --accent-ink: #9cc7f5;
+  --focus:      #7db4f0;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 2px 12px rgba(0, 0, 0, 0.45);
+
+  --s1: #3987e5;  --s2: #199e70;  --s3: #c98500;  --s4: #d55181;
+  --s5: #008300;  --s6: #e66767;  --s7: #9085e9;  --s8: #d95926;
+}
+
+/* =========================================================================
+   Base
+   ========================================================================= */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--page);
+  color: var(--ink);
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 { line-height: 1.2; margin: 0 0 0.5em; font-weight: 650; letter-spacing: -0.011em; }
+h1 { font-size: clamp(1.75rem, 1.2rem + 2.2vw, 2.6rem); letter-spacing: -0.022em; }
+h2 { font-size: clamp(1.3rem, 1.1rem + 0.9vw, 1.65rem); }
+h3 { font-size: 1.075rem; }
+p  { margin: 0 0 1em; }
+
+a { color: var(--accent-ink); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+a:hover { text-decoration-thickness: 2px; }
+
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.wrap { max-width: var(--maxw); margin-inline: auto; padding-inline: clamp(1rem, 4vw, 2rem); }
+.wrap-wide { max-width: 1440px; }
+
+.lede { font-size: 1.075rem; color: var(--ink-2); max-width: 68ch; }
+.muted { color: var(--muted); }
+.small { font-size: 0.825rem; }
+
+.visually-hidden {
+  position: absolute; width: 1px; height: 1px; margin: -1px;
+  padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+
+.skip-link {
+  position: absolute; left: 0.5rem; top: -3rem; z-index: 100;
+  background: var(--surface); color: var(--ink);
+  padding: 0.5rem 0.9rem; border-radius: var(--radius);
+  border: 1px solid var(--border-strong); box-shadow: var(--shadow-md);
+  transition: top 120ms ease;
+}
+.skip-link:focus { top: 0.5rem; }
+
+/* =========================================================================
+   Header / nav
+
+   Sports cue: the thin bar under the masthead is a lane-marking stripe, and
+   the active tab carries a "finish line" underline. Restrained on purpose —
+   the theme should read as athletic, not as clip-art.
+   ========================================================================= */
+
+.site-header {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  position: sticky; top: 0; z-index: 40;
+  box-shadow: var(--shadow-sm);
+}
+
+.site-header::after {
+  content: "";
+  display: block; height: 3px;
+  background: linear-gradient(90deg,
+    var(--s1) 0 16.66%, var(--s2) 16.66% 33.32%, var(--s3) 33.32% 49.98%,
+    var(--s4) 49.98% 66.64%, var(--s5) 66.64% 83.3%, var(--s7) 83.3% 100%);
+  opacity: 0.85;
+}
+
+.header-inner {
+  display: flex; align-items: center; gap: 1.25rem;
+  flex-wrap: wrap;
+  padding-block: 0.85rem;
+}
+
+.brand {
+  display: flex; align-items: center; gap: 0.6rem;
+  font-weight: 700; font-size: 1.075rem;
+  color: var(--ink); text-decoration: none; letter-spacing: -0.02em;
+}
+.brand:hover { text-decoration: none; }
+.brand-mark {
+  width: 26px; height: 26px; flex: none;
+  border-radius: 7px;
+  background: var(--s1);
+  display: grid; place-items: center;
+  color: #fff; font-size: 0.7rem; font-weight: 800; letter-spacing: 0.02em;
+}
+
+.nav { display: flex; gap: 0.25rem; flex-wrap: wrap; margin-inline-start: auto; align-items: center; }
+
+.nav a {
+  position: relative;
+  padding: 0.45rem 0.75rem;
+  border-radius: var(--radius);
+  color: var(--ink-2);
+  text-decoration: none;
+  font-weight: 550; font-size: 0.925rem;
+}
+.nav a:hover { background: var(--surface-2); color: var(--ink); }
+.nav a[aria-current="page"] { color: var(--ink); background: var(--surface-2); }
+.nav a[aria-current="page"]::after {
+  content: "";
+  position: absolute; left: 0.75rem; right: 0.75rem; bottom: 0.15rem; height: 3px;
+  border-radius: 2px;
+  /* Chequered flag, drawn in gradients — no image request. */
+  background-image:
+    linear-gradient(45deg, var(--ink) 25%, transparent 25% 75%, var(--ink) 75%),
+    linear-gradient(45deg, var(--ink) 25%, transparent 25% 75%, var(--ink) 75%);
+  background-size: 6px 6px;
+  background-position: 0 0, 3px 3px;
+  opacity: 0.75;
+}
+
+.theme-toggle {
+  margin-inline-start: 0.35rem;
+  display: inline-grid; place-items: center;
+  width: 34px; height: 34px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--ink-2);
+  cursor: pointer;
+}
+.theme-toggle:hover { background: var(--surface-2); color: var(--ink); }
+.theme-toggle svg { width: 17px; height: 17px; }
+:root[data-theme="dark"] .icon-sun, .icon-moon { display: none; }
+:root[data-theme="dark"] .icon-moon { display: block; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .icon-sun { display: none; }
+  :root:not([data-theme="light"]) .icon-moon { display: block; }
+}
+
+/* =========================================================================
+   Page furniture
+   ========================================================================= */
+
+main { padding-block: clamp(1.5rem, 4vw, 2.75rem) 3rem; }
+
+.page-head { margin-bottom: 1.75rem; }
+.page-head p { margin-bottom: 0; }
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--muted);
+  margin-bottom: 0.4rem;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: clamp(1rem, 2.5vw, 1.5rem);
+  box-shadow: var(--shadow-sm);
+}
+
+.grid { display: grid; gap: 1rem; }
+@media (min-width: 720px)  { .grid-2 { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 900px)  { .grid-3 { grid-template-columns: repeat(3, 1fr); } }
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--muted);
+  font-size: 0.85rem;
+  padding-block: 1.5rem;
+}
+.site-footer .wrap { display: flex; gap: 1rem; justify-content: space-between; flex-wrap: wrap; }
+
+/* Home hero — the diagonal wash is a running-track curve, kept very low contrast. */
+.hero {
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+  background:
+    repeating-linear-gradient(115deg,
+      color-mix(in srgb, var(--s1) 5%, transparent) 0 2px,
+      transparent 2px 26px),
+    linear-gradient(150deg,
+      color-mix(in srgb, var(--s3) 12%, var(--surface)),
+      var(--surface) 55%);
+  padding: clamp(1.5rem, 5vw, 3rem);
+  margin-bottom: 2rem;
+}
+.hero h1 { margin-bottom: 0.6rem; }
+.hero .lede { margin-bottom: 0; }
+
+.card-link {
+  display: block; text-decoration: none; color: inherit;
+  transition: transform 120ms ease, box-shadow 120ms ease;
+}
+.card-link:hover {
+  text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--border-strong);
+}
+.card-link h3 { color: var(--ink); }
+.card-link p { color: var(--ink-2); margin-bottom: 0; font-size: 0.925rem; }
+.card-link .card-cta { color: var(--accent-ink); font-weight: 600; font-size: 0.9rem; margin-top: 0.6rem; display: inline-block; }
+
+/* Stat tiles */
+.stat-row { display: grid; gap: 0.75rem; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); }
+.stat {
+  background: var(--surface-2);
+  border-radius: var(--radius);
+  padding: 0.8rem 0.95rem;
+  border: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+}
+.stat-label { font-size: 0.78rem; color: var(--muted); }
+.stat-value { font-size: 1.5rem; font-weight: 680; letter-spacing: -0.02em; }
+
+/* Inside a row of tiles only: bottom-aligned so a label that wraps to two lines
+   doesn't shunt its number out of line with its neighbours. Scoped to .stat-row
+   because a standalone .stat card gets stretched by whatever sits beside it, and
+   pushing its content to the bottom of that leaves a hole. */
+.stat-row .stat-value { margin-top: auto; }
+
+/* =========================================================================
+   Controls (filters, toggles)
+   One row above the chart; standard form controls, not chart marks.
+   ========================================================================= */
+
+.controls {
+  display: flex; flex-wrap: wrap; gap: 0.75rem 1.25rem;
+  align-items: flex-end;
+  margin-bottom: 1rem;
+}
+
+.control-group { display: flex; flex-direction: column; gap: 0.35rem; min-width: 0; }
+.control-label {
+  font-size: 0.72rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.06em; color: var(--muted);
+}
+.control-row { display: flex; gap: 0.4rem; flex-wrap: wrap; align-items: center; }
+
+.chip-count { color: var(--muted); font-variant-numeric: tabular-nums; font-size: 0.78rem; }
+
+/* -------------------------------------------------------------------------
+   Track filter
+
+   Collapsed it is one line: a count plus the keys of everything switched on.
+   Expanded it is a grouped checklist with search. Chips don't scale past about
+   ten tracks — twenty of them push the chart below the fold before you have
+   read anything.
+   ------------------------------------------------------------------------- */
+
+.filter { margin-bottom: 0.9rem; }
+
+.filter-summary { display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; }
+.filter-toggle { display: inline-flex; align-items: center; gap: 0.45rem; }
+.filter-toggle::before {
+  content: "▸"; font-size: 0.7em; line-height: 1;
+  transition: transform 120ms ease;
+}
+.filter-toggle[aria-expanded="true"]::before { transform: rotate(90deg); }
+.filter-count { color: var(--muted); font-variant-numeric: tabular-nums; font-weight: 500; }
+
+.filter-keys { display: flex; flex-wrap: wrap; gap: 0.3rem; align-items: center; }
+.filter-key { width: 13px; height: 13px; flex: none; display: block; }
+
+.filter-body {
+  margin-top: 0.7rem;
+  padding: 0.85rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface-2);
+}
+
+.filter-tools { display: flex; gap: 0.4rem; flex-wrap: wrap; margin-bottom: 0.8rem; }
+
+.filter-groups {
+  display: grid; gap: 0.9rem 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+}
+
+.filter-group-head {
+  display: flex; align-items: center; gap: 0.4rem;
+  padding-bottom: 0.35rem; margin-bottom: 0.35rem;
+  border-bottom: 1px solid var(--border);
+}
+.filter-group-name { font-weight: 650; font-size: 0.875rem; color: var(--ink); }
+.filter-swatch { width: 12px; height: 12px; border-radius: 3px; flex: none; }
+
+.filter-check {
+  display: inline-flex; align-items: center; gap: 0.42rem;
+  cursor: pointer; min-width: 0; flex: 1;
+  font-size: 0.85rem; color: var(--ink-2);
+}
+.filter-check input { accent-color: var(--accent); flex: none; margin: 0; }
+.filter-track-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+.filter-tracks { display: flex; flex-direction: column; gap: 0.1rem; }
+.filter-track {
+  position: relative;
+  display: flex; align-items: center; gap: 0.35rem;
+  padding: 0.2rem 0.25rem; border-radius: 6px;
+}
+.filter-track:hover { background: var(--surface); }
+
+/* Pinned state is carried by the row, not by a permanently visible button —
+   a button parked on the right would sit on top of longer track names. */
+.filter-track.is-pinned {
+  background: var(--surface);
+  box-shadow: inset 2px 0 0 var(--accent);
+}
+
+/* Only/Pin are lifted out of flow: in flow they ate ~100px of a 274px row and
+   truncated every track name. They reveal on hover and on keyboard focus. */
+.filter-track .tl-only, .filter-track .tl-pin {
+  position: absolute; top: 50%; transform: translateY(-50%);
+  opacity: 0; pointer-events: none;
+  box-shadow: 0 0 0 3px var(--surface);
+}
+.filter-track .tl-pin { right: 0.25rem; }
+.filter-track .tl-only { right: 3.05rem; }
+.filter-track:hover .tl-only, .filter-track:hover .tl-pin,
+.filter-track:focus-within .tl-only, .filter-track:focus-within .tl-pin {
+  opacity: 1; pointer-events: auto;
+}
+
+/* No hover on touch, so keep them in flow and reachable there. */
+@media (hover: none) {
+  .filter-track .tl-only, .filter-track .tl-pin {
+    position: static; transform: none; opacity: 1; pointer-events: auto; box-shadow: none;
+  }
+}
+
+.btn-tiny { padding: 0.1rem 0.35rem; font-size: 0.72rem; border-radius: 5px; }
+
+.btn {
+  padding: 0.36rem 0.7rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--border-strong);
+  background: var(--surface);
+  color: var(--ink-2);
+  font: inherit; font-size: 0.85rem; font-weight: 550;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.btn:hover { background: var(--surface-2); color: var(--ink); }
+.btn[aria-pressed="true"] { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+.btn-icon { min-width: 32px; text-align: center; font-variant-numeric: tabular-nums; }
+
+/* Five view modes don't fit one row on a phone, so the group wraps rather than
+   overflowing off-screen. */
+.seg {
+  display: inline-flex; flex-wrap: wrap;
+  border: 1px solid var(--border-strong); border-radius: var(--radius);
+  overflow: hidden; max-width: 100%;
+}
+.seg .btn { border: 0; border-radius: 0; flex: 0 1 auto; }
+.seg .btn + .btn { border-inline-start: 1px solid var(--border-strong); }
+
+.field {
+  font: inherit; font-size: 0.875rem;
+  padding: 0.36rem 0.6rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--border-strong);
+  background: var(--surface);
+  color: var(--ink);
+  min-width: 0;
+}
+.field-year { width: 5.6rem; font-variant-numeric: tabular-nums; }
+.field-search { width: min(15rem, 45vw); }
+
+/* =========================================================================
+   Timeline
+   ========================================================================= */
+
+.timeline-card { padding: clamp(0.75rem, 2vw, 1.1rem); }
+
+.timeline-viewport {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius);
+  background: var(--surface);
+  touch-action: pan-y;
+}
+.timeline-viewport.is-panning { cursor: grabbing; }
+.timeline-viewport.can-pan { cursor: grab; }
+
+/* max-width rather than width: the SVG is drawn at an exact pixel width and
+   re-drawn on resize. Stretching it to 100% would scale the type up until the
+   re-render lands, which reads as a flash of giant text. */
+.timeline-svg { display: block; max-width: 100%; height: auto; }
+
+/* Axis + grid: recessive, hairline, solid. */
+.tl-grid-line { stroke: var(--grid); stroke-width: 1; shape-rendering: crispEdges; }
+.tl-grid-line.is-decade { stroke: var(--axis); }
+.tl-axis-line { stroke: var(--axis); stroke-width: 1; shape-rendering: crispEdges; }
+.tl-tick-label {
+  fill: var(--muted); font-size: 11px; font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+.tl-axis-band { fill: var(--surface); }
+
+/* Lane bands: alternating track lanes. */
+.tl-lane-band { fill: var(--surface-2); opacity: 0.55; }
+.tl-lane-band.is-alt { opacity: 0.28; }
+.tl-lane-label { fill: var(--ink-2); font-size: 11.5px; font-weight: 700; letter-spacing: 0.02em; }
+.tl-lane-label-gutter { font-weight: 600; letter-spacing: 0; }
+.tl-lane-rule { stroke: var(--border); stroke-width: 1; shape-rendering: crispEdges; }
+
+/* Compact mode: the whole name gutter is a target for opening one track. */
+.tl-gutter-hit { fill: transparent; cursor: pointer; }
+.tl-gutter-hit:hover { fill: var(--ink); fill-opacity: 0.04; }
+.tl-gutter-hit:focus-visible { outline: 2px solid var(--focus); outline-offset: -2px; }
+
+/* Compare mode: a guide dropped from each event of the first pinned track,
+   so "what else happened that year" is readable rather than eyeballed. */
+.tl-ref-line { stroke: var(--ink); stroke-width: 1; opacity: 0.18; }
+
+/* Sticky axis — SVG can't do position:sticky, so the top axis is its own
+   element beside the chart. It is the only top axis, not a duplicate. */
+.timeline-axis-sticky {
+  position: sticky;
+  top: calc(var(--header-h, 60px) - 1px);
+  z-index: 6;
+  background: var(--surface);
+  border-radius: var(--radius) var(--radius) 0 0;
+}
+.timeline-axis-svg { display: block; max-width: 100%; height: auto; }
+
+/* Event marks. The 2px surface ring keeps markers legible where they overlap. */
+.tl-mark { cursor: pointer; }
+.tl-mark-shape { stroke: var(--surface); stroke-width: 2; paint-order: stroke fill; }
+.tl-mark-span { stroke: var(--surface); stroke-width: 2; paint-order: stroke fill; rx: 4; ry: 4; }
+.tl-mark-label { fill: var(--ink-2); font-size: 11.5px; }
+.tl-mark.is-highlight .tl-mark-label { fill: var(--ink); font-weight: 650; }
+.tl-mark.is-dim { opacity: 0.22; }
+.tl-mark.is-active .tl-mark-label { fill: var(--ink); font-weight: 650; }
+.tl-hit { fill: transparent; cursor: pointer; }
+.tl-mark:focus { outline: none; }
+.tl-focus-ring {
+  fill: none; stroke: var(--focus); stroke-width: 2; rx: 5; ry: 5;
+  opacity: 0; pointer-events: none;
+}
+.tl-mark:focus-visible .tl-focus-ring, .tl-mark.is-active .tl-focus-ring { opacity: 1; }
+
+/* "Today" line — a finish-line motif. */
+.tl-now-line { stroke: var(--ink); stroke-width: 1; opacity: 0.25; stroke-dasharray: 2 3; }
+.tl-now-label { fill: var(--muted); font-size: 10px; font-weight: 700; letter-spacing: 0.05em; }
+
+.timeline-empty {
+  padding: 2.5rem 1rem; text-align: center; color: var(--muted);
+}
+
+/* Tooltip */
+.tl-tooltip {
+  position: absolute; z-index: 20;
+  max-width: 20rem;
+  background: var(--surface);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+  padding: 0.6rem 0.75rem;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 90ms ease;
+}
+.tl-tooltip[data-open="true"] { opacity: 1; }
+.tl-tooltip[data-interactive="true"] { pointer-events: auto; }
+.tl-tt-meta {
+  display: flex; align-items: center; gap: 0.4rem;
+  font-size: 0.74rem; color: var(--muted); font-weight: 650;
+  text-transform: uppercase; letter-spacing: 0.05em;
+  margin-bottom: 0.2rem;
+}
+.tl-tt-key { width: 11px; height: 11px; flex: none; }
+.tl-tt-title { font-weight: 680; color: var(--ink); line-height: 1.3; margin-bottom: 0.15rem; }
+.tl-tt-date { font-size: 0.82rem; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.tl-tt-detail { font-size: 0.85rem; color: var(--ink-2); margin-top: 0.35rem; line-height: 1.45; }
+.tl-tt-foot { font-size: 0.78rem; color: var(--muted); margin-top: 0.35rem; }
+
+/* -------------------------------------------------------------------------
+   Minimap
+
+   The whole record at a glance, with a draggable window. The axis is no longer
+   bounded by the data, so this is the navigation instrument — without it you
+   can pan into empty millennia with no way to tell where you are.
+   ------------------------------------------------------------------------- */
+.tl-minimap { margin-top: 0.6rem; touch-action: none; user-select: none; }
+.tl-minimap-svg { display: block; max-width: 100%; height: auto; cursor: pointer; }
+.tl-minimap.is-dragging .tl-minimap-svg { cursor: grabbing; }
+
+.tl-minimap-bg { fill: var(--surface-2); }
+.tl-minimap-grid { stroke: var(--border); stroke-width: 1; shape-rendering: crispEdges; }
+.tl-minimap-tick { fill: var(--muted); font-size: 9px; font-weight: 600; }
+.tl-minimap-tick-mark { opacity: 0.85; }
+
+/* Everything outside the window is dimmed rather than hidden, so the shape of
+   the whole record stays visible while you navigate. */
+.tl-minimap-shade { fill: var(--surface); opacity: 0.62; }
+.tl-minimap-window {
+  fill: none; stroke: var(--ink); stroke-width: 1.5; opacity: 0.55;
+}
+.tl-minimap-handle { fill: var(--ink); opacity: 0.5; cursor: ew-resize; }
+.tl-minimap-handle:hover { opacity: 0.8; }
+
+/* Legend — always present, mirrors the mark (shape + colour). */
+.tl-legend {
+  display: flex; flex-wrap: wrap; gap: 0.35rem 1rem;
+  margin-top: 0.9rem; padding-top: 0.8rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.85rem; color: var(--ink-2);
+}
+.tl-legend-item { display: inline-flex; align-items: center; gap: 0.4rem; }
+.tl-legend-key { width: 13px; height: 13px; flex: none; }
+.tl-legend-swatch { width: 12px; height: 12px; border-radius: 3px; flex: none; }
+
+.tl-status {
+  display: flex; justify-content: space-between; align-items: baseline;
+  gap: 1rem; flex-wrap: wrap;
+  margin-top: 0.75rem; font-size: 0.82rem; color: var(--muted);
+}
+
+/* Table view — the relief channel for sub-3:1 series colours. */
+.table-scroll { overflow-x: auto; margin-top: 1rem; }
+table.data {
+  width: 100%; border-collapse: collapse; font-size: 0.875rem;
+  min-width: 44rem;
+}
+table.data th, table.data td {
+  text-align: start; padding: 0.5rem 0.7rem;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.data th {
+  font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.05em;
+  color: var(--muted); font-weight: 700;
+  position: sticky; top: 0; background: var(--surface);
+}
+table.data td.col-date { font-variant-numeric: tabular-nums; white-space: nowrap; color: var(--ink-2); }
+table.data .cat-cell { display: inline-flex; align-items: center; gap: 0.4rem; white-space: nowrap; }
+table.data .cat-key { width: 11px; height: 11px; flex: none; }
+table.data caption { text-align: start; color: var(--muted); font-size: 0.82rem; padding-bottom: 0.5rem; }
+/* Mirrors the chart's dimming of non-matching marks during a search. */
+table.data tr.is-dim td, table.data tr.is-dim th { opacity: 0.42; }
+
+/* =========================================================================
+   Editor — only rendered at ?edit, so readers never see any of this
+   ========================================================================= */
+
+.editor-bar {
+  background: var(--surface);
+  border: 1px solid var(--border-strong);
+  border-inline-start: 4px solid var(--muted);
+  border-radius: var(--radius-lg);
+  padding: 0.9rem 1.1rem;
+  margin-bottom: 1rem;
+  box-shadow: var(--shadow-sm);
+}
+.editor-bar.is-dirty { border-inline-start-color: var(--s3); }
+
+.editor-bar-main { display: flex; align-items: baseline; gap: 0.6rem; flex-wrap: wrap; }
+.editor-count { color: var(--muted); font-size: 0.85rem; font-variant-numeric: tabular-nums; }
+.editor-note { margin: 0.3rem 0 0.7rem; color: var(--ink-2); font-size: 0.85rem; }
+.editor-actions { display: flex; gap: 0.4rem; flex-wrap: wrap; }
+
+.btn-primary { background: var(--accent-ink); color: var(--surface); border-color: var(--accent-ink); }
+.btn-primary:hover { background: var(--ink); border-color: var(--ink); color: var(--surface); }
+
+.editor-dialog {
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  color: var(--ink);
+  padding: 0;
+  width: min(34rem, 94vw);
+  box-shadow: var(--shadow-md);
+}
+.editor-dialog::backdrop { background: rgba(20, 18, 14, 0.45); }
+
+.editor-form { padding: 1.15rem 1.25rem 1rem; display: flex; flex-direction: column; gap: 0.7rem; }
+.editor-dialog-title { margin: 0 0 0.2rem; font-size: 1.1rem; }
+
+.editor-field { display: flex; flex-direction: column; gap: 0.25rem; }
+.editor-field-label {
+  font-size: 0.72rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.06em; color: var(--muted);
+}
+.editor-field .field, .editor-field textarea, .editor-field select {
+  width: 100%; font: inherit; font-size: 0.9rem;
+  padding: 0.36rem 0.6rem; border-radius: var(--radius);
+  border: 1px solid var(--border-strong);
+  background: var(--surface); color: var(--ink);
+}
+.editor-field textarea { resize: vertical; }
+.editor-hint { font-size: 0.78rem; color: var(--muted); }
+
+.editor-check { display: flex; align-items: flex-start; gap: 0.45rem; font-size: 0.85rem; color: var(--ink-2); }
+.editor-check input { accent-color: var(--accent); margin-top: 0.2rem; flex: none; }
+
+.editor-error {
+  margin: 0; padding: 0.5rem 0.7rem;
+  border-radius: var(--radius);
+  background: color-mix(in srgb, var(--s6) 12%, var(--surface));
+  border: 1px solid color-mix(in srgb, var(--s6) 45%, transparent);
+  color: var(--ink); font-size: 0.85rem;
+}
+
+.editor-dialog-actions { display: flex; gap: 0.4rem; align-items: center; margin-top: 0.3rem; }
+.editor-spacer { flex: 1; }
+.editor-delete { color: var(--s6); border-color: color-mix(in srgb, var(--s6) 45%, transparent); }
+
+.editor-track-list {
+  border-top: 1px solid var(--border);
+  padding-top: 0.6rem; margin-top: 0.2rem;
+  max-height: 15rem; overflow-y: auto;
+}
+.editor-subhead {
+  margin: 0 0 0.4rem; font-size: 0.72rem; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted);
+}
+.editor-track-row { display: flex; align-items: center; gap: 0.45rem; padding: 0.22rem 0; font-size: 0.85rem; }
+.editor-track-name { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.editor-col { white-space: nowrap; }
+
+/* Tooltip source link — the tooltip only accepts pointer events when it holds
+   one, so it never blocks the chart otherwise. */
+.tl-tt-link { color: var(--accent-ink); font-weight: 600; text-decoration: none; }
+.tl-tt-link:hover { text-decoration: underline; }
+
+/* Unverified source. Deliberately quiet — it is a caveat, not an alarm — but
+   never invisible: a link that hasn't been checked shouldn't read as settled. */
+.tl-tt-unverified {
+  margin-top: 0.35rem; font-size: 0.74rem; font-weight: 650;
+  text-transform: uppercase; letter-spacing: 0.04em;
+  color: var(--ink-2);
+}
+.tl-tt-unverified::before { content: "⚠ "; }
+
+.unverified-mark {
+  display: inline-block;
+  font-size: 0.68rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.04em; color: var(--ink-2);
+  background: var(--surface-2);
+  border: 1px solid var(--border-strong);
+  border-radius: 4px; padding: 0 0.28rem;
+  vertical-align: 1px; white-space: nowrap;
+}
+
+/* =========================================================================
+   Prose
+   ========================================================================= */
+.prose { max-width: 70ch; }
+.prose h2 { margin-top: 1.8rem; }
+.prose ul, .prose ol { padding-inline-start: 1.25rem; }
+.prose li { margin-bottom: 0.35rem; }
+.prose code {
+  background: var(--surface-2); padding: 0.12em 0.4em;
+  border-radius: 5px; font-size: 0.9em;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+.prose pre {
+  background: var(--surface-2); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 0.9rem 1rem; overflow-x: auto;
+}
+.prose pre code { background: none; padding: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* =========================================================================
+   Submission form
+   ========================================================================= */
+.submit-form { display: flex; flex-direction: column; gap: 0.75rem; }
+.submit-row { display: grid; gap: 0.75rem; grid-template-columns: 1fr 1fr; }
+.submit-form textarea { resize: vertical; }
+
+/* Honeypot: off-screen rather than display:none, which some bots skip. */
+.hp {
+  position: absolute; left: -9999px; width: 1px; height: 1px;
+  overflow: hidden;
+}

@@ -1,0 +1,67 @@
+name: Build and deploy
+
+# Runs on every push to main. The spreadsheet in data/ is converted to JSON and
+# the site is rebuilt, so updating a chart means committing the sheet — nothing
+# else. Works for a private repository too, as long as Pages is enabled.
+#
+# NOTE: this publishes to GitHub Pages, which serves static files only and
+# therefore cannot run the submission relay in functions/api/submit.js. If you
+# host on Cloudflare Pages (see docs/ADMIN.md) it builds from the repository
+# itself and this workflow becomes redundant — disable it then, so the two
+# aren't publishing the same site to two places.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Full history: the build reads each data file's last commit date to
+          # show "data updated" on the site. A shallow clone has no such date.
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Configure Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - run: npm ci
+
+      - name: Build
+        run: npm run build
+        env:
+          # Project sites are served from /<repo>/, so links need that prefix.
+          # Empty for a custom domain or a user/org site.
+          PATH_PREFIX: ${{ steps.pages.outputs.base_path }}
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

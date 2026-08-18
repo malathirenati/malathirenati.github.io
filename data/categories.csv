@@ -1,0 +1,20 @@
+Category,Group,Color,Shape
+Antiquity & empires,World politics,1,circle
+Wars & conflict,World politics,1,diamond
+Cold War,World politics,1,square
+International institutions,World politics,1,triangle
+Ancient & medieval India,India politics,3,circle
+Constitution & republic,India politics,3,diamond
+Elections & governments,India politics,3,square
+Civil liberties,India politics,3,triangle
+Ancient Olympics,Sport,4,circle
+Olympic Games,Sport,4,diamond
+Commonwealth Games,Sport,4,square
+Cricket World Cup,Sport,4,triangle
+Asian Games,Sport,4,hexagon
+India — sports policy,Sport,4,chevron
+Reform & liberalisation,Economy & environment,5,circle
+Crises & shocks,Economy & environment,5,diamond
+Trade & climate,Economy & environment,5,square
+Volcanoes & earthquakes,Economy & environment,5,triangle
+Epidemics & climate,Economy & environment,5,hexagon
