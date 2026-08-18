@@ -1644,11 +1644,14 @@
   }
 
   /* --- lifecycle --------------------------------------------------------- */
-  // The sticky axis has to clear the sticky site header.
+  // The sticky axis has to clear whatever is sticky above it — the masthead,
+  // and the section sub-nav when the page is inside a section.
   function measureHeader() {
+    var root = document.documentElement;
     var header = document.querySelector(".site-header");
-    if (!header) return;
-    document.documentElement.style.setProperty("--header-h", header.offsetHeight + "px");
+    if (header) root.style.setProperty("--header-h", header.offsetHeight + "px");
+    var subnav = document.querySelector(".subnav");
+    root.style.setProperty("--subnav-h", (subnav ? subnav.offsetHeight : 0) + "px");
   }
 
   var resizeTimer;

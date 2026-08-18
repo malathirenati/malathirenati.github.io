@@ -1,21 +1,29 @@
 {
-  "title": "MNR Sport",
+  "title": "MNR",
   "shortMark": "MNR",
-  "tagline": "Sport, in context.",
-  "description": "Sports writing and data visualisation — timelines, charts, and the wider context around the games.",
+  "tagline": "Things, in context.",
+  "description": "Writing and data visualisation — timelines, charts, and the wider context.",
   "author": "MNR",
   "lang": "en",
 
-  "//repo": "owner/name on GitHub. Used for the 'suggest via GitHub' links and by the submission relay. Change this if the repository is renamed.",
-  "repo": "malathirenati/Website-MNR",
+  "//repo": "owner/name on GitHub. Feeds the 'suggest via GitHub' links and the submission relay. Update if the repository is renamed.",
+  "repo": "malathirenati/malathirenati.github.io",
 
-  "//turnstileSiteKey": "Optional. Set to a Cloudflare Turnstile site key to add bot protection to the public form. Leave empty to run without it. The matching secret goes in the Pages environment, never here.",
+  "//turnstileSiteKey": "Optional Cloudflare Turnstile site key for bot protection on the public form. The matching secret goes in the hosting environment, never here.",
   "turnstileSiteKey": "",
 
-  "nav": [
-    { "text": "Home",     "url": "/" },
-    { "text": "Timeline", "url": "/timeline/" },
-    { "text": "Data",     "url": "/data/" },
-    { "text": "Suggest",  "url": "/submit/" }
+  "//sections": "Top-level areas of the site. Add one here and create a matching src/<slug>/ folder with its own pages — the nav, the home page and the section headers all read from this list.",
+  "sections": [
+    {
+      "slug": "sports",
+      "title": "Sport",
+      "url": "/sports/",
+      "blurb": "Games against the backdrop of politics, money and policy — and a timeline that puts them on one axis.",
+      "nav": [
+        { "text": "Timeline", "url": "/sports/timeline/" },
+        { "text": "Data",     "url": "/sports/data/" },
+        { "text": "Suggest",  "url": "/sports/submit/" }
+      ]
+    }
   ]
 }

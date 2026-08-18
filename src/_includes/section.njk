@@ -1,0 +1,27 @@
+---
+layout: base.njk
+---
+{#
+  Wraps every page inside a section, adding the sub-navigation for that section
+  beneath the masthead. Pages don't opt in individually — src/<slug>/<slug>.json
+  sets this layout for the whole folder, so a new page in the folder gets the
+  sub-nav automatically.
+#}
+{% set current = null %}
+{% for s in site.sections %}{% if s.slug == section %}{% set current = s %}{% endif %}{% endfor %}
+
+{% if current and current.nav %}
+<nav class="subnav" aria-label="{{ current.title }}">
+  <div class="wrap subnav-inner">
+    <a class="subnav-title" href="{{ current.url | url }}">{{ current.title }}</a>
+    <div class="subnav-links">
+      {% for item in current.nav %}
+        <a href="{{ item.url | url }}"
+           {% if page.url == item.url %}aria-current="page"{% endif %}>{{ item.text }}</a>
+      {% endfor %}
+    </div>
+  </div>
+</nav>
+{% endif %}
+
+{{ content | safe }}

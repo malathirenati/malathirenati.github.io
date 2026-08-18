@@ -37,9 +37,12 @@
     </a>
 
     <nav class="nav" aria-label="Main">
-      {% for item in site.nav %}
-        <a href="{{ item.url | url }}"
-           {% if page.url == item.url %}aria-current="page"{% endif %}>{{ item.text }}</a>
+      {# Top level: one entry per section. A section is "current" for every page
+         beneath it, so /sports/timeline/ still highlights Sport. #}
+      <a href="{{ '/' | url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a>
+      {% for s in site.sections %}
+        <a href="{{ s.url | url }}"
+           {% if page.url.startsWith(s.url) %}aria-current="page"{% endif %}>{{ s.title }}</a>
       {% endfor %}
 
       <button type="button" class="theme-toggle" id="theme-toggle"

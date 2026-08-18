@@ -150,7 +150,7 @@ the era buttons to see recent centuries properly.
 Add `?edit` to the timeline URL:
 
 ```
-http://localhost:8080/timeline/?edit
+http://localhost:8080/sports/timeline/?edit
 ```
 
 That reveals an editor bar and an Edit button on every table row. You can add,
@@ -272,20 +272,40 @@ The spreadsheet parser runs on the build machine only. Readers download JSON.
 
 ```
 src/
-  _data/site.json        site title, nav — edit to add a tab
-  _includes/base.njk     the shared page shell
+  _data/site.json        title, repo, and the list of sections
+  _includes/base.njk     the shared page shell + top-level nav
+  _includes/section.njk  adds a section's sub-nav
   _includes/shapes.njk   marker shapes (an accessibility channel — see DESIGN.md)
-  index.njk              home
-  timeline.njk           the timeline page
-  data.njk               data & visual tools
+  index.njk              site home — lists the sections
+  sports/                one section
+    sports.json          applies the section layout to the whole folder
+    index.njk            /sports/
+    timeline.njk         /sports/timeline/
+    data.njk             /sports/data/
+    submit.njk           /sports/submit/
   assets/css/main.css    all styling, design tokens at the top
   assets/js/timeline.js  the chart
 ```
 
-### Adding a page
+The site is organised in **sections**, so `/sports/` can sit beside `/music/` or
+`/writing/` later without anything being rearranged. Navigation has two levels:
+the masthead lists sections, and a sub-nav lists the pages inside the current
+one.
 
-Add `src/whatever.njk` with front matter, then add an entry to `nav` in
-`src/_data/site.json`. That's it.
+### Adding a page to an existing section
+
+Drop `src/sports/whatever.njk` into the folder and add it to that section's `nav`
+in `src/_data/site.json`. The folder's `sports.json` gives it the layout and
+sub-nav automatically — no front matter beyond a title.
+
+### Adding a whole new section
+
+1. Add an entry to `sections` in `src/_data/site.json` (slug, title, url, blurb, nav).
+2. Create `src/<slug>/` with a `<slug>.json` containing
+   `{ "layout": "section.njk", "section": "<slug>" }`.
+3. Add pages.
+
+The masthead, the home page cards and the sub-nav all read from that one list.
 
 ### Adding another dataset
 

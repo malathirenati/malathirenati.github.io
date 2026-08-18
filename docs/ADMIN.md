@@ -116,7 +116,7 @@ Olympic Games,Sport,Some event,1896,,"Held in Athens, Greece.",Athens,,
 Open the timeline with `?edit` on the end of the address:
 
 ```
-https://<your-site>/timeline/?edit
+https://<your-site>/sports/timeline/?edit
 ```
 
 You get an editor bar and an **Edit** button on every row of the table. Add,

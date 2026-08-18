@@ -1,5 +1,4 @@
 ---
-layout: base.njk
 title: Data & Visual Tools
 description: The datasets behind the site, where they come from, and how they are checked before publication.
 ---
@@ -30,7 +29,7 @@ description: The datasets behind the site, where they come from, and how they ar
           Source: <code>data/{{ timeline.source }}</code>{% if timeline.sheet %} · sheet <code>{{ timeline.sheet }}</code>{% endif %}
           {% if timeline.updated %}<br>Updated <time datetime="{{ timeline.updated | isoDate }}">{{ timeline.updated | humanDate }}</time>{% endif %}
         </p>
-        <p style="margin:0.7rem 0 0"><a href="{{ '/timeline/' | url }}">View the timeline &rarr;</a></p>
+        <p style="margin:0.7rem 0 0"><a href="{{ '/sports/timeline/' | url }}">View the timeline &rarr;</a></p>
       </div>
 
       <div class="stat" style="padding:1rem">
@@ -67,7 +66,7 @@ description: The datasets behind the site, where they come from, and how they ar
       <p>
         Suggestions from readers join at step 1: they arrive for review, and an
         approved entry is written into the same file by the same checks.
-        <a href="{{ '/submit/' | url }}">Suggest an entry &rarr;</a>
+        <a href="{{ '/sports/submit/' | url }}">Suggest an entry &rarr;</a>
       </p>
 
       <h2 style="font-size:1.075rem">Columns the timeline understands</h2>
