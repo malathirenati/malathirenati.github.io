@@ -18,7 +18,7 @@
  *
  * Environment (Cloudflare Pages → Settings → Environment variables):
  *   GITHUB_TOKEN     required   fine-grained PAT, Issues: read & write
- *   GITHUB_REPO      required   e.g. "malathirenati/Website-MNR"
+ *   GITHUB_REPO      required   owner/name, e.g. "malathirenati/malathirenati.github.io"
  *   TURNSTILE_SECRET optional   enables bot checking when set
  *
  * Portable: Netlify and Vercel need only a different handler signature.

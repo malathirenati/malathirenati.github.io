@@ -1,8 +1,9 @@
 // Eleventy config. Deliberately minimal — the site is plain HTML/CSS/JS once built.
 //
-// PATH_PREFIX lets the same build work both at a domain root (mnr.com/) and in a
-// GitHub Pages project subpath (user.github.io/Website-MNR/). Every internal link
-// in the templates goes through the `url` filter, which applies this prefix.
+// PATH_PREFIX lets the same build work both at a domain root — which is what a
+// user site (user.github.io) and a custom domain both give you — and under a
+// project subpath (user.github.io/repo/). Every internal link in the templates
+// goes through the `url` filter, which applies this prefix.
 
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
