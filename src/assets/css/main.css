@@ -1110,7 +1110,10 @@ table.data tr.is-dim td, table.data tr.is-dim th { opacity: 0.42; }
   padding-inline-end: calc(var(--mark) + var(--mark-inset) + 1.5rem);
 }
 
-.card-section .seclogo { margin-bottom: 0.6rem; }
+/* Centred at the top of the card. The text below stays left-aligned — centring
+   the copy as well would fight the rest of the page, which is left-aligned
+   throughout. */
+.card-section .seclogo { margin: 0 auto 0.8rem; }
 
 /* =========================================================================
    Articles
@@ -1339,9 +1342,57 @@ table.data tr.is-dim td, table.data tr.is-dim th { opacity: 0.42; }
 }
 .reclist ul li { margin-bottom: 0.2rem; }
 
-/* Contact button ---------------------------------------------------------- */
+/* Contact link ------------------------------------------------------------ */
+.email-wrap { position: relative; display: inline-block; }
+
 .email-btn {
   display: inline-flex; align-items: center; gap: 0.5rem;
   padding: 0.5rem 0.9rem;
   font-size: 0.925rem;
+}
+/* No href until the script sets one. Without this the link would look active
+   for the moment before that, and would stay looking active with JS off. */
+.email-btn:not([href]) { opacity: 0.75; cursor: default; }
+
+.email-tip {
+  position: absolute;
+  bottom: calc(100% + 0.5rem);
+  inset-inline-start: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
+  padding: 0.32rem 0.6rem;
+  border-radius: 7px;
+  background: var(--ink);
+  color: var(--surface);
+  font-size: 0.8rem;
+  white-space: nowrap;
+  /* Hidden by opacity rather than display so it is still in the accessibility
+     tree for aria-describedby, which is how a screen reader reads the address
+     out without the reader having to hover anything. */
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.12s ease;
+}
+.email-tip::after {
+  content: "";
+  position: absolute; top: 100%; inset-inline-start: 50%;
+  transform: translateX(-50%);
+  border: 5px solid transparent;
+  border-block-start-color: var(--ink);
+}
+.email-wrap:hover .email-tip,
+.email-btn:focus-visible + .email-tip { opacity: 1; }
+
+@media (prefers-reduced-motion: reduce) { .email-tip { transition: none; } }
+
+@media (max-width: 560px) {
+  /* Centred on the button, the tip is wider than the space to its left and runs
+     ~20px off the screen edge, cutting off the start of the address. Anchoring
+     it to the button's leading edge keeps the whole thing on screen; the arrow
+     moves with it so it still points at the control. */
+  .email-tip {
+    inset-inline-start: 0;
+    transform: none;
+  }
+  .email-tip::after { inset-inline-start: 1.4rem; transform: none; }
 }

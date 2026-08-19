@@ -199,15 +199,24 @@ banner: true
            there is nothing for a scraper to lift from the source or the text.
            Without JavaScript the button is replaced by the readable
            "user [at] domain" form, which a person can still act on. #}
-        <p>
-          <button type="button" class="btn btn-primary email-btn" id="email-btn"
-                  data-u="{{ site.profile.emailUser }}" data-d="{{ site.profile.emailDomain }}">
+        {# A real anchor, not a button running location.href. A scripted
+           mailto: assignment is silently dropped when no mail client is
+           registered, which looks like a dead button; a genuine link lets the
+           browser and OS do their normal thing, and can be right-clicked or
+           copied. The href is still assembled by script, so the joined address
+           is not in the served HTML.
+
+           The tooltip carries the obfuscated form, which is safe to render
+           server-side and is also the fallback for anyone whose mail client
+           never opens — they can read the address and copy it by hand. #}
+        <span class="email-wrap">
+          <a class="btn btn-primary email-btn" id="email-btn"
+             data-u="{{ site.profile.emailUser }}" data-d="{{ site.profile.emailDomain }}"
+             aria-describedby="email-tip">
             {{ icon("mail") }}<span>Email me</span>
-          </button>
-          <noscript>
-            <span class="email">{{ site.profile.emailUser }}<span class="email-at"> [at] </span>{{ site.profile.emailDomain }}</span>
-          </noscript>
-        </p>
+          </a>
+          <span class="email-tip" id="email-tip" role="tooltip">{{ site.profile.emailUser }} [at] {{ site.profile.emailDomain }}</span>
+        </span>
       </section>
 
     </div>

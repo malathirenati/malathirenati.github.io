@@ -131,18 +131,21 @@
 </script>
 
 <script>
-/* Contact button. The address is assembled from two data attributes at click
-   time, so it appears nowhere in the served HTML as a complete string — the
-   same protection the old "user [at] domain" text gave, without making a person
-   retype it. */
+/* Contact link. The address is assembled from two data attributes and written
+   to the href once, on load, so it is never a complete string in the served
+   HTML — the protection the old "user [at] domain" text gave — while the link
+   itself behaves like any other mailto: for the browser and the OS.
+
+   Setting href beats handling click and assigning location.href: that
+   assignment is silently discarded when no mail client is registered, so the
+   control reads as broken. A real href also supports right-click, copy address
+   and open-in-new-tab. */
 (function () {
-  var btn = document.getElementById("email-btn");
-  if (!btn) return;
-  btn.addEventListener("click", function () {
-    var u = btn.getAttribute("data-u"), d = btn.getAttribute("data-d");
-    if (!u || !d) return;
-    location.href = "mailto:" + u + String.fromCharCode(64) + d;
-  });
+  var el = document.getElementById("email-btn");
+  if (!el) return;
+  var u = el.getAttribute("data-u"), d = el.getAttribute("data-d");
+  if (!u || !d) return;
+  el.setAttribute("href", "mailto:" + u + String.fromCharCode(64) + d);
 })();
 </script>
 
