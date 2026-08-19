@@ -1022,24 +1022,31 @@ table.data tr.is-dim td, table.data tr.is-dim th { opacity: 0.42; }
      wide, showing all of it means 640px tall. The image is therefore sized by
      its own aspect ratio and simply capped, so nothing is cropped until the cap
      bites. --banner-max is the one number to change to trade height for crop. */
-  --banner-max: 40vh;
+  /* The artwork itself was trimmed rather than the display box: its top 150
+     rows were measured to contain no ink at all — empty sky — so removing them
+     cost nothing and took the file from 1.79:1 to 2.23:1. That is what lets the
+     banner run the full width AND stay complete, instead of trading one for the
+     other. At a 1200px page it stands 538px tall; on a phone, 168px.
+
+     If the artwork is ever replaced with a taller crop, this goes back to being
+     a tall block — re-trim the empty margins rather than reintroducing a
+     display-side crop here. See docs/DESIGN.md. */
+  --banner-max: 85vh;
   border-bottom: 1px solid var(--border);
-  /* Page colour, not white: when the cap makes the image narrower than the
-     band, the sides should read as page rather than as a white slab. */
   background: var(--surface);
-  display: flex;
-  justify-content: center;
 }
 .site-banner img {
   display: block;
-  /* auto/auto with a max on both axes: the image takes its natural size, scaled
-     down proportionally when either cap bites. No object-fit is involved, so
-     the element box always hugs the artwork — which is what stops the wide
-     empty band appearing beside it. Nothing is ever cropped. */
-  width: auto;
+  width: 100%;
   height: auto;
-  max-width: 100%;
+  /* A safety net, not the normal path. Because the height is driven by the
+     width, a very wide or a very short window can still push the image past
+     this; when that happens it crops a sliver from the top and bottom rather
+     than letting the banner run past a screenful. At 1280x800 the natural
+     height is 574px against a cap of 680px, so it does not bite. */
   max-height: var(--banner-max);
+  object-fit: cover;
+  object-position: center 55%;
 }
 
 /* Icons ------------------------------------------------------------------- */
@@ -1246,9 +1253,9 @@ table.data tr.is-dim td, table.data tr.is-dim th { opacity: 0.42; }
 
   /* 150px of banner is a fifth of a phone screen before any content. The strip
      keeps its proportion of the page rather than its absolute height. */
-  /* On a phone the full 2:1 artwork is only ~190px tall, so it fits whole with
-     room to spare — no cap needed, and the detail is already small enough. */
-  .site-banner { --banner-max: 34vh; }
+  /* At 2.23:1 the whole banner is ~168px tall on a 375px phone, well inside
+     this cap, so it shows complete. */
+  .site-banner { --banner-max: 40vh; }
 
   .page-head-logo { gap: 0.75rem; }
   /* Also 2.5x, from 38/48px. Capped against the viewport so the mark can never

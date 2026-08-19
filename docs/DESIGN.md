@@ -290,3 +290,37 @@ own warm surface colour rather than white, with 4px of padding and a small
 radius. Every mark keeps its true colours, and the plate reads as part of the
 design. In the light theme the same token is `transparent`, so one rule serves
 both and there is no second set of assets to keep in step.
+
+## The home banner
+
+The banner ran as a 150px strip with `object-fit: cover`, which threw away about
+three-quarters of the artwork — the landmarks along the top and the waves along
+the bottom never appeared on screen at all.
+
+Widening the display box cannot fix that on its own. The height of a full-width
+image is set by its aspect ratio, so a 1.79:1 illustration at a 1200px page
+needs 670px to show completely. Every display-side option trades one thing for
+another: crop it, shrink it to a centred picture with empty bands beside it, or
+let it run past a screenful.
+
+**The artwork was trimmed instead.** Measuring ink per row showed the top 150
+rows of `mnr-banner.jpg` contained none at all — empty pastel sky above the
+Tower Bridge and Statue of Liberty. Removing them is lossless and takes the file
+from 1.79:1 to 2.23:1, which is what allows the banner to be full-width *and*
+complete at 575px on a 1280px page, and 168px on a 375px phone.
+
+| | Before | After |
+|---|---|---|
+| Artwork | 1376×768 (1.79:1) | 1376×618 (2.23:1) |
+| Shown | ~25% of it | all of it |
+| Height at 1280px wide | 150px | 575px |
+
+`--banner-max: 85vh` is a safety net for a short or very wide window, not the
+normal path; at 1280×800 the cap is 680px against a natural 575px.
+
+**If the artwork is ever replaced, re-trim its empty margins rather than
+reintroducing a crop here** — the crop is what was wrong in the first place. The
+row-ink measurement that found the 150 empty rows is worth repeating on any new
+file; a replacement at 1.79:1 or taller will otherwise stand ~670px tall.
+
+The uncropped original remains in git history at commit `d314eda`.
