@@ -149,6 +149,22 @@
 })();
 </script>
 
+<script>
+/* Remember the timeline guide's state. Native <details> handles the toggle; this
+   only carries the choice between visits. Open is the default, so a first-time
+   reader always sees it. */
+(function () {
+  var g = document.getElementById("tl-guide");
+  if (!g) return;
+  try {
+    if (localStorage.getItem("tl-guide") === "closed") g.open = false;
+  } catch (e) {}
+  g.addEventListener("toggle", function () {
+    try { localStorage.setItem("tl-guide", g.open ? "open" : "closed"); } catch (e) {}
+  });
+})();
+</script>
+
 {% block scripts %}{% endblock %}
 </body>
 </html>

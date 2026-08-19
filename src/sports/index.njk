@@ -55,17 +55,11 @@ description: Games against the backdrop of politics, money and policy — on one
        three of the eight series colours fall below 3:1 against dark text, and
        filling the tile would put the count on one of them. See docs/DESIGN.md. #}
     <div class="stat-row" style="margin-top:0.9rem">
-      {# Each tile deep-links to the chart with just that track showing.
-         timeline.js already reads #tracks= from the hash, so this needs no new
-         code on the chart side. #}
       {% for cat in timeline.categories %}
-      <a class="stat stat-keyed stat-link"
-         href="{{ '/sports/timeline/' | url }}#tracks={{ cat.slug }}"
-         style="--tile: var(--s{{ cat.colorIndex + 1 }})">
-        <span class="stat-label">{{ cat.name }}</span>
-        <span class="stat-value">{{ cat.count }}</span>
-        <span class="visually-hidden">events — open on the timeline</span>
-      </a>
+      <div class="stat stat-keyed" style="--tile: var(--s{{ cat.colorIndex + 1 }})">
+        <div class="stat-label">{{ cat.name }}</div>
+        <div class="stat-value">{{ cat.count }}</div>
+      </div>
       {% endfor %}
     </div>
   </section>

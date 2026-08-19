@@ -25,6 +25,65 @@ description: A filterable horizontal timeline of sporting, political and economi
   <section class="card timeline-card" aria-labelledby="tl-heading">
     <h2 id="tl-heading" class="visually-hidden">Timeline chart</h2>
 
+    {# ---- how to read the chart ------------------------------------------
+       A first-time reader has no way to know that colour and shape carry
+       different meanings, or that the plot pans. <details> so it is native,
+       keyboard-accessible and works without JavaScript; open by default, and a
+       script below remembers it once closed so it does not nag on every visit.
+    #}
+    <details class="tl-guide" id="tl-guide" open>
+      <summary>How to read this</summary>
+      <div class="tl-guide-body">
+        <ul>
+          <li>
+            <span class="tl-guide-key" aria-hidden="true">
+              <svg viewBox="0 0 34 12" width="34" height="12">
+                <circle cx="5" cy="6" r="4" fill="var(--s1)"/>
+                <rect x="13" y="2" width="8" height="8" fill="var(--s1)"/>
+                <path d="M29 2l4 4-4 4-4-4z" fill="var(--s1)"/>
+              </svg>
+            </span>
+            <span><strong>Colour is the thread, shape is the track.</strong>
+            All world-politics events share one colour; the circle, square and
+            diamond inside it are its separate tracks.</span>
+          </li>
+          <li>
+            <span class="tl-guide-key" aria-hidden="true">
+              <svg viewBox="0 0 34 12" width="34" height="12" fill="none"
+                   stroke="var(--ink-2)" stroke-width="1.6" stroke-linecap="round">
+                <path d="M3 6h28M3 6l4-3M3 6l4 3M31 6l-4-3M31 6l-4 3"/>
+              </svg>
+            </span>
+            <span><strong>Drag the chart to move through time</strong>, or scroll
+            to zoom. The strip above it shows where you are in the whole record —
+            drag inside it to jump.</span>
+          </li>
+          <li>
+            <span class="tl-guide-key" aria-hidden="true">
+              <svg viewBox="0 0 34 12" width="34" height="12">
+                <circle cx="17" cy="6" r="4.5" fill="var(--s3)"/>
+                <circle cx="17" cy="6" r="7.5" fill="none" stroke="var(--s3)" stroke-width="1.2" opacity="0.5"/>
+              </svg>
+            </span>
+            <span><strong>Click any mark</strong> for what happened and the source
+            it came from.</span>
+          </li>
+          <li>
+            <span class="tl-guide-key" aria-hidden="true">
+              <svg viewBox="0 0 34 12" width="34" height="12" fill="none"
+                   stroke="var(--ink-2)" stroke-width="1.4">
+                <rect x="9" y="1.5" width="16" height="9" rx="1.5"/>
+                <path d="M9 5h16M15 5v5.5"/>
+              </svg>
+            </span>
+            <span><strong>Crowded near the present?</strong> Narrow the period,
+            switch tracks off, or read the full table below — it holds every
+            event whatever the chart is showing.</span>
+          </li>
+        </ul>
+      </div>
+    </details>
+
     {# ---- track filter -------------------------------------------------- #}
     <div class="filter" id="tl-filter">
       <div class="filter-summary">

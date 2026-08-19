@@ -1315,19 +1315,6 @@ table.data tr.is-dim td, table.data tr.is-dim th { opacity: 0.42; }
   .seclogo-lg { width: min(150px, 38vw); height: min(150px, 38vw); }
 }
 
-/* Stat tiles as links -----------------------------------------------------
-   The tile keeps its colour rule and wash; only the affordances are added. */
-.stat-link { text-decoration: none; color: inherit; }
-.stat-link:hover {
-  text-decoration: none;
-  border-color: var(--tile-rule);
-  background: color-mix(in srgb, var(--tile) 14%, var(--surface-2));
-}
-.stat-link:hover .stat-label { color: var(--ink); }
-.stat-link:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
-/* .stat is flex-column, so the label and number keep their existing stacking
-   once the div becomes an anchor. */
-.stat-link .stat-label, .stat-link .stat-value { display: block; }
 
 /* Recognitions ------------------------------------------------------------ */
 .reclist { list-style: none; margin: 0; padding: 0; }
@@ -1395,4 +1382,54 @@ table.data tr.is-dim td, table.data tr.is-dim th { opacity: 0.42; }
     transform: none;
   }
   .email-tip::after { inset-inline-start: 1.4rem; transform: none; }
+}
+
+/* Timeline guide ---------------------------------------------------------- */
+.tl-guide {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: color-mix(in srgb, var(--s1) 4%, var(--surface));
+  padding: 0.55rem 0.85rem;
+  margin-bottom: 0.9rem;
+}
+.tl-guide > summary {
+  cursor: pointer;
+  font-weight: 650;
+  font-size: 0.875rem;
+  color: var(--ink);
+  list-style: none;
+  display: flex; align-items: center; gap: 0.45rem;
+}
+.tl-guide > summary::-webkit-details-marker { display: none; }
+.tl-guide > summary::before {
+  content: "";
+  width: 0; height: 0; flex: none;
+  border-inline-start: 5px solid currentColor;
+  border-block: 4px solid transparent;
+  transition: transform 0.15s ease;
+}
+.tl-guide[open] > summary::before { transform: rotate(90deg); }
+.tl-guide > summary:focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; border-radius: 4px; }
+
+.tl-guide-body ul {
+  list-style: none;
+  margin: 0.7rem 0 0.15rem;
+  padding: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+@media (min-width: 900px) {
+  .tl-guide-body ul { grid-template-columns: 1fr 1fr; gap: 0.5rem 1.75rem; }
+}
+.tl-guide-body li {
+  display: flex; align-items: flex-start; gap: 0.6rem;
+  font-size: 0.86rem; color: var(--ink-2); line-height: 1.45;
+}
+.tl-guide-body strong { color: var(--ink); font-weight: 650; }
+/* Fixed width so every line's text starts on the same left edge. */
+.tl-guide-key { flex: none; width: 34px; padding-top: 0.28rem; }
+.tl-guide-key svg { display: block; }
+
+@media (prefers-reduced-motion: reduce) {
+  .tl-guide > summary::before { transition: none; }
 }

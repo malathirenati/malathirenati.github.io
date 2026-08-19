@@ -193,7 +193,10 @@ banner: true
       </section>
 
       <section aria-labelledby="contact-heading">
-        <h2 id="contact-heading">Contact</h2>
+        {# Hidden rather than deleted: the section is still labelled by it for a
+           screen reader, and the document outline stays intact. The button says
+           what it does, so the word adds nothing on screen. #}
+        <h2 id="contact-heading" class="visually-hidden">Contact</h2>
         {# The address is never written out as one string. The two halves sit in
            separate data attributes and are joined only when someone clicks, so
            there is nothing for a scraper to lift from the source or the text.
