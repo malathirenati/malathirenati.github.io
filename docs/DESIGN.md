@@ -381,3 +381,28 @@ clipped at the bottom edge — an ink metric cannot see that a figure is severed
 Delivered at 2400x685 (169KB) for desktop and 1400x700 (111KB) for phones, from
 a 1.26MB source. Only one is fetched per device, and the desktop file still has
 1.88x of retina headroom at a 1280px layout.
+
+
+### Second replacement (mnr-banner2.jpg, 3780x1890)
+
+The same method, re-measured rather than reusing the previous offsets — the
+composition changed again, with Victoria Falls added on the left.
+
+| Ratio | Height @1280 | % of fold | Landmarks | Athletes |
+|---|---|---|---|---|
+| 3.0:1 | 426px | 53% | 92% | 100% |
+| 3.25:1 | 393px | 49% | 99% | 99% |
+| **3.5:1** | **365px** | **46%** | **98%** | **99%** |
+| 4:1 | 320px | 40% | 83% | 99% |
+
+This artwork suits the wide cut better than the last: its top 23% is empty sky,
+so 3.5:1 costs almost nothing (98% / 99%) where the previous file gave up 8% of
+its landmarks at the same ratio. 4:1 still drops to 83%, so 3.5:1 stands.
+
+The window sits at rows 165-479 of 550, nudged down from the ink maximum at
+149-463 because the figures run to row 482 and the maximum clipped their feet.
+
+**Source artwork now lives in `art/`, not `src/assets/`.** `src/assets` is copied
+wholesale into the build, so the 1.7MB original was being deployed even though
+no page references it. Only the two derived crops ship: 2400x685 (199KB) and
+1400x700 (124KB), one per device.
