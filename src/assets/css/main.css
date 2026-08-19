@@ -301,6 +301,43 @@ main { padding-block: clamp(1.5rem, 4vw, 2.75rem) 3rem; }
   padding: clamp(1.5rem, 5vw, 3rem);
   margin-bottom: 2rem;
 }
+
+/* The banner as a wash behind the heading.
+   It is a real <img> in a pseudo-stacking layer rather than a CSS
+   background-image so it can carry width/height and lazy-load, and so the text
+   sits in normal flow above it instead of on top of a painted background whose
+   contrast nobody can measure. Opacity is low enough that the heading keeps its
+   full ink contrast against --surface underneath. */
+.hero-washed { position: relative; overflow: hidden; isolation: isolate; }
+.hero-wash {
+  position: absolute; inset: 0;
+  z-index: -1;
+  /* inset:0 already sizes it; width/height here would fight the box if the
+     element ever fell back into normal flow. */
+  width: 100%; height: 100%;
+  object-fit: cover;
+  /* The artwork's athletes sit low in the frame and the sky is empty, so the
+     visible band is pulled down rather than centred. Works for both the 1.79:1
+     original and a 2:1 replacement. */
+  object-position: center 68%;
+  /* 0.16 was too faint to read as anything. The heading is --ink (#1b1a17)
+     against a near-white illustration, so even the artwork's darkest pixels
+     leave the h1 above 10:1 — the ceiling here is taste, not contrast. */
+  opacity: 0.24;
+  pointer-events: none;
+}
+/* On the dark theme the artwork is a white-ground illustration, so at the same
+   opacity it reads as fog over the panel. Dimmed further and slightly knocked
+   back so the heading stays the brightest thing in the box. */
+:root[data-theme="dark"] .hero-wash { opacity: 0.14; filter: invert(1) hue-rotate(180deg); }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .hero-wash { opacity: 0.14; filter: invert(1) hue-rotate(180deg); }
+}
+/* Lifts the real content above the wash. It must NOT match .hero-wash itself:
+   this rule and .hero-wash have equal specificity, so matching the image here
+   would override its position:absolute back to relative, drop it into normal
+   flow, and its height:100% would then add ~680px of dead space to the hero. */
+.hero-washed > :not(.hero-wash) { position: relative; }
 .hero h1 { margin-bottom: 0.6rem; }
 .hero .lede { margin-bottom: 0; }
 
@@ -969,24 +1006,40 @@ table.data tr.is-dim td, table.data tr.is-dim th { opacity: 0.42; }
   padding: var(--logo-pad);
   border-radius: 10px;
 }
-.seclogo-md { width: 46px; height: 46px; }
-.seclogo-lg { width: 62px; height: 62px; }
+/* 2.5x the original 46/62px. These marks carry a circular wordmark and a small
+   illustration; below about 100px neither is readable, which is what made them
+   look like decoration rather than identity. */
+.seclogo-md { width: 115px; height: 115px; }
+.seclogo-lg { width: 155px; height: 155px; }
 
 /* Banner ------------------------------------------------------------------ */
 .site-banner {
-  /* Bounded by height, not by aspect ratio: the strip must stay a strip on a
-     phone as well as on a desktop, and `cover` crops rather than letterboxes. */
-  max-height: 150px;
-  overflow: hidden;
+  /* Previously a 150px strip with object-fit: cover, which cropped roughly
+     three-quarters of the artwork away — the landmarks along the top and the
+     waves along the bottom never appeared at all.
+
+     The artwork is about 2:1, so a wide short strip cannot show it: at 1280px
+     wide, showing all of it means 640px tall. The image is therefore sized by
+     its own aspect ratio and simply capped, so nothing is cropped until the cap
+     bites. --banner-max is the one number to change to trade height for crop. */
+  --banner-max: 40vh;
   border-bottom: 1px solid var(--border);
-  background: var(--surface-2);
+  /* Page colour, not white: when the cap makes the image narrower than the
+     band, the sides should read as page rather than as a white slab. */
+  background: var(--surface);
+  display: flex;
+  justify-content: center;
 }
 .site-banner img {
   display: block;
-  width: 100%;
-  max-height: 150px;
-  object-fit: cover;
-  object-position: center;
+  /* auto/auto with a max on both axes: the image takes its natural size, scaled
+     down proportionally when either cap bites. No object-fit is involved, so
+     the element box always hugs the artwork — which is what stops the wide
+     empty band appearing beside it. Nothing is ever cropped. */
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: var(--banner-max);
 }
 
 /* Icons ------------------------------------------------------------------- */
@@ -1193,9 +1246,27 @@ table.data tr.is-dim td, table.data tr.is-dim th { opacity: 0.42; }
 
   /* 150px of banner is a fifth of a phone screen before any content. The strip
      keeps its proportion of the page rather than its absolute height. */
-  .site-banner, .site-banner img { max-height: 96px; }
+  /* On a phone the full 2:1 artwork is only ~190px tall, so it fits whole with
+     room to spare — no cap needed, and the detail is already small enough. */
+  .site-banner { --banner-max: 34vh; }
 
   .page-head-logo { gap: 0.75rem; }
-  .seclogo-md { width: 38px; height: 38px; }
-  .seclogo-lg { width: 48px; height: 48px; }
+  /* Also 2.5x, from 38/48px. Capped against the viewport so the mark can never
+     take the whole width of a small phone. */
+  .seclogo-md { width: min(95px, 26vw); height: min(95px, 26vw); }
+  .seclogo-lg { width: min(120px, 33vw); height: min(120px, 33vw); }
 }
+
+/* Stat tiles as links -----------------------------------------------------
+   The tile keeps its colour rule and wash; only the affordances are added. */
+.stat-link { text-decoration: none; color: inherit; }
+.stat-link:hover {
+  text-decoration: none;
+  border-color: var(--tile-rule);
+  background: color-mix(in srgb, var(--tile) 14%, var(--surface-2));
+}
+.stat-link:hover .stat-label { color: var(--ink); }
+.stat-link:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+/* .stat is flex-column, so the label and number keep their existing stacking
+   once the div becomes an anchor. */
+.stat-link .stat-label, .stat-link .stat-value { display: block; }

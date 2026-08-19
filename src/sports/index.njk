@@ -8,7 +8,11 @@ description: Games against the backdrop of politics, money and policy — on one
 
 <div class="wrap">
 
-  <section class="hero hero-logo">
+  <section class="hero hero-logo hero-washed">
+    {% if site.banner %}
+    <img class="hero-wash" src="{{ site.banner | url }}" alt="" aria-hidden="true"
+         width="2000" height="1000" loading="lazy" decoding="async">
+    {% endif %}
     {{ sectionLogo(sec.logo, "", "lg") }}
     <p class="eyebrow">Sport, in context.</p>
     <h1>Sport doesn't happen in a vacuum.</h1>
@@ -51,11 +55,17 @@ description: Games against the backdrop of politics, money and policy — on one
        three of the eight series colours fall below 3:1 against dark text, and
        filling the tile would put the count on one of them. See docs/DESIGN.md. #}
     <div class="stat-row" style="margin-top:0.9rem">
+      {# Each tile deep-links to the chart with just that track showing.
+         timeline.js already reads #tracks= from the hash, so this needs no new
+         code on the chart side. #}
       {% for cat in timeline.categories %}
-      <div class="stat stat-keyed" style="--tile: var(--s{{ cat.colorIndex + 1 }})">
-        <div class="stat-label">{{ cat.name }}</div>
-        <div class="stat-value">{{ cat.count }}</div>
-      </div>
+      <a class="stat stat-keyed stat-link"
+         href="{{ '/sports/timeline/' | url }}#tracks={{ cat.slug }}"
+         style="--tile: var(--s{{ cat.colorIndex + 1 }})">
+        <span class="stat-label">{{ cat.name }}</span>
+        <span class="stat-value">{{ cat.count }}</span>
+        <span class="visually-hidden">events — open on the timeline</span>
+      </a>
       {% endfor %}
     </div>
   </section>

@@ -23,7 +23,13 @@
 </script>
 
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | url }}">
+{# The mark, downscaled at build time. A browser asks for this at 16-32px, so
+   serving the 1200px original would cost every visitor 53KB for a 16px slot.
+   The SVG is kept as the first choice for browsers that take it: it stays sharp
+   at any size, where a 32px raster does not. #}
 <link rel="icon" href="{{ '/assets/favicon.svg' | url }}" type="image/svg+xml">
+<link rel="icon" href="{{ '/assets/favicon-32.png' | url }}" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="{{ '/assets/apple-touch-icon.png' | url }}">
 </head>
 <body data-repo="{{ site.repo }}">
 

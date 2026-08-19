@@ -161,6 +161,12 @@ description: A filterable horizontal timeline of sporting, political and economi
 
     </div>
 
+    {# Overview strip, above the chart: it is the navigation control, and a
+       control that scrolls out of sight below a 3000px-tall chart cannot be
+       used for navigating. Position is presentational only — timeline.js finds
+       it by id and appends into it, so nothing depends on where it sits. #}
+    <div class="tl-minimap" id="tl-minimap" hidden></div>
+
     <div class="timeline-axis-sticky" id="tl-axis" hidden></div>
 
     <div class="timeline-viewport" id="tl-viewport">
@@ -171,10 +177,6 @@ description: A filterable horizontal timeline of sporting, political and economi
         </p>
       </noscript>
     </div>
-
-    {# Overview strip. With an axis that pans past the data in both directions,
-       this is how you find your way back. #}
-    <div class="tl-minimap" id="tl-minimap" hidden></div>
 
     <div class="tl-legend" id="tl-legend" hidden></div>
 
