@@ -21,28 +21,60 @@
     "links": [
       {
         "text": "LinkedIn",
-        "url": "https://www.linkedin.com/in/malathi-renati-b922a71a/"
+        "url": "https://www.linkedin.com/in/malathi-renati-b922a71a/",
+        "icon": "linkedin"
       },
       {
         "text": "Medium",
-        "url": "https://medium.com/@mnr500"
+        "url": "https://medium.com/@mnr500",
+        "icon": "medium"
       },
       {
         "text": "Substack",
-        "url": "https://projectmanagementsimplified.substack.com/"
+        "url": "https://projectmanagementsimplified.substack.com/",
+        "icon": "substack"
       },
       {
         "text": "Podcast",
-        "url": "https://malathi-podcast.netlify.app/"
+        "url": "https://malathi-podcast.netlify.app/",
+        "icon": "mic"
+      },
+      {
+        "text": "Instagram",
+        "url": "https://www.instagram.com/malathirenati/",
+        "icon": "instagram"
       }
     ]
   },
   "//sections": "Top-level areas of the site. Add one here and create a matching src/<slug>/ folder with its own pages — the nav, the home page and the section headers all read from this list.",
   "sections": [
     {
+      "slug": "podcasts",
+      "title": "Podcasts",
+      "url": "https://malathi-podcast.netlify.app/",
+      "external": true,
+      "logo": "/assets/img/podcasts.png",
+      "blurb": "All Things Policy and the rest of the audio, collected in one archive."
+    },
+    {
+      "slug": "articles",
+      "title": "Articles",
+      "url": "/articles/",
+      "logo": "/assets/img/articles.png",
+      "blurb": "Op-eds, essays and papers on sport, policy, animal welfare and eldercare — filterable by keyword."
+    },
+    {
+      "slug": "newsletters",
+      "title": "Newsletters",
+      "url": "/newsletters/",
+      "logo": "/assets/img/newsletters.png",
+      "blurb": "Two newsletters — one on making project management plain, one on Indian sport."
+    },
+    {
       "slug": "sports",
       "title": "Sport",
       "url": "/sports/",
+      "logo": "/assets/img/sports.png",
       "blurb": "Games against the backdrop of politics, economics and policy — and a timeline that puts them on one axis.",
       "nav": [
         {
@@ -58,6 +90,36 @@
           "url": "/sports/submit/"
         }
       ]
+    }
+  ],
+  "logo": "/assets/img/malathi-logo.png",
+  "banner": "/assets/img/mnr-banner.jpg",
+  "courses": [
+    {
+      "title": "Building a Sporting Nation",
+      "url": "https://opentakshashila.net/spaces/24289612/page",
+      "note": "Annual course, with Nandan Kamath. Since 2024."
+    },
+    {
+      "title": "Transforming Women's Sport in India",
+      "url": "https://opentakshashila.net/spaces/21867601/page",
+      "note": "Annual course, with Aditi Mutatkar. Since 2025."
+    }
+  ],
+  "newsletters": [
+    {
+      "title": "Project Management Simplified",
+      "url": "https://projectmanagementsimplified.substack.com/",
+      "logo": "/assets/img/pm-simplified.png",
+      "blurb": "Project Management is not rocket science. It's a life skill we all need to learn. Let me show you how.",
+      "cadence": "Substack"
+    },
+    {
+      "title": "SportLight",
+      "url": "https://sportlightforindia.substack.com/",
+      "logo": "/assets/img/sportlight.png",
+      "blurb": "A quarterly alumni newsletter by the alum of all the sports courses run on the OpenTakshashila platform by Malathi Renati.",
+      "cadence": "Quarterly · Substack"
     }
   ]
 }

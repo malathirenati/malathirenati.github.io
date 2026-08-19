@@ -3,11 +3,14 @@ title: Timeline
 description: A filterable horizontal timeline of sporting, political and economic events — overlay any set of tracks against a shared time axis.
 ---
 
+{% from "icons.njk" import sectionLogo %}
 {% include "shapes.njk" %}
 
 <div class="wrap wrap-wide">
 
-  <div class="page-head">
+  <div class="page-head page-head-logo">
+    {{ sectionLogo("/assets/img/timelines.png", "") }}
+    <div>
     <p class="eyebrow">Interactive</p>
     <h1>Timeline</h1>
     <p class="lede">
@@ -16,6 +19,7 @@ description: A filterable horizontal timeline of sporting, political and economi
       and off, narrow the period, roll a whole thread into one lane, or pin two
       tracks side by side to see how they line up.
     </p>
+    </div>
   </div>
 
   <section class="card timeline-card" aria-labelledby="tl-heading">

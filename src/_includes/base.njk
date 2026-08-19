@@ -1,4 +1,4 @@
-<!doctype html>
+{% from "icons.njk" import icon %}<!doctype html>
 <html lang="{{ site.lang }}">
 <head>
 <meta charset="utf-8">
@@ -32,7 +32,14 @@
 <header class="site-header">
   <div class="wrap header-inner">
     <a class="brand" href="{{ '/' | url }}">
-      <span class="brand-mark" aria-hidden="true">{{ site.shortMark }}</span>
+      {# Falls back to the initials block if the logo file is ever missing, so a
+         bad path degrades to something legible rather than to a gap. #}
+      {% if site.logo %}
+        <img class="brand-logo" src="{{ site.logo | url }}" alt="" width="240" height="240"
+             decoding="async">
+      {% else %}
+        <span class="brand-mark" aria-hidden="true">{{ site.shortMark }}</span>
+      {% endif %}
       <span>{{ site.title }}</span>
     </a>
 
@@ -41,8 +48,17 @@
          beneath it, so /sports/timeline/ still highlights Sport. #}
       <a href="{{ '/' | url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a>
       {% for s in site.sections %}
-        <a href="{{ s.url | url }}"
-           {% if page.url.startsWith(s.url) %}aria-current="page"{% endif %}>{{ s.title }}</a>
+        {% if s.external %}
+          {# An off-site section — the podcast archive lives on its own host.
+             rel="noopener" because target="_blank" otherwise hands the new tab a
+             window.opener reference back to this page. #}
+          <a class="nav-ext" href="{{ s.url }}" target="_blank" rel="noopener">
+            {{ s.title }}<span class="visually-hidden"> (opens in a new tab)</span>{{ icon("external") }}
+          </a>
+        {% else %}
+          <a href="{{ s.url | url }}"
+             {% if page.url.startsWith(s.url) %}aria-current="page"{% endif %}>{{ s.title }}</a>
+        {% endif %}
       {% endfor %}
 
       <button type="button" class="theme-toggle" id="theme-toggle"
@@ -60,6 +76,16 @@
     </nav>
   </div>
 </header>
+
+{% if banner and site.banner %}
+{# Explicit width/height so the strip reserves its space and the page below it
+   doesn't jump once the image arrives. Opted into per page via `banner: true`
+   in front matter, which today is the home page only. #}
+<div class="site-banner">
+  <img src="{{ site.banner | url }}" alt="" width="2400" height="600"
+       decoding="async" fetchpriority="high">
+</div>
+{% endif %}
 
 <main id="main">
   {{ content | safe }}

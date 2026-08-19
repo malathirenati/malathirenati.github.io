@@ -1,0 +1,113 @@
+---
+title: Articles
+description: Op-eds, essays, papers and posts on sport, public policy, animal welfare and eldercare.
+---
+{% from "icons.njk" import icon, sectionLogo %}
+{% set sec = null %}
+{% for s in site.sections %}{% if s.slug == "articles" %}{% set sec = s %}{% endif %}{% endfor %}
+
+<div class="wrap">
+
+  <header class="page-head page-head-logo">
+    {{ sectionLogo(sec.logo, "") }}
+    <div>
+      <p class="eyebrow">Writing</p>
+      <h1>Articles</h1>
+      <p class="lede">
+        {{ articles.count }} pieces published between
+        {{ articles.minYear }} and {{ articles.maxYear }} — op-eds in the national
+        press, newsletter editions, practice notes and one peer-reviewed paper.
+      </p>
+    </div>
+  </header>
+
+  {#
+    Every article is in the HTML before any script runs, so this page is
+    complete with JavaScript off. The controls below only hide rows that are
+    already here — they never fetch, and they never add.
+  #}
+  <form class="artfilter" id="artfilter" role="search" aria-label="Filter articles"
+        onsubmit="return false">
+
+    <div class="artfilter-row">
+      <label class="artsearch">
+        <span class="visually-hidden">Search articles</span>
+        {# type=search gives the browser's own clear button, and no name so a
+           JS-less submit can't reload the page with a stray query string. #}
+        <input type="search" id="artsearch" placeholder="Search titles, publications, topics…"
+               autocomplete="off" spellcheck="false">
+      </label>
+      <button type="button" class="btn btn-quiet" id="artreset" hidden>Clear filters</button>
+    </div>
+
+    <fieldset class="artchips">
+      <legend class="artchips-legend">Kind</legend>
+      {% for t in articles.types %}
+      <label class="chipbox">
+        <input type="checkbox" value="{{ t.slug }}" data-facet="type">
+        <span>{{ t.name }} <span class="chip-count">{{ t.count }}</span></span>
+      </label>
+      {% endfor %}
+    </fieldset>
+
+    <fieldset class="artchips">
+      <legend class="artchips-legend">Topic</legend>
+      {# Only tags used more than once. A one-off tag makes a chip that filters
+         to a single row, which is what the search box is for. #}
+      {% for t in articles.tags %}{% if t.count > 1 %}
+      <label class="chipbox">
+        <input type="checkbox" value="{{ t.slug }}" data-facet="tag">
+        <span>{{ t.name }} <span class="chip-count">{{ t.count }}</span></span>
+      </label>
+      {% endif %}{% endfor %}
+    </fieldset>
+  </form>
+
+  <p class="artstatus" id="artstatus" aria-live="polite">
+    Showing all {{ articles.count }} articles.
+  </p>
+
+  {% for group in articles.years %}
+  <section class="artyear" data-year="{{ group.year }}">
+    <h2 class="artyear-head">{{ group.year }}</h2>
+    <ol class="artlist">
+      {% for a in group.items %}
+      <li class="art"
+          data-type="{{ a.typeSlug }}"
+          data-tags="{{ a.tagSlugs }}"
+          data-hay="{{ a.haystack }}">
+        <div class="art-when"><time datetime="{{ a.iso }}">{{ a.dateLabel }}</time></div>
+        <div class="art-body">
+          <h3 class="art-title">
+            <a href="{{ a.url }}" target="_blank" rel="noopener">{{ a.title }}<span class="visually-hidden"> (opens in a new tab)</span></a>
+          </h3>
+          <p class="art-where">
+            <span class="art-pub">{{ a.publication }}</span>
+            <span class="art-type">{{ a.type }}</span>
+          </p>
+          {% if a.summary %}<p class="art-sum">{{ a.summary }}</p>{% endif %}
+          {% if a.tags | length %}
+          <ul class="art-tags">
+            {% for t in a.tags %}<li>{{ t.name }}</li>{% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+  </section>
+  {% endfor %}
+
+  <p class="artempty" id="artempty" hidden>Nothing matches those filters.</p>
+
+  <p class="artnote">
+    Posts from Medium and the two Substacks are picked up automatically each
+    week. Newspaper op-eds and papers are added by hand, because no Indian
+    newspaper publishes a per-author feed.
+  </p>
+
+</div>
+
+{% block scripts %}
+<script src="{{ '/assets/js/articles.js' | url }}" defer></script>
+{% endblock %}

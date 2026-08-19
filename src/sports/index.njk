@@ -2,10 +2,14 @@
 title: Sport
 description: Games against the backdrop of politics, money and policy — on one shared timeline.
 ---
+{% from "icons.njk" import sectionLogo %}
+{% set sec = null %}
+{% for x in site.sections %}{% if x.slug == "sports" %}{% set sec = x %}{% endif %}{% endfor %}
 
 <div class="wrap">
 
-  <section class="hero">
+  <section class="hero hero-logo">
+    {{ sectionLogo(sec.logo, "", "lg") }}
     <p class="eyebrow">Sport, in context.</p>
     <h1>Sport doesn't happen in a vacuum.</h1>
     <p class="lede">
@@ -42,9 +46,13 @@ description: Games against the backdrop of politics, money and policy — on one
 
   <section class="card" style="margin-top:1.5rem">
     <h2 style="font-size:1.075rem">What's on the timeline</h2>
+    {# Each tile carries its track's colour, so the tiles and the chart agree at
+       a glance. The colour is a left rule plus a wash — not a fill — because
+       three of the eight series colours fall below 3:1 against dark text, and
+       filling the tile would put the count on one of them. See docs/DESIGN.md. #}
     <div class="stat-row" style="margin-top:0.9rem">
       {% for cat in timeline.categories %}
-      <div class="stat">
+      <div class="stat stat-keyed" style="--tile: var(--s{{ cat.colorIndex + 1 }})">
         <div class="stat-label">{{ cat.name }}</div>
         <div class="stat-value">{{ cat.count }}</div>
       </div>

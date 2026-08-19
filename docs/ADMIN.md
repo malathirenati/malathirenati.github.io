@@ -19,12 +19,13 @@ The website is built from it. If the CSV is right, the site is right.
 7. [Adding a track](#adding-a-track)
 8. [Adding or changing a group](#adding-or-changing-a-group)
 9. [Deleting a track or group](#deleting-a-track-or-group)
-10. [Changing how the site looks](#changing-how-the-site-looks)
-11. [When something breaks](#when-something-breaks)
-12. [Undoing a mistake](#undoing-a-mistake)
-13. [Access, and why there are no secrets](#access-and-why-there-are-no-secrets)
-14. [Setup — what is done, and the one thing left](#setup--what-is-done-and-the-one-thing-left)
-15. [Routine maintenance](#routine-maintenance)
+10. [Articles, newsletters and the feeds](#articles-newsletters-and-the-feeds)
+11. [Changing how the site looks](#changing-how-the-site-looks)
+12. [When something breaks](#when-something-breaks)
+13. [Undoing a mistake](#undoing-a-mistake)
+14. [Access, and why there are no secrets](#access-and-why-there-are-no-secrets)
+15. [Setup — what is done, and the one thing left](#setup--what-is-done-and-the-one-thing-left)
+16. [Routine maintenance](#routine-maintenance)
 
 ---
 
@@ -323,6 +324,120 @@ number in `data/categories.csv`.
 Order doesn't matter much — but if you remove the `categories.csv` line while
 events still use the track, the track survives with an automatically chosen
 colour and shape, which is probably not what you meant.
+
+---
+
+## Articles, newsletters and the feeds
+
+The Articles page is a second spreadsheet, `data/articles.csv`, handled exactly
+like the timeline one. Some of it fills itself in.
+
+### What updates itself, and what doesn't
+
+| Source | How it gets on the page |
+|---|---|
+| Medium | Automatic, weekly |
+| Project Management Simplified | Automatic, weekly |
+| SportLight | Automatic, weekly |
+| Deccan Herald, Indian Express, The Hindu, Hindustan Times | **By hand** |
+| PMI Standards+, journal papers | **By hand** |
+
+The three feeds update themselves because they publish RSS. No Indian newspaper
+publishes a per-author feed, so there is nothing to read for those — an op-ed
+has to be added the same way a timeline event is.
+
+### Adding an article by hand
+
+Same routine as a timeline event, on GitHub, from any device:
+
+1. Open `data/articles.csv` in the repository.
+2. Click the pencil icon.
+3. Add one line at the top of the list, newest first.
+4. "Commit changes".
+
+The columns are:
+
+```
+Title,Date,Publication,Type,URL,Tags,Summary
+```
+
+- **Date** accepts everything the timeline accepts — `2026-06-23`, `2026-06`,
+  `2026`, `23/06/2026`, `June 2026`. Use the full date when you know it.
+- **Type** is one of `op-ed`, `blog`, `newsletter`, `journal`, `practice`,
+  `explainer`, `reference`. A new value here is allowed and becomes its own
+  filter chip — but check the spelling first, because `oped` and `op-ed` will
+  show up as two separate chips.
+- **Tags** are separated by semicolons: `sport;policy;anti-doping`. A tag used
+  more than once becomes a chip; a one-off tag is still searchable.
+- **Summary** is one sentence. It is allowed to be empty.
+
+If a title, publication or summary contains a comma, wrap the whole field in
+double quotes — `"India's indigenous sports: reviving culture, bridging communities"`.
+The GitHub editor won't do this for you.
+
+### What the build refuses
+
+The page will not publish, and the Actions tab will tell you why, if:
+
+- a row has no title, no date, or no URL
+- a URL doesn't start with `http://` or `https://`
+- two rows share the same URL
+- a date can't be read
+
+These are the same protections the timeline has. A rejected build leaves the
+live site exactly as it was.
+
+### The weekly sync
+
+`.github/workflows/fetch-feeds.yml` runs every Monday. It reads the three feeds,
+ignores anything whose URL is already in the file, adds the rest in date order,
+and commits only if something actually changed. It never edits a row that is
+already there — so if you correct a title or write a better summary for a
+Medium post, your version stays.
+
+**To pull in a post you published today** rather than waiting for Monday: open
+the **Actions** tab → **Sync feeds** → **Run workflow**. It takes about a minute.
+
+**To see what it would do without changing anything**, if you are working on the
+site locally:
+
+```bash
+node scripts/fetch-feeds.mjs --dry-run
+```
+
+**If the sync fails**, the run is marked red in the Actions tab. Almost always
+this is one feed being briefly unreachable; the next Monday picks up everything
+missed, so there is nothing to repair. Nothing is committed on a failed run.
+
+### Adding a newsletter
+
+The Newsletters page is driven from `newsletters` in `src/_data/site.json`, not
+from a template. A third newsletter is four lines:
+
+```json
+{
+  "title": "Name of it",
+  "url": "https://example.substack.com/",
+  "logo": "/assets/img/its-logo.png",
+  "blurb": "One sentence, in your words.",
+  "cadence": "Monthly · Substack"
+}
+```
+
+If it should also feed the Articles page automatically, add it to the `FEEDS`
+list at the top of `scripts/fetch-feeds.mjs` as well — one line, same shape as
+the three already there.
+
+### Logos
+
+Every logo lives in `src/assets/img/` and every filename is **lowercase**.
+This matters more than it looks: your laptop treats `Logo.png` and `logo.png`
+as the same file and GitHub's servers do not, so a capital letter works locally
+and shows a blank space on the live site. It has already happened once here,
+with the portrait.
+
+The dark theme puts a light plate behind each logo rather than recolouring it,
+so a mark with red or green in it keeps its own colours in both themes.
 
 ---
 

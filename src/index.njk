@@ -1,7 +1,9 @@
 ---
 layout: base.njk
 title: null
+banner: true
 ---
+{% from "icons.njk" import icon, sectionLogo %}
 
 {# The home page is the introduction. Everything on it comes from `profile` and
    `sections` in src/_data/site.json, so adding a link or a section never means
@@ -18,9 +20,16 @@ title: null
       <p class="profile-role">{{ site.profile.role }}</p>
       <p class="profile-location">{{ site.profile.location }}</p>
 
+      {# Identical geometry on every pill — same icon box, same gap, same
+         padding — so they read as one set rather than five borrowed marks.
+         A link with no url yet is skipped rather than rendered dead. #}
       <ul class="profile-links">
         {% for l in site.profile.links %}{% if l.url %}
-        <li><a href="{{ l.url }}" rel="noopener">{{ l.text }}</a></li>
+        <li>
+          <a href="{{ l.url }}" target="_blank" rel="noopener">
+            {% if l.icon %}{{ icon(l.icon) }}{% endif %}<span>{{ l.text }}</span>
+          </a>
+        </li>
         {% endif %}{% endfor %}
       </ul>
     </aside>
@@ -39,9 +48,11 @@ title: null
         <p>
           Most of that is curriculum architecture: deciding what a programme
           should teach, how it should be assessed, and how you know it worked.
-          Two of the courses sit where sport meets public policy — <em>Building a
-          Sporting Nation</em>, co-taught with Nandan Kamath, and
-          <em>Transforming Women's Sport in India</em>, with Aditi Mutatkar.
+          Two of the courses sit where sport meets public policy —
+          <em><a href="https://opentakshashila.net/spaces/24289612/page" target="_blank" rel="noopener">Building a
+          Sporting Nation</a></em>, co-taught with Nandan Kamath, and
+          <em><a href="https://opentakshashila.net/spaces/21867601/page" target="_blank" rel="noopener">Transforming
+          Women's Sport in India</a></em>, with Aditi Mutatkar.
           Project management runs alongside, taught to athletes, working
           professionals and undergraduates.
         </p>
@@ -79,18 +90,18 @@ title: null
             <a href="{{ '/sports/timeline/' | url }}">Sporting Timeline</a>
             <span class="worklist-note">An interactive timeline of sport, politics, policy and natural events, from c. 2600 BC.</span>
           </li>
+          {% for c in site.courses %}
           <li>
-            <span class="worklist-title">Building a Sporting Nation</span>
-            <span class="worklist-note">Annual course, with Nandan Kamath. Since 2024.</span>
+            <a href="{{ c.url }}" target="_blank" rel="noopener">{{ c.title }}</a>
+            <span class="worklist-note">{{ c.note }}</span>
           </li>
+          {% endfor %}
+          {% for n in site.newsletters %}
           <li>
-            <span class="worklist-title">Transforming Women's Sport in India</span>
-            <span class="worklist-note">Annual course, with Aditi Mutatkar. Since 2025.</span>
+            <a href="{{ n.url }}" target="_blank" rel="noopener">{{ n.title }}</a>
+            <span class="worklist-note">{{ n.blurb }}</span>
           </li>
-          <li>
-            <span class="worklist-title">Project Management Simplified</span>
-            <span class="worklist-note">Newsletter on project management and leadership for practitioners.</span>
-          </li>
+          {% endfor %}
         </ul>
       </section>
 
@@ -99,10 +110,16 @@ title: null
         <h2 id="sections-heading">Sections of this site</h2>
         <div class="grid grid-2">
           {% for s in site.sections %}
-          <a class="card card-link" href="{{ s.url | url }}">
+          <a class="card card-link card-section"
+             href="{% if s.external %}{{ s.url }}{% else %}{{ s.url | url }}{% endif %}"
+             {% if s.external %}target="_blank" rel="noopener"{% endif %}>
+            {{ sectionLogo(s.logo, "") }}
             <h3>{{ s.title }}</h3>
             <p>{{ s.blurb }}</p>
-            <span class="card-cta">Open {{ s.title | lower }} &rarr;</span>
+            <span class="card-cta">
+              {% if s.external %}Visit {{ s.title | lower }}<span class="visually-hidden"> (opens in a new tab)</span>{{ icon("external") }}
+              {% else %}Open {{ s.title | lower }} &rarr;{% endif %}
+            </span>
           </a>
           {% endfor %}
         </div>

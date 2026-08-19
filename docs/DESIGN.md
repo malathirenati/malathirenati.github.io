@@ -236,3 +236,57 @@ the source. Links render as the hostname rather than a raw URL.
 Deliberately restrained: a lane stripe under the masthead, a chequered-flag
 underline on the active tab, running-track banding behind the swimlanes, and a
 dotted "NOW" line. The data is the loud thing on the page.
+
+---
+
+## Keyed stat tiles (Sport landing page)
+
+The "What's on the timeline" tiles carry their track's colour. Three numbers in
+`.stat-keyed` were arrived at by measuring all eight slots in both themes on the
+rendered page, and they should not be nudged by eye.
+
+| Value | Chosen | Why not more |
+|---|---|---|
+| Background tint | **6%** of the slot colour into `--surface-2` | At 10% the `--muted` label fell to **4.22:1** against its own tile. `--muted` is only guaranteed ≥4.5:1 against the untinted surfaces. |
+| Rule colour | **66%** slot / **34%** `--ink` | Neat `--s3` (yellow) is **1.68:1** against its tile — a 3px rule nobody can see. At 66% the worst slot is **3.30:1** light and **5.34:1** dark. Raising it towards neat colour walks `--s3` back down through 3:1. |
+| Label token | `--ink-2`, not `--muted` | The tint moves the background off the surface `--muted` was measured against. `--ink-2` holds **5.97:1** light / **8.69:1** dark. |
+
+Mixing the rule towards `--ink` rather than towards black or white is what lets
+one declaration serve both themes: `--ink` is dark in the light theme and light
+in the dark one, so the rule darkens or lightens in whichever direction actually
+raises contrast.
+
+**Why not fill the tile with the slot colour.** Three of the eight slots sit
+below 3:1 against the ink tokens. A filled tile would put its own count on one
+of those. The rule carries the identity instead, and the text stays on a surface
+it was measured against.
+
+Measured after any change with the contrast sweep in the browser console —
+worst-case label, value and rule ratios across every rendered tile, both themes.
+
+## Logos on the dark theme
+
+The section marks are blue line art on transparency (94-96% of each file is
+transparent), and several carry their own accent colours. Measured from the
+actual pixels, against `--page` in each theme:
+
+| Ink | Share of the mark | On the dark page | On the plate |
+|---|---|---|---|
+| `#0048a8` — the wordmark blue | 72-100% of every mark | **2.24:1** | 7.27:1 |
+| `#001848` — the path in `timelines` | 22% of that mark | **1.10:1** | 14.81:1 |
+| `#000000` — the newspaper outline in `newsletters` | 10% of that mark | **1.11:1** | 18.13:1 |
+
+Left alone, the dominant blue sits below the 3:1 non-text minimum everywhere,
+and about a fifth of the timelines mark and a tenth of the newsletters mark
+disappear into the background entirely.
+
+Brightening the artwork was the obvious fix and is the wrong one: the same marks
+carry red (`#d84848`), orange (`#d86000`) and black accents that already have
+adequate contrast on dark — 4.44:1, 5.02:1 — and lifting everything to rescue
+the blue would blow those out.
+
+The dark theme puts the mark back on paper instead: `--logo-plate`, the site's
+own warm surface colour rather than white, with 4px of padding and a small
+radius. Every mark keeps its true colours, and the plate reads as part of the
+design. In the light theme the same token is `transparent`, so one rule serves
+both and there is no second set of assets to keep in step.

@@ -460,6 +460,12 @@ main { padding-block: clamp(1.5rem, 4vw, 2.75rem) 3rem; }
   white-space: nowrap;
 }
 .btn:hover { background: var(--surface-2); color: var(--ink); }
+/* .btn was written for <button>, which never underlines. An <a class="btn">
+   inherits the link underline unless it is turned off here. */
+a.btn, a.btn:hover { text-decoration: none; }
+/* nowrap suits a toolbar button; a call to action with a few words in it should
+   be allowed to wrap on a narrow card rather than overflow. */
+a.btn { white-space: normal; }
 .btn[aria-pressed="true"] { background: var(--ink); color: var(--surface); border-color: var(--ink); }
 .btn-icon { min-width: 32px; text-align: center; font-variant-numeric: tabular-nums; }
 
@@ -928,3 +934,268 @@ table.data tr.is-dim td, table.data tr.is-dim th { opacity: 0.42; }
 
 .email { font-variant-numeric: tabular-nums; }
 .email-at { color: var(--muted); }
+
+/* =========================================================================
+   Brand marks
+   =========================================================================
+
+   The logos are blue line art on transparency. On the light theme they sit on
+   paper and need nothing. On the dark theme that blue drops to about 2:1
+   against the page, and several of the marks carry their own colours — red,
+   green, yellow — that brightening would wash out. So instead of altering the
+   artwork, the dark theme puts it back on paper: a light plate, in the site's
+   own surface colour rather than white, so it reads as part of the design and
+   every mark keeps its true colours. In light mode the plate is transparent,
+   so the same rule does nothing. */
+:root { --logo-plate: transparent; --logo-pad: 0px; }
+:root[data-theme="dark"] { --logo-plate: #f2eee4; --logo-pad: 4px; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --logo-plate: #f2eee4; --logo-pad: 4px; }
+}
+
+.brand-logo {
+  width: 34px; height: 34px; flex: none;
+  object-fit: contain;
+  background: var(--logo-plate);
+  padding: var(--logo-pad);
+  border-radius: 8px;
+}
+
+.seclogo {
+  display: block;
+  flex: none;
+  object-fit: contain;
+  background: var(--logo-plate);
+  padding: var(--logo-pad);
+  border-radius: 10px;
+}
+.seclogo-md { width: 46px; height: 46px; }
+.seclogo-lg { width: 62px; height: 62px; }
+
+/* Banner ------------------------------------------------------------------ */
+.site-banner {
+  /* Bounded by height, not by aspect ratio: the strip must stay a strip on a
+     phone as well as on a desktop, and `cover` crops rather than letterboxes. */
+  max-height: 150px;
+  overflow: hidden;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface-2);
+}
+.site-banner img {
+  display: block;
+  width: 100%;
+  max-height: 150px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Icons ------------------------------------------------------------------- */
+.ico {
+  width: 16px; height: 16px; flex: none;
+  display: inline-block; vertical-align: -0.18em;
+}
+.ico-ext { width: 13px; height: 13px; margin-inline-start: 0.3em; opacity: 0.75; }
+
+.nav-ext { display: inline-flex; align-items: center; }
+
+/* Every pill gets the same icon box and the same gap, so a wordmark and a
+   line-drawn glyph still line up as one set. */
+.profile-links a {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+}
+
+/* Page head with a mark beside the title ---------------------------------- */
+.page-head-logo { display: flex; align-items: flex-start; gap: 1rem; }
+.page-head-logo > div { min-width: 0; }
+
+.hero-logo { position: relative; }
+.hero-logo .seclogo { margin-bottom: 0.75rem; }
+
+.card-section .seclogo { margin-bottom: 0.6rem; }
+
+/* =========================================================================
+   Articles
+   ========================================================================= */
+.artfilter {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  padding: 0.9rem 1rem;
+  margin-bottom: 1.1rem;
+}
+.artfilter-row { display: flex; gap: 0.6rem; align-items: center; flex-wrap: wrap; }
+.artsearch { flex: 1 1 260px; }
+.artsearch input {
+  width: 100%;
+  padding: 0.5rem 0.7rem;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius);
+  background: var(--page);
+  color: var(--ink);
+  font: inherit; font-size: 0.925rem;
+}
+.artsearch input::placeholder { color: var(--muted); }
+
+.artchips { border: 0; margin: 0.85rem 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.35rem; align-items: baseline; }
+.artchips-legend {
+  float: left;              /* a <legend> ignores flex, so it needs taking out of flow */
+  width: 100%;
+  padding: 0; margin-bottom: 0.4rem;
+  font-size: 0.72rem; font-weight: 650; letter-spacing: 0.07em;
+  text-transform: uppercase; color: var(--muted);
+}
+
+/* The checkbox stays in the DOM and keeps the keyboard and screen-reader
+   behaviour; only its rendering is replaced. */
+.chipbox { cursor: pointer; }
+.chipbox input { position: absolute; opacity: 0; width: 0; height: 0; }
+.chipbox span {
+  display: inline-flex; align-items: center; gap: 0.35rem;
+  padding: 0.26rem 0.62rem;
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  font-size: 0.84rem; font-weight: 550; color: var(--ink-2);
+  background: var(--surface-2);
+}
+.chipbox:hover span { color: var(--ink); border-color: var(--axis); }
+.chipbox input:checked + span {
+  background: var(--accent); border-color: var(--accent); color: #fff;
+}
+:root[data-theme="dark"] .chipbox input:checked + span { color: #10233b; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .chipbox input:checked + span { color: #10233b; }
+}
+.chipbox input:checked + span .chip-count { color: inherit; opacity: 0.75; }
+/* :focus-visible never matches a visually hidden input, so the ring goes on the
+   label the reader can actually see. */
+.chipbox input:focus-visible + span { outline: 2px solid var(--focus); outline-offset: 2px; }
+
+.artstatus { color: var(--muted); font-size: 0.875rem; margin-bottom: 1.2rem; }
+.artempty { color: var(--muted); padding: 1.5rem 0; }
+
+.artyear { margin-bottom: 1.6rem; }
+.artyear-head {
+  font-size: 0.86rem; font-weight: 650; letter-spacing: 0.06em;
+  color: var(--muted);
+  margin: 0 0 0.6rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--border);
+  font-variant-numeric: tabular-nums;
+}
+
+.artlist { list-style: none; margin: 0; padding: 0; }
+.art {
+  display: grid;
+  grid-template-columns: 8.5rem 1fr;
+  gap: 0 1.1rem;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--border);
+}
+.art:last-child { border-bottom: 0; }
+.art-when {
+  color: var(--muted); font-size: 0.82rem;
+  font-variant-numeric: tabular-nums;
+  padding-top: 0.15rem;
+}
+.art-title { font-size: 1.02rem; margin: 0 0 0.2rem; line-height: 1.35; }
+.art-title a { color: var(--ink); text-decoration: none; }
+.art-title a:hover { color: var(--accent-ink); text-decoration: underline; }
+.art-where { margin: 0; font-size: 0.845rem; color: var(--ink-2); }
+.art-pub { font-weight: 550; }
+.art-type::before { content: " · "; color: var(--muted); }
+.art-type { color: var(--muted); }
+.art-sum { margin: 0.35rem 0 0; font-size: 0.9rem; color: var(--ink-2); }
+
+.art-tags { list-style: none; display: flex; flex-wrap: wrap; gap: 0.3rem; margin: 0.45rem 0 0; padding: 0; }
+.art-tags li {
+  font-size: 0.74rem; color: var(--muted);
+  padding: 0.1rem 0.45rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+}
+
+.artnote { color: var(--muted); font-size: 0.85rem; margin-top: 2rem; }
+
+@media (max-width: 620px) {
+  .art { grid-template-columns: 1fr; gap: 0.2rem; }
+  .art-when { padding-top: 0; }
+}
+
+/* =========================================================================
+   Newsletters
+   ========================================================================= */
+.nl { display: flex; flex-direction: column; align-items: flex-start; }
+.nl-title { font-size: 1.15rem; margin: 0 0 0.15rem; }
+.nl-cadence { margin: 0 0 0.5rem; font-size: 0.78rem; color: var(--muted); letter-spacing: 0.04em; text-transform: uppercase; }
+.nl-blurb { color: var(--ink-2); margin: 0 0 1rem; }
+.nl .btn { margin-top: auto; display: inline-flex; align-items: center; }
+
+/* =========================================================================
+   Keyed stat tiles
+   =========================================================================
+
+   A left rule plus a wash of the track's colour. Not a fill: three of the eight
+   series colours sit below 3:1 against the ink tokens, so a filled tile would
+   make its own number hard to read. The rule carries the identity; the text
+   stays on a surface it was measured against. */
+.stat-keyed {
+  /* Every number here was measured on the rendered page across all eight slots
+     in both themes, not chosen by eye.
+
+     Tint 6%, not more: at 10% the muted label fell to 4.22:1 against its own
+     tile. The wash has to stay light enough that the tile is still the surface
+     the text was measured against.
+
+     The rule is mixed two-thirds towards --ink rather than used neat. Neat
+     --s3 (the yellow) is 1.68:1 against its tile — a 3px rule nobody can see.
+     Mixing towards --ink darkens it in the light theme and lightens it in the
+     dark one, which is the correct direction in both, so one declaration serves
+     both. At 66% the worst slot is 3.30:1 light / 5.34:1 dark, clearing the 3:1
+     non-text minimum while keeping the hue recognisable against the chart.
+     Raising it towards neat colour walks --s3 back down to 3:1 and through it. */
+  --tile-rule: color-mix(in srgb, var(--tile) 66%, var(--ink));
+  border-inline-start: 3px solid var(--tile-rule, var(--border-strong));
+  background: color-mix(in srgb, var(--tile) 6%, var(--surface-2));
+}
+/* --muted is 4.5:1 against --surface-2, but not against a tinted --surface-2.
+   The keyed tiles step the label up one token; the plain ones are unaffected. */
+.stat-keyed .stat-label { color: var(--ink-2); }
+
+/* -------------------------------------------------------------------------
+   Small screens
+   ------------------------------------------------------------------------- */
+@media (max-width: 560px) {
+  /* Five sections plus the theme toggle wrap to two rows at the desktop sizing,
+     which makes the sticky masthead 159px — a fifth of a phone screen, gone for
+     the whole session. One scrolling row brings it back to about 95px.
+
+     The header can't simply stop being sticky here: the sub-nav sticks at
+     top: var(--header-h), which timeline.js measures from the live header, so
+     an unstuck header would leave the sub-nav floating over a gap.
+
+     Only ~55px overflows, so the last item stays part-visible and cues the
+     scroll rather than hiding. Keyboard focus scrolls the row itself, and every
+     section is also reachable from the home page cards. */
+  .nav {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 0.15rem;
+    scrollbar-width: none;          /* a scrollbar here would add height back */
+    overscroll-behavior-x: contain; /* don't hand a horizontal flick to the page */
+  }
+  .nav::-webkit-scrollbar { display: none; }
+  .nav a, .nav button { flex: none; }
+  .nav a { padding: 0.42rem 0.5rem; font-size: 0.875rem; }
+  .nav a[aria-current="page"]::after { left: 0.5rem; right: 0.5rem; }
+  /* The ↗ costs ~18px of a row that is already short of space; "Podcasts" still
+     announces itself as a new tab to a screen reader through the hidden text. */
+  .nav .ico-ext { display: none; }
+
+  /* 150px of banner is a fifth of a phone screen before any content. The strip
+     keeps its proportion of the page rather than its absolute height. */
+  .site-banner, .site-banner img { max-height: 96px; }
+
+  .page-head-logo { gap: 0.75rem; }
+  .seclogo-md { width: 38px; height: 38px; }
+  .seclogo-lg { width: 48px; height: 48px; }
+}

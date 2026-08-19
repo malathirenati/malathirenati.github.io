@@ -1,0 +1,41 @@
+---
+title: Newsletters
+description: Two newsletters — one on making project management plain, one on Indian sport.
+---
+{% from "icons.njk" import icon, sectionLogo %}
+{% set sec = null %}
+{% for s in site.sections %}{% if s.slug == "newsletters" %}{% set sec = s %}{% endif %}{% endfor %}
+
+<div class="wrap">
+
+  <header class="page-head page-head-logo">
+    {{ sectionLogo(sec.logo, "") }}
+    <div>
+      <p class="eyebrow">Subscribe</p>
+      <h1>Newsletters</h1>
+      <p class="lede">Two newsletters — one on making project management plain, one on Indian sport.</p>
+    </div>
+  </header>
+
+  {# Driven from `newsletters` in site.json, so a third one is a config entry
+     rather than a template edit. #}
+  <div class="grid grid-2">
+    {% for n in site.newsletters %}
+    <article class="card nl">
+      {{ sectionLogo(n.logo, n.title, "lg") }}
+      <h2 class="nl-title">{{ n.title }}</h2>
+      {% if n.cadence %}<p class="nl-cadence">{{ n.cadence }}</p>{% endif %}
+      <p class="nl-blurb">{{ n.blurb }}</p>
+      <a class="btn btn-primary" href="{{ n.url }}" target="_blank" rel="noopener">
+        Read and subscribe<span class="visually-hidden"> to {{ n.title }} (opens in a new tab)</span>{{ icon("external") }}
+      </a>
+    </article>
+    {% endfor %}
+  </div>
+
+  <p class="artnote">
+    Every edition also appears on the <a href="{{ '/articles/' | url }}">Articles</a> page,
+    alongside the op-eds and papers.
+  </p>
+
+</div>

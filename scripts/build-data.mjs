@@ -330,10 +330,165 @@ async function buildTimeline(file) {
 }
 
 /* ------------------------------------------------------------------ *
+ * Articles
+ * ------------------------------------------------------------------ */
+
+/* Its own header map rather than the timeline's: an article has a publication
+   and a URL where an event has a category and a track, and sharing one alias
+   table would mean each dataset silently accepting the other's columns. Dates,
+   though, go through the same parseWhen — so "2025-07-02", "Jul 2025" and
+   "2025" are all accepted here exactly as they are on the timeline. */
+const ARTICLE_ALIASES = {
+  title:       ["title", "headline", "name"],
+  date:        ["date", "published", "when", "publisheddate"],
+  publication: ["publication", "outlet", "publisher", "where"],
+  type:        ["type", "kind", "format"],
+  url:         ["url", "link", "href", "source"],
+  tags:        ["tags", "keywords", "topics", "categories"],
+  summary:     ["summary", "description", "blurb", "note"],
+};
+
+function mapArticleHeaders(headerRow) {
+  const map = {}, unknown = [];
+  headerRow.forEach((raw, i) => {
+    const key = normaliseHeader(raw);
+    if (!key) return;
+    const field = Object.keys(ARTICLE_ALIASES).find((f) => ARTICLE_ALIASES[f].includes(key));
+    if (field === undefined) unknown.push(raw);
+    else if (map[field] === undefined) map[field] = i;
+  });
+  return { map, unknown };
+}
+
+// datetime="" must be a valid ISO 8601 date or the attribute is meaningless to
+// a screen reader or a crawler. Truncate to the precision we actually have.
+function isoOf(w) {
+  const pad = (n) => String(n).padStart(2, "0");
+  if (!w || w.year < 1) return "";
+  if (w.precision === "year") return String(w.year);
+  if (w.precision === "month") return `${w.year}-${pad(w.month + 1)}`;
+  return `${w.year}-${pad(w.month + 1)}-${pad(w.day)}`;
+}
+
+async function buildArticles(file) {
+  const rows = parseCsv(await readFile(path.join(DATA_DIR, file), "utf8"));
+  const nonEmpty = rows.filter((r) => Array.isArray(r) && r.some((c) => c != null && String(c).trim() !== ""));
+  if (nonEmpty.length < 2) throw new SheetError(`${file}: needs a header row and at least one article row.`);
+
+  const { map, unknown } = mapArticleHeaders(nonEmpty[0]);
+  for (const required of ["title", "date", "url"]) {
+    if (map[required] === undefined) {
+      throw new SheetError(
+        `${file}: missing the "${required}" column.\n` +
+        `  Recognised headings for it: ${ARTICLE_ALIASES[required].join(", ")}\n` +
+        `  Found instead: ${nonEmpty[0].map((h) => `"${h}"`).join(", ")}`
+      );
+    }
+  }
+  if (unknown.length) {
+    console.warn(`  note: ignoring unrecognised column(s) ${unknown.map((u) => `"${u}"`).join(", ")}`);
+  }
+
+  const cell = (row, field) => {
+    const i = map[field];
+    if (i === undefined) return null;
+    const v = row[i];
+    if (v == null) return null;
+    const t = String(v).trim();
+    return t === "" ? null : t;
+  };
+
+  const items = [];
+  const seen = new Map();          // url -> row number, so a duplicate names both
+  const tagCount = new Map();
+  const typeCount = new Map();
+  const pubCount = new Map();
+
+  nonEmpty.slice(1).forEach((row, i) => {
+    const rowNo = i + 2;
+    const title = cell(row, "title");
+    const url = cell(row, "url");
+    if (!title) throw new SheetError(`${file}: row ${rowNo} has no title.`);
+    if (!url) throw new SheetError(`${file}: row ${rowNo} ("${title}") has no URL.`);
+
+    /* Only http(s). A javascript: or data: URL in a CSV would become a live
+       link in the page, and this file is appended to by an Action. */
+    if (!/^https?:\/\//i.test(url)) {
+      throw new SheetError(`${file}: row ${rowNo} ("${title}") — URL must start with http:// or https://, got "${url}".`);
+    }
+    if (seen.has(url)) {
+      throw new SheetError(`${file}: rows ${seen.get(url)} and ${rowNo} share the URL ${url}.`);
+    }
+    seen.set(url, rowNo);
+
+    const when = parseWhen(cell(row, "date"), { field: "Date", row: rowNo, file });
+    if (!when) throw new SheetError(`${file}: row ${rowNo} ("${title}") has no readable date.`);
+
+    const publication = cell(row, "publication") || "Self-published";
+    const type = (cell(row, "type") || "article").toLowerCase();
+    const tags = (cell(row, "tags") || "")
+      .split(/[;,|]/).map((t) => t.trim()).filter(Boolean)
+      .map((name) => ({ name, slug: slugify(name) }))
+      // A row listing "sport; Sport" should contribute one chip, not two.
+      .filter((t, j, all) => all.findIndex((o) => o.slug === t.slug) === j);
+
+    for (const t of tags) tagCount.set(t.slug, { name: t.name, count: (tagCount.get(t.slug)?.count || 0) + 1 });
+    typeCount.set(type, (typeCount.get(type) || 0) + 1);
+    pubCount.set(publication, (pubCount.get(publication) || 0) + 1);
+
+    items.push({
+      title,
+      url,
+      publication,
+      publicationSlug: slugify(publication),
+      type,
+      typeSlug: slugify(type),
+      tags,
+      // Space-joined for the filter's data-tags attribute: Nunjucks has no map
+      // filter, and doing it here keeps the template to one interpolation.
+      tagSlugs: tags.map((t) => t.slug).join(" "),
+      summary: cell(row, "summary") || "",
+      year: when.year,
+      iso: isoOf(when),
+      dateLabel: formatWhen(when),
+      position: when.position,
+      /* Precomputed so the client filter never lowercases the same string on
+         every keystroke — this list only grows. */
+      haystack: [title, publication, type, cell(row, "summary") || "", ...tags.map((t) => t.name)]
+        .join(" ").toLowerCase(),
+    });
+  });
+
+  items.sort((a, b) => b.position - a.position || a.title.localeCompare(b.title));
+
+  // Grouped server-side so the page renders complete without JavaScript.
+  const years = [];
+  for (const it of items) {
+    const last = years[years.length - 1];
+    if (last && last.year === it.year) last.items.push(it);
+    else years.push({ year: it.year, items: [it] });
+  }
+
+  const byCountThenName = (a, b) => b.count - a.count || a.name.localeCompare(b.name);
+
+  return {
+    count: items.length,
+    minYear: items.length ? items[items.length - 1].year : null,
+    maxYear: items.length ? items[0].year : null,
+    years,
+    items,
+    tags: [...tagCount].map(([slug, v]) => ({ slug, name: v.name, count: v.count })).sort(byCountThenName),
+    types: [...typeCount].map(([name, count]) => ({ slug: slugify(name), name, count })).sort(byCountThenName),
+    publications: [...pubCount].map(([name, count]) => ({ slug: slugify(name), name, count })).sort(byCountThenName),
+  };
+}
+
+/* ------------------------------------------------------------------ *
  * Registry — add a dataset by adding a line here
  * ------------------------------------------------------------------ */
 const DATASETS = [
-  { out: "timeline", match: /^timeline\.(xlsx|csv)$/i, build: buildTimeline },
+  { out: "timeline",  match: /^timeline\.(xlsx|csv)$/i, build: buildTimeline },
+  { out: "articles",  match: /^articles\.csv$/i,        build: buildArticles },
 ];
 
 async function main() {
@@ -379,7 +534,10 @@ async function main() {
           `${plural(result.categories.length, "track", "tracks")}` +
           (result.grouped ? ` in ${plural(result.groups.length, "group", "groups")}` : "") +
           ` · ${result.minYear}-${result.maxYear}`
-        : "ok";
+        : result.items
+          ? `${plural(result.count, "article", "articles")} · ` +
+            `${plural(result.tags.length, "tag", "tags")} · ${result.minYear}-${result.maxYear}`
+          : "ok";
       console.log(`  ${candidates[0]} -> src/_data/${dataset.out}.json  (${detail})`);
     } catch (err) {
       failed = true;
