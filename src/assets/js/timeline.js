@@ -154,11 +154,10 @@
        modern era, which is most of the data, opens as an illegible smear at the
        right edge while 13 ancient events take up two-thirds of the width.
 
-       The default is the last ~140 years instead, which starts just before the
-       1896 Games. The deep past is not hidden: the overview strip above the
-       chart still shows the whole record, "All" is one click, and a #from/#to
-       in the URL overrides this. */
-    from: Math.max(DATA.minYear, DATA.maxYear - 140),
+       The default opens at AD 450 instead. The deep past is not hidden: the
+       overview strip above the chart still shows the whole record, "All" is one
+       click, and a #from/#to in the URL overrides this. */
+    from: Math.max(DATA.minYear, 450),
     to: DATA.maxYear,
     query: "",
     minDuration: 0,     // years; 0 = no duration filter
