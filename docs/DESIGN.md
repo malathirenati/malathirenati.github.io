@@ -355,3 +355,29 @@ own space.
 
 Tiling was considered and rejected: the artwork's left and right edges differ by
 21/255 per channel, so a repeat would show a visible seam.
+
+
+### Re-cut for the replacement artwork (3307x1654)
+
+The new banner is a true 2:1 with a different composition: landmarks occupy the
+upper half, athletes the lower. That moves the answer. Measuring landmark ink
+and athlete linework separately, per candidate ratio:
+
+| Ratio | Height @1280 | % of fold | Landmarks kept | Athletes kept |
+|---|---|---|---|---|
+| 2.0:1 | 640px | 80% | 100% | 100% |
+| 2.75:1 | 465px | 58% | 92% | 100% |
+| 3.0:1 | 426px | 53% | 77% | 100% |
+| **3.5:1** | **365px** | **46%** | **92%** | **96%** |
+| 4:1 | 320px | 40% | 73% | 94% |
+
+3.5:1 beats both its neighbours because the best window at that height spans
+both bands; 4:1 has to abandon the landmarks to hold the athletes, keeping only
+73% of them. The extra 45px over 4:1 buys 19 points of landmark retention, so
+3.5:1 is the cut in use. The window was then nudged 90px down from the pure
+ink-maximum so the hockey player's legs, the football and the swimmer are not
+clipped at the bottom edge — an ink metric cannot see that a figure is severed.
+
+Delivered at 2400x685 (169KB) for desktop and 1400x700 (111KB) for phones, from
+a 1.26MB source. Only one is fetched per device, and the desktop file still has
+1.88x of retina headroom at a 1280px layout.
