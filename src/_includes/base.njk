@@ -23,12 +23,21 @@
 </script>
 
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | url }}">
-{# The mark, downscaled at build time. A browser asks for this at 16-32px, so
-   serving the 1200px original would cost every visitor 53KB for a 16px slot.
-   The SVG is kept as the first choice for browsers that take it: it stays sharp
-   at any size, where a 32px raster does not. #}
-<link rel="icon" href="{{ '/assets/favicon.svg' | url }}" type="image/svg+xml">
+{# Derived from malathi-logo.png at build time, not the full 1200px file: a
+   browser wants this at 16-32px and would otherwise pull 53KB for a 16px slot.
+
+   Cropped to the "mnr" monogram rather than downscaled whole. The ring text is
+   unreadable below about 96px, and the badge entire reduces to a pale smudge —
+   the thin blue linework antialiases away. The monogram sits on a white rounded
+   square because the artwork is line art on transparency, which would have
+   almost no contrast against dark browser chrome.
+
+   There is deliberately no SVG here. The previous favicon.svg was the site's
+   older mark, and because browsers prefer an SVG icon when offered one it kept
+   winning over the PNG — which is why the favicon appeared not to change. #}
 <link rel="icon" href="{{ '/assets/favicon-32.png' | url }}" type="image/png" sizes="32x32">
+<link rel="icon" href="{{ '/assets/favicon-16.png' | url }}" type="image/png" sizes="16x16">
+<link rel="icon" href="{{ '/assets/favicon-48.png' | url }}" type="image/png" sizes="48x48">
 <link rel="apple-touch-icon" href="{{ '/assets/apple-touch-icon.png' | url }}">
 </head>
 <body data-repo="{{ site.repo }}">
