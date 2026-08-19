@@ -69,17 +69,30 @@ banner: true
       <section aria-labelledby="work-heading">
         <h2 id="work-heading">What I work on</h2>
         <dl class="deflist">
+          <dt>Programme management</dt>
+          <dd>
+            Twenty years and counting — from start-ups in Mysore to
+            multinationals in Montreal, and from banking delivery to educational
+            services. It has become a way of working rather than a job title,
+            and it is what I now teach and advise on.
+          </dd>
+
           <dt>Curriculum &amp; assessment</dt>
           <dd>Learning outcomes, assessment design, graduation criteria, and the feedback cycles that improve them.</dd>
 
           <dt>Sport &amp; public policy</dt>
-          <dd>Two annual courses, op-eds, and the athlete-transition question.</dd>
-
-          <dt>Programme management</dt>
-          <dd>Twenty years of it — banking delivery at 130 people, now education.</dd>
+          <dd>
+            Co-curate and teach two annual courses, advise the WISI Bangalore
+            chapter, and mentor women moving into leadership in the sports
+            sector.
+          </dd>
 
           <dt>Writing &amp; podcasting</dt>
-          <dd>Op-eds in national newspapers, a monthly podcast, and a newsletter on project management.</dd>
+          <dd>
+            Op-eds in the national press, a monthly podcast, a newsletter on
+            project management, and editorial support for the sports alumni
+            community's own newsletter.
+          </dd>
         </dl>
       </section>
 
@@ -137,12 +150,63 @@ banner: true
         </p>
       </section>
 
+      <section aria-labelledby="recognitions-heading">
+        <h2 id="recognitions-heading">Recognitions</h2>
+        {# Grouped by where each was earned rather than listed flat: the
+           through-line is the point — school sport in Zambia, then India, then
+           university, then work. #}
+        <ul class="reclist">
+          <li>
+            <span class="rec-where">Nkana Mine Trust School &amp; Mpelembe Secondary</span>
+            <span class="rec-note">Kitwe, Zambia</span>
+            <ul>
+              <li>First girl to play in and lead her school team at a national-level table tennis tournament in Zambia</li>
+              <li>Long-distance cross-country runner</li>
+            </ul>
+          </li>
+          <li>
+            <span class="rec-where">Bishop Cotton Girls' High School</span>
+            <span class="rec-note">Bangalore, India</span>
+            <ul>
+              <li>Best Outgoing Hockey Player of the Year, Grade 10</li>
+            </ul>
+          </li>
+          <li>
+            <span class="rec-where">Jyoti Nivas College</span>
+            <ul>
+              <li>Sports Secretary of the College Union</li>
+              <li>Best Outgoing Athlete of the Year, final year</li>
+              <li>Represented the college at table tennis, softball, baseball, cricket, hockey, throwball and athletics</li>
+              <li>Captained the hockey, softball and baseball teams</li>
+              <li>Represented the university and the state of Karnataka at hockey, softball and baseball</li>
+            </ul>
+          </li>
+          <li>
+            <span class="rec-where">Academic &amp; professional</span>
+            <ul>
+              <li>8th rank, MCA, University of Mysore</li>
+              <li>Featured by the Avant Welfare Foundation in its
+                <a href="https://awf.org.in/smb/" target="_blank" rel="noopener">She Means Business</a> series</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
       <section aria-labelledby="contact-heading">
         <h2 id="contact-heading">Contact</h2>
-        {# Written as separate parts rather than a mailto: so the address is not
-           sitting in the HTML as a string a scraper can lift wholesale. #}
+        {# The address is never written out as one string. The two halves sit in
+           separate data attributes and are joined only when someone clicks, so
+           there is nothing for a scraper to lift from the source or the text.
+           Without JavaScript the button is replaced by the readable
+           "user [at] domain" form, which a person can still act on. #}
         <p>
-          By email: <span class="email">{{ site.profile.emailUser }}<span class="email-at"> [at] </span>{{ site.profile.emailDomain }}</span>
+          <button type="button" class="btn btn-primary email-btn" id="email-btn"
+                  data-u="{{ site.profile.emailUser }}" data-d="{{ site.profile.emailDomain }}">
+            {{ icon("mail") }}<span>Email me</span>
+          </button>
+          <noscript>
+            <span class="email">{{ site.profile.emailUser }}<span class="email-at"> [at] </span>{{ site.profile.emailDomain }}</span>
+          </noscript>
         </p>
       </section>
 

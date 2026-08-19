@@ -130,6 +130,22 @@
 })();
 </script>
 
+<script>
+/* Contact button. The address is assembled from two data attributes at click
+   time, so it appears nowhere in the served HTML as a complete string — the
+   same protection the old "user [at] domain" text gave, without making a person
+   retype it. */
+(function () {
+  var btn = document.getElementById("email-btn");
+  if (!btn) return;
+  btn.addEventListener("click", function () {
+    var u = btn.getAttribute("data-u"), d = btn.getAttribute("data-d");
+    if (!u || !d) return;
+    location.href = "mailto:" + u + String.fromCharCode(64) + d;
+  });
+})();
+</script>
+
 {% block scripts %}{% endblock %}
 </body>
 </html>

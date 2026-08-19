@@ -125,9 +125,10 @@ body {
 }
 
 h1, h2, h3, h4 { line-height: 1.2; margin: 0 0 0.5em; font-weight: 650; letter-spacing: -0.011em; }
-h1 { font-size: clamp(1.75rem, 1.2rem + 2.2vw, 2.6rem); letter-spacing: -0.022em; }
-h2 { font-size: clamp(1.3rem, 1.1rem + 0.9vw, 1.65rem); }
-h3 { font-size: 1.075rem; }
+/* One step up across the board. */
+h1 { font-size: clamp(2rem, 1.35rem + 2.6vw, 3rem); letter-spacing: -0.022em; }
+h2 { font-size: clamp(1.5rem, 1.25rem + 1.05vw, 1.9rem); }
+h3 { font-size: 1.2rem; }
 p  { margin: 0 0 1em; }
 
 a { color: var(--accent-ink); text-decoration-thickness: 1px; text-underline-offset: 2px; }
@@ -948,7 +949,7 @@ table.data tr.is-dim td, table.data tr.is-dim th { opacity: 0.42; }
   border-top: 1px solid var(--border);
 }
 .profile-main h2 {
-  font-size: 0.78rem; font-weight: 700;
+  font-size: 0.9rem; font-weight: 700;
   text-transform: uppercase; letter-spacing: 0.08em;
   color: var(--muted);
   margin: 0 0 0.9rem;
@@ -1009,8 +1010,9 @@ table.data tr.is-dim td, table.data tr.is-dim th { opacity: 0.42; }
 /* 2.5x the original 46/62px. These marks carry a circular wordmark and a small
    illustration; below about 100px neither is readable, which is what made them
    look like decoration rather than identity. */
-.seclogo-md { width: 115px; height: 115px; }
-.seclogo-lg { width: 155px; height: 155px; }
+/* 1.5x again, from 115/155px. */
+.seclogo-md { width: 172px; height: 172px; }
+.seclogo-lg { width: 232px; height: 232px; }
 
 /* Banner ------------------------------------------------------------------ */
 .site-banner {
@@ -1069,11 +1071,44 @@ table.data tr.is-dim td, table.data tr.is-dim th { opacity: 0.42; }
 }
 
 /* Page head with a mark beside the title ---------------------------------- */
-.page-head-logo { display: flex; align-items: flex-start; gap: 1rem; }
+/* The mark sits in the top-right corner of the header panel, where the text
+   column leaves space, rather than above the title where it pushed the heading
+   down. Taken out of flow so it cannot affect the height of the panel; the text
+   column is given right padding so long headings never run under it. */
+.page-head-logo,
+.hero-logo {
+  position: relative;
+  /* Derived from the mark rather than a fixed 200px: the hero uses the 232px
+     variant, which a fixed value sized for the 172px one would let the heading
+     run underneath. --mark is set per variant below. */
+  --mark-inset: clamp(0.75rem, 2vw, 1.5rem);
+  padding-inline-end: calc(var(--mark, 172px) + var(--mark-inset) + 1.5rem);
+}
+.page-head-logo { --mark: 172px; }
+.hero-logo { --mark: 232px; }
 .page-head-logo > div { min-width: 0; }
 
-.hero-logo { position: relative; }
-.hero-logo .seclogo { margin-bottom: 0.75rem; }
+.page-head-logo > .seclogo,
+.hero-logo > .seclogo {
+  position: absolute;
+  top: var(--mark-inset);
+  inset-inline-end: var(--mark-inset);
+  margin: 0;
+}
+
+/* Faint pastel panel behind a page header, so Articles and Newsletters get the
+   same treatment the Sport hero already had. */
+.page-head-logo {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background:
+    linear-gradient(150deg,
+      color-mix(in srgb, var(--s1) 7%, var(--surface)),
+      color-mix(in srgb, var(--s3) 6%, var(--surface)) 60%,
+      var(--surface));
+  padding: clamp(1.25rem, 3.5vw, 2rem);
+  padding-inline-end: calc(var(--mark) + var(--mark-inset) + 1.5rem);
+}
 
 .card-section .seclogo { margin-bottom: 0.6rem; }
 
@@ -1262,11 +1297,19 @@ table.data tr.is-dim td, table.data tr.is-dim th { opacity: 0.42; }
   /* Phones get the 2.23:1 crop, ~168px at 375px wide. */
   .site-banner { --banner-max: 45vh; }
 
-  .page-head-logo { gap: 0.75rem; }
+  /* On a phone there is no spare width beside the heading, so the mark goes
+     back into the flow above the title instead of overlapping it. */
+  .page-head-logo, .hero-logo { padding-inline-end: clamp(1rem, 4vw, 1.25rem); }
+  .page-head-logo > .seclogo, .hero-logo > .seclogo {
+    position: static; margin-bottom: 0.6rem;
+  }
   /* Also 2.5x, from 38/48px. Capped against the viewport so the mark can never
      take the whole width of a small phone. */
-  .seclogo-md { width: min(95px, 26vw); height: min(95px, 26vw); }
-  .seclogo-lg { width: min(120px, 33vw); height: min(120px, 33vw); }
+  /* Bumped with the rest, but capped harder than the desktop 1.5x: on a phone
+     the mark sits above the title in the flow, so every pixel of it pushes the
+     heading down. */
+  .seclogo-md { width: min(120px, 32vw); height: min(120px, 32vw); }
+  .seclogo-lg { width: min(150px, 38vw); height: min(150px, 38vw); }
 }
 
 /* Stat tiles as links -----------------------------------------------------
@@ -1282,3 +1325,23 @@ table.data tr.is-dim td, table.data tr.is-dim th { opacity: 0.42; }
 /* .stat is flex-column, so the label and number keep their existing stacking
    once the div becomes an anchor. */
 .stat-link .stat-label, .stat-link .stat-value { display: block; }
+
+/* Recognitions ------------------------------------------------------------ */
+.reclist { list-style: none; margin: 0; padding: 0; }
+.reclist > li + li { margin-top: 1rem; }
+.rec-where { display: block; font-weight: 650; color: var(--ink); font-size: 0.95rem; }
+.rec-note { display: block; color: var(--muted); font-size: 0.8rem; margin-top: 0.05rem; }
+.reclist ul {
+  margin: 0.35rem 0 0;
+  padding-inline-start: 1.1rem;
+  color: var(--ink-2);
+  max-width: 60ch;
+}
+.reclist ul li { margin-bottom: 0.2rem; }
+
+/* Contact button ---------------------------------------------------------- */
+.email-btn {
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  padding: 0.5rem 0.9rem;
+  font-size: 0.925rem;
+}
