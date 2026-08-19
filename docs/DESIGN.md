@@ -406,3 +406,31 @@ The window sits at rows 165-479 of 550, nudged down from the ink maximum at
 wholesale into the build, so the 1.7MB original was being deployed even though
 no page references it. Only the two derived crops ship: 2400x685 (199KB) and
 1400x700 (124KB), one per device.
+
+## The default view window
+
+The chart opened on the full extent of the data, which sounds right and reads
+badly. Measured against a 1,179px axis:
+
+| Era | Events | Pixels |
+|---|---|---|
+| 2600 BC – AD 0 | 13 | 765px |
+| AD 0 – 1500 | 9 | 382px |
+| 1500 – 1900 | 6 | 102px |
+| 1900 – 1980 | 40 | 20px |
+| 1980 – 2000 | 22 | **5px** |
+| 2000 – 2026 | 39 | **8px** |
+
+78% of the events fell after 1900 and shared 32px; everything after 1954 landed
+inside 18px, at 3.9 years per pixel. Thirteen ancient events took two-thirds of
+the width. Recent marks overlapped so heavily that their labels were dropped
+altogether — an event could be present, correct and invisible.
+
+The default is now `max(minYear, maxYear - 140)`, so the last ~140 years,
+starting just before the 1896 Games. That is 0.12 years per pixel and 102 of the
+129 events in view. Nothing is hidden: the overview strip above the chart still
+shows the whole record with the current window marked, "All" is one click, and a
+`#from`/`#to` in the URL still overrides it.
+
+Derived from the data rather than hardcoded to 1886, so it stays sensible if the
+dataset's centre of gravity moves.
