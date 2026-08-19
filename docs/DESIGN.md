@@ -434,3 +434,22 @@ shows the whole record with the current window marked, "All" is one click, and a
 
 Derived from the data rather than hardcoded to 1886, so it stays sensible if the
 dataset's centre of gravity moves.
+
+### Third artwork (mnr-banner3.jpg, 2835x1417)
+
+A revised composition, not a re-export: the landmarks are rearranged and the
+whole scene is more vertically compact. That suits the wide cut better than
+either predecessor — all content sits in rows 132-465 of 550, with the top 24%
+and bottom 15% empty.
+
+| Ratio | Height @1280 | % of fold | Landmarks | Athletes |
+|---|---|---|---|---|
+| 3.0:1 | 426px | 53% | 100% | 100% |
+| **3.5:1** | **365px** | **46%** | **99%** | **100%** |
+| 4:1 | 320px | 40% | 95% | 100% |
+
+3.5:1 is now all but lossless, so it stands. Window at rows 148-462 of 550.
+
+**A 2:1 upload replacing `mnr-banner.jpg` directly will be cover-cropped**, because
+the markup declares the derived crop's 3.5:1 and the CSS fills that box. Upload
+new artwork, then re-derive — do not point the page at a raw 2:1 file.
