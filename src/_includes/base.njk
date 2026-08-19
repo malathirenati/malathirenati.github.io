@@ -84,12 +84,19 @@
 </header>
 
 {% if banner and site.banner %}
-{# Explicit width/height so the strip reserves its space and the page below it
-   doesn't jump once the image arrives. Opted into per page via `banner: true`
-   in front matter, which today is the home page only. #}
+{# Art direction, not one image scaled: a 4:1 crop is right on a desktop and
+   only ~94px tall on a 375px phone, so phones get a 2.23:1 crop of the same
+   artwork instead. Both carry width/height so each reserves its own space and
+   the page below never jumps — the aspect ratio differs per source, which is
+   exactly why the attributes have to sit on the <source> as well as the <img>.
+   Opted into per page via `banner: true` in front matter. #}
 <div class="site-banner">
-  <img src="{{ site.banner | url }}" alt="" width="2400" height="600"
-       decoding="async" fetchpriority="high">
+  <picture>
+    <source media="(min-width: 700px)" srcset="{{ site.banner.wide | url }}"
+            width="1376" height="344">
+    <img src="{{ site.banner.tall | url }}" alt="" width="1376" height="618"
+         decoding="async" fetchpriority="high">
+  </picture>
 </div>
 {% endif %}
 

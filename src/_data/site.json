@@ -93,7 +93,10 @@
     }
   ],
   "logo": "/assets/img/malathi-logo.png",
-  "banner": "/assets/img/mnr-banner.jpg",
+  "banner": {
+    "wide": "/assets/img/mnr-banner.jpg",
+    "tall": "/assets/img/mnr-banner-tall.jpg"
+  },
   "courses": [
     {
       "title": "Building a Sporting Nation",

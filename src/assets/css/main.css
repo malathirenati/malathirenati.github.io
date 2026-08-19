@@ -1031,10 +1031,14 @@ table.data tr.is-dim td, table.data tr.is-dim th { opacity: 0.42; }
      If the artwork is ever replaced with a taller crop, this goes back to being
      a tall block — re-trim the empty margins rather than reintroducing a
      display-side crop here. See docs/DESIGN.md. */
-  --banner-max: 85vh;
+  /* 4:1 on desktop is 320px at a 1280px page — about 40% of the fold, which is
+     the conventional share for a banner carrying no headline. The cap is now
+     only a guard for very wide or very short windows. */
+  --banner-max: 60vh;
   border-bottom: 1px solid var(--border);
   background: var(--surface);
 }
+.site-banner picture { display: block; }
 .site-banner img {
   display: block;
   width: 100%;
@@ -1255,7 +1259,8 @@ table.data tr.is-dim td, table.data tr.is-dim th { opacity: 0.42; }
      keeps its proportion of the page rather than its absolute height. */
   /* At 2.23:1 the whole banner is ~168px tall on a 375px phone, well inside
      this cap, so it shows complete. */
-  .site-banner { --banner-max: 40vh; }
+  /* Phones get the 2.23:1 crop, ~168px at 375px wide. */
+  .site-banner { --banner-max: 45vh; }
 
   .page-head-logo { gap: 0.75rem; }
   /* Also 2.5x, from 38/48px. Capped against the viewport so the mark can never

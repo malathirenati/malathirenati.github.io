@@ -324,3 +324,34 @@ row-ink measurement that found the 150 empty rows is worth repeating on any new
 file; a replacement at 1.79:1 or taller will otherwise stand ~670px tall.
 
 The uncropped original remains in git history at commit `d314eda`.
+
+### Shortening it to a banner, and art direction
+
+Trimming the empty sky made the image complete, but at 2.23:1 it still stood
+575px on a 1280px page — 72% of the first screenful, which reads as a picture
+placed at the top rather than a banner.
+
+Measuring ink per row separates the figures from the pale landmark washes, and
+they fall away at very different rates as the band is shortened:
+
+| Ratio | Height @1280 | All ink kept | Figures kept |
+|---|---|---|---|
+| 2.23:1 | 573px | 99% | 100% |
+| 3.2:1 | 400px | 87% | 97% |
+| **4:1** | **320px** | 74% | **96%** |
+| 5:1 | 256px | 62% | 88% |
+
+4:1 halves the height and still keeps 96% of the figures; what goes is sky and
+the tops of the landmarks. It is also the conventional banner ratio — LinkedIn
+covers are 1584×396, and the common CMS presets ship 1600×400 and 2560×640 — and
+it puts the banner at 40% of the fold, so the content beneath starts above it.
+
+**Two crops, not one image scaled.** A 4:1 band is only 94px tall on a 375px
+phone. Phones therefore get the 2.23:1 crop (`mnr-banner-tall.jpg`, 168px, 21% of
+the fold) through a `<picture>` with a `min-width: 700px` source. Both carry
+width/height, and the attributes have to sit on the `<source>` as well as the
+`<img>` because the two have different aspect ratios and each must reserve its
+own space.
+
+Tiling was considered and rejected: the artwork's left and right edges differ by
+21/255 per channel, so a repeat would show a visible seam.
