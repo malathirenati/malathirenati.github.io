@@ -25,8 +25,13 @@ description: Op-eds, essays, papers and posts on sport, public policy, animal we
     Every article is in the HTML before any script runs, so this page is
     complete with JavaScript off. The controls below only hide rows that are
     already here — they never fetch, and they never add.
+
+    The behaviour lives in assets/js/filter-list.js, shared with Books and
+    Careers and driven entirely by the data- attributes below.
   #}
-  <form class="artfilter" id="artfilter" role="search" aria-label="Filter articles"
+  <div data-filter-root data-noun="articles">
+
+  <form class="artfilter" role="search" aria-label="Filter articles"
         onsubmit="return false">
 
     <div class="artfilter-row">
@@ -34,10 +39,10 @@ description: Op-eds, essays, papers and posts on sport, public policy, animal we
         <span class="visually-hidden">Search articles</span>
         {# type=search gives the browser's own clear button, and no name so a
            JS-less submit can't reload the page with a stray query string. #}
-        <input type="search" id="artsearch" placeholder="Search titles, publications, topics…"
+        <input type="search" data-fsearch placeholder="Search titles, publications, topics…"
                autocomplete="off" spellcheck="false">
       </label>
-      <button type="button" class="btn btn-quiet" id="artreset" hidden>Clear filters</button>
+      <button type="button" class="btn btn-quiet" data-freset hidden>Clear filters</button>
     </div>
 
     <fieldset class="artchips">
@@ -63,18 +68,18 @@ description: Op-eds, essays, papers and posts on sport, public policy, animal we
     </fieldset>
   </form>
 
-  <p class="artstatus" id="artstatus" aria-live="polite">
+  <p class="artstatus" data-fstatus aria-live="polite">
     Showing all {{ articles.count }} articles.
   </p>
 
   {% for group in articles.years %}
-  <section class="artyear" data-year="{{ group.year }}">
+  <section class="artyear" data-fgroup data-year="{{ group.year }}">
     <h2 class="artyear-head">{{ group.year }}</h2>
     <ol class="artlist">
       {% for a in group.items %}
-      <li class="art"
+      <li class="art" data-fitem
           data-type="{{ a.typeSlug }}"
-          data-tags="{{ a.tagSlugs }}"
+          data-tag="{{ a.tagSlugs }}"
           data-hay="{{ a.haystack }}">
         <div class="art-when"><time datetime="{{ a.iso }}">{{ a.dateLabel }}</time></div>
         <div class="art-body">
@@ -98,7 +103,9 @@ description: Op-eds, essays, papers and posts on sport, public policy, animal we
   </section>
   {% endfor %}
 
-  <p class="artempty" id="artempty" hidden>Nothing matches those filters.</p>
+  <p class="artempty" data-fempty hidden>Nothing matches those filters.</p>
+
+  </div>
 
   <p class="artnote">
     Posts from Medium and the two Substacks are picked up automatically each
@@ -109,5 +116,5 @@ description: Op-eds, essays, papers and posts on sport, public policy, animal we
 </div>
 
 {% block scripts %}
-<script src="{{ '/assets/js/articles.js' | url }}" defer></script>
+<script src="{{ '/assets/js/filter-list.js' | url }}" defer></script>
 {% endblock %}

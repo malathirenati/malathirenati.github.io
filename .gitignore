@@ -4,6 +4,8 @@ _site/
 # Generated from data/ by `npm run data` — the spreadsheet is the source of truth.
 src/_data/timeline.json
 src/_data/articles.json
+src/_data/careers.json
+src/_data/books.json
 
 .DS_Store
 *.log

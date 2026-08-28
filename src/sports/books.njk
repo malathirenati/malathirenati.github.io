@@ -1,0 +1,102 @@
+---
+title: Sports books
+description: Books on sport from India and beyond — history, autobiography, sports science and the business of the game.
+---
+{% from "icons.njk" import icon, sectionLogo %}
+
+<div class="wrap">
+
+  <header class="page-head page-head-logo">
+    {{ sectionLogo("/assets/img/sports.png", "") }}
+    <div>
+      <p class="eyebrow">Reading</p>
+      <h1>Sports books</h1>
+      <p class="lede">
+        {{ books.count }} books from {{ books.minYear }} to {{ books.maxYear }},
+        Indian and global — histories, autobiographies, sports science and the
+        business of the game.
+      </p>
+    </div>
+  </header>
+
+  <div data-filter-root data-noun="books">
+
+    <form class="artfilter" role="search" aria-label="Filter books" onsubmit="return false">
+      <div class="artfilter-row">
+        <label class="artsearch">
+          <span class="visually-hidden">Search books</span>
+          <input type="search" data-fsearch autocomplete="off" spellcheck="false"
+                 placeholder="Search titles, authors, subjects…">
+        </label>
+        <button type="button" class="btn btn-quiet" data-freset hidden>Clear filters</button>
+      </div>
+
+      <fieldset class="artchips">
+        <legend class="artchips-legend">Where from</legend>
+        {% for r in books.regions %}
+        <label class="chipbox">
+          <input type="checkbox" value="{{ r.slug }}" data-facet="region">
+          <span>{{ r.name }} <span class="chip-count">{{ r.count }}</span></span>
+        </label>
+        {% endfor %}
+      </fieldset>
+
+      <fieldset class="artchips">
+        <legend class="artchips-legend">Genre</legend>
+        {% for g in books.genres %}
+        <label class="chipbox">
+          <input type="checkbox" value="{{ g.slug }}" data-facet="genre">
+          <span>{{ g.name }} <span class="chip-count">{{ g.count }}</span></span>
+        </label>
+        {% endfor %}
+      </fieldset>
+    </form>
+
+    <p class="artstatus" data-fstatus aria-live="polite">Showing all {{ books.count }} books.</p>
+
+    {% for d in books.decades %}
+    <section class="artyear" data-fgroup>
+      <h2 class="artyear-head">{{ d.label }}</h2>
+      <ul class="booklist">
+        {% for b in d.items %}
+        <li class="book" data-fitem
+            data-region="{{ b.regionSlug }}"
+            data-genre="{{ b.genreSlug }}"
+            data-hay="{{ b.haystack }}">
+          <div class="book-year"><time datetime="{{ b.year }}">{{ b.year }}</time></div>
+          <div class="book-body">
+            <h3 class="book-title">{{ b.title }}</h3>
+            {% if b.authors %}<p class="book-authors">{{ b.authors }}</p>{% endif %}
+            {% if b.synopsis %}<p class="book-synopsis">{{ b.synopsis }}</p>{% endif %}
+            <p class="book-meta">
+              <span class="book-tag">{{ b.genre }}</span>
+              <span class="book-tag">{{ b.region }}</span>
+            </p>
+            {% if b.link %}
+            {# A search on the retailer rather than a product page: an invented
+               product URL would rot or mislead, a search always resolves. #}
+            <a class="book-buy" href="{{ b.link }}" target="_blank" rel="noopener">
+              Find it online<span class="visually-hidden"> — {{ b.title }} (opens in a new tab)</span>{{ icon("external") }}
+            </a>
+            {% endif %}
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endfor %}
+
+    <p class="artempty" data-fempty hidden>No books match those filters.</p>
+
+  </div>
+
+  <p class="artnote">
+    Titles, authors and years were compiled by hand and are worth checking against
+    the publisher before citing. Suggestions are welcome — the list is meant to grow.
+  </p>
+
+</div>
+
+{% block scripts %}
+<script src="{{ '/assets/js/filter-list.js' | url }}" defer></script>
+{% endblock %}

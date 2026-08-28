@@ -1,0 +1,119 @@
+---
+title: Careers in sport
+description: Fifty-nine roles across the Indian sports ecosystem — what each one is, what it takes to qualify, and where to study.
+---
+{% from "icons.njk" import sectionLogo %}
+
+<div class="wrap">
+
+  <header class="page-head page-head-logo">
+    {{ sectionLogo("/assets/img/sports.png", "") }}
+    <div>
+      <p class="eyebrow">Working in sport</p>
+      <h1>Careers in sport</h1>
+      <p class="lede">
+        {{ careers.count }} roles across {{ careers.categories | length }} parts of the
+        Indian sports ecosystem. Each one lists what the job is, the qualifications
+        it usually asks for, and the institutes that teach them.
+      </p>
+    </div>
+  </header>
+
+  {# Said once, plainly, rather than repeated on every row. The sheet this came
+     from is headed "to verify", and it would be dishonest to present it as
+     settled. #}
+  <p class="standing-note">
+    This is a starting map, not a rulebook. Entry routes into sport in India are
+    still forming — several of these roles have no single licensing body, and
+    qualifications vary by employer. Check the linked institutes directly before
+    acting on anything here.
+  </p>
+
+  <div data-filter-root data-noun="roles">
+
+    <form class="artfilter" role="search" aria-label="Filter roles" onsubmit="return false">
+      <div class="artfilter-row">
+        <label class="artsearch">
+          <span class="visually-hidden">Search roles</span>
+          <input type="search" data-fsearch autocomplete="off" spellcheck="false"
+                 placeholder="Search roles, qualifications, institutes…">
+        </label>
+        <button type="button" class="btn btn-quiet" data-freset hidden>Clear filters</button>
+      </div>
+
+      <fieldset class="artchips">
+        <legend class="artchips-legend">Part of the ecosystem</legend>
+        {% for c in careers.categories %}
+        <label class="chipbox">
+          <input type="checkbox" value="{{ c.slug }}" data-facet="category">
+          <span>{{ c.name }} <span class="chip-count">{{ c.count }}</span></span>
+        </label>
+        {% endfor %}
+      </fieldset>
+    </form>
+
+    <p class="artstatus" data-fstatus aria-live="polite">Showing all {{ careers.count }} roles.</p>
+
+    {% for group in careers.groups %}
+    <section class="artyear" data-fgroup>
+      <h2 class="artyear-head">{{ group.name }}</h2>
+      <ul class="rolelist">
+        {% for r in group.items %}
+        {# <details> rather than a scripted disclosure: native, keyboard
+           accessible, and open/closed works with JavaScript off. #}
+        <li class="role" data-fitem
+            data-category="{{ r.categorySlug }}"
+            data-hay="{{ r.haystack }}">
+          <details>
+            <summary>
+              <span class="role-name">{{ r.role }}</span>
+              {% if r.lede %}<span class="role-lede">{{ r.lede }}</span>{% endif %}
+            </summary>
+            <div class="role-body">
+              {% if r.qualifications %}
+              <div class="role-field">
+                <h3>Qualifications</h3>
+                <p>{{ r.qualifications }}</p>
+              </div>
+              {% endif %}
+              {% if r.institutes | length %}
+              <div class="role-field">
+                <h3>Where to study</h3>
+                <ul class="role-institutes">
+                  {% for i in r.institutes %}<li>{{ i }}</li>{% endfor %}
+                </ul>
+              </div>
+              {% endif %}
+              {% if r.employers %}
+              <div class="role-field">
+                <h3>Who hires</h3>
+                <p>{{ r.employers }}</p>
+              </div>
+              {% endif %}
+              {% if r.notes %}
+              <div class="role-field">
+                <h3>Worth knowing</h3>
+                <p>{{ r.notes }}</p>
+              </div>
+              {% endif %}
+              {% if r.sources | length %}
+              <p class="role-sources">
+                <span>Sources:</span> {{ r.sources | join(", ") }}{% if r.verify %} · not independently verified{% endif %}
+              </p>
+              {% endif %}
+            </div>
+          </details>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endfor %}
+
+    <p class="artempty" data-fempty hidden>No roles match those filters.</p>
+
+  </div>
+</div>
+
+{% block scripts %}
+<script src="{{ '/assets/js/filter-list.js' | url }}" defer></script>
+{% endblock %}

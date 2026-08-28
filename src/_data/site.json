@@ -86,6 +86,14 @@
           "url": "/sports/data/"
         },
         {
+          "text": "Books",
+          "url": "/sports/books/"
+        },
+        {
+          "text": "Careers",
+          "url": "/sports/careers/"
+        },
+        {
           "text": "Suggest",
           "url": "/sports/submit/"
         }

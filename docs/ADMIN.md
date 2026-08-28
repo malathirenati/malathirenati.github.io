@@ -653,3 +653,51 @@ npm run data     # just re-read the spreadsheet, to check for errors
 
 `npm run data` is the quick way to check a spreadsheet edit is valid without
 waiting for a full build.
+
+---
+
+## Adding a book
+
+Edit [`data/books.csv`](../data/books.csv) on GitHub and commit. The site rebuilds
+itself; nothing else to do.
+
+| Column | Required | Notes |
+|---|---|---|
+| `Title` | **yes** | |
+| `Authors` | | `A and B`, or `A with B` for a ghostwritten memoir |
+| `Year` | **yes** | `1963`, or `1963-04` — same date parser as the timeline |
+| `Genre` | | Reuse an existing one where you can; a new value creates a new chip |
+| `Region` | | `India` or `Global` — drives the second chip row |
+| `Synopsis` | | One or two sentences. Shown in full, so keep it tight |
+| `Link` | | Must start with `http`. Currently a retailer *search* URL, not a product page |
+| `Verify` | | `yes` while the year or edition is unconfirmed |
+
+Anything with a comma needs quoting: `"Cricket, caste and country"`.
+
+**On the links.** Every seeded row points at an Amazon India search rather than a
+product page, because a product URL that is guessed rather than checked either
+rots or sends the reader to the wrong edition. A search always resolves. Replace
+any of them with a real product or publisher link whenever you have one.
+
+## Adding a career
+
+Edit [`data/careers.csv`](../data/careers.csv) the same way.
+
+| Column | Required | Notes |
+|---|---|---|
+| `Role` | **yes** | Must be unique — the build rejects two rows with the same role |
+| `Category` | **yes** | One of the nine ecosystem groups; a new value creates a new group and chip |
+| `Qualifications` | | Prose. The first sentence becomes the collapsed row's summary line |
+| `Institutes` | | **Semicolon-separated** — each becomes a bullet |
+| `Notes` | | Shown as "Worth knowing" |
+| `Employers` | | Shown as "Who hires" |
+| `Sources` | | Comma-separated domains, shown small at the foot of the row |
+| `Verify` | | `yes` adds "not independently verified" beside the sources |
+
+The original spreadsheet had a single `Notes & Sources (to verify)` column; it was
+split into `Notes`, `Employers` and `Sources` during conversion so each can be
+corrected on its own.
+
+**The whole careers dataset currently carries `Verify: yes`.** It was compiled from
+one spreadsheet and has not been checked against the institutes themselves. Clear
+the flag row by row as you confirm each one.

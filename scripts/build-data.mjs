@@ -484,11 +484,235 @@ async function buildArticles(file) {
 }
 
 /* ------------------------------------------------------------------ *
+ * Careers
+ * ------------------------------------------------------------------ */
+
+const CAREER_ALIASES = {
+  role:           ["role", "jobrole", "job", "title", "position"],
+  category:       ["category", "ecosystemcategory", "ecosystem", "area", "sector"],
+  qualifications: ["qualifications", "qualificationsrequired", "qualification", "education"],
+  institutes:     ["institutes", "reputedindianuniversitiesinstitutescourses", "universities", "courses", "where"],
+  notes:          ["notes", "note", "detail", "comment"],
+  employers:      ["employers", "employer", "hiring"],
+  sources:        ["sources", "source", "references"],
+  verify:         ["verify", "unverified", "needscheck", "checksource"],
+};
+
+/* Its own alias table per dataset rather than one shared one: sharing would mean
+   each dataset silently accepting the others' columns, which hides a mistake in
+   a header instead of reporting it. */
+function mapAliases(headerRow, aliases) {
+  const map = {}, unknown = [];
+  headerRow.forEach((raw, i) => {
+    const key = normaliseHeader(raw);
+    if (!key) return;
+    const field = Object.keys(aliases).find((f) => aliases[f].includes(key));
+    if (field === undefined) unknown.push(raw);
+    else if (map[field] === undefined) map[field] = i;
+  });
+  return { map, unknown };
+}
+
+function cellReader(map) {
+  return (row, field) => {
+    const i = map[field];
+    if (i === undefined) return null;
+    const v = row[i];
+    if (v == null) return null;
+    const t = String(v).trim();
+    return t === "" ? null : t;
+  };
+}
+
+function rowsOf(text, file, what) {
+  const rows = parseCsv(text).filter(
+    (r) => Array.isArray(r) && r.some((c) => c != null && String(c).trim() !== "")
+  );
+  if (rows.length < 2) throw new SheetError(`${file}: needs a header row and at least one ${what} row.`);
+  return rows;
+}
+
+const splitList = (v) => (v || "").split(/[;|]/).map((t) => t.trim()).filter(Boolean);
+
+async function buildCareers(file) {
+  const rows = rowsOf(await readFile(path.join(DATA_DIR, file), "utf8"), file, "role");
+  const { map, unknown } = mapAliases(rows[0], CAREER_ALIASES);
+  for (const required of ["role", "category"]) {
+    if (map[required] === undefined) {
+      throw new SheetError(
+        `${file}: missing the "${required}" column.\n` +
+        `  Recognised headings for it: ${CAREER_ALIASES[required].join(", ")}\n` +
+        `  Found instead: ${rows[0].map((h) => `"${h}"`).join(", ")}`
+      );
+    }
+  }
+  if (unknown.length) console.warn(`  note: ignoring unrecognised column(s) ${unknown.map((u) => `"${u}"`).join(", ")}`);
+
+  const cell = cellReader(map);
+  const items = [];
+  const seen = new Map();
+  const catCount = new Map();
+
+  rows.slice(1).forEach((row, i) => {
+    const rowNo = i + 2;
+    const role = cell(row, "role");
+    const category = cell(row, "category");
+    if (!role) throw new SheetError(`${file}: row ${rowNo} has no role.`);
+    if (!category) throw new SheetError(`${file}: row ${rowNo} ("${role}") has no category.`);
+
+    const key = slugify(role);
+    if (seen.has(key)) throw new SheetError(`${file}: rows ${seen.get(key)} and ${rowNo} both describe "${role}".`);
+    seen.set(key, rowNo);
+
+    const institutes = splitList(cell(row, "institutes"));
+    const sources = (cell(row, "sources") || "").split(",").map((t) => t.trim()).filter(Boolean);
+    const qualifications = cell(row, "qualifications") || "";
+    const notes = cell(row, "notes") || "";
+    const employers = cell(row, "employers") || "";
+
+    catCount.set(category, (catCount.get(category) || 0) + 1);
+
+    items.push({
+      role, slug: key,
+      category, categorySlug: slugify(category),
+      qualifications,
+      /* The summary line of a collapsed row. Cut at a sentence end where there
+         is one, so the teaser does not stop mid-clause. */
+      lede: (() => {
+        const stop = qualifications.indexOf(". ");
+        const t = stop > 30 ? qualifications.slice(0, stop + 1) : qualifications;
+        return t.length > 150 ? t.slice(0, 147).replace(/[\s,;]+$/, "") + "…" : t;
+      })(),
+      institutes,
+      notes, employers, sources,
+      verify: /^(y|yes|true|1)$/i.test(cell(row, "verify") || ""),
+      haystack: [role, category, qualifications, institutes.join(" "), notes, employers]
+        .join(" ").toLowerCase(),
+    });
+  });
+
+  items.sort((a, b) => a.category.localeCompare(b.category) || a.role.localeCompare(b.role));
+
+  const groups = [];
+  for (const it of items) {
+    const last = groups[groups.length - 1];
+    if (last && last.name === it.category) last.items.push(it);
+    else groups.push({ name: it.category, slug: it.categorySlug, items: [it] });
+  }
+
+  return {
+    count: items.length,
+    items, groups,
+    categories: [...catCount].map(([name, count]) => ({ name, slug: slugify(name), count }))
+      .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name)),
+    unverified: items.filter((i) => i.verify).length,
+  };
+}
+
+/* ------------------------------------------------------------------ *
+ * Books
+ * ------------------------------------------------------------------ */
+
+const BOOK_ALIASES = {
+  title:    ["title", "book", "bookname", "name"],
+  authors:  ["authors", "author", "by", "writer"],
+  year:     ["year", "published", "yearofpublication", "publicationyear"],
+  genre:    ["genre", "kind", "type", "category"],
+  region:   ["region", "origin", "where", "scope"],
+  synopsis: ["synopsis", "review", "summary", "blurb", "description"],
+  link:     ["link", "url", "buy", "purchase", "purchaselink", "onlinepurchaselink"],
+  verify:   ["verify", "unverified", "needscheck", "checksource"],
+};
+
+async function buildBooks(file) {
+  const rows = rowsOf(await readFile(path.join(DATA_DIR, file), "utf8"), file, "book");
+  const { map, unknown } = mapAliases(rows[0], BOOK_ALIASES);
+  for (const required of ["title", "year"]) {
+    if (map[required] === undefined) {
+      throw new SheetError(
+        `${file}: missing the "${required}" column.\n` +
+        `  Recognised headings for it: ${BOOK_ALIASES[required].join(", ")}\n` +
+        `  Found instead: ${rows[0].map((h) => `"${h}"`).join(", ")}`
+      );
+    }
+  }
+  if (unknown.length) console.warn(`  note: ignoring unrecognised column(s) ${unknown.map((u) => `"${u}"`).join(", ")}`);
+
+  const cell = cellReader(map);
+  const items = [];
+  const seen = new Map();
+  const genreCount = new Map(), regionCount = new Map();
+
+  rows.slice(1).forEach((row, i) => {
+    const rowNo = i + 2;
+    const title = cell(row, "title");
+    if (!title) throw new SheetError(`${file}: row ${rowNo} has no title.`);
+
+    // Same parser as the timeline, so "1963", "1963-04" and "c. 1963" all work.
+    const when = parseWhen(cell(row, "year"), { field: "Year", row: rowNo, file });
+    if (!when) throw new SheetError(`${file}: row ${rowNo} ("${title}") has no readable year.`);
+
+    const authors = cell(row, "authors") || "";
+    const key = slugify(`${title} ${authors}`);
+    if (seen.has(key)) throw new SheetError(`${file}: rows ${seen.get(key)} and ${rowNo} are the same book ("${title}").`);
+    seen.set(key, rowNo);
+
+    /* A CSV row becomes a live link on the page, and this file is edited by
+       hand — a javascript: or data: URL must not survive to the template. */
+    const link = cell(row, "link");
+    if (link && !/^https?:\/\//i.test(link)) {
+      throw new SheetError(`${file}: row ${rowNo} ("${title}") — link must start with http:// or https://, got "${link}".`);
+    }
+
+    const genre = cell(row, "genre") || "Uncategorised";
+    const region = cell(row, "region") || "Global";
+    genreCount.set(genre, (genreCount.get(genre) || 0) + 1);
+    regionCount.set(region, (regionCount.get(region) || 0) + 1);
+
+    const synopsis = cell(row, "synopsis") || "";
+    items.push({
+      title, authors, link: link || "",
+      year: when.year,
+      genre, genreSlug: slugify(genre),
+      region, regionSlug: slugify(region),
+      synopsis,
+      verify: /^(y|yes|true|1)$/i.test(cell(row, "verify") || ""),
+      haystack: [title, authors, genre, region, synopsis].join(" ").toLowerCase(),
+    });
+  });
+
+  items.sort((a, b) => b.year - a.year || a.title.localeCompare(b.title));
+
+  // Grouped by decade: 32 books over sixty years is too many headings by year
+  // and too few for a single undifferentiated list.
+  const decades = [];
+  for (const it of items) {
+    const d = Math.floor(it.year / 10) * 10;
+    const last = decades[decades.length - 1];
+    if (last && last.decade === d) last.items.push(it);
+    else decades.push({ decade: d, label: `${d}s`, items: [it] });
+  }
+
+  const byCountThenName = (a, b) => b.count - a.count || a.name.localeCompare(b.name);
+  return {
+    count: items.length,
+    minYear: items.length ? items[items.length - 1].year : null,
+    maxYear: items.length ? items[0].year : null,
+    items, decades,
+    genres: [...genreCount].map(([name, count]) => ({ name, slug: slugify(name), count })).sort(byCountThenName),
+    regions: [...regionCount].map(([name, count]) => ({ name, slug: slugify(name), count })).sort(byCountThenName),
+    unverified: items.filter((i) => i.verify).length,
+  };
+}
+
+/* ------------------------------------------------------------------ *
  * Registry — add a dataset by adding a line here
  * ------------------------------------------------------------------ */
 const DATASETS = [
   { out: "timeline",  match: /^timeline\.(xlsx|csv)$/i, build: buildTimeline },
   { out: "articles",  match: /^articles\.csv$/i,        build: buildArticles },
+  { out: "careers",   match: /^careers\.csv$/i,         build: buildCareers },
+  { out: "books",     match: /^books\.csv$/i,           build: buildBooks },
 ];
 
 async function main() {
@@ -534,10 +758,16 @@ async function main() {
           `${plural(result.categories.length, "track", "tracks")}` +
           (result.grouped ? ` in ${plural(result.groups.length, "group", "groups")}` : "") +
           ` · ${result.minYear}-${result.maxYear}`
-        : result.items
-          ? `${plural(result.count, "article", "articles")} · ` +
-            `${plural(result.tags.length, "tag", "tags")} · ${result.minYear}-${result.maxYear}`
-          : "ok";
+        : result.groups && result.categories
+          ? `${plural(result.count, "role", "roles")} · ` +
+            `${plural(result.categories.length, "category", "categories")}`
+          : result.decades
+            ? `${plural(result.count, "book", "books")} · ` +
+              `${plural(result.genres.length, "genre", "genres")} · ${result.minYear}-${result.maxYear}`
+            : result.items
+              ? `${plural(result.count, "article", "articles")} · ` +
+                `${plural(result.tags.length, "tag", "tags")} · ${result.minYear}-${result.maxYear}`
+              : "ok";
       console.log(`  ${candidates[0]} -> src/_data/${dataset.out}.json  (${detail})`);
     } catch (err) {
       failed = true;

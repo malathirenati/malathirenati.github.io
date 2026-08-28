@@ -1308,6 +1308,26 @@ table.data tr.is-dim td, table.data tr.is-dim th { opacity: 0.42; }
   }
   /* Also 2.5x, from 38/48px. Capped against the viewport so the mark can never
      take the whole width of a small phone. */
+  /* Chip labels like "Business, Marketing & Sponsorship" are wider than a
+     375px screen's content column, so wrapped chips take one row each — nine
+     of them pushed the first role 1.79 screens down the page. One scrolling
+     row instead, the same treatment the masthead nav already uses here. */
+  .artchips {
+    flex-wrap: nowrap;
+    /* A <fieldset> defaults to min-width: min-content and will not shrink below
+       its contents, so overflow-x never engages and the row pushes the page
+       wide instead of scrolling. This is the fix for that, not decoration. */
+    min-width: 0;
+    max-width: 100%;
+    overflow-x: auto;
+    scrollbar-width: none;
+    overscroll-behavior-x: contain;
+    padding-bottom: 0.15rem;
+  }
+  .artchips::-webkit-scrollbar { display: none; }
+  .chipbox { flex: none; }
+  /* The legend is taken out of flow by `float`, so it is unaffected by nowrap. */
+
   /* Bumped with the rest, but capped harder than the desktop 1.5x: on a phone
      the mark sits above the title in the flow, so every pixel of it pushes the
      heading down. */
@@ -1432,4 +1452,107 @@ table.data tr.is-dim td, table.data tr.is-dim th { opacity: 0.42; }
 
 @media (prefers-reduced-motion: reduce) {
   .tl-guide > summary::before { transition: none; }
+}
+
+/* =========================================================================
+   Careers — expandable role rows
+   ========================================================================= */
+.standing-note {
+  /* Neat --s3 is 1.73:1 against its own tint in the light theme — a rule nobody
+     can see. Mixed towards --ink it darkens in light and lightens in dark, so
+     one declaration serves both, exactly as the keyed stat tiles do. */
+  border-inline-start: 3px solid color-mix(in srgb, var(--s3) 66%, var(--ink));
+  background: color-mix(in srgb, var(--s3) 6%, var(--surface-2));
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 0.7rem 0.95rem;
+  margin-bottom: 1.1rem;
+  font-size: 0.875rem;
+  color: var(--ink-2);
+  max-width: 78ch;
+}
+
+.rolelist { list-style: none; margin: 0; padding: 0; }
+.role { border-bottom: 1px solid var(--border); }
+.role:last-child { border-bottom: 0; }
+
+.role > details > summary {
+  cursor: pointer;
+  padding: 0.7rem 0 0.7rem 1.4rem;
+  position: relative;
+  list-style: none;
+  display: block;
+}
+.role > details > summary::-webkit-details-marker { display: none; }
+/* Drawn rather than using the native marker, which cannot be positioned
+   consistently across browsers. */
+.role > details > summary::before {
+  content: "";
+  position: absolute; inset-inline-start: 0.15rem; top: 1.05rem;
+  width: 0; height: 0;
+  border-inline-start: 5px solid var(--muted);
+  border-block: 4px solid transparent;
+  transition: transform 0.15s ease;
+}
+.role > details[open] > summary::before { transform: rotate(90deg); }
+.role > details > summary:hover .role-name { color: var(--accent-ink); }
+.role > details > summary:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 4px; }
+
+.role-name { display: block; font-weight: 650; color: var(--ink); font-size: 0.985rem; }
+.role-lede { display: block; margin-top: 0.15rem; font-size: 0.845rem; color: var(--muted); max-width: 74ch; }
+
+.role-body { padding: 0.15rem 0 1rem 1.4rem; max-width: 78ch; }
+.role-field + .role-field { margin-top: 0.85rem; }
+.role-field h3 {
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.07em;
+  text-transform: uppercase; color: var(--muted);
+  margin: 0 0 0.25rem;
+}
+.role-field p { margin: 0; color: var(--ink-2); font-size: 0.9rem; }
+.role-institutes { margin: 0; padding-inline-start: 1.1rem; color: var(--ink-2); font-size: 0.9rem; }
+.role-institutes li { margin-bottom: 0.15rem; }
+
+.role-sources {
+  margin: 0.9rem 0 0;
+  font-size: 0.78rem; color: var(--muted);
+  border-top: 1px solid var(--border);
+  padding-top: 0.5rem;
+}
+.role-sources span { font-weight: 650; }
+
+/* =========================================================================
+   Books
+   ========================================================================= */
+.booklist { list-style: none; margin: 0; padding: 0; }
+.book {
+  display: grid;
+  grid-template-columns: 4.5rem 1fr;
+  gap: 0 1.1rem;
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--border);
+}
+.book:last-child { border-bottom: 0; }
+.book-year { color: var(--muted); font-size: 0.85rem; font-variant-numeric: tabular-nums; padding-top: 0.2rem; }
+.book-title { font-size: 1.02rem; margin: 0 0 0.1rem; line-height: 1.35; color: var(--ink); }
+.book-authors { margin: 0; font-size: 0.855rem; color: var(--ink-2); font-weight: 550; }
+.book-synopsis { margin: 0.35rem 0 0; font-size: 0.9rem; color: var(--ink-2); max-width: 62ch; }
+
+.book-meta { display: flex; flex-wrap: wrap; gap: 0.3rem; margin: 0.45rem 0 0; }
+.book-tag {
+  font-size: 0.74rem; color: var(--muted);
+  padding: 0.1rem 0.45rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+}
+.book-buy {
+  display: inline-flex; align-items: center;
+  margin-top: 0.5rem;
+  font-size: 0.85rem; font-weight: 550;
+  color: var(--accent-ink); text-decoration: none;
+}
+.book-buy:hover { text-decoration: underline; }
+
+@media (max-width: 620px) {
+  .book { grid-template-columns: 1fr; gap: 0.15rem; }
+  .book-year { padding-top: 0; }
+  .role-body { padding-inline-start: 1.4rem; }
 }
