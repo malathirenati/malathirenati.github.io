@@ -9,6 +9,13 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
   eleventyConfig.addPassthroughCopy({ "src/static": "." });
 
+  // src/static is copied verbatim, so it must not ALSO be picked up as templates:
+  // an .html file in there would otherwise be rendered a second time to
+  // _site/static/... — a duplicate at the wrong URL, stranded from the relative
+  // data/ and assets/ it loads — and any Nunjucks-looking braces in a hand-built
+  // page would fail the build.
+  eleventyConfig.ignores.add("src/static/**");
+
   // Watch the generated data so `npm run serve` reloads when a sheet is rebuilt.
   eleventyConfig.addWatchTarget("src/_data/");
 

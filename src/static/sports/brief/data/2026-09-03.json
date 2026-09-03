@@ -1,0 +1,182 @@
+{
+  "date": "2026-09-03",
+  "weekday": "Thursday",
+  "regions": {
+    "india": {
+      "government": [
+        {
+          "id": "in-gov-1",
+          "title": "Doping cases before the Asian Games reach a dozen",
+          "summary": "Wushu player Surya Bhanupratap Singh — a 2018 Asiad bronze medallist — tested positive for the SARM Enobosarm and was pulled from India's squad, taking the count of failed dope tests since the Glasgow build-up to 12. Weightlifters, judokas, wrestlers, a shooter, a rower and a runner are among those already out, just over a fortnight before the Aichi-Nagoya Games open (Sept 19–Oct 4).",
+          "sources": [
+            {"name": "Business Standard, Sept 2", "url": "https://www.business-standard.com/sports/other-sports-news/india-s-asiad-2026-campaign-suffers-another-doping-blow-cases-rise-to-12-126090200465_1.html"}
+          ]
+        },
+        {
+          "id": "in-gov-2",
+          "title": "Online gaming rules fully in force",
+          "summary": "The Promotion and Regulation of Online Gaming Rules, 2026 are now operational nationwide, formalising the real-money-gaming ban and forcing esports, fantasy-sports and casual-gaming operators to redraw their compliance playbooks.",
+          "sources": [
+            {"name": "TalkEsport", "url": "https://www.talkesport.com/news/india-online-gaming-rules-2026-in-force-esports-money-games-ban/"},
+            {"name": "Mondaq", "url": "https://www.mondaq.com/india/gaming/1785180/play-by-the-new-rules-indias-2026-online-gaming-law-decoded"}
+          ]
+        },
+        {
+          "id": "in-gov-3",
+          "title": "Ahmedabad's 2036 Olympic bid pushes on despite IOC caution",
+          "summary": "The government is accelerating stadium and infrastructure plans for a prospective 2036 Games in Ahmedabad even as the IOC has flagged unresolved concerns about the bid's readiness — a governance tug-of-war playing out well ahead of any formal decision.",
+          "sources": [
+            {"name": "GamesBids", "url": "https://gamesbids.com/eng/summer-olympic-bids/ioc-cautions-indias-2036-olympic-bid-identifying-these-significant-fundamental-concerns/"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "in-mkt-1",
+          "title": "IPL's business value climbs to $20.6bn",
+          "summary": "Brand Finance now puts the league's business value at $20.6 billion for 2026, with global capital continuing to chase franchise stakes — the clearest sign yet of how far cricket's commercial gravity has pulled ahead of every other Indian sport.",
+          "sources": [
+            {"name": "Bloomberg, Jul 30", "url": "https://www.bloomberg.com/news/articles/2026-07-30/india-cricket-league-tops-20-billion-value-as-tycoons-flock?srnd=homepage-europe"}
+          ]
+        },
+        {
+          "id": "in-mkt-2",
+          "title": "Gaming ban breaks a ₹358-crore BCCI–Dream11 deal",
+          "summary": "The real-money-gaming clampdown has already claimed the BCCI's title sponsorship with Dream11 and knocked listed gaming stocks — Nazara and Delta Corp among them — showing how directly regulation is now reshaping cricket's own sponsorship map.",
+          "sources": [
+            {"name": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/online-gaming-bill-breaks-358-crore-bcci-dream11-partnership-nazara-extend-slump/chssisrRd1R"}
+          ]
+        },
+        {
+          "id": "in-mkt-3",
+          "title": "Pro Kabaddi League mid-season",
+          "summary": "Season 12 continues to draw week-on-week viewership as the league's promoters keep building it out as India's most established non-cricket property.",
+          "sources": [
+            {"name": "KhelNow", "url": "https://khelnow.com/kabaddi/competition/pkl"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "in-soc-1",
+          "title": "“Conspiracy,” “setback”: anger over Commonwealth Games cuts",
+          "summary": "With wrestling, hockey, badminton, table tennis, squash and cricket all trimmed from the shrunken Glasgow 2026 programme, Indian athletes and officials are still fuming — Sharath Kamal calls it the loss of a career “launch pad,” former hockey international Pritam Rani Siwach calls it a “conspiracy,” and federations estimate close to 40 medal chances are gone.",
+          "sources": [
+            {"name": "ThePrint", "url": "https://theprint.in/sport/setback-conspiracy-indian-sports-community-reacts-after-2026-commonwealth-games-roster-shrinks/2327888/"}
+          ]
+        },
+        {
+          "id": "in-soc-2",
+          "title": "Women's T20 Asia Cup keeps the crowds coming",
+          "summary": "India Women are through their group fixtures in Dubai, the latest leg of a cricket calendar that keeps pulling fresh domestic attention toward the women's game.",
+          "sources": [
+            {"name": "ESPNcricinfo", "url": "https://www.cricinfo.com/series/women-s-twenty20-asia-cup-2026-1548888/match-schedule-fixtures-and-results"}
+          ]
+        }
+      ]
+    },
+    "global": {
+      "government": [
+        {
+          "id": "gl-gov-1",
+          "title": "IOC pushes for talks as US–WADA rift simmers",
+          "summary": "The IOC has called for dialogue between the United States and WADA over their ongoing doping-governance dispute, even as WADA's 2026 Prohibited List sits formally in force worldwide — a reminder that anti-doping's biggest fight right now is political, not chemical.",
+          "sources": [
+            {"name": "Sport Resolutions", "url": "https://www.sportresolutions.com/news/ioc-calls-for-dialogue-between-u.s-and-wada-over-doping-dispute"}
+          ]
+        },
+        {
+          "id": "gl-gov-2",
+          "title": "World Cup host cities start tallying the returns",
+          "summary": "Early economic-impact accounting from this summer's FIFA World Cup is landing — the New York area alone reports roughly $3.5 billion in impact — as host governments across North America work out what hosting actually bought them.",
+          "sources": [
+            {"name": "Business Standard", "url": "https://www.business-standard.com/sports/fifa-world-cup/new-york-city-area-saw-3-5-billion-in-economic-impact-from-fifa-world-cup-126082700128_1.html"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "gl-mkt-1",
+          "title": "Chelsea's new shirt sponsor is a stablecoin",
+          "summary": "Circle has struck a one-year front-of-shirt deal putting its USDC stablecoin on Chelsea's men's, women's and academy kits — the club's first marquee sponsor since Three left in 2023, and another sign that finance and fintech brands are the ones filling the space the Premier League's gambling-ad exit opened up.",
+          "sources": [
+            {"name": "SportsPro", "url": "https://www.sportspro.com/news/sponsorship-marketing/chelsea-shirt-sponsor-contract-circle-usdc-august-2026/"},
+            {"name": "CoinDesk", "url": "https://www.coindesk.com/business/2026/08/28/circle-s-usdc-takes-over-chelsea-s-jersey-in-premier-league-first"}
+          ]
+        },
+        {
+          "id": "gl-mkt-2",
+          "title": "NFL's 2026 season revs up its business machine",
+          "summary": "The league kicks off its regular season on Sept 9 in Seattle behind a new “The Season Is Your Stage” campaign, opening another year as the world's highest-revenue sports league.",
+          "sources": [
+            {"name": "NFL.com", "url": "https://media.nfl.com/news-and-releases/2026-nfl-regular-season-to-kick-off-wednesday--sept--9-in-seattl"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "gl-soc-1",
+          "title": "A Slam field wide open again",
+          "summary": "With Jannik Sinner out injured, Carlos Alcaraz only just back from his own layoff and Aryna Sabalenka labouring through her matches, commentators say the US Open “feels truly open again” — a rare unsettled Slam that's reviving neutral fan interest in the draw.",
+          "sources": [
+            {"name": "NBC Sports", "url": "https://www.nbcsports.com/tennis/news/with-sinner-out-alcaraz-just-back-and-sabalenka-struggling-the-us-open-feels-truly-open-again"}
+          ]
+        },
+        {
+          "id": "gl-soc-2",
+          "title": "Global Chess League returns to Bengaluru",
+          "summary": "Magnus Carlsen headlines Season 4 of the franchise chess league in Bengaluru, the latest example of India positioning itself as a live-event hub for a sport that's rapidly building its own spectator culture.",
+          "sources": [
+            {"name": "ChessBase", "url": "https://en.chessbase.com/post/global-chess-league-2026-preview"}
+          ]
+        },
+        {
+          "id": "gl-soc-3",
+          "title": "Gender-inclusion debate keeps running alongside the games",
+          "summary": "Commentary this week continues to split over how athlete activism on gender and fairness intersects with women's sport itself — an unresolved fight that shows no sign of settling before the next major event does.",
+          "sources": [
+            {"name": "Quillette (opinion)", "url": "https://quillette.com/2026/08/28/womens-sport-or-transformational-activism-it-cant-be-both/"}
+          ]
+        }
+      ]
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "format": "Blog",
+      "title": "The supplement supply chain behind India's doping wave",
+      "summary": "Most of the 12 pre-Asiad positives look less like deliberate cheating and more like contaminated or mislabelled supplements. Nobody has traced where those products are actually coming from."
+    },
+    {
+      "id": "opp-2",
+      "format": "Op-ed",
+      "title": "What replaces the Commonwealth Games for India's Olympic sports?",
+      "summary": "Wrestling, hockey and badminton just lost a major platform. Does this quietly accelerate India's push to build kabaddi-style private leagues as substitute exposure — and who's actually funding that shift?"
+    },
+    {
+      "id": "opp-3",
+      "format": "Podcast",
+      "title": "Is the stablecoin shirt sponsor the next gambling ad?",
+      "summary": "Circle's Chelsea deal is being covered as a novelty. The sharper question — whether crypto sponsorships face the same regulatory arc that pushed betting brands off Premier League shirts — hasn't been asked."
+    },
+    {
+      "id": "opp-4",
+      "format": "Blog",
+      "title": "Cricket's oxygen problem",
+      "summary": "The IPL crossed $20bn in value the same fortnight NADA logged its 12th doping case. A charted look at how completely private capital in Indian sport has concentrated in one sport, leaving Olympic-sport funding and anti-doping infrastructure to the state."
+    },
+    {
+      "id": "opp-5",
+      "format": "Podcast",
+      "title": "Who actually pays for the podium?",
+      "summary": "A fresh, benchmarked walkthrough of India's TOPS/SAI funding architecture against China's and Japan's per-athlete spend, timed to land before the Asian Games open on Sept 19."
+    },
+    {
+      "id": "opp-6",
+      "format": "Op-ed",
+      "title": "Fantasy sport's identity crisis",
+      "summary": "India's 2026 gaming rules were written for real-money betting apps, but esports federations say skill-based and fantasy formats are getting caught in the same net. The regulatory line nobody has drawn clearly yet."
+    }
+  ]
+}
