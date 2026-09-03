@@ -122,6 +122,15 @@
     font-size:0.95rem;
   }
   .icon-btn:hover{ color:var(--ink); border-color:var(--ink-soft); }
+  /* Same chrome as .icon-btn, but labelled — the way back to the public site. */
+  .home-link{
+    background:var(--paper-raised); border:1px solid var(--line); color:var(--ink-soft);
+    border-radius:8px; height:34px; display:flex; align-items:center; padding:0 0.7rem;
+    font-family:"IBM Plex Mono", monospace;
+    font-size:0.66rem; letter-spacing:0.12em; text-transform:uppercase;
+    text-decoration:none; white-space:nowrap;
+  }
+  .home-link:hover{ color:var(--ink); border-color:var(--ink-soft); }
 
   .toolbar{
     display:flex; flex-wrap:wrap; align-items:center; gap:0.6rem 0.8rem;
@@ -343,6 +352,7 @@
       </div>
     </div>
     <div class="top-actions">
+      <a class="home-link" href="/" title="Malathi Renati — home">&#8592; Home</a>
       <button class="icon-btn" id="themeToggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">◐</button>
     </div>
   </div>

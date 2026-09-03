@@ -26,6 +26,7 @@ The website is built from it. If the CSV is right, the site is right.
 14. [Access, and why there are no secrets](#access-and-why-there-are-no-secrets)
 15. [Setup — what is done, and the one thing left](#setup--what-is-done-and-the-one-thing-left)
 16. [Routine maintenance](#routine-maintenance)
+17. [The daily brief](#the-daily-brief)
 
 ---
 
@@ -631,9 +632,35 @@ its own. Everything below is optional and can be done whenever.
 | Occasionally | Clear `unverified` source flags (see [Sources](#sources-and-the-unverified-marker)) |
 | Once or twice a year | `npm update` locally, check the site still builds, commit the lockfile |
 | Rarely | Check **Settings → Collaborators** is still who you expect |
+| Weekly, at a glance | Skim the week's brief editions — the agent writes them unattended |
 
 Build tooling only changes when you choose to update it. If you never run
 `npm update`, the site keeps building and serving exactly as it does today.
+
+## The daily brief
+
+`/sports/brief/` is an internal page: `noindex`, not linked from anywhere on the
+public site, reachable only by its direct URL. The repository is public, so
+assume anything committed to it can be read.
+
+A scheduled agent writes one edition each morning at **04:00 UTC (09:30 IST)**
+and pushes it; the push deploys like any other. Nothing is required of you day
+to day.
+
+**To read the editions:** <https://malathirenati.github.io/sports/brief/>
+
+**When a morning's edition doesn't appear:** the agent found nothing it could
+source, or the run failed. Both are visible at
+<https://claude.ai/code/routines>. A missing date is skipped by the page without
+complaint — there is nothing to repair.
+
+**To fix or withdraw an edition:** edit or delete
+`src/static/sports/brief/data/<date>.json` and push. The date list regenerates
+itself.
+
+**To write one yourself,** or to change what the agent is told to write:
+[docs/BRIEF.md](BRIEF.md) is the spec — the schema, the sourcing rules, and
+what the build refuses.
 
 ## Working on it locally
 

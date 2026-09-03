@@ -7,6 +7,11 @@ src/_data/articles.json
 src/_data/careers.json
 src/_data/books.json
 
+# Generated from the dated edition files by `npm run brief` — each
+# src/static/sports/brief/data/<date>.json is the source of truth, and the
+# index is just the list of them. Never edit it by hand.
+src/static/sports/brief/data/index.json
+
 .DS_Store
 *.log
 npm-debug.log*

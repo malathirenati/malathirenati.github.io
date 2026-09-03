@@ -7,8 +7,9 @@
   "private": true,
   "scripts": {
     "data": "node scripts/build-data.mjs",
-    "build": "npm run data && eleventy",
-    "serve": "npm run data && eleventy --serve",
+    "brief": "node scripts/check-brief.mjs",
+    "build": "npm run data && npm run brief && eleventy",
+    "serve": "npm run data && npm run brief && eleventy --serve",
     "clean": "rm -rf _site"
   },
   "devDependencies": {
