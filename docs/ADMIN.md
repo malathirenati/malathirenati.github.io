@@ -26,7 +26,7 @@ The website is built from it. If the CSV is right, the site is right.
 14. [Access, and why there are no secrets](#access-and-why-there-are-no-secrets)
 15. [Setup — what is done, and the one thing left](#setup--what-is-done-and-the-one-thing-left)
 16. [Routine maintenance](#routine-maintenance)
-17. [The daily brief](#the-daily-brief)
+17. [The daily brief](#the-daily-brief) — daily steps in [BRIEF-DAILY.md](BRIEF-DAILY.md)
 
 ---
 
@@ -643,35 +643,39 @@ Build tooling only changes when you choose to update it. If you never run
 public site, reachable only by its direct URL. The repository is public, so
 assume anything committed to it can be read.
 
-A scheduled routine — "Daily Sports Brief (9:30 IST)" at
-<https://claude.ai/code/routines> — researches and writes one edition each
-morning at **04:00 UTC (09:30 IST)** and pushes it; the push deploys like any
-other. It runs on your Claude subscription, so there is no API key and no
-per-day charge. Nothing is required of you day to day.
+**There is one thing to do each morning.** A scheduled routine — "Daily Sports
+Brief (9:30 IST)" at <https://claude.ai/code/routines> — researches and writes
+an edition on its own at **04:00 UTC (09:30 IST)**, then stops and waits for you
+to approve the push. Pushing to a public repository raises a permission prompt,
+and a scheduled run has nobody to answer it.
 
-Its prompt lives in that web form. The copy of record is
-[docs/brief-routine-prompt.md](brief-routine-prompt.md) — edit the routine
-there, and keep that file in step.
+So the daily shape is: it writes, you read the summary and approve, it publishes.
+About two minutes. **[BRIEF-DAILY.md](BRIEF-DAILY.md) is the step-by-step** —
+setup, the morning routine, and what to do when something is wrong.
 
-There is also a **Daily brief** GitHub Actions workflow in this repository doing
-the same job a different way, via the Claude API. It is **dormant**: it does
-nothing unless an `ANTHROPIC_API_KEY` secret exists, and there isn't one. It is
-kept as a fallback in case the routine ever loses repository access. Adding that
-secret would switch it on — and then both would run, so only do that after
-disabling the routine.
+It runs on your Claude subscription, so there is no API key and nothing to pay.
+Its prompt lives in the routine's web form; the copy of record is
+[brief-routine-prompt.md](brief-routine-prompt.md) — edit the routine there, and
+keep that file in step.
+
+A **Daily brief** GitHub Actions workflow in this repository does the same job
+unattended, through the Claude API, with no approval step. It is **dormant** —
+it no-ops unless an `ANTHROPIC_API_KEY` secret exists, and there isn't one —
+because it costs roughly a dollar a day. Switching it on is described at the end
+of BRIEF-DAILY.md. Disable the routine first, or both will write the same file.
 
 **To read the editions:** <https://malathirenati.github.io/sports/brief/>
 
-**When a morning's edition doesn't appear:** the writer found nothing it could
-source, or the run failed. Both are visible in the routine's run history at
-<https://claude.ai/code/routines>, and the log says which. A missing date is
+**When a morning's edition doesn't appear:** you did not approve it, the writer
+found nothing it could source, or the run failed. All three are visible in the
+routine's run history at <https://claude.ai/code/routines>. A missing date is
 skipped by the page without complaint — there is nothing to repair.
 
-**Read what it wrote.** The validator checks that every item carries a real,
-fetched source and that the edition is well formed. It cannot tell whether a
-summary has misread the article it cites. This is published under your name, to
-a public site, unattended — so skim the day's items now and then, and fix or
-withdraw anything wrong (see below).
+**Read the summary before you approve.** The validator checks that every item
+carries a real, fetched source and that the edition is well formed. It cannot
+tell whether a summary has misread the article it cites. Your approval is the
+only point where a person sees the content before it is public — which is the
+main argument for keeping the approval step at all.
 
 **To fix or withdraw an edition:** edit or delete
 `src/static/sports/brief/data/<date>.json` and push. The date list regenerates

@@ -3,51 +3,61 @@
 The daily brief is written by a scheduled Cowork routine — "Daily Sports Brief
 (9:30 IST)" at <https://claude.ai/code/routines>. Its prompt lives in that web
 form, not in this repository, so this file is the copy of record: if the routine
-is ever lost or you want to change what it does, this is the text to paste back
-in.
+is ever lost, or you want to change what it does, this is the text to paste in.
 
-It deliberately delegates the schema and the sourcing rules to
-[BRIEF.md](BRIEF.md) rather than restating them, so editing that file changes
-what the brief contains without touching the routine.
+**The ordering is deliberate.** Everything up to and including writing the
+edition uses the public `raw.githubusercontent.com` URLs, which need no
+repository access and raise no permission prompt. Only the last step — cloning
+and pushing — needs your approval. So by the time the run stops and waits for
+you, the work is already done and one approval finishes it. Reordering this
+means approving things twice, several minutes apart.
+
+The daily steps for you are in [BRIEF-DAILY.md](BRIEF-DAILY.md).
 
 ---
 
 ```text
-This is an unattended, scheduled daily run — nobody is present to answer
-questions, so make reasonable judgment calls and proceed. Do not use
-AskUserQuestion. This is a fresh session with no memory of any prior run.
+This is a scheduled daily run. Work through it without asking questions — but
+note that a human WILL be present to approve the permission prompt at the end,
+so if a prompt appears, wait for it rather than giving up or finding another
+way. Do not use AskUserQuestion. This is a fresh session with no memory of any
+prior run.
 
-Your job: write today's edition of the MNR Sports News daily brief into the
-GitHub repository malathirenati/malathirenati.github.io and push it.
+Your job: write today's edition of the MNR Sports News daily brief and push it
+to GitHub at malathirenati/malathirenati.github.io.
 
-Do all of this in this cloud session's own container, not on the user's
-machine. Their laptop may be asleep; nothing here should depend on it.
+Do everything in this cloud session's own container, not on the user's machine.
+Their laptop may be asleep; nothing here should depend on it.
 
-## Step 1 — get the repository
+Work in this order. Steps 1–5 need no repository access and should raise no
+permission prompt; leave all of that to step 6.
 
-Call add_repo for malathirenati/malathirenati.github.io with access: "push".
-You need write access, not read: the job ends in a push. If access cannot be
-granted, stop and say so plainly — do not fall back to publishing an artifact,
-emailing, or sending a zip. Then clone it and work inside the clone.
-
-## Step 2 — check whether today is already done
+## Step 1 — what day is it, and is it already done?
 
 Get today's date with `date -u +%F`. Every date in this task is UTC.
 
-If src/static/sports/brief/data/<today>.json already exists, STOP. Do not
-overwrite it and do not commit. Report that today's edition already existed.
+Fetch:
+https://raw.githubusercontent.com/malathirenati/malathirenati.github.io/main/src/static/sports/brief/data/<today>.json
 
-## Step 3 — read the spec
+If that returns content, today's edition already exists. STOP — do not write
+one, do not push. Say it was already done.
 
-Read docs/BRIEF.md in the repository. It is the specification: the exact JSON
-schema, the house style, the sourcing rules, and the list of things the build
-refuses. Follow it exactly — the site's validator enforces it, so an edition
-that departs from it will be rejected and nothing will publish.
+If it 404s, carry on.
 
-Then read src/static/sports/brief/data/2026-09-03.json, the reference edition,
-for tone, length and shape.
+## Step 2 — read the spec
 
-## Step 4 — research
+Fetch and read:
+https://raw.githubusercontent.com/malathirenati/malathirenati.github.io/main/docs/BRIEF.md
+
+That is the specification: the exact JSON schema, the house style, the sourcing
+rules, and the list of things the build refuses. Follow it exactly — a validator
+enforces it, so an edition that departs from it will be rejected and nothing
+will publish.
+
+Then fetch the reference edition for tone, length and shape:
+https://raw.githubusercontent.com/malathirenati/malathirenati.github.io/main/src/static/sports/brief/data/2026-09-03.json
+
+## Step 3 — research
 
 Find what happened in sport over roughly the last 24–48 hours, across two desks
 (india, global) and three lenses:
@@ -62,24 +72,45 @@ Find what happened in sport over roughly the last 24–48 hours, across two desk
 Cover a range of sports, not only cricket and football. Use WebSearch to find
 candidates, then WebFetch each article and READ it before writing about it.
 
-## Step 5 — write it
+Fetch only URLs that came back from a search. A URL you assembled yourself may
+require a separate approval, which will stall this step — and an unread source
+cannot be cited anyway.
 
-Write src/static/sports/brief/data/<today>.json to the schema in docs/BRIEF.md.
+## Step 4 — write it
+
+Write the edition to a scratch file in this session, to the schema in BRIEF.md.
 House shape: 12–18 items spread across the six buckets, summaries of roughly
 40–80 words, one paragraph each, no bullets. Then 5–8 "opportunities" — blog,
 op-ed or podcast angles not already well covered in what you read. Those carry
 no sources by design.
 
-## Step 6 — prove it builds, then push
+## Step 5 — show your work
 
-Run: npm ci, then npm run brief && npm run build.
+Before touching the repository, print a short summary: the date, how many items
+per desk and lens, how many opportunities, and every source domain you cited.
+This is what the human reads before approving the push.
 
-Fix whatever it rejects. NEVER weaken the validator, the spec, or the schema to
-make an edition pass — if an item cannot satisfy the rules, drop the item.
+If you could not source anything at all, say so and STOP here. Make no commit.
+The page skips missing dates without complaint. A gap in the archive is honest;
+a padded edition is not.
 
-Then commit only the new edition file and push to main. The push deploys the
-site by itself. Do not open a pull request. Do not touch index.json; it is
-generated and gitignored. Do not modify any other file.
+## Step 6 — publish (this is the step that needs approval)
+
+Now, and only now:
+
+1. Call add_repo for malathirenati/malathirenati.github.io with access: "push".
+2. Clone it.
+3. Copy your edition to src/static/sports/brief/data/<today>.json
+4. Run: npm ci, then npm run brief && npm run build
+   Fix whatever it rejects. NEVER weaken the validator, the spec, or the schema
+   to make an edition pass — if an item cannot satisfy the rules, drop it.
+5. Commit only that one file and push to main. The push deploys the site by
+   itself. Do not open a pull request. Do not touch index.json; it is generated
+   and gitignored. Do not modify any other file.
+
+If repository access is refused, do not improvise a workaround — no artifact, no
+email, no zip. Print the edition JSON in full so it can be saved by hand, and
+say plainly that the push failed.
 
 ## Hard rules
 
@@ -93,15 +124,11 @@ attributes claims to real publications by name.
 - Do not reproduce sentences from a source. Write every summary in your own
   words.
 - A quiet day is a short edition, not an invented one. An empty lens is [].
-- If you cannot source anything at all, publish nothing: make no commit, and
-  say why. The page skips missing dates without complaint. A gap in the archive
-  is honest; a padded edition is not.
 
 ## Do not
 
-Earlier versions of this routine published the brief to a claude.ai artifact.
-That is no longer the delivery path — the site is. Do not publish or update an
-artifact.
+Earlier versions of this routine published to a claude.ai artifact. That is no
+longer the delivery path — the site is. Do not publish or update an artifact.
 
 Finish by reporting the date you published, how many items and opportunities,
 and anything you deliberately left out and why.

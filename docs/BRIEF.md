@@ -6,10 +6,10 @@ direct URL — but the repository is public, so treat everything in it as
 publishable.
 
 A scheduled routine writes one edition each morning at 04:00 UTC (09:30 IST)
-and pushes it. This file is the spec that writer works from — it reads this file
-out of the repository before writing, so editing this file is how you change
-what the brief contains. It is also the reference for writing an edition by
-hand.
+and publishes it once you approve the push — the daily steps are in
+[BRIEF-DAILY.md](BRIEF-DAILY.md). This file is the spec that writer works from:
+it fetches this file before writing, so editing this file is how you change what
+the brief contains. It is also the reference for writing an edition by hand.
 
 ## Contents
 
@@ -148,9 +148,10 @@ the two happened. The routine's instructions are kept in
 
 ## How the writing works
 
-The routine researches with web search and fetch, reads this file for the
-schema and the rules, writes the edition, and pushes. `npm run brief` validates
-it and the build has to pass before the commit lands.
+The routine researches with web search and fetch, fetches this file for the
+schema and the rules, writes the edition, and then waits for you to approve the
+push — see [BRIEF-DAILY.md](BRIEF-DAILY.md). `npm run brief` validates it and
+the build has to pass before the commit lands.
 
 ### The dormant second path
 
@@ -160,7 +161,7 @@ an `ANTHROPIC_API_KEY` secret exists — and kept only in case the routine ever
 loses repository access. Do not add that secret while the routine is enabled, or
 both will write the same file.
 
-It differs from the routine in two ways that matter if you ever switch to it:
+It differs from the routine in three ways that matter if you ever switch to it:
 
 - **The research runs on Anthropic's servers, not on the GitHub runner**, via
   the server-side `web_search` / `web_fetch` tools. The runner only reaches
@@ -170,8 +171,9 @@ It differs from the routine in two ways that matter if you ever switch to it:
 - **It cannot cite a link it invented.** `web_fetch` only fetches URLs already
   in the conversation, and they arrive by coming back from `web_search`. The
   sourcing rules above hold by the shape of the tools, not only by instruction.
-- **It costs money** — one API call a day on `claude-opus-5`, roughly a dollar.
-  The routine runs on the Claude subscription instead.
+- **It costs money, and needs no approval** — one API call a day on
+  `claude-opus-5`, roughly a dollar, published unattended. The routine runs on
+  the Claude subscription instead, at the cost of your morning tap.
 
 Either path refuses to overwrite an edition that already exists, so re-running
 on a day that already has one is safe and does nothing.
