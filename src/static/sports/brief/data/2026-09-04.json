@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-04",
+  "weekday": "Friday",
+  "regions": {
+    "india": {
+      "government": [
+        {
+          "id": "in-gov-1",
+          "title": "Athletics squad for the Asian Games goes out without Neeraj Chopra",
+          "summary": "The Athletics Federation of India named 77 athletes for Aichi-Nagoya, with Neeraj Chopra left out injured and replaced by Commonwealth Games bronze medallist Yashvir Singh. Long-distance runner Abhishek Pal was dropped over a doping notice and hurdler Tejas Shirse omitted after injury. Six athletes were added late, among them Kiran Pahal and Sanya Yadav.",
+          "sources": [
+            {"name": "The Bridge, Sept 3", "url": "https://thebridge.in/athletics/yashvir-replaces-neeraj-chopra-india-athletics-asian-games-57451"}
+          ]
+        },
+        {
+          "id": "in-gov-2",
+          "title": "Ladakh gets a year-round shooting range, built by the police",
+          "summary": "An insulated indoor air rifle and pistol range has opened at the Ladakh Police sports complex in Leh, built by the Ladakh Shooting Association with police and UT government backing. NRAI president Kalikesh Singh Deo called it a milestone for the sport in the region, which until now sent athletes out of Ladakh for basic training. More districts are promised ranges.",
+          "sources": [
+            {"name": "The Bridge, Sept 3", "url": "https://thebridge.in/shooting/new-indoor-shooting-range-in-leh-57452"}
+          ]
+        }
+      ],
+      "markets": [],
+      "society": [
+        {
+          "id": "in-soc-1",
+          "title": "Mandhana passes Mithali Raj as women's cricket's leading run scorer",
+          "summary": "Smriti Mandhana moved to 10,880 international runs with a 64-ball 124 against Hong Kong at the Women's Asia Cup T20 in Dubai, going past Mithali Raj's 10,868. The innings, with 14 fours and seven sixes, was also her 18th international hundred, the most by any woman, breaking a tie with Laura Wolvaardt and Meg Lanning.",
+          "sources": [
+            {"name": "The Bridge, Sept 3", "url": "https://thebridge.in/women-cricket/asia-cup-t20-smriti-mandhana-highest-run-scorer-history-57460"}
+          ]
+        },
+        {
+          "id": "in-soc-2",
+          "title": "Women's hockey posts its best World Cup in 52 years, and the coach credits structure",
+          "summary": "India finished fifth at the 2026 FIH World Cup, their strongest showing since 1974, losing only to the Netherlands across six matches. Coach Sjoerd Marijne was blunt about how: \"If it was magic, we would be number one in the world.\" He pointed to defensive organisation and squad discipline rather than individual form, while conceding the attack is still developing.",
+          "sources": [
+            {"name": "The Bridge, Sept 3", "url": "https://thebridge.in/hockey/sjoerd-marijne-on-indias-womens-teams-historic-world-cup-57450"}
+          ]
+        },
+        {
+          "id": "in-soc-3",
+          "title": "Kolkata to host an AFC Women's Champions League group, a first for India",
+          "summary": "East Bengal reached the group stage for a second straight year and will play all three matches at home in November, against clubs from Vietnam, South Korea and North Korea. Coach Anthony Andrews welcomed the draw and the reduced travel, but warned that \"football matches are won by performance levels, not by venue alone.\"",
+          "sources": [
+            {"name": "The Bridge, Sept 4", "url": "https://thebridge.in/football/anthony-andrews-east-bengal-afc-womens-champions-league-57464"}
+          ]
+        }
+      ]
+    },
+    "global": {
+      "government": [],
+      "markets": [
+        {
+          "id": "gl-mkt-1",
+          "title": "A women's club shirt deal that beats some Premier League ones",
+          "summary": "London City Lionesses signed Nike as front-of-shirt sponsor and extended its kit deal by four seasons, replacing Togethxr. Owner Michele Kang claims the largest women-only shirt deal anywhere, above Atlanta's roughly $4m a year from Aflac and, she says, above some men's Premier League deals. No figure was disclosed. London City is the WSL's only fully independent club.",
+          "sources": [
+            {"name": "SportsPro, Sept 4", "url": "https://www.sportspro.com/news/sponsorship-marketing/london-city-lionesses-nike-shirt-sponsorship-michele-kang-september-2026/"}
+          ]
+        }
+      ],
+      "society": []
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "format": "Blog",
+      "title": "What is India's Asian Games medal projection actually worth now?",
+      "summary": "The squad that leaves for Aichi-Nagoya is missing its most bankable athlete to injury and a distance runner to a doping notice, on top of a doping count that has been climbing all season. Plenty of coverage of each departure; nobody has added them up and asked what the revised medal expectation looks like."
+    },
+    {
+      "id": "opp-2",
+      "format": "Op-ed",
+      "title": "A police force built Ladakh's shooting range. Who builds the next one?",
+      "summary": "The Leh range exists because the state police had a sports complex and the shooting association had a plan. That is a workable model for high-altitude and remote districts with no sporting economy, and an unexamined one: nobody has asked whether it scales, who pays for upkeep, or what happens when the policing priority moves on."
+    },
+    {
+      "id": "opp-3",
+      "format": "Blog",
+      "title": "The independence premium in women's football",
+      "summary": "London City is the only fully independent club in the WSL and has just posted what its owner says is the biggest women-only shirt deal in the sport. Everywhere else the women's shirt is bundled with the men's, which hides what it is separately worth. The interesting question is whether shared ownership has been suppressing the price all along."
+    },
+    {
+      "id": "opp-4",
+      "format": "Podcast",
+      "title": "A career record set against Hong Kong",
+      "summary": "Mandhana passed a 10,868-run mark in a T20 against an associate side, which says as much about the women's calendar as about her. Worth an episode on what fixtures the record was actually built from, how the schedule compares with the men's, and whether milestone coverage is outrunning the structure underneath it."
+    },
+    {
+      "id": "opp-5",
+      "format": "Op-ed",
+      "title": "Fifty-two years, and the thing that finally changed",
+      "summary": "India's women's hockey team just had its best World Cup since 1974, and the coach attributes it to defensive organisation and squad discipline rather than a golden generation. If that is true it is an institutional story, not a sporting one — and nobody has traced which structural decisions, over which years, actually produced it."
+    },
+    {
+      "id": "opp-6",
+      "format": "Blog",
+      "title": "What hosting Asian club football asks of the Indian Women's League",
+      "summary": "Kolkata will stage an AFC Women's Champions League group in November, the first time India has hosted one. The logistics are the easy part. The harder question is whether a domestic league that produces one consistent qualifier can support clubs at that level, and what the IWL would need to change to produce a second."
+    }
+  ]
+}
