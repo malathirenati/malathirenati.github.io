@@ -5,9 +5,10 @@ runtime. It is `noindex`, not linked from the public site, and reachable by
 direct URL — but the repository is public, so treat everything in it as
 publishable.
 
-A scheduled agent writes one edition each morning at 04:00 UTC (09:30 IST) and
-pushes it. This file is the spec that agent works from, and the reference for
-writing an edition by hand.
+A scheduled workflow writes one edition each morning at 04:00 UTC (09:30 IST)
+and pushes it. This file is the spec that writer works from — it is read into
+the prompt at run time, so editing this file is how you change what the brief
+contains. It is also the reference for writing an edition by hand.
 
 ## Contents
 
@@ -138,5 +139,35 @@ Editions are ordinary files. To fix one, edit
 file and push — `index.json` regenerates without it and the date disappears from
 the picker.
 
-The routine's runs are at <https://claude.ai/code/routines>; that is where to
-look when a morning's edition does not appear.
+The runs are in the repository's **Actions** tab, under "Daily brief"; that is
+where to look when a morning's edition does not appear. A run that publishes
+nothing is a success, not a failure — the log says which of the two happened.
+
+To publish off-schedule, open that workflow and press **Run workflow**.
+
+## How the writing works
+
+`scripts/write-brief.mjs` calls the Claude API with the server-side web search
+and web fetch tools, hands it this file as the spec, and writes what comes back.
+`npm run brief` then validates it and the build has to pass before anything is
+committed.
+
+Two things worth knowing:
+
+- **The research runs on Anthropic's servers, not on the runner.** The job only
+  talks to `api.anthropic.com`. An earlier version ran as a sandboxed cloud
+  agent whose network policy blocked every news site, so it correctly published
+  nothing, every morning.
+- **It cannot cite a link it invented.** `web_fetch` will only fetch URLs
+  already in the conversation, and they get there by coming back from
+  `web_search`. The sourcing rule below is enforced by the shape of the tools,
+  not only by the instruction.
+
+Running it by hand needs an API key in the environment:
+
+```bash
+ANTHROPIC_API_KEY=... npm run write-brief
+```
+
+It refuses to overwrite an edition that already exists, so re-running it on a
+day that already has one is safe and does nothing.

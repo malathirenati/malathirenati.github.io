@@ -643,16 +643,26 @@ Build tooling only changes when you choose to update it. If you never run
 public site, reachable only by its direct URL. The repository is public, so
 assume anything committed to it can be read.
 
-A scheduled agent writes one edition each morning at **04:00 UTC (09:30 IST)**
-and pushes it; the push deploys like any other. Nothing is required of you day
-to day.
+The **Daily brief** workflow writes one edition each morning at **04:00 UTC
+(09:30 IST)** and pushes it; the push deploys like any other. Nothing is
+required of you day to day.
 
 **To read the editions:** <https://malathirenati.github.io/sports/brief/>
 
-**When a morning's edition doesn't appear:** the agent found nothing it could
-source, or the run failed. Both are visible at
-<https://claude.ai/code/routines>. A missing date is skipped by the page without
-complaint — there is nothing to repair.
+**When a morning's edition doesn't appear:** the writer found nothing it could
+source, or the run failed. Both are in the **Actions** tab under "Daily brief",
+and the log says which. A missing date is skipped by the page without complaint
+— there is nothing to repair. GitHub emails you when a run fails outright.
+
+**What it costs:** one API call a day, on `claude-opus-5` — roughly a dollar or
+so, depending on how much it reads. The run log prints the estimate. To spend
+less, set the `BRIEF_MODEL` environment variable in
+[.github/workflows/brief.yml](../.github/workflows/brief.yml) to
+`claude-sonnet-5`, which is about a fifth of the price and correspondingly less
+careful with editorial judgement.
+
+**The one secret it needs:** `ANTHROPIC_API_KEY`, under **Settings → Secrets and
+variables → Actions**. Nothing else in this repository uses a secret.
 
 **To fix or withdraw an edition:** edit or delete
 `src/static/sports/brief/data/<date>.json` and push. The date list regenerates

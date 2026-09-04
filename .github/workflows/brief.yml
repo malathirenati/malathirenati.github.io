@@ -1,0 +1,64 @@
+name: Daily brief
+
+# Researches and publishes one edition of /sports/brief/ each morning.
+#
+# 04:00 UTC is 09:30 IST. GitHub cron is always UTC and never shifts for DST;
+# IST has no DST, so this stays at 09:30 all year. Note that GitHub queues
+# scheduled runs on shared capacity and they routinely start a few minutes late
+# — treat the time as "shortly after 09:30", not to the minute.
+#
+# The research runs on Anthropic's infrastructure via the server-side web search
+# and web fetch tools, so this runner only ever talks to api.anthropic.com. That
+# is deliberate: the earlier version of this job ran as a sandboxed cloud agent
+# and could not reach any news site, so it correctly published nothing, every
+# day. See scripts/write-brief.mjs.
+
+on:
+  schedule:
+    - cron: "0 4 * * *"
+  workflow_dispatch: # "Run workflow" in the Actions tab, to publish off-schedule
+
+permissions:
+  contents: write # only to commit the new edition
+
+concurrency:
+  # Serialised: two runs on the same day would race on the same edition file.
+  group: daily-brief
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - run: npm ci
+
+      - name: Write today's edition
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: npm run write-brief
+
+      - name: Check it builds
+        # The page loads its data in the browser, so a malformed edition is not
+        # an error the reader ever sees as one — it is a blank column. This is
+        # where that gets caught, before the commit rather than after it.
+        run: npm run build
+
+      - name: Commit if there is an edition
+        # A day with nothing publishable is a normal outcome, not a failure:
+        # write-brief exits 0 having written no file, and this step no-ops.
+        run: |
+          if git diff --quiet -- src/static/sports/brief/data/; then
+            echo "No new edition today."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/static/sports/brief/data/
+          git commit -m "Add the brief for $(date -u +%F)"
+          git push

@@ -8,12 +8,14 @@
   "scripts": {
     "data": "node scripts/build-data.mjs",
     "brief": "node scripts/check-brief.mjs",
+    "write-brief": "node scripts/write-brief.mjs",
     "build": "npm run data && npm run brief && eleventy",
     "serve": "npm run data && npm run brief && eleventy --serve",
     "clean": "rm -rf _site"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.6",
+    "@anthropic-ai/sdk": "^0.123.0",
     "read-excel-file": "^9.3.10"
   }
 }
