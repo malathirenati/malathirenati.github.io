@@ -5,10 +5,11 @@ runtime. It is `noindex`, not linked from the public site, and reachable by
 direct URL — but the repository is public, so treat everything in it as
 publishable.
 
-A scheduled workflow writes one edition each morning at 04:00 UTC (09:30 IST)
-and pushes it. This file is the spec that writer works from — it is read into
-the prompt at run time, so editing this file is how you change what the brief
-contains. It is also the reference for writing an edition by hand.
+A scheduled routine writes one edition each morning at 04:00 UTC (09:30 IST)
+and pushes it. This file is the spec that writer works from — it reads this file
+out of the repository before writing, so editing this file is how you change
+what the brief contains. It is also the reference for writing an edition by
+hand.
 
 ## Contents
 
@@ -139,35 +140,38 @@ Editions are ordinary files. To fix one, edit
 file and push — `index.json` regenerates without it and the date disappears from
 the picker.
 
-The runs are in the repository's **Actions** tab, under "Daily brief"; that is
-where to look when a morning's edition does not appear. A run that publishes
-nothing is a success, not a failure — the log says which of the two happened.
-
-To publish off-schedule, open that workflow and press **Run workflow**.
+The runs are at <https://claude.ai/code/routines> under "Daily Sports Brief
+(9:30 IST)"; that is where to look when a morning's edition does not appear. A
+run that publishes nothing is a success, not a failure — the log says which of
+the two happened. The routine's instructions are kept in
+[brief-routine-prompt.md](brief-routine-prompt.md).
 
 ## How the writing works
 
-`scripts/write-brief.mjs` calls the Claude API with the server-side web search
-and web fetch tools, hands it this file as the spec, and writes what comes back.
-`npm run brief` then validates it and the build has to pass before anything is
-committed.
+The routine researches with web search and fetch, reads this file for the
+schema and the rules, writes the edition, and pushes. `npm run brief` validates
+it and the build has to pass before the commit lands.
 
-Two things worth knowing:
+### The dormant second path
 
-- **The research runs on Anthropic's servers, not on the runner.** The job only
-  talks to `api.anthropic.com`. An earlier version ran as a sandboxed cloud
-  agent whose network policy blocked every news site, so it correctly published
-  nothing, every morning.
-- **It cannot cite a link it invented.** `web_fetch` will only fetch URLs
-  already in the conversation, and they get there by coming back from
-  `web_search`. The sourcing rule below is enforced by the shape of the tools,
-  not only by the instruction.
+`scripts/write-brief.mjs` plus the **Daily brief** Actions workflow do the same
+job through the Claude API instead. It is switched off — the job no-ops unless
+an `ANTHROPIC_API_KEY` secret exists — and kept only in case the routine ever
+loses repository access. Do not add that secret while the routine is enabled, or
+both will write the same file.
 
-Running it by hand needs an API key in the environment:
+It differs from the routine in two ways that matter if you ever switch to it:
 
-```bash
-ANTHROPIC_API_KEY=... npm run write-brief
-```
+- **The research runs on Anthropic's servers, not on the GitHub runner**, via
+  the server-side `web_search` / `web_fetch` tools. The runner only reaches
+  `api.anthropic.com`, so no outbound network policy can break it. That was the
+  point: a third approach — a Claude Code cloud routine — failed exactly there,
+  its sandbox blocking every news site, and correctly published nothing.
+- **It cannot cite a link it invented.** `web_fetch` only fetches URLs already
+  in the conversation, and they arrive by coming back from `web_search`. The
+  sourcing rules above hold by the shape of the tools, not only by instruction.
+- **It costs money** — one API call a day on `claude-opus-5`, roughly a dollar.
+  The routine runs on the Claude subscription instead.
 
-It refuses to overwrite an edition that already exists, so re-running it on a
-day that already has one is safe and does nothing.
+Either path refuses to overwrite an edition that already exists, so re-running
+on a day that already has one is safe and does nothing.
