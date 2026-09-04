@@ -36,9 +36,26 @@ jobs:
         with:
           node-version: 22
 
-      - run: npm ci
+      - name: Is this workflow switched on?
+        # The secret IS the on-switch. Without it there is nothing to run, and
+        # failing every morning would just mail you a failure notice every
+        # morning. Skip quietly instead.
+        id: gate
+        env:
+          KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -z "$KEY" ]; then
+            echo "No ANTHROPIC_API_KEY secret set — skipping. Add one to switch this on."
+            echo "on=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "on=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - if: steps.gate.outputs.on == 'true'
+        run: npm ci
 
       - name: Write today's edition
+        if: steps.gate.outputs.on == 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: npm run write-brief
@@ -47,9 +64,11 @@ jobs:
         # The page loads its data in the browser, so a malformed edition is not
         # an error the reader ever sees as one — it is a blank column. This is
         # where that gets caught, before the commit rather than after it.
+        if: steps.gate.outputs.on == 'true'
         run: npm run build
 
       - name: Commit if there is an edition
+        if: steps.gate.outputs.on == 'true'
         # A day with nothing publishable is a normal outcome, not a failure:
         # write-brief exits 0 having written no file, and this step no-ops.
         run: |
