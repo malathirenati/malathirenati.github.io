@@ -1,0 +1,133 @@
+{
+  "date": "2026-09-05",
+  "weekday": "Saturday",
+  "regions": {
+    "india": {
+      "government": [
+        {
+          "id": "in-gov-1",
+          "title": "Laxman to head the Asian Games squad as the BCCI keeps Gambhir at home",
+          "summary": "At a review meeting in Mumbai, the BCCI confirmed VVS Laxman will lead the men's team in Aichi-Nagoya while head coach Gautam Gambhir stays back to prepare for the West Indies ODIs. Secretary Devajit Saikia batted away speculation about Rohit Sharma — \"he is playing superbly in all matches, what more do you want?\" — and ruled out creating a standalone Director of Cricket post. Workload protocols for SENA tours were tightened.",
+          "sources": [
+            {"name": "Outlook India, Sept 3", "url": "https://www.outlookindia.com/sports/cricket/bcci-review-meeting-live-updates-gautam-gambhir-ajit-agarkar-shubman-gill-rohit-sharma-odi-future-mumbai"}
+          ]
+        },
+        {
+          "id": "in-gov-2",
+          "title": "Wrestling federation tells its athletes ignorance is no defence",
+          "summary": "With positives mounting before the Asian Games, the Wrestling Federation of India circulated an advisory saying wrestlers \"cannot escape responsibility by claiming ignorance of anti-doping rules, relying on coaches or support staff\". Deepanshu drew an eight-year ban for Stanozolol as a second offence; Mukul Dahiya was provisionally suspended after testing positive at the Asian Games trials; and 2024 U23 world champion Chirag Chhikara has a two-year ban for three whereabouts failures.",
+          "sources": [
+            {"name": "The Bridge, Aug 29", "url": "https://thebridge.in/wrestling/wfi-issue-strong-advisory-doping-cases-rise-india-57403"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "in-mkt-1",
+          "title": "The gaming ban is quietly draining IPL sponsorship",
+          "summary": "Fantasy platforms once supplied up to 40 per cent of IPL broadcast ad revenue. Dream11's ₹358 crore national jersey deal is gone and My11Circle's ₹625 crore fantasy rights with it. Apollo Tyres at ₹579 crore and Google Gemini at ₹270 crore have not closed the hole, and EY India estimates an 8–10 per cent annualised drop in total ad spend — pressure that lands on the next broadcast-rights cycle.",
+          "sources": [
+            {"name": "ThePrint", "url": "https://theprint.in/brandit/fantasy-sports-ban-is-quietly-draining-ipl-2026s-sponsorship-muscle/2867699/"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "in-soc-1",
+          "title": "Chopra's season is over, with no return date",
+          "summary": "An ankle ligament tear has ended Neeraj Chopra's 2026 campaign. He misses the Diamond League final in Brussels, having qualified on 12 points, the World Athletics Ultimate Championship in Budapest on Sept 11–13, and the Asian Games, where he was expected to lead India's athletics contingent. His team has set no timeline, prioritising treatment over a rushed return.",
+          "sources": [
+            {"name": "Khel Now, Sept 2", "url": "https://khelnow.com/athletics/neeraj-chopra-injury-competitions-202609"}
+          ]
+        },
+        {
+          "id": "in-soc-2",
+          "title": "Counting women athletes is not the same as funding them",
+          "summary": "Sports ministry allocation rose from ₹1,643 crore in 2014-15 to ₹3,794 crore in 2025-26, a 130 per cent increase, and women were over 40 per cent of India's Paris contingent. A new analysis argues the money still misses the middle: 58 per cent of Indian girls miss sport during their periods, and only 55 per cent of athletes are comfortable raising menstrual health with a male coach against 92 per cent with a female one.",
+          "sources": [
+            {"name": "Feminism in India, Sept 4", "url": "https://feminisminindia.com/2026/09/04/is-india-investing-enough-in-women-athletes/"}
+          ]
+        }
+      ]
+    },
+    "global": {
+      "government": [
+        {
+          "id": "gl-gov-1",
+          "title": "FIFA calls UEFA's document demands a smear campaign",
+          "summary": "UEFA has filed disclosure requests in three US states seeking FIFA's paperwork on the abandoned World Cup investment plan, including correspondence with Infantino and Joshua Kushner's Thrive Capital, intending to lodge a criminal complaint in Switzerland once it has them. FIFA's filings call the applications \"little more than press releases in further support of UEFA's smear campaign\", and a fishing expedition.",
+          "sources": [
+            {"name": "Al Jazeera, Sept 3", "url": "https://www.aljazeera.com/sports/2026/9/3/fifa-blasts-uefa-smear-campaign-fights-world-cup-plan-disclosures"}
+          ]
+        }
+      ],
+      "markets": [],
+      "society": [
+        {
+          "id": "gl-soc-1",
+          "title": "The US Open's seeds keep surviving rather than cruising",
+          "summary": "Carlos Alcaraz beat Yibing Wu 6-3, 6-4, 6-1 on his return from a wrist layoff and Aryna Sabalenka saw off Kamilla Rakhimova in straights, but the round belonged to recoveries. Tommy Paul came from a set down to beat Alexander Bublik over five, Jessica Pegula lost the opening set 1-6 to Leylah Fernandez then took the next two, and 26th seed Emma Navarro knocked out seventh-seeded Karolina Muchova.",
+          "sources": [
+            {"name": "Bleacher Report, Sept 5", "url": "https://bleacherreport.com/articles/25496089-us-open-tennis-2026-results-winners-losers-and-highlights-fridays-bracket"}
+          ]
+        },
+        {
+          "id": "gl-soc-2",
+          "title": "A Diamond League record in Brussels, and a rare 21 metres",
+          "summary": "The Wanda Diamond League final opened at the King Baudouin Stadium with Collen Kebinatshipi winning the men's 400m in 43.40 — a Diamond League record and a national record — for his first Diamond Trophy. Two-time world champion Chase Jackson passed 21 metres in the shot put for only the second time in her career, in the third round, before a crowd of about 40,000.",
+          "sources": [
+            {"name": "Yahoo Sports, Sept 4", "url": "https://sports.yahoo.com/articles/brussels-2026-diamond-league-final-180200299.html"}
+          ]
+        },
+        {
+          "id": "gl-soc-3",
+          "title": "The women's basketball World Cup opens in Berlin",
+          "summary": "The FIBA Women's Basketball World Cup tipped off on Sept 4 in Berlin, with the host nation playing in front of a sold-out crowd of 12,550 at the Berlin Arena. The tournament runs through the middle of the month and is the sport's principal quadrennial event outside the Olympic cycle.",
+          "sources": [
+            {"name": "FIBA, Sept 4", "url": "https://www.fiba.basketball/en/news/2026-wwc-game-center-sep-4"}
+          ]
+        },
+        {
+          "id": "gl-soc-4",
+          "title": "Ferrari lead their own home practice at Monza",
+          "summary": "Charles Leclerc set the pace in first practice for the Italian Grand Prix at 1:23.008, leading a Ferrari one-two from team mate Lewis Hamilton by 0.173s, with George Russell third for Mercedes at 0.304s. Monza reliably produces the most partisan crowd of the season, and a Ferrari front row on Saturday would sharpen it further.",
+          "sources": [
+            {"name": "Formula1.com, Sept 4", "url": "https://www.formula1.com/en/latest/article/fp1-leclerc-leads-hamilton-and-russell-during-first-practice-at-the-italian-grand-prix.7DUTqVtZlb4zvqNfBsyl1t"}
+          ]
+        }
+      ]
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "format": "Blog",
+      "title": "Whose job is it to teach a wrestler the anti-doping code?",
+      "summary": "The WFI advisory tells athletes they cannot hide behind ignorance or blame their coaches. Read the other way, it concedes that whatever education system exists did not reach them. Worth establishing who actually delivers anti-doping education in Indian wrestling — the federation, NADA, the academies, or nobody — before the next positive test."
+    },
+    {
+      "id": "opp-2",
+      "format": "Op-ed",
+      "title": "FIFA's no-standing defence is the story, not the parry",
+      "summary": "FIFA argues UEFA has no standing because no Swiss case exists; UEFA needs the documents to bring one. That circularity is being written up as procedural noise, but it is the actual mechanism by which cross-border sports-governance complaints stall. Somebody should name it rather than report each filing as a fresh skirmish."
+    },
+    {
+      "id": "opp-3",
+      "format": "Podcast",
+      "title": "What replaces forty per cent of your ad revenue?",
+      "summary": "Fantasy platforms were up to 40 per cent of IPL broadcast advertising, and the replacements have not closed the gap. An episode working through what a league actually does when a whole sponsor category is legislated away in one go — which categories can absorb it, at what discount, and what that means for the next rights auction."
+    },
+    {
+      "id": "opp-4",
+      "format": "Op-ed",
+      "title": "The middle of the pipeline is where the money isn't",
+      "summary": "Ministry funding is up 130 per cent and women were 40 per cent of the Paris contingent, but the reported barriers are adolescent ones: periods, male-only coaching staff, safety. Headline participation numbers and grassroots retention are being covered as one story when they are plainly two, and only the first is improving."
+    },
+    {
+      "id": "opp-5",
+      "format": "Blog",
+      "title": "One injury, one athlete, one whole programme",
+      "summary": "Chopra's ankle removes India's only reliable individual medal from the Diamond League final, the Ultimate Championship and the Asian Games in a single stroke. That concentration is the story rather than the injury: what a federation's medal projection looks like when it rests on one athlete, and what the last decade did or did not build behind him."
+    }
+  ]
+}
