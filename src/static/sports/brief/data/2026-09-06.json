@@ -1,0 +1,118 @@
+{
+  "date": "2026-09-06",
+  "weekday": "Sunday",
+  "regions": {
+    "india": {
+      "government": [
+        {
+          "id": "in-gov-1",
+          "title": "The IOA will not upgrade cricket's rooms, and says so out loud",
+          "summary": "The BCCI asked for better accommodation in Aichi-Nagoya after its men were booked into the three-star APA Hotel Nagoya Ekimae while the women got the four-star Meitetsu Grand, both twin-sharing. IOA chief executive Raghuram Iyer refused: \"All sports, athletes, coaches and the entire delegation are treated equally by IOA.\" The board may arrange its own hotel instead, and sends an advance team to inspect the week of Sept 8.",
+          "sources": [
+            {"name": "CricTracker, Sept 5", "url": "https://www.crictracker.com/cricket-news/all-are-treated-equally-by-us-ioa-draws-line-on-special-treatment-for-cricket-players-at-asian-games-2319/"}
+          ]
+        },
+        {
+          "id": "in-gov-2",
+          "title": "A 768-strong delegation, and 265 of them are not athletes",
+          "summary": "The sports ministry signed off a contingent of 503 athletes, 246 officials and coaches and 19 contingent staff for the Asian Games. Athletics grew from 73 to 79 and carries the largest support staff at 31, including 20 coaches. Four surfers and mixed martial artist Varun Sanyal were added late. Neeraj Chopra's coach Jai Chaudhary and physio Ishaan Marwaha remain on the athletics list despite his withdrawal.",
+          "sources": [
+            {"name": "The Bridge, Sept 3", "url": "https://thebridge.in/asian-games/2026-india-503-athletes-246-officials-57447"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "in-mkt-1",
+          "title": "The ISL restructures without saying what the restructure is",
+          "summary": "The Indian Super League returns on Oct 10 with 13 clubs, 163 matches to May, home-and-away restored and a six-team playoff. It is billed as the first season under a \"club-led model\" in which clubs \"play a greater role in shaping the league's direction and key decisions\" — a phrase the announcement does not expand on. No mechanism, no decision rights, no financial detail has been put on the record.",
+          "sources": [
+            {"name": "The Hans India, Sept 5", "url": "https://www.thehansindia.com/sports/isl-2026-27-to-kick-off-on-october-10-under-new-club-led-model-1118354"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "in-soc-1",
+          "title": "Pakistan bowled out for 55, and India are through",
+          "summary": "India dismissed Pakistan for 55 in 18.1 overs at Dubai International Stadium, Shree Charani and Prema Rawat taking three wickets each and Deepti Sharma two. Only Shawaal Zulfiqar with 14 and Muneeba Ali with 13 reached double figures. It is India's third win from three in the group and takes them into the Women's Asia Cup semi-finals; Pakistan still need another result to qualify.",
+          "sources": [
+            {"name": "Yardbarker, Sept 5", "url": "https://www.yardbarker.com/cricket/articles/india_dismiss_pakistan_for_55_runs_in_womens_asia_cup_2026/s1_17727_44262605"}
+          ]
+        }
+      ]
+    },
+    "global": {
+      "government": [
+        {
+          "id": "gl-gov-1",
+          "title": "Fourteen federations have now reopened fully to Russian athletes",
+          "summary": "Since the IOC provisionally lifted the Russian Olympic Committee's suspension in July, fourteen international federations have restored full participation rights to Russian competitors and several more have opened youth categories only. The justifications lean on the same argument, as judo's put it: sport \"must remain neutral, independent and free from political influence\". The result is a patchwork of eligibility that differs sport by sport.",
+          "sources": [
+            {"name": "The Moscow Times, Sept 3", "url": "https://www.themoscowtimes.com/2026/09/03/where-can-russian-athletes-compete-after-the-iocs-provisional-ban-lift-a93324"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "gl-mkt-1",
+          "title": "A $9.6bn Seahawks deal resets what an NFL team is worth",
+          "summary": "A group led by Vinod Khosla agreed to buy the Seattle Seahawks for a record $9.6 billion, 59 per cent above the $6.05 billion Josh Harris paid for the Commanders in July 2023, with owners due to vote on approval. The average NFL franchise is now valued at $9.34 billion, up 31 per cent in a year, and the Cowboys still lead at $15.5 billion. Paul Allen's will directs the proceeds to charity.",
+          "sources": [
+            {"name": "CBS Sports", "url": "https://www.cbssports.com/nfl/news/nfl-team-valuations-for-2026-cowboys/"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "gl-soc-1",
+          "title": "The US Open's third round turns into a set of escapes",
+          "summary": "Naomi Osaka took the opening set against Elise Mertens, lost the second and came through 6-4 in the decider. Eighteen-year-old Iva Jovic needed three hours and a 7-5 third set to get past Alexandra Eala, her third last-sixteen appearance of the year. The fourth round brings Alcaraz and Gauff into a draw that has not been settling in straight sets.",
+          "sources": [
+            {"name": "CBS Sports", "url": "https://www.cbssports.com/tennis/news/us-open-2026-schedule-results-bracket-live-updates-matches-where-to-watch/live/"}
+          ]
+        },
+        {
+          "id": "gl-soc-2",
+          "title": "The United States open their World Cup defence against China",
+          "summary": "The United States beat China 94-61 in their opening game of the FIBA Women's Basketball World Cup, the tournament that began in Berlin on Sept 4. It is the start of a title defence by the most decorated side in the competition's history, played in a fortnight when the American domestic league is paused.",
+          "sources": [
+            {"name": "USA Basketball, Sept 4", "url": "https://www.usab.com/news/2026/09/usa-chn-2026wwc-game-1"}
+          ]
+        }
+      ]
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "format": "Blog",
+      "title": "India built a sports tribunal and then argued in the newspapers",
+      "summary": "The IOA and the BCCI are settling a delegation dispute through press statements, which is precisely the category of inter-federation disagreement the 2025 governance legislation created a tribunal to handle. Worth asking why the best-resourced body in Indian sport routed around the mechanism, and what that says about how much the new architecture is actually used."
+    },
+    {
+      "id": "opp-2",
+      "format": "Op-ed",
+      "title": "Club-led, or just the word for it?",
+      "summary": "The ISL's relaunch is being reported as format news — kickoff date, fixture count, playoff shape. The announcement claims clubs will shape the league's direction and then declines to say how. Until someone gets the mechanism on the record, nobody can tell whether clubs gained decision rights or inherited financial risk."
+    },
+    {
+      "id": "opp-3",
+      "format": "Blog",
+      "title": "Two hundred and sixty-five people who are not competing",
+      "summary": "India sends 503 athletes to the Asian Games with 265 officials and support staff behind them, and athletics alone carries 31 support personnel for 79 competitors. The ratio is public, rarely examined, and easy to compare against other delegations — a straightforward piece of data journalism nobody seems to have done."
+    },
+    {
+      "id": "opp-4",
+      "format": "Podcast",
+      "title": "Fourteen different answers to the same question",
+      "summary": "Federations are readmitting Russian athletes at their own pace and on their own terms — some fully, some youth-only, each citing the same neutrality principle. Lining those decisions up side by side would show a sport-by-sport taxonomy of eligibility being improvised in real time, with qualification consequences that arrive well before LA28."
+    },
+    {
+      "id": "opp-5",
+      "format": "Op-ed",
+      "title": "What actually changes on day one under a venture owner",
+      "summary": "The framing of tech money buying into legacy sport is well worn by now. The unanswered question is operational: what a venture-capital operating style does to a football front office that has had one owner since 1997 — hiring, analytics spend, capital projects — and whether any of it survives contact with a salary cap."
+    }
+  ]
+}
