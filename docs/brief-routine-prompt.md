@@ -1,9 +1,13 @@
 # The routine prompt
 
-The daily brief is written by a scheduled Cowork routine — "Daily Sports Brief
-(9:30 IST)" at <https://claude.ai/code/routines>. Its prompt lives in that web
-form, not in this repository, so this file is the copy of record: if the routine
-is ever lost, or you want to change what it does, this is the text to paste in.
+The daily brief is written by a scheduled task in **Cowork**, in the Claude app.
+This file is the copy of record for its instructions.
+
+**Do not try to change it at <https://claude.ai/code/routines>.** The task is
+listed there but is not editable there: saving a new prompt on that page creates
+a separate routine in an environment with no web access, leaving the real task
+untouched. That happened three times on 3–4 September 2026. Cowork tasks are
+edited — or replaced — from inside Cowork.
 
 **The ordering is deliberate.** Everything up to and including writing the
 edition uses the public `raw.githubusercontent.com` URLs, which need no
