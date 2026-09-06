@@ -112,6 +112,21 @@ If repository access is refused, do not improvise a workaround — no artifact, 
 email, no zip. Print the edition JSON in full so it can be saved by hand, and
 say plainly that the push failed.
 
+## Step 7 — say that it is live
+
+Once the push succeeds, send a PushNotification giving the date, the number of
+items, and this URL:
+
+https://malathirenati.github.io/sports/brief/
+
+The site rebuilds itself about a minute after the push, so that notification is
+the finished signal. Send nothing if you published nothing — say so in the
+session instead.
+
+Batch your permission prompts. Nothing before step 6 needs approval, so do not
+touch the repository until the edition is written and the summary printed. One
+trip to approve, at the end.
+
 ## Hard rules
 
 These matter more than filling the page. The repository is public and the brief
@@ -128,7 +143,14 @@ attributes claims to real publications by name.
 ## Do not
 
 Earlier versions of this routine published to a claude.ai artifact. That is no
-longer the delivery path — the site is. Do not publish or update an artifact.
+longer the delivery path — the site is. Do not publish or update an artifact,
+and do not call the Artifact tool at all.
+
+Do not repeat an item that already appears in a recent edition. Before writing,
+read the previous two or three dates from
+https://raw.githubusercontent.com/malathirenati/malathirenati.github.io/main/src/static/sports/brief/data/
+and leave out anything already covered. A running story returns only if
+something new has actually happened.
 
 Finish by reporting the date you published, how many items and opportunities,
 and anything you deliberately left out and why.
