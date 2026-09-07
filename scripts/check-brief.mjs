@@ -13,9 +13,10 @@
  * blank column in the reader's browser. This runs in the build instead, which
  * means a bad edition fails CI before it is ever served.
  *
- * The strictness is deliberate: editions are written by a scheduled agent
- * (.github/workflows/brief.yml), and an unattended writer needs a hard schema
- * to fail against rather than a page that quietly renders half of one.
+ * The strictness is deliberate: editions are written by a scheduled agent (the
+ * Cowork routine — see docs/BRIEF-DAILY.md), and an agent writing unattended
+ * needs a hard schema to fail against rather than a page that quietly renders
+ * half of one.
  *
  * Run:  npm run brief          rewrite index.json
  *       npm run brief -- --check   verify only, touch nothing (CI)

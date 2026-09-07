@@ -17,8 +17,8 @@ That prompt is the only thing standing between a finished edition and the live
 site. Everything before it — search, reading the articles, writing the edition,
 checking it against the spec — happens without you.
 
-This is the free arrangement, and the approval is what makes it free. The paid
-alternative is in [the note at the end](#if-you-get-tired-of-the-daily-tap).
+The approval is what keeps this running on your Claude subscription, with no
+API key and nothing to pay.
 
 ---
 
@@ -29,7 +29,6 @@ alternative is in [the note at the end](#if-you-get-tired-of-the-daily-tap).
 - [Checking it actually went live](#checking-it-actually-went-live)
 - [When something is wrong](#when-something-is-wrong)
 - [Publishing by hand](#publishing-by-hand)
-- [If you get tired of the daily tap](#if-you-get-tired-of-the-daily-tap)
 
 ---
 
@@ -167,23 +166,3 @@ git add src/static/sports/brief/data/ && git commit -m "Add the brief for $(date
 If `npm run brief` complains, it tells you exactly which rule the edition
 breaks. The rules are in [BRIEF.md](BRIEF.md); fix the file rather than the
 validator.
-
----
-
-## If you get tired of the daily tap
-
-Everything for the unattended version is already built and committed — it just
-costs money, which is why it is switched off.
-
-Add an `ANTHROPIC_API_KEY` secret under **Settings → Secrets and variables →
-Actions** and the **Daily brief** workflow takes over completely: no approval,
-no routine, live by 09:35 every morning whether or not you look. Roughly $1 a
-day on `claude-opus-5`, or about a fifth of that if you set `BRIEF_MODEL` to
-`claude-sonnet-5` in [the workflow](../.github/workflows/brief.yml).
-
-**Disable the routine first**, or both will write the same file.
-
-One thing you would be giving up by switching: nobody reads the edition before
-it is public. The validator guarantees every item cites a real page that was
-actually fetched — it cannot tell whether a summary has misread that page.
-Right now your morning approval is what catches that.

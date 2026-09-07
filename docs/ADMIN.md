@@ -658,12 +658,6 @@ Its prompt lives in the routine's web form; the copy of record is
 [brief-routine-prompt.md](brief-routine-prompt.md) — edit the routine there, and
 keep that file in step.
 
-A **Daily brief** GitHub Actions workflow in this repository does the same job
-unattended, through the Claude API, with no approval step. It is **dormant** —
-it no-ops unless an `ANTHROPIC_API_KEY` secret exists, and there isn't one —
-because it costs roughly a dollar a day. Switching it on is described at the end
-of BRIEF-DAILY.md. Disable the routine first, or both will write the same file.
-
 **To read the editions:** <https://malathirenati.github.io/sports/brief/>
 
 **When a morning's edition doesn't appear:** you did not approve it, the writer

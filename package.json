@@ -8,7 +8,6 @@
   "scripts": {
     "data": "node scripts/build-data.mjs",
     "brief": "node scripts/check-brief.mjs",
-    "write-brief": "node scripts/write-brief.mjs",
     "build": "npm run data && npm run brief && eleventy",
     "serve": "npm run data && npm run brief && eleventy --serve",
     "clean": "rm -rf _site"
