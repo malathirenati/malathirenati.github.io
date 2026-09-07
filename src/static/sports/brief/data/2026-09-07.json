@@ -1,0 +1,179 @@
+{
+  "date": "2026-09-07",
+  "weekday": "Monday",
+  "regions": {
+    "india": {
+      "government": [
+        {
+          "id": "in-gov-1",
+          "title": "Yashvir Singh replaces injured Neeraj Chopra as AFI finalises 77-strong Asiad athletics team",
+          "summary": "The Athletics Federation of India locked in its Asian Games roster with Commonwealth Games medallist Yashvir Singh stepping into the javelin slot Chopra's ankle injury vacated. Long-distance runner Abhishek Pal, who returned an Adverse Analytical Finding for the fertility drug clomiphene below WADA's reporting threshold, was left out entirely; AFI's president said the federation did not want to take any risk. Hurdler Tejas Shirse was also dropped after a Glasgow injury, and six new athletes were added ahead of the September 19 opening ceremony.",
+          "sources": [
+            {
+              "name": "The Bridge",
+              "url": "https://thebridge.in/athletics/yashvir-replaces-neeraj-chopra-india-athletics-asian-games-57451"
+            },
+            {
+              "name": "Deccan Chronicle",
+              "url": "https://www.deccanchronicle.com/sports/yashvir-in-for-neeraj-tejas-abhishek-out-as-afi-names-77-athletes-for-asian-games-2026-1984595"
+            }
+          ]
+        },
+        {
+          "id": "in-gov-2",
+          "title": "Delhi High Court asks Wrestling Federation to answer Vinesh Phogat's maternity-return complaint",
+          "summary": "Justice Swarana Kanta Sharma has directed the WFI to respond to Phogat's plea challenging two show-cause notices, issued on May 9 and June 17, which her lawyers characterise as a continuing pattern of arbitrary action obstructing her comeback after motherhood. The court also wants the federation's position on her separate demand for a formal policy supporting athletes returning from pregnancy. Hearings are set for September 29 and November 18, keeping the dispute alive well past her Asian Games squad miss.",
+          "sources": [
+            {
+              "name": "India West",
+              "url": "https://indiawest.com/vinesh-phogats-return-after-motherhood-delhi-hc-seeks-wfi-response/"
+            }
+          ]
+        },
+        {
+          "id": "in-gov-3",
+          "title": "Jammu & Kashmir pitches for a slice of the revamped Khelo India budget",
+          "summary": "At the union territory's first coordination-committee meeting on the 2026-31 Khelo India cycle, Chief Secretary Atal Dulloo set district administrations a September 15 deadline to submit local sports plans. The territory is bidding for roughly 1,000 to 1,200 crore rupees of a 28,489-crore programme, of which 10,586 crore is earmarked nationally for training infrastructure. It is an early, concrete look at how states are positioning themselves to compete for the enlarged central sports budget.",
+          "sources": [
+            {
+              "name": "Daily Excelsior",
+              "url": "https://www.dailyexcelsior.com/jk-eyes-rs-1000-1200-cr-under-khelo-india-2026-31-programme/"
+            }
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "in-mkt-1",
+          "title": "KKR, not Mumbai or Chennai, tops Hurun's 2026 IPL valuation table",
+          "summary": "The Fanatic Sports Hurun India Most Valuable Sports Teams 2026 report values Kolkata Knight Riders at 19,200 to 22,500 crore rupees, ahead of the league's traditionally dominant brands, with the wider IPL ecosystem now put at over 1.63 lakh crore. It is a counter-intuitive result in a league where brand standing usually tracks trophy count.",
+          "sources": [
+            {
+              "name": "Outlook Money",
+              "url": "https://www.outlookmoney.com/ampstories/web-stories/ipl-franchise-valuations-2026-not-rcb-mi-or-csk-this-team-tops-hurun-rankings"
+            }
+          ]
+        },
+        {
+          "id": "in-mkt-2",
+          "title": "JSW Group signs on as global hockey's commercial partner",
+          "summary": "The International Hockey Federation has struck a multi-year alliance with JSW Group, which already runs the Hockey India League and grassroots programmes in Odisha, timed to launch around the 2026 World Cup in Belgium and the Netherlands. The FIH frames it as building sustainable pathways for emerging players. It is also another marker of Indian industrial capital's growing footprint inside international federations rather than only domestic leagues.",
+          "sources": [
+            {
+              "name": "Prameya News",
+              "url": "https://www.prameyanews.com/fih-partners-with-jsw-group-can-indian-investment-drive-international-sports-growth"
+            }
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "in-soc-1",
+          "title": "India's women's-sport spending has tripled, but the missing middle has not closed",
+          "summary": "India's sports budget has grown from 1,643 crore rupees in 2014-15 to 3,794 crore in 2025-26, and women now make up over 40 per cent of India's Olympic contingent, up from 48 elite athletes in 2015 to more than 140 by 2022. A new analysis argues the real gap sits between the grassroots and elite tiers: girls drop out of sport at twice the rate of boys by age 14, driven by unsafe transport, absent menstrual-health support, early marriage pressure and too few women coaches.",
+          "sources": [
+            {
+              "name": "Feminism in India",
+              "url": "https://feminisminindia.com/2026/09/04/is-india-investing-enough-in-women-athletes/"
+            }
+          ]
+        },
+        {
+          "id": "in-soc-2",
+          "title": "India bowl Pakistan out for 55 to reach the Women's Asia Cup semi-finals",
+          "summary": "India needed 18.1 overs to dismiss Pakistan for 55 in Dubai, with Shree Charani and Prema Rawat taking three wickets each. It is a third straight win and confirms a semi-final place ahead of the group stage closing on September 8.",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/sports/liveblog/2026/9/5/live-india-vs-pakistan-womens-t20-asia-cup"
+            }
+          ]
+        }
+      ]
+    },
+    "global": {
+      "government": [
+        {
+          "id": "gl-gov-1",
+          "title": "World Aquatics walls off anyone linked to the Enhanced Games",
+          "summary": "World Aquatics' Bureau has passed an immediate-effect bylaw barring athletes, coaches, doctors and officials from its competitions if they support, endorse or participate in events built around performance-enhancing substances. It is aimed squarely at the Enhanced Games, which staged its first Las Vegas event this year. The federation is encouraging other governing bodies to adopt matching rules, turning a fringe experiment into a live governance fight over where sport draws its doping line.",
+          "sources": [
+            {
+              "name": "SwimSwam",
+              "url": "https://swimswam.com/world-aquatics-enacts-new-bylaw-barring-enhanced-games-participants-from-aqua-events/"
+            }
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "gl-mkt-1",
+          "title": "Manchester City equal the British transfer record for Enzo Fernandez",
+          "summary": "City's 125 million pound deal for Enzo Fernandez from Chelsea matched England's all-time transfer record on a deadline day that also saw Newcastle pay 51.4 million for Matias Fernandez-Pardo and Aston Villa spend close to 80 million combined on Ibrahim Mbaye and Taylor Harwood-Bellis. More than 30 deals completed in all, underlining how little the Premier League's spending power has been dented by economic pressure elsewhere in football.",
+          "sources": [
+            {
+              "name": "Yahoo Sports",
+              "url": "https://sports.yahoo.com/articles/transfer-deadline-day-2026-premier-085000675.html"
+            }
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "gl-soc-1",
+          "title": "Team USA survive their closest World Cup game in twenty years",
+          "summary": "The five-time defending champions needed a missed Cecilia Zandalasini three-pointer with three seconds left to hold off Italy 55-52 at the FIBA Women's World Cup. It is their tightest margin since a 2006 loss to Russia and the first time they have scored under 70 points since. Shooting 29 per cent from the field, coach Kara Lawson said a team has to be able to win without its fastball.",
+          "sources": [
+            {
+              "name": "NBC Sports",
+              "url": "https://www.nbcsports.com/olympics/news/fiba-world-cup-womens-basketball-2026-usa-italy"
+            }
+          ]
+        },
+        {
+          "id": "gl-soc-2",
+          "title": "US Open quarter-finals set with Alcaraz-Shelton and an all-American women's clash",
+          "summary": "Defending champion Carlos Alcaraz will face Ben Shelton, who dropped just eight games against Stefanos Tsitsipas, while Frances Tiafoe takes on fellow American Alex Michelsen. On the women's side Jessica Pegula meets Emma Navarro in an all-US quarter-final, and top seed Aryna Sabalenka faces Linda Noskova after eliminating Taylor Townsend.",
+          "sources": [
+            {
+              "name": "CBS Sports",
+              "url": "https://www.cbssports.com/tennis/news/us-open-2026-schedule-results-bracket-live-updates-fourth-round/live/"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "format": "Op-ed",
+      "title": "A federation drops an athlete on suspicion, not proof",
+      "summary": "Abhishek Pal's clomiphene reading was below WADA's own reporting threshold, yet AFI cut him anyway to avoid risk. Coverage has treated this as routine squad news. The open question is whether acting on a sub-threshold reading before due process runs is prudent risk management or a chilling precedent for athletes near the margin."
+    },
+    {
+      "id": "opp-2",
+      "format": "Podcast",
+      "title": "What would a maternity-leave rule for Indian athletes actually say?",
+      "summary": "The Delhi High Court case treats Vinesh Phogat's demand for a structured framework as a legal filing. Nobody has sketched what such a policy would concretely contain, from selection-trial exemptions to ranking protection and funding continuity, or looked at how other countries' federations have written theirs."
+    },
+    {
+      "id": "opp-3",
+      "format": "Blog",
+      "title": "Why does India's best-funded league keep changing who is on top?",
+      "summary": "Hurun's result putting KKR above Mumbai and Chennai is being reported as a curiosity. With IPL media rights facing slower growth into the next cycle and the gaming-sponsorship hole unfilled, it is worth asking whether valuation now tracks ownership and city-market economics more than on-field success, and since when."
+    },
+    {
+      "id": "opp-4",
+      "format": "Blog",
+      "title": "The Enhanced Games just forced a real governance choice",
+      "summary": "World Aquatics' blanket ban on anyone touching the Enhanced Games is being covered as an anti-doping headline. The structurally interesting story is jurisdictional: whether a federation can bar someone from a sanctioned event for lawful conduct at a separate, non-sanctioned one, and what follows when other federations do not match the rule."
+    },
+    {
+      "id": "opp-5",
+      "format": "Podcast",
+      "title": "JSW's federation-level play, one rung above owning a league",
+      "summary": "JSW backing the Hockey India League has an obvious logic. Its new global commercial deal with the FIH, the sport's actual governing body, is a different kind of move with almost no analytical treatment. What does an Indian conglomerate buy in influence by partnering with a federation rather than a league it could simply own?"
+    }
+  ]
+}
