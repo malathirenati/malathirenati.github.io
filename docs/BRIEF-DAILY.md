@@ -67,6 +67,14 @@ whenever you next sit down.
 | whenever you get to it | You approve | ~2 minutes |
 | about a minute later | The site is live | nothing |
 
+### Tomorrow only: expect a few extra prompts
+
+Tool approvals are remembered on the task once granted. A "Run now" done on a day
+that already has an edition stops at the first step, so it approves almost
+nothing — the first real run still has to ask for web search, web fetch and the
+push, roughly three or four prompts instead of one. Approve them all. From the
+next day it settles down to the single push approval.
+
 ### The two minutes
 
 1. Open the Claude app → **Scheduled** in the sidebar → **Daily Sports Brief
