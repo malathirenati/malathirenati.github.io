@@ -24,7 +24,7 @@ API key and nothing to pay.
 
 ## Contents
 
-- [One-time setup](#one-time-setup)
+- [Where the task lives](#where-the-task-lives)
 - [Every morning](#every-morning)
 - [Checking it actually went live](#checking-it-actually-went-live)
 - [When something is wrong](#when-something-is-wrong)
@@ -32,37 +32,28 @@ API key and nothing to pay.
 
 ---
 
-## One-time setup
+## Where the task lives
 
-Three things, once. Fifteen minutes at most.
+The brief is written by a **scheduled task in the Claude desktop app**, listed
+under **Scheduled** in the sidebar as *Daily Sports Brief (9:30 IST)*.
 
-### 1. Put the prompt into the routine
+It runs **on this machine**, in the checkout at
+`/Users/malathir/malathirenati.github.io`. That is why it works: it has the web
+access it needs for research and the repository is already there, so there is no
+clone and no repository to attach. Its instructions are stored at
+`~/.claude/scheduled-tasks/daily-sports-brief/SKILL.md`; the copy of record is
+[brief-routine-prompt.md](brief-routine-prompt.md).
 
-Go to <https://claude.ai/code/routines> and open **Daily Sports Brief
-(9:30 IST)**.
+**It is not at <https://claude.ai/code/routines>.** Nothing is listed there, and
+a routine created there could not do this job — that environment has no web
+access, so it cannot research.
 
-Replace its prompt with the text inside the code fence in
-[brief-routine-prompt.md](brief-routine-prompt.md) — the whole block, nothing
-outside it.
+### The one thing to know
 
-The prompt it has now publishes to a claude.ai artifact, which is the old
-delivery path. Until you replace it, the routine will keep doing that and your
-site will not update.
-
-### 2. Enable it
-
-Same page. The routine is currently **switched off**. Turn it on.
-
-Check the schedule reads **04:00 UTC** — that is 09:30 IST. It should already.
-
-### 3. Attach the repository, if the routine settings offer it
-
-Look for an option to add a **source** or **repository** to the routine, and add
-`malathirenati/malathirenati.github.io` with write or push access.
-
-This is optional and may not exist. If it does, it removes one of the two
-approvals below, because the repository is then already attached when the run
-starts. If you cannot find it, skip it — the routine asks for access itself.
+**The task runs only while the Claude app is open.** If the app is closed at
+09:30, the run happens the next time you launch it, not at 09:30. Leaving the
+app running overnight is the difference between an edition at 09:35 and one
+whenever you next sit down.
 
 ---
 
@@ -70,23 +61,23 @@ starts. If you cannot find it, skip it — the routine asks for access itself.
 
 | Time (IST) | What happens | You |
 |---|---|---|
-| 09:30 | The routine wakes and starts searching | nothing |
-| ~09:35 | It has read its sources and written the edition | nothing |
+| 09:30 | The task wakes and starts searching | nothing |
+| ~09:35 | It has read its sources, written and validated the edition | nothing |
 | ~09:35 | It stops and waits for permission to push | **this is your cue** |
 | whenever you get to it | You approve | ~2 minutes |
 | about a minute later | The site is live | nothing |
 
 ### The two minutes
 
-1. Open <https://claude.ai/code/routines> → **Daily Sports Brief (9:30 IST)** →
-   the run from this morning.
+1. Open the Claude app → **Scheduled** in the sidebar → **Daily Sports Brief
+   (9:30 IST)** → this morning's run.
 2. **Read the summary it printed.** It lists the date, how many items are in
    each desk and lens, how many content opportunities, and every publication it
    cited. This is your review — it is the only point at which a human looks at
    the content before it is public.
-3. If it looks right, **approve** the permission prompt. It may ask twice: once
-   to attach the repository, once to push. Approve both.
-4. It then validates and pushes. The site rebuilds itself.
+3. If it looks right, **approve the push.** By then the edition is already
+   written and validated on disk; the prompt is only asking to send it.
+4. The site rebuilds itself about a minute later.
 
 ### If you skip a day
 
@@ -119,14 +110,18 @@ That is a correct outcome, not a failure. It is instructed to publish nothing
 rather than pad an edition with stories it could not read. Take the day off.
 
 **The run never appeared.**
-Check the routine is still enabled at <https://claude.ai/code/routines>.
-Scheduled runs also start a few minutes late when the platform is busy.
+The likeliest cause is that the Claude app was closed at 09:30 — the task runs
+on next launch instead. Otherwise check it is still enabled under **Scheduled**
+in the sidebar. Runs also start a few minutes late by design, to spread load.
 
-**It says repository access was refused.**
-It will print the edition JSON in full instead. Save that and use
-[Publishing by hand](#publishing-by-hand) below. Then check that the Claude
-GitHub App still has **Contents: Read and write** on the repository, at
-<https://github.com/settings/installations>.
+**It says the push was refused.**
+The edition is already written and validated in the working tree — nothing is
+lost. Approve it yourself from a terminal:
+
+```bash
+cd /Users/malathir/malathirenati.github.io
+git add src/static/sports/brief/data/ && git commit -m "Add the brief for $(date -u +%F)" && git push
+```
 
 **The push was approved but the build failed.**
 The validator rejected the edition — the Actions log says exactly which rule.

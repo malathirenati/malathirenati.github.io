@@ -644,7 +644,7 @@ public site, reachable only by its direct URL. The repository is public, so
 assume anything committed to it can be read.
 
 **There is one thing to do each morning.** A scheduled routine — "Daily Sports
-Brief (9:30 IST)" at <https://claude.ai/code/routines> — researches and writes
+Brief (9:30 IST)" in the Claude app's **Scheduled** sidebar — researches and writes
 an edition on its own at **04:00 UTC (09:30 IST)**, then stops and waits for you
 to approve the push. Pushing to a public repository raises a permission prompt,
 and a scheduled run has nobody to answer it.
@@ -654,15 +654,16 @@ About two minutes. **[BRIEF-DAILY.md](BRIEF-DAILY.md) is the step-by-step** —
 setup, the morning routine, and what to do when something is wrong.
 
 It runs on your Claude subscription, so there is no API key and nothing to pay.
-Its prompt lives in the routine's web form; the copy of record is
-[brief-routine-prompt.md](brief-routine-prompt.md) — edit the routine there, and
-keep that file in step.
+It runs on your own machine and only while the Claude app is open. Its prompt
+lives at `~/.claude/scheduled-tasks/daily-sports-brief/SKILL.md`; the copy of
+record is
+[brief-routine-prompt.md](brief-routine-prompt.md) — keep the two in step.
 
 **To read the editions:** <https://malathirenati.github.io/sports/brief/>
 
 **When a morning's edition doesn't appear:** you did not approve it, the writer
 found nothing it could source, or the run failed. All three are visible in the
-routine's run history at <https://claude.ai/code/routines>. A missing date is
+task's run history under **Scheduled** in the Claude app. A missing date is
 skipped by the page without complaint — there is nothing to repair.
 
 **Read the summary before you approve.** The validator checks that every item

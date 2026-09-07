@@ -140,11 +140,8 @@ Editions are ordinary files. To fix one, edit
 file and push — `index.json` regenerates without it and the date disappears from
 the picker.
 
-The runs are at <https://claude.ai/code/routines> under "Daily Sports Brief
-(9:30 IST)"; that is where to look when a morning's edition does not appear. A
-run that publishes nothing is a success, not a failure — the log says which of
-the two happened. The routine's instructions are kept in
-[brief-routine-prompt.md](brief-routine-prompt.md).
+The runs are in the Claude desktop app, under **Scheduled** in the sidebar,
+as "Daily Sports Brief (9:30 IST)".
 
 ## How the writing works
 
