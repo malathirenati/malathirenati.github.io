@@ -1,0 +1,181 @@
+{
+  "date": "2026-09-08",
+  "weekday": "Tuesday",
+  "regions": {
+    "india": {
+      "government": [
+        {
+          "id": "in-gov-1",
+          "title": "BCCI splits its cricket coaching job to cover a scheduling clash",
+          "summary": "The BCCI has named VVS Laxman head coach of the men's cricket team for the Asian Games in Aichi-Nagoya, while Gautam Gambhir stays back to oversee the home ODI series against West Indies, which starts a day after the Games' cricket competition. Laxman, who coached India to Asian Games gold in Hangzhou in 2023, will be assisted by Hrishikesh Kanitkar and Sunil Joshi as defending champions Shreyas Iyer's squad begins its campaign on September 28.",
+          "sources": [
+            {
+              "name": "Sportstiger, Sept 4",
+              "url": "https://sportstiger.com/cricket/vvs-laxman-to-coach-india-at-2026-asian-games-as-bcci-splits-coaching-duties"
+            }
+          ]
+        },
+        {
+          "id": "in-gov-2",
+          "title": "Nagaland's wrestling body signs on to bring a world championship to India",
+          "summary": "A memorandum signed on September 6 in Kyrgyzstan by the Nagaland Wrestling Association, the All India Traditional Wrestling and Pankration Federation, and the World and Asian Alysh federations proposes India as host of the UWW World Belt Wrestling Championship, provisionally set for mid-December. The event would pair Central Asia's Alysh belt wrestling with Naga wrestling, the Northeast's indigenous form, giving a folk sport recognition it has never held at this level.",
+          "sources": [
+            {
+              "name": "Morung Express, Sept 7",
+              "url": "https://morungexpress.com/naga-wrestling-to-feature-at-uww-world-belt-wrestling-cship-2026"
+            }
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "in-mkt-1",
+          "title": "Bengaluru hosts chess's richest team league as the GCL returns for a fourth season",
+          "summary": "The Tech Mahindra Global Chess League opened at Bengaluru's Lalit Ashok on September 5 with a $1 million prize fund split across six city-branded, franchise-owned teams. Magnus Carlsen anchors the defending champion Alpine APL Pipers, while Viswanathan Anand leads the Alaskan Knights and India's Divya Deshmukh makes her debut for the Ganges Grandmasters. The corporate-backed franchise model, running since 2023, remains one of the few ways elite chess earns money outside classical tournament purses.",
+          "sources": [
+            {
+              "name": "ChessBase, Sept 5",
+              "url": "https://en.chessbase.com/post/global-chess-league-2026-preview"
+            }
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "in-soc-1",
+          "title": "India's junior women's hockey team opens an Asia Cup title defence with a rout",
+          "summary": "India beat South Korea 4-1 in Moqi, China, to open defence of the AHF Women's Junior Asia Cup, with Sanika Chandrakant Mane, Purnima Yadav, Puja Sahoo and Madhu Sidar scoring. The side, chasing a third straight title under new coach Tim White, prepared with a UK exposure tour against senior and under-21 opposition from Scotland, England and Belgium, a pipeline investment aimed at the senior women's team ahead of the Asian Games.",
+          "sources": [
+            {
+              "name": "KhelNow, Sept 7",
+              "url": "https://khelnow.com/hockey/ahf-womens-junior-asia-cup-india-south-korea-202609"
+            }
+          ]
+        }
+      ]
+    },
+    "global": {
+      "government": [
+        {
+          "id": "gl-gov-1",
+          "title": "A retiring cyclist accuses Portugal's peloton of a doping wild west",
+          "summary": "American rider Keegan Swirbul, retiring after a decade as a professional, used a 24-minute YouTube video to allege pervasive doping in Portugal's domestic circuit, citing rapid weight loss aided by corticosteroid exemptions and teams rehiring riders returning from suspensions. A rival he named, previously banned for EPO and blood bags, confronted him mid-race demanding proof; Swirbul says the suspension record speaks for itself. No governing body has opened a formal inquiry.",
+          "sources": [
+            {
+              "name": "road.cc, Sept 4",
+              "url": "https://road.cc/news/cycling-live-blog-4-september-2026"
+            }
+          ]
+        },
+        {
+          "id": "gl-gov-2",
+          "title": "WNBA commissioner Cathy Engelbert to step down after seven years",
+          "summary": "Engelbert, the league's first commissioner, will retire at the end of 2026 after overseeing a period in which the WNBA secured a new media-rights deal, a collective bargaining agreement, and an expansion pipeline set to take the league from 12 to 18 teams by 2030. She told the Associated Press the decision was hers alone, made after months of thought rather than pressure from owners or players. No successor process has been announced.",
+          "sources": [
+            {
+              "name": "WNBA.com, Sept 4",
+              "url": "https://www.wnba.com/news/commissioner-cathy-engelbert-to-retire-at-end-of-year"
+            }
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "gl-mkt-1",
+          "title": "LIV Golf finds a replacement backer as Saudi Arabia's fund exits",
+          "summary": "LIV Golf has lined up a new lead investor to take over after Saudi Arabia's Public Investment Fund confirmed it will stop funding the league at the end of 2026, with terms expected to close this month. Under the restructuring, players would hold majority equity for the first time in a major global league, the season would shrink to roughly ten team events including five \"Team Majors,\" and PIF would exit having put in over five billion dollars since 2021.",
+          "sources": [
+            {
+              "name": "Sky Sports, Aug 6",
+              "url": "https://www.skysports.com/golf/news/12176/13570123/liv-golf-reaches-agreement-with-new-lead-investor-after-saudi-pif-withdrew-funding-from-breakaway-league"
+            }
+          ]
+        },
+        {
+          "id": "gl-mkt-2",
+          "title": "World Athletics scraps country quotas for a $10 million made-for-television meet",
+          "summary": "The inaugural World Athletics Ultimate Championship, opening September 11 in Budapest, drops the quota system that limits major championships to a set number of athletes per country, instead inviting the world's best regardless of nationality. Twenty-eight finals run across three roughly three-hour evening sessions, with a $10 million purse ensuring every entrant is paid something, a format built explicitly around television attention spans rather than championship tradition.",
+          "sources": [
+            {
+              "name": "CITIUS Mag",
+              "url": "https://citiusmag.com/articles/world-athletics-ultimate-championship-2026-what-you-need-to-know"
+            }
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "gl-soc-1",
+          "title": "Host Germany survive an elimination scare as France sets a shooting record",
+          "summary": "Germany beat Mali 83-58 in Berlin to close an unbeaten group phase at the FIBA Women's World Cup, playing in front of a sold-out, dancing home crowd of 12,550 that has filled the arena for all three of the hosts' games. In the same round France made a tournament-record 22 three-pointers in a 111-56 win over Nigeria, breaking a mark Japan had set only three days earlier.",
+          "sources": [
+            {
+              "name": "Local10 (AP), Sept 7",
+              "url": "https://www.local10.com/sports/2026/09/07/host-germany-avoids-early-exit-from-womens-fiba-world-cup-france-sets-3-pointer-record/"
+            }
+          ]
+        },
+        {
+          "id": "gl-soc-2",
+          "title": "The Solheim Cup returns for the first time to the Netherlands",
+          "summary": "Team USA and Europe's players gathered at Bernardus Golf for an opening ceremony on September 6 ahead of the 20th Solheim Cup, the first to be staged in the Netherlands. Angela Stanford captains a USA side defending the trophy it won in 2024 against Anna Nordqvist's Europe, in a rivalry the Americans lead 11-7-1 overall but which Europe has narrowed considerably in recent contests; foursomes begin September 11.",
+          "sources": [
+            {
+              "name": "Sky Sports",
+              "url": "https://www.skysports.com/golf/news/12176/13313909/solheim-cup-2026-teams-captains-venue-format-and-how-players-will-qualify-for-europe-vs-usa-in-the-netherlands"
+            }
+          ]
+        },
+        {
+          "id": "gl-soc-3",
+          "title": "Malmo hosts Sweden's largest-ever event for athletes with intellectual disabilities",
+          "summary": "The Special Olympics Sweden Invitational Games opened on September 4 with a Parade of Nations at Folkets Park, bringing about 2,000 athletes from 26 countries to compete across 11 sports including football, swimming, judo and powerlifting. Organisers billed it as the largest sporting event Sweden has held for people with intellectual disabilities, a scale rarely reached by a movement that draws a fraction of the funding and coverage given to Paralympic sport.",
+          "sources": [
+            {
+              "name": "Special Olympics",
+              "url": "https://www.specialolympics.org/stories/news/2-000-athletes-26-nations-11-sports-bring-on-special-olympics-sweden-invitational-games-2026"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "format": "Op-ed",
+      "title": "What two India cricket coaches actually means for accountability",
+      "summary": "BCCI now runs parallel coaching setups, Gambhir at home and Laxman in Japan, treated in coverage as a mere scheduling fix. Nobody has asked what happens to selection authority and reporting lines if the Asian Games team underperforms while the ODI side wins, or the reverse, and who actually owns the result when the next review meeting comes around."
+    },
+    {
+      "id": "opp-2",
+      "format": "Blog",
+      "title": "A folk sport's federation now needs UWW's permission",
+      "summary": "Naga wrestling entering the UWW fold via the Alysh federations raises a quieter question than the headline hosting bid: what happens to a traditional form's own rules, weight categories and community ownership once an international federation becomes the sanctioning body it must now answer to."
+    },
+    {
+      "id": "opp-3",
+      "format": "Podcast",
+      "title": "What do LIV Golf's players actually own",
+      "summary": "The pitch is that players become majority equity holders for the first time in a major sports league. Nobody has explained the mechanics: voting rights, exit terms, or what happens if a marquee player leaves, and whether \"equity\" here means real control or just a bigger share of a smaller pie."
+    },
+    {
+      "id": "opp-4",
+      "format": "Blog",
+      "title": "The Ultimate Championship's no-quota model is a stress test for small federations",
+      "summary": "Dropping country quotas sounds like pure meritocracy, but it also means a federation that has funded one promising athlete for years could see them shut out entirely by strength-in-depth nations. Worth tracking which countries end up with zero representation in Budapest and what that does to their funding case back home."
+    },
+    {
+      "id": "opp-5",
+      "format": "Op-ed",
+      "title": "A rider goes to YouTube instead of an anti-doping hotline",
+      "summary": "Swirbul's decision to air doping allegations in a 24-minute video rather than filing with the UCI or the ITA says something about whether riders trust the formal channels at all. The interesting story isn't whether Portuguese cycling has a doping problem, it's why a whistleblower now reaches for a camera before a case officer."
+    },
+    {
+      "id": "opp-6",
+      "format": "Podcast",
+      "title": "Why intellectual-disability sport draws a fraction of Paralympic attention",
+      "summary": "Malmo's 2,000-athlete Games got a sliver of the coverage a Paralympic event of similar scale would receive. A conversation with organisers and athletes about funding, broadcast interest and public perception could explain the persistent gap between Special Olympics and Paralympic sport, in both money and visibility."
+    }
+  ]
+}
