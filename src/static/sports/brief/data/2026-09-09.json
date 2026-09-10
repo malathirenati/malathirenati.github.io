@@ -1,0 +1,147 @@
+{
+  "date": "2026-09-09",
+  "weekday": "Wednesday",
+  "regions": {
+    "india": {
+      "government": [
+        {
+          "id": "in-gov-1",
+          "title": "Supreme Court asks why cricket sits outside the sports governance law",
+          "summary": "A three-judge bench directed the BCCI and state cricket associations to justify their exclusion from the National Sports Governance Act, 2025, and asked their advocates to take client instructions on whether office-bearer terms should be regulated under the law. The board has long operated as an autonomous private body outside the National Sports Federation framework because it takes no government funding. No substantive order has been passed; the matter returns once instructions are filed.",
+          "sources": [
+            {
+              "name": "CricTracker, Sept 9",
+              "url": "https://www.crictracker.com/cricket-news/supreme-court-questions-bccis-exclusion-from-national-sports-governance-act-seeks-response/"
+            }
+          ]
+        },
+        {
+          "id": "in-gov-2",
+          "title": "Maharashtra ties its athlete job quota to a blockchain verification system",
+          "summary": "The state cabinet approved a revised 5% reservation in government jobs for accomplished sportspersons across Group A to D posts in departments, local bodies, corporations and universities, covering more than 30 disciplines from cricket to mallakhamb. A new platform called Krida E-Praman will verify certificates cryptographically, and every eligible athlete, including those already recognised under the old policy, must revalidate within three months or lose the benefit.",
+          "sources": [
+            {
+              "name": "Free Press Journal, Sept 9",
+              "url": "https://www.freepressjournal.in/mumbai/maharashtra-approves-revised-5-sports-quota-policy-mandates-digital-verification-of-certificates"
+            }
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "in-mkt-1",
+          "title": "BCCI adds Campa, SBI Life and ChatGPT to its home-season sponsor lineup",
+          "summary": "The board signed Campa, SBI Life and ChatGPT as Associate Partners for India's home cricket season starting with the West Indies series, two-season deals running to March 2028 worth more than Rs 130 crore combined, a 44% jump on the previous cycle. BCCI president Mithun Manhas called it an endorsement of the strength of the Indian cricket ecosystem; an AI chatbot joining an insurer and a soft-drink brand on the sponsor board is itself a small sign of where marketing budgets are moving.",
+          "sources": [
+            {
+              "name": "Sunday Guardian Live, Sept 9",
+              "url": "https://sundayguardianlive.com/sports/bcci-partnerships-2026-campa-sbi-life-and-chatgpt-join-india-home-cricket-deals-worth-over-130-crore-280574/"
+            }
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "in-soc-1",
+          "title": "India stay unbeaten as the Women's Asia Cup semi-final lineup is confirmed",
+          "summary": "India, Pakistan, Sri Lanka and Bangladesh completed the semi-final field in Dubai, with India unbeaten through group games against Thailand, Hong Kong and Pakistan, defending champions Sri Lanka also unbeaten, and Pakistan booking their spot with a 72-run win over Hong Kong. India face Bangladesh on September 10 and Sri Lanka meet Pakistan on September 11, with the final set for September 13.",
+          "sources": [
+            {
+              "name": "MyKhel, Sept 9",
+              "url": "https://www.mykhel.com/cricket/womens-asia-cup-2026-semifinal-schedule-india-face-bangladesh-sri-lanka-take-on-pakistan-452631.html"
+            }
+          ]
+        }
+      ]
+    },
+    "global": {
+      "government": [],
+      "markets": [
+        {
+          "id": "gl-mkt-1",
+          "title": "Liverpool sign a record shirt deal with Turkish Airlines",
+          "summary": "Turkish Airlines will pay Liverpool roughly £300 million over five years to become front-of-shirt sponsor from the 2027-28 season, replacing Standard Chartered's partnership dating to 2010. The branding will appear across the men's, women's and academy shirts, and the announcement leaned on the airline's Istanbul home city as the site of Liverpool's 2005 Champions League final win, a deliberate piece of brand storytelling behind the record fee.",
+          "sources": [
+            {
+              "name": "ESPN, Sept 8",
+              "url": "https://www.espn.com/soccer/story/_/id/49867443/liverpool-announce-turkish-airlines-main-shirt-sponsor-2027"
+            }
+          ]
+        },
+        {
+          "id": "gl-mkt-2",
+          "title": "The NFL moves its season opener to a Wednesday to protect a slot for Australia",
+          "summary": "Seattle hosted New England on a Wednesday night, only the second Wednesday opener in the league's 107-year history, so the defending champion Seahawks could still open the season officially before the NFL's first regular-season game in Australia the following night. Commissioner Roger Goodell said the Melbourne fixture is not a one-off: \"We're coming here for the long term,\" signalling recurring international games are now part of the league's commercial calendar rather than a novelty.",
+          "sources": [
+            {
+              "name": "CBS Sports, Sept 9",
+              "url": "https://www.cbssports.com/nfl/news/patriots-at-seahawks-why-nfl-season-is-opening-wednesday/"
+            }
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "gl-soc-1",
+          "title": "Ben Shelton ends Alcaraz's Grand Slam final streak in the latest finish in US Open history",
+          "summary": "Shelton beat defending champion Carlos Alcaraz 6-7, 6-1, 6-3, 1-6, 7-6 in a match that finished at 3:33am, the latest ever at the tournament, sealing it with back-to-back 146mph aces in a final-set tiebreak. It was Shelton's first win over a top-five player at a major and ends Alcaraz's run of four straight Grand Slam finals, while setting up an all-American semi-final against Frances Tiafoe that guarantees a US men's finalist for the first time in 23 years.",
+          "sources": [
+            {
+              "name": "Al Jazeera, Sept 9",
+              "url": "https://www.aljazeera.com/sports/2026/9/9/ben-shelton-shocks-carlos-alcaraz-in-five-sets-to-win-us-open-quarterfinal"
+            }
+          ]
+        },
+        {
+          "id": "gl-soc-2",
+          "title": "Australia survive a 26-point collapse to reach the FIBA World Cup quarter-finals",
+          "summary": "The Opals led Italy by 20 points in the third quarter before an Italian fourth-quarter surge levelled the game with just over a minute left; Australia held on to win 82-80 after Francesca Pana's buzzer-beating layup attempt rolled off the rim. WNBA rookie Izzy Borlase scored a game-high 30 points despite Australia playing much of the match without injured captain Ezi Magbegor, and the win sends them into a quarter-final against Spain, likely still short-handed.",
+          "sources": [
+            {
+              "name": "ABC News Australia, Sept 10",
+              "url": "https://www.abc.net.au/news/2026-09-10/opals-survive-italy-in-fiba-womens-world-cup/107136188"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "format": "Op-ed",
+      "title": "Why has cricket never had to answer this question before",
+      "summary": "BCCI's exemption from national sports law has stood for decades on the premise that it takes no government money. The Supreme Court's question is a chance to examine whether self-funding should still be sufficient grounds for a body with cricket's public reach, revenue and diplomatic weight to sit outside a governance regime every other federation now follows."
+    },
+    {
+      "id": "opp-2",
+      "format": "Blog",
+      "title": "A blockchain fix for a paperwork problem, or the other way round",
+      "summary": "Maharashtra's Krida E-Praman platform treats certificate fraud as a technical problem solvable with cryptographic hashing. Worth examining whether the underlying issue was ever really about fake certificates, or about opaque verification processes that a database, blockchain or not, would have fixed just as well."
+    },
+    {
+      "id": "opp-3",
+      "format": "Podcast",
+      "title": "What an AI chatbot is doing on a cricket board's sponsor board",
+      "summary": "ChatGPT signing on as a BCCI associate partner is a small line in a bigger story about how conversational AI brands are buying visibility through sport before anyone has worked out what the product actually does for a cricket fan. What is OpenAI purchasing here that a banner ad wouldn't get it?"
+    },
+    {
+      "id": "opp-4",
+      "format": "Blog",
+      "title": "Istanbul 2005 sold a shirt deal twenty years later",
+      "summary": "Turkish Airlines' pitch for Liverpool leaned on a Champions League final most of the club's current fanbase never saw live. A look at how sponsors are increasingly buying into a club's own mythology rather than its current results, and what that says about where brand value in football now sits."
+    },
+    {
+      "id": "opp-5",
+      "format": "Op-ed",
+      "title": "The NFL is exporting a Sunday-built league to a Friday-morning market",
+      "summary": "Goodell's promise of permanent Australia games is a scheduling and travel-logistics story wearing a globalisation announcement. Nobody has asked what a genuinely international NFL calendar would cost teams in recovery time and home-field advantage if it stops being one novelty fixture a year."
+    },
+    {
+      "id": "opp-6",
+      "format": "Podcast",
+      "title": "Australia's medal hopes are now an injury story, not a form story",
+      "summary": "With three first-choice players out before the quarter-final stage, the Opals' World Cup campaign has quietly become a test of squad depth rather than talent. Worth tracking how a team built around two or three stars adapts on the fly, and what it says about roster construction in a compressed international tournament."
+    }
+  ]
+}
