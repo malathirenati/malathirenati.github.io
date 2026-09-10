@@ -1,0 +1,118 @@
+{
+  "date": "2026-09-10",
+  "weekday": "Thursday",
+  "regions": {
+    "india": {
+      "government": [
+        {
+          "id": "in-gov-1",
+          "title": "A teenage swimmer's doping ban closes out India's Asiad selection drama",
+          "summary": "A 17-year-old swimmer who had qualified for two events was handed an 18-month suspension after testing positive for terbutaline, a banned beta-2 agonist, ruling him out of the Asian Games. The Swimming Federation of India had pushed to expedite his hearing hoping NADA would clear him in time; instead he becomes the latest name in a run of pre-Asiad doping cases, while his twin brother remains on the squad travelling to Aichi-Nagoya.",
+          "sources": [
+            {
+              "name": "The Bridge, Sept 10",
+              "url": "https://thebridge.in/asian-games/2026-swimmer-positive-doping-18-month-ban-57524"
+            }
+          ]
+        }
+      ],
+      "markets": [],
+      "society": [
+        {
+          "id": "in-soc-1",
+          "title": "Bengaluru's squash open draws 300 players from 18 states",
+          "summary": "The fourth edition of the White Lotus Bengaluru Squash Open opened at The Bengaluru Club, part of the Squash Rackets Federation of India's 3-Star National Circuit, running junior, open and masters categories through September 13. Organisers frame the event as a grassroots pipeline at a pointed moment: squash debuts at the Los Angeles 2028 Olympics, meaning players coming through circuits like this one now have a realistic Olympic pathway that didn't exist a cycle ago.",
+          "sources": [
+            {
+              "name": "Business News This Week, Sept 8",
+              "url": "https://businessnewsthisweek.com/news/the-white-lotus-bengaluru-squash-open-2026-to-bring-together-over-300-players-from-18-states/"
+            }
+          ]
+        },
+        {
+          "id": "in-soc-2",
+          "title": "India's squash team draws a path to the sport's first Olympic berths",
+          "summary": "India's men's team were top-seeded for the Asian Games in a pool with Korea and China, while the women were seeded third alongside Japan, China and Iran, in draws that carry unusual weight: Asian Games squash winners qualify directly for LA28, becoming the sport's first-ever Olympians. Abhay Singh, seeded second in the men's singles, is chasing what would be India's first individual squash title at the Games after five medals, two of them gold, in Hangzhou.",
+          "sources": [
+            {
+              "name": "The Hans India, Sept 10",
+              "url": "https://www.thehansindia.com/sports/defending-champions-indian-mens-team-top-seeded-as-draws-unveils-for-squash-at-asian-games-1120353"
+            }
+          ]
+        }
+      ]
+    },
+    "global": {
+      "government": [
+        {
+          "id": "gl-gov-1",
+          "title": "NFL owners lock in Roger Goodell through 2031",
+          "summary": "Goodell agreed to a fourth-year extension keeping him as commissioner through March 2031, his fifth re-up since taking the job in 2006, with more than 95% of his pay tied to performance metrics for himself and the league. The timing hands him control of the next collective bargaining negotiation and the following broadcast-rights cycle, the two decisions that will most shape the league's finances after this contract expires.",
+          "sources": [
+            {
+              "name": "ESPN, Sept 6",
+              "url": "https://www.espn.com/nfl/story/_/id/49850050/nfl-commissioner-roger-goodell-finalizes-four-year-extension"
+            }
+          ]
+        }
+      ],
+      "markets": [],
+      "society": [
+        {
+          "id": "gl-soc-1",
+          "title": "Seattle survives three Drake Maye interceptions to open its title defence",
+          "summary": "The Seahawks trailed the Patriots 10-0 before scoring 13 unanswered points, including a 45-yard Jaxon Smith-Njigba touchdown, to win 13-10 in a Super Bowl rematch played on an unusual Wednesday night. Starting quarterback Sam Darnold left with a first-drive hip injury and backup Drew Lock finished the job; New England's Drake Maye threw three fourth-quarter interceptions, the last one sealing the loss with 26 seconds left after his own defence had put New England in position to win.",
+          "sources": [
+            {
+              "name": "ESPN, Sept 9",
+              "url": "https://www.espn.com/nfl/story/_/id/49799249/seattle-seahawks-vs-new-england-patriots-live-results-analysis-nfl-season-kickoff-super-bowl-lx-rematch"
+            }
+          ]
+        },
+        {
+          "id": "gl-soc-2",
+          "title": "Elena Rybakina becomes tennis's first world No. 1 from Kazakhstan",
+          "summary": "Rybakina's 3-6, 6-1, 6-4 win over an unseeded Zheng Qinwen sent her into the US Open semi-finals and mathematically guaranteed the No. 1 ranking, ending Aryna Sabalenka's 99-week run at the top when rankings update Monday. She reached the milestone the long way, without a Grand Slam final since Wimbledon 2023, and will face the winner of Coco Gauff and Mirra Andreeva while Sabalenka, now facing life at No. 2, plays Jessica Pegula in the other semi-final.",
+          "sources": [
+            {
+              "name": "NBC Sports, Sept 9",
+              "url": "https://www.nbcsports.com/tennis/news/elena-rybakina-beats-zheng-to-reach-us-open-semifinals-and-move-to-no-1-in-the-womens-rankings"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "format": "Blog",
+      "title": "What does an expedited doping hearing actually optimise for",
+      "summary": "SFI pushed for a quick hearing hoping for a clearance in time for the Games, and got a suspension instead. Worth asking whether federations requesting speed are serving the athlete's interest or the team's medal count, and what incentive that creates around how hard a federation pushes for a TUE application before a positive test rather than after one."
+    },
+    {
+      "id": "opp-2",
+      "format": "Op-ed",
+      "title": "Squash just handed India's junior circuits an Olympic stake",
+      "summary": "LA28 turns every domestic squash ranking tournament into a quiet feeder system for Olympic qualification through the Asian Games. Nobody has mapped how SRFI's 3-Star circuit, clubs like Bengaluru's, and federation funding will need to adjust now that a junior result carries Olympic-cycle consequences it never did before."
+    },
+    {
+      "id": "opp-3",
+      "format": "Podcast",
+      "title": "A contract that pays a commissioner to win labour negotiations",
+      "summary": "Tying 95% of Goodell's pay to performance metrics sounds like accountability, but the metrics are set by the owners he negotiates against players on behalf of. A conversation on what \"performance\" means when the person being measured and the people setting the measure share the same side of the table."
+    },
+    {
+      "id": "opp-4",
+      "format": "Blog",
+      "title": "The long way to No. 1",
+      "summary": "Rybakina reaches the top ranking without a Slam final in over two years, on the strength of consistency rather than a marquee run. Worth examining how the WTA ranking system rewards depth of results over peak moments, and whether that produces a No. 1 the sport's casual audience actually recognises as one."
+    },
+    {
+      "id": "opp-5",
+      "format": "Op-ed",
+      "title": "A backup quarterback's stat line is the real season-opener story",
+      "summary": "Drew Lock, not the two star quarterbacks the game was built around, finished Seattle's win after Darnold's injury. A piece on how much of a title defence rests on a team's QB2 plan, and how little of the pre-season coverage of a Super Bowl rematch ever mentions it."
+    }
+  ]
+}
