@@ -1,0 +1,125 @@
+{
+  "date": "2026-09-11",
+  "weekday": "Friday",
+  "regions": {
+    "india": {
+      "government": [
+        {
+          "id": "in-gov-1",
+          "title": "Sports Ministry lets IOA keep its 16-member Executive Council",
+          "summary": "The Sports Ministry exempted the IOA from the National Sports Governance Act's 15-member Executive Council cap, invoking Article 37(2), which allows domestic rules to bend where they would conflict with an international federation's own statutes. The IOC had recommended keeping the council at 16 because the Olympic Charter requires India's IOC member to sit as an ex-officio voting member on top of the 15 regular seats, resolving a conflict between the new law and Olympic Charter requirements just over a week before the Asian Games contingent departs.",
+          "sources": [
+            {
+              "name": "Rozana Spokesman, Sept 11",
+              "url": "https://www.rozanaspokesman.com/sports/110926/sports-ministry-exempts-ioa-from-15-member-cap-allows-16-strong-execu.html"
+            }
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "in-mkt-1",
+          "title": "Cricket Australia's Big Bash privatisation puts IPL owners on alert",
+          "summary": "Cricket Australia confirmed plans to sell private stakes in Big Bash League franchises over the objections of New South Wales and Queensland, with the Melbourne Renegades likely first to sell, possibly by Christmas, followed by the Perth Scorchers to help fund stadium redevelopment. IPL ownership groups, who already hold stakes in the ILT20, SA20, MLC and other T20 leagues, are the speculated buyers, though no bids are confirmed; separately, the Australian Cricketers' Association is pushing to raise players' revenue share from 27.5% to 33%, a demand every state has so far rejected.",
+          "sources": [
+            {
+              "name": "Yahoo Sports, Sept 11",
+              "url": "https://sports.yahoo.com/articles/bbl-privatisation-means-see-ipl-172230487.html"
+            }
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "in-soc-1",
+          "title": "India power into the Women's Asia Cup final",
+          "summary": "Shafali Verma's 64 off 40 balls, including three sixes despite being dropped three times, lifted India to 149 for 6 against Bangladesh in Dubai, and Deepti Sharma's 3 for 26 anchored a bowling performance that held Bangladesh to 109 for 7, a 40-run win in the semi-final. It sends seven-time champions India into Sunday's final against the winner of Sri Lanka and Pakistan, continuing an unbeaten run through the tournament.",
+          "sources": [
+            {
+              "name": "Telangana Today, Sept 11",
+              "url": "https://telanganatoday.com/india-beat-bangladesh-by-40-runs-to-reach-womens-asia-cup-final"
+            }
+          ]
+        },
+        {
+          "id": "in-soc-2",
+          "title": "A national record arrives on schedule, weeks before the Asian Games",
+          "summary": "Tanya Chaudhary broke India's women's hammer throw national record with a 68.35m effort at the Indian Athletics Series final, improving on Anushka Yadav's 67.02m mark after a stretch of throws stuck in the 65-67m range. Chaudhary and her coach credited a training block spent purely on refining technique rather than adding strength, and she described the timing, weeks before the Asian Games, as deliberate rather than lucky.",
+          "sources": [
+            {
+              "name": "The Tribune, Sept 11",
+              "url": "https://www.tribuneindia.com/news/asian-games/it-feels-really-good-tanya-chaudhary-breaks-womens-hammer-throw-national-record-at-indian-athletics-series-final"
+            }
+          ]
+        }
+      ]
+    },
+    "global": {
+      "government": [
+        {
+          "id": "gl-gov-1",
+          "title": "Connecticut orders nine prediction-market platforms to stop taking sports bets",
+          "summary": "Connecticut's consumer protection department issued cease-and-desist orders to Polymarket, Coinbase, Crypto.com, Robinhood, ProphetX, Novig, Webull, Gemini and Underdog Predict, and subpoenaed nearly thirty supporting companies including PayPal, Apple, Google and ESPN, in the sharpest state move yet against sports event contracts. The dispute is jurisdictional: Connecticut treats a contract on a game's outcome as a wager subject to state gambling law, while the platforms argue federal commodities rules already cover them, a fight now playing out state by state rather than in Congress.",
+          "sources": [
+            {
+              "name": "iGaming Today, Sept 11",
+              "url": "https://www.igamingtoday.com/connecticut-widens-crackdown-on-prediction-markets-as-sports-betting-fight-escalates/"
+            }
+          ]
+        }
+      ],
+      "markets": [],
+      "society": [
+        {
+          "id": "gl-soc-1",
+          "title": "Formula 1's newest, riskiest circuit passes its first real test",
+          "summary": "George Russell topped opening practice at Madrid's new Madring street circuit in 1:34.077, just ahead of championship leader Kimi Antonelli, in the first F1 session held on a track that produced 19 red flags during earlier Formula 3 testing and had been called the most dangerous on the calendar. The session ran without a single red flag, though traffic management was already a live issue, with Lewis Hamilton both blocking and blocked by rivals on a circuit whose Sunday race will be Madrid's first.",
+          "sources": [
+            {
+              "name": "Crash.net, Sept 11",
+              "url": "https://www.crash.net/f1/news/1104171/1/2026-f1-spanish-grand-prix-madrid-friday-practice-results"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "format": "Op-ed",
+      "title": "A carve-out clause is now the whole story",
+      "summary": "Article 37(2)'s allowance for rules to bend where they conflict with an international federation's statutes just resolved its first real test, letting the IOA sidestep a headline provision of its own governing law. Worth asking how many other National Sports Bodies will now reach for the same clause, and whether the exemption process has any real bar to clear beyond a letter from the international federation."
+    },
+    {
+      "id": "opp-2",
+      "format": "Blog",
+      "title": "What IPL ownership actually buys in someone else's league",
+      "summary": "Every reaction to IPL owners eyeing BBL teams assumes Indian money changes only who owns a franchise, not how the league is run. Nobody has examined what an Indian conglomerate would actually control inside Cricket Australia's franchise agreements versus what stays with the league office, and whether that answer changes once a bid is real rather than speculative."
+    },
+    {
+      "id": "opp-3",
+      "format": "Podcast",
+      "title": "Seven titles in, has India's Asia Cup dominance become bad for the tournament",
+      "summary": "India reached another final having barely been tested this campaign. A conversation on whether one team's near-total supremacy in a regional tournament helps or hollows out the format, and what Bangladesh, Sri Lanka and Pakistan's boards would actually need to invest to close the gap rather than just show up competitive for one match."
+    },
+    {
+      "id": "opp-4",
+      "format": "Blog",
+      "title": "The quiet economics behind a personal-best season",
+      "summary": "A cluster of Indian national records landing just before the Asian Games is being reported purely as good timing. Worth asking what specifically changed in coaching, sports science or training-camp access this cycle, since a wave of records in the same narrow window rarely happens by coincidence."
+    },
+    {
+      "id": "opp-5",
+      "format": "Op-ed",
+      "title": "Fifty states, fifty different answers to the same bet",
+      "summary": "Prediction markets are being fought state by state, with Connecticut going furthest so far, while the platforms lean on a federal framework that hasn't clearly settled who is right. An explainer on how a sports bettor's legal standing now depends entirely on which state they're sitting in, and why Congress has stayed out of resolving it."
+    },
+    {
+      "id": "opp-6",
+      "format": "Podcast",
+      "title": "A circuit failed its own audition and got the race anyway",
+      "summary": "Nineteen red flags in F3 testing is the kind of record that would sink a venue's bid in most sports. Worth asking what commercial pressure kept Madring on the calendar despite that, and whether F1's venue safety sign-off has any real veto power once a race contract is already signed."
+    }
+  ]
+}
