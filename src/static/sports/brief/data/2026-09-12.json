@@ -1,0 +1,124 @@
+{
+  "date": "2026-09-12",
+  "weekday": "Saturday",
+  "regions": {
+    "india": {
+      "government": [
+        {
+          "id": "in-gov-1",
+          "title": "Delhi High Court denies Vinesh Phogat's plea to bypass wrestling trial eligibility",
+          "summary": "Justice Swarana Kanta Sharma rejected the Olympic wrestler's bid for a temporary exemption from the Wrestling Federation of India's eligibility rules for World Championship trials, which she had sought citing pregnancy and postpartum recovery. The court held that a September 7 circular applies uniformly to all athletes and that a one-off exemption would be unfair to competitors, while still telling the federation to draft clearer guidelines for athletes returning from maternity leave. The trials go ahead on September 14 as scheduled.",
+          "sources": [
+            {
+              "name": "NewsX, Sept 11",
+              "url": "https://www.newsx.com/sports/vinesh-phogat-suffers-big-blow-delhi-high-court-rejects-plea-to-compete-in-2026-world-wrestling-championships-trials-270713/"
+            }
+          ]
+        }
+      ],
+      "markets": [],
+      "society": [
+        {
+          "id": "in-soc-1",
+          "title": "Sri Lanka book a rematch with India in the Women's Asia Cup final",
+          "summary": "Sri Lanka recovered from 33 for 4 to beat Pakistan by four wickets, Harshitha Samarawickrama and Kavisha Dilhari adding 67 together after Fatima Sana's unbeaten 47 and four wickets had put Pakistan in charge. It sets up a repeat of the last final, in Dubai on September 13, between an unbeaten India chasing a record eighth title and the defending champions who beat them for the trophy last time.",
+          "sources": [
+            {
+              "name": "News Karnataka, Sept 12",
+              "url": "https://newskarnataka.com/sports/sri-lanka-beat-pakistan-set-up-asia-cup-final-vs-india/12092026/"
+            }
+          ]
+        },
+        {
+          "id": "in-soc-2",
+          "title": "India's junior men's hockey team is one win from defending its Asia Cup title",
+          "summary": "India beat Malaysia 3-1 in the semi-final, captain Anmol Ekka scoring twice, to reach Sunday's final against the winner of Pakistan and South Korea. It came a day after the junior women's team beat Pakistan 19-0 in their own Asia Cup quarter-final, a strong week for the age-group hockey pipeline just over a week before the senior Asian Games campaign begins in Aichi-Nagoya.",
+          "sources": [
+            {
+              "name": "NewsX, Sept 11",
+              "url": "https://www.newsx.com/sports/ahf-junior-asia-cup-2026-india-thrash-malaysia-3-1-in-semi-final-and-storm-into-final-270818/"
+            }
+          ]
+        },
+        {
+          "id": "in-soc-3",
+          "title": "Mona Agarwal's silver seals India's first shooting quota for LA 2028",
+          "summary": "Agarwal took silver and Avani Lekhara bronze in the women's 10m air rifle standing SH1 at the World Para Shooting Championships in Changwon, with Agarwal's score confirming India's first quota place in the category for the 2028 Los Angeles Paralympics. The pair added a team gold alongside Mili Shah, the first world championship medal either shooter has won individually.",
+          "sources": [
+            {
+              "name": "The Bridge, Sept 10",
+              "url": "https://thebridge.in/para-sports/world-para-shooting-cships-mona-avani-57527"
+            }
+          ]
+        }
+      ]
+    },
+    "global": {
+      "government": [],
+      "markets": [
+        {
+          "id": "gl-mkt-1",
+          "title": "NFL team values jump 35% in a year, Cowboys near $16 billion",
+          "summary": "CNBC's 2026 rankings put the average NFL franchise at $10.36 billion, up 35% on last year, with the Dallas Cowboys top for a seventh straight year at close to $16 billion. The jump follows the Khosla family's record $9.6 billion purchase of the Seattle Seahawks in July, a deal built on more than $8 billion of pure equity and a 14:1 revenue multiple that has reset what buyers are willing to pay for a franchise.",
+          "sources": [
+            {
+              "name": "Time News, reporting CNBC's rankings, Sept 9",
+              "url": "https://time.news/nfl-franchise-values-surge-to-10-36b-average-led-by-cowboys-at-16b/"
+            }
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "gl-soc-1",
+          "title": "Sabalenka and Rybakina set up a US Open final between the top two",
+          "summary": "Aryna Sabalenka beat Jessica Pegula 7-5, 6-2, hitting 29 winners and seven aces, while new world No. 1 Elena Rybakina recovered from dropping the first set to beat Coco Gauff 3-6, 6-4, 6-4. It is a rematch of this year's Australian Open final, which Rybakina won in three sets, and pits the tour's two highest-ranked players against each other in a Grand Slam final.",
+          "sources": [
+            {
+              "name": "ABC News Australia, Sept 11",
+              "url": "https://www.abc.net.au/news/2026-09-11/us-open-aryna-sabalenka-elena-rybakina-final/107143572"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "format": "Op-ed",
+      "title": "India's sports federations have no rulebook for a return from motherhood",
+      "summary": "The Delhi High Court denied Phogat's exemption but explicitly told the Wrestling Federation to write guidelines for athletes returning from maternity leave, an implicit admission none exist. Worth examining how many of India's national federations have any policy at all for pregnancy or postpartum return, and what a uniform standard across sports would actually need to contain."
+    },
+    {
+      "id": "opp-2",
+      "format": "Blog",
+      "title": "India keep reaching Asia Cup finals against Sri Lanka without fixing what went wrong last time",
+      "summary": "This is the second straight Women's Asia Cup final between the two sides, and Sri Lanka won the last one. An unbeaten group stage is being read as proof India are favourites again, but nobody has gone back to look at what specifically failed in the previous final against this exact opponent, and whether it has actually been addressed."
+    },
+    {
+      "id": "opp-3",
+      "format": "Podcast",
+      "title": "What happens to Asia Cup junior hockey winners by the time the Asian Games arrive",
+      "summary": "Both junior hockey teams reaching finals this week is being covered as pure pipeline good news. A more useful conversation would trace how many of the last junior Asia Cup squad actually made India's senior Asian Games roster, since that conversion rate is the real test of whether the age-group system feeds the top level or just produces good junior results."
+    },
+    {
+      "id": "opp-4",
+      "format": "Blog",
+      "title": "A Paralympic quota won in Changwon matters more than the medal colour",
+      "summary": "Coverage of Mona Agarwal's silver focuses on the medal table, but confirming India's first quota place in an event is the more consequential outcome for LA 2028 planning. Worth asking how India's Paralympic committee actually uses a championship result like this one to plan athlete support four years out, rather than reacting medal by medal."
+    },
+    {
+      "id": "opp-5",
+      "format": "Op-ed",
+      "title": "The Seahawks sale's real headline is the revenue multiple, not the price",
+      "summary": "Most coverage of the NFL's valuation surge leads with the Cowboys' $16 billion figure. The more interesting number is the 14:1 revenue multiple buyers accepted for the Seahawks, which prices franchises closer to scarce trophy assets than cash-generating businesses, worth asking what that multiple implies for the next sale and when the market decides it has gone too far."
+    },
+    {
+      "id": "opp-6",
+      "format": "Podcast",
+      "title": "A two-time defending champion is playing her own final as world number two",
+      "summary": "Sabalenka lost the top ranking to Rybakina before this final even began, an unusual position for a back-to-back champion to be in for her own title match. A conversation on how much a ranking change mid-tournament actually affects a player versus how much it is just a number that stops mattering once play starts."
+    }
+  ]
+}
