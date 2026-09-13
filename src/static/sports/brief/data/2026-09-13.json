@@ -1,0 +1,120 @@
+{
+  "edition": {
+    "title": "Daily Sports Brief",
+    "date": "2026-09-13",
+    "day": "Sunday",
+    "sections": ["India", "Global", "Content Opportunities"]
+  },
+  "india": {
+    "government": [
+      {
+        "headline": "Mandaviya frames Asian Games send-off as the opening act of a Rs 36,000 crore, decade-long 2036 Olympics push",
+        "summary": "At the contingent's official send-off, the sports minister told athletes to 'convert pressure into performance' and linked the Aichi-Nagoya campaign to a ten-year roadmap backed by over Rs 36,000 crore in Khelo India funding through 2036, when India hopes to host the Games. More than 300 of the 503-strong contingent are first-time Asian Games athletes; Commonwealth Games medal returns are up 35%-plus. IOA president PT Usha said the journey should be 'measured not just by medals, but by dreams.'",
+        "sources": [
+          "https://thenewsmill.com/2026/09/union-sports-minister-mansukh-mandaviya-urges-athletes-to-convert-pressure-into-performance-at-asian-games-2026/",
+          "https://www.tribuneindia.com/news/2036-olympics/union-sports-minister-mansukh-mandaviya-urges-athletes-to-convert-pressure-into-performance-ahead-of-asian-games-2026"
+        ]
+      }
+    ],
+    "markets": [
+      {
+        "headline": "Indian Super League hands clubs the wheel for the first time, kicks off October 10 under a new club-led model",
+        "summary": "ISL 2026-27 returns to a full home-and-away format - 163 matches across 13 teams over eight months - with participating clubs taking a formal role in shaping the league's direction, a shift away from the old FSDL structure. The league champion earns Asian club competition qualification; Diamond Harbour FC lost its top-flight status for failing to meet administrative fee requirements.",
+        "sources": [
+          "https://www.thehansindia.com/sports/isl-2026-27-to-kick-off-on-october-10-under-new-club-led-model-1118354",
+          "https://www.olympics.com/en/news/indian-super-league-2026-27-football-start-date"
+        ]
+      }
+    ],
+    "society": [
+      {
+        "headline": "Harmanpreet Kaur's side chase a record eighth Women's Asia Cup title against Sri Lanka today, in Dubai",
+        "summary": "India go into the final unbeaten through the tournament, having beaten Bangladesh by 40 runs in the semi-final. It's a repeat of last year's final, which India lost to the same opponent.",
+        "sources": ["https://www.aljazeera.com/sports/2026/9/12/india-sri-lanka-womens-t20-asia-cup-2026-final-schedule-form-teams"]
+      },
+      {
+        "headline": "Junior men's hockey team plays for a fifth Asia Cup title today, against the Pakistan-South Korea semi-final winner",
+        "summary": "India reached the final by beating Malaysia 3-1, continuing a strong week for the hockey pipeline that also saw the junior women's team rout Pakistan 19-0 in their quarter-final.",
+        "sources": [
+          "https://khelnow.com/hockey/india-final-mens-hockey-junior-asia-cup-202609",
+          "https://www.newsx.com/sports/ahf-junior-asia-cup-2026-india-thrash-malaysia-3-1-in-semi-final-and-storm-into-final-270818/"
+        ]
+      },
+      {
+        "headline": "Praggnanandhaa climbs back to world No.8, reclaims India's top spot on the FIDE rating list",
+        "summary": "After seven months out of the top ten, Praggnanandhaa moved from No.12 to No.8 with his classical rating up to 2761. India now has 15 men and 11 women in the global top 100, including Deekshitha Modipalli's jump to No.23 among women.",
+        "sources": ["https://chessbase.in/news/fide-rating-list-september-2026"]
+      }
+    ]
+  },
+  "global": {
+    "government": [
+      {
+        "headline": "IOC provisionally lifts its ban on Russian athletes ahead of LA 2028, with conditions still unresolved",
+        "summary": "Russian athletes can now compete internationally and try to qualify for Los Angeles 2028, but Russian officials are barred from attending Games, Russia can't host Olympic events, and decisions on flag, anthem and colours are pending. IOC president Kirsty Coventry said athletes shouldn't be 'held responsible for their government's actions'; Russia's sports minister called it 'a green light' for federations to reinstate all Russian athletes.",
+        "sources": [
+          "https://www.sportico.com/leagues/olympics/2026/olympics-conditionally-lift-russian-athlete-ban-1234938161/",
+          "https://www.euronews.com/2026/07/07/international-olympic-committee-provisionally-lifts-restrictions-on-russian-athletes"
+        ]
+      }
+    ],
+    "markets": [
+      {
+        "headline": "Everton's owners test the market for outside investors as Premier League consortium deals pile up",
+        "summary": "The Friedkin Group, which bought Everton for around GBP 331 million in December 2024, is exploring bringing in new investors, even as the club narrowed its net loss to GBP 8.6 million and finished 13th last season. The move comes as English football valuations surge, headlined by Liverpool's partial sale valuing the club at $7 billion, and a record EUR 4.1 billion spent league-wide in the last transfer window.",
+        "sources": ["https://tradersunion.com/news/financial-news/show/3204583-everton-owners-seek-investors-premier-league/"]
+      }
+    ],
+    "society": [
+      {
+        "headline": "Katie Taylor retires on a win, closing one of women's boxing's defining careers",
+        "summary": "The Irish former undisputed champion beat France's Flora Pili at Croke Park in her final fight, ending her career with 27 fights and a single loss. Taylor's rivalry with Amanda Serrano is widely credited with dragging women's boxing into arena main events and pay-per-view billing.",
+        "sources": ["https://morningstaronline.co.uk/article/sport-brief-september-13-2026"]
+      },
+      {
+        "headline": "Rugby Championship: South Africa go 2-1 up on New Zealand, Australia seal their series against Argentina",
+        "summary": "The Springboks beat the All Blacks 29-24 at Nasrec with one Test left, in Baltimore, while Australia drew 28-28 with Argentina to clinch that series 1-0.",
+        "sources": ["https://morningstaronline.co.uk/article/sport-brief-september-13-2026"]
+      },
+      {
+        "headline": "Wheelchair Rugby League: Halifax retain their Super League regular-season title",
+        "summary": "Halifax beat London Roosters 36-30 to top the table again, with Leeds finishing runners-up after beating Wigan 50-34; Sheffield and Edinburgh also won heavily heading into next week's semi-finals.",
+        "sources": ["https://morningstaronline.co.uk/article/sport-brief-september-13-2026"]
+      }
+    ]
+  },
+  "content_opportunities": [
+    {
+      "format": "Blog / explainer",
+      "title": "What does \"club-led\" actually mean for the ISL, and who loses power?",
+      "angle": "Explain the actual governance mechanics that changed from the old FSDL model, whether AIFF's leverage over the league changes, and what the Diamond Harbour fee-related relegation signals about enforcement."
+    },
+    {
+      "format": "Op-ed",
+      "title": "The IOC's Russia conditions are unenforceable as written",
+      "angle": "With flag, anthem and hosting questions unresolved and each federation left to interpret athlete vetting on its own, map which sports are already reinstating Russia fully and which aren't."
+    },
+    {
+      "format": "Podcast",
+      "title": "Katie Taylor leaves as women's boxing's commercial wave peaks - who inherits the audience?",
+      "angle": "The Taylor-Serrano trilogy took a decade to build PPV-scale demand for women's boxing; assess whether a successor exists or the gate money recedes as it has after past single-star booms."
+    },
+    {
+      "format": "Blog",
+      "title": "Everton's investor search is a mid-table valuation test, not an Everton story",
+      "angle": "Liverpool's $7bn valuation makes sense for a Champions League-calibre club; question whether a 13th-place finisher commands consortium interest purely by playing in the same league."
+    },
+    {
+      "format": "Podcast",
+      "title": "India's \"300 of 503 are first-timers\" line is being read as strength - is it?",
+      "angle": "Test whether the young, inexperienced Asian Games contingent reflects genuine pipeline growth or is partly forced by senior athlete injuries and retirements (Neeraj Chopra among them)."
+    },
+    {
+      "format": "Blog",
+      "title": "India's chess boom looks federation-led from the headlines - it isn't",
+      "angle": "Trace how much of the FIDE top-100 growth (15 men, 11 women) is driven by private academies, individual sponsorships and platforms like Chess.com rather than federation investment, and whether that funding is durable or city-concentrated."
+    }
+  ],
+  "artifact_url": "https://claude.ai/code/artifact/bb013012-2f35-4f3d-b658-1fe893614b01",
+  "generated_at": "2026-09-13"
+}
