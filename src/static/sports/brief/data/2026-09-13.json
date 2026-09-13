@@ -1,0 +1,186 @@
+{
+  "date": "2026-09-13",
+  "weekday": "Sunday",
+  "regions": {
+    "india": {
+      "government": [
+        {
+          "id": "in-gov-1",
+          "title": "Mandaviya ties Asian Games send-off to a Rs 36,000 crore, decade-long 2036 Olympics roadmap",
+          "summary": "At the contingent's official send-off, the sports minister told athletes to convert pressure into performance and linked the Aichi-Nagoya campaign to a ten-year plan backed by more than Rs 36,000 crore in Khelo India funding running through 2036, when India hopes to host the Games. He pointed to more than 300 of the 503-strong contingent being first-time Asian Games athletes as a depth signal, and to a 35%-plus rise in Commonwealth Games medal returns. IOA president PT Usha added that the journey should be measured not just by medals but by dreams.",
+          "sources": [
+            {
+              "name": "The News Mill, Sept 8",
+              "url": "https://thenewsmill.com/2026/09/union-sports-minister-mansukh-mandaviya-urges-athletes-to-convert-pressure-into-performance-at-asian-games-2026/"
+            },
+            {
+              "name": "The Tribune, Sept 8",
+              "url": "https://www.tribuneindia.com/news/2036-olympics/union-sports-minister-mansukh-mandaviya-urges-athletes-to-convert-pressure-into-performance-ahead-of-asian-games-2026"
+            }
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "in-mkt-1",
+          "title": "Indian Super League moves to a club-led model, kicks off October 10",
+          "summary": "ISL 2026-27 returns to a full home-and-away format, 163 matches across 13 teams over eight months, with participating clubs taking a formal role in shaping the league's direction for the first time, a shift away from the old FSDL-run structure. The league champion earns Asian club competition qualification, and Diamond Harbour FC lost its top-flight status for failing to meet administrative fee requirements, a sign the new setup is enforcing its own rules more strictly.",
+          "sources": [
+            {
+              "name": "The Hans India, Sept 5",
+              "url": "https://www.thehansindia.com/sports/isl-2026-27-to-kick-off-on-october-10-under-new-club-led-model-1118354"
+            },
+            {
+              "name": "Olympics.com, Sept 5",
+              "url": "https://www.olympics.com/en/news/indian-super-league-2026-27-football-start-date"
+            }
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "in-soc-1",
+          "title": "Harmanpreet Kaur's side chase a record eighth Women's Asia Cup title against Sri Lanka today",
+          "summary": "India go into the final in Dubai unbeaten through the tournament, having beaten Bangladesh by 40 runs in the semi-final. It is a straight repeat of last year's final, which India lost to the same opponent, so today's result either closes out that pattern or extends it.",
+          "sources": [
+            {
+              "name": "Al Jazeera, Sept 12",
+              "url": "https://www.aljazeera.com/sports/2026/9/12/india-sri-lanka-womens-t20-asia-cup-2026-final-schedule-form-teams"
+            }
+          ]
+        },
+        {
+          "id": "in-soc-2",
+          "title": "India's junior men's hockey team plays for a fifth Asia Cup title today",
+          "summary": "India reached the final by beating Malaysia 3-1 in the semi-final and face the winner of Pakistan and South Korea today, continuing a strong week for the age-group hockey pipeline that also saw the junior women's team rout Pakistan 19-0 in their own quarter-final, just over a week before the senior team's Asian Games campaign opens in Aichi-Nagoya.",
+          "sources": [
+            {
+              "name": "Khel Now, Sept 11",
+              "url": "https://khelnow.com/hockey/india-final-mens-hockey-junior-asia-cup-202609"
+            },
+            {
+              "name": "NewsX, Sept 11",
+              "url": "https://www.newsx.com/sports/ahf-junior-asia-cup-2026-india-thrash-malaysia-3-1-in-semi-final-and-storm-into-final-270818/"
+            }
+          ]
+        },
+        {
+          "id": "in-soc-3",
+          "title": "Praggnanandhaa climbs back to world No.8, reclaims India's top spot on the FIDE rating list",
+          "summary": "After seven months out of the top ten, Praggnanandhaa moved from world No.12 to No.8 with his classical rating up to 2761. India now has 15 men and 11 women in the global top 100, including Deekshitha Modipalli's jump to No.23 among women, though the federation still trails the USA by 20 points in the men's rankings and China by 53 in the women's.",
+          "sources": [
+            {
+              "name": "ChessBase India, Sept 1",
+              "url": "https://chessbase.in/news/fide-rating-list-september-2026"
+            }
+          ]
+        }
+      ]
+    },
+    "global": {
+      "government": [
+        {
+          "id": "gl-gov-1",
+          "title": "IOC provisionally lifts its ban on Russian athletes ahead of LA 2028, conditions still unresolved",
+          "summary": "Russian athletes can now compete internationally and try to qualify for Los Angeles 2028, but Russian officials are barred from attending Games, Russia cannot host Olympic events, and decisions on displaying the flag, anthem or colours remain pending. IOC president Kirsty Coventry said athletes should not be held responsible for their government's actions while stressing the IOC does not condone the war; Russia's sports minister called the move a green light for federations to reinstate all Russian athletes.",
+          "sources": [
+            {
+              "name": "Sportico, Sept 2026",
+              "url": "https://www.sportico.com/leagues/olympics/2026/olympics-conditionally-lift-russian-athlete-ban-1234938161/"
+            },
+            {
+              "name": "Euronews, July 7",
+              "url": "https://www.euronews.com/2026/07/07/international-olympic-committee-provisionally-lifts-restrictions-on-russian-athletes"
+            }
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "gl-mkt-1",
+          "title": "Everton's owners test the market for outside investors as Premier League consortium deals pile up",
+          "summary": "The Friedkin Group, which bought Everton for around GBP 331 million in December 2024, is exploring bringing in new investors even as the club narrowed its net loss to GBP 8.6 million and finished only 13th last season. The move comes as English football valuations surge, headlined by Liverpool's partial sale valuing the club at $7 billion, and a record EUR 4.1 billion spent league-wide in the last transfer window.",
+          "sources": [
+            {
+              "name": "Traders Union, Sept 3",
+              "url": "https://tradersunion.com/news/financial-news/show/3204583-everton-owners-seek-investors-premier-league/"
+            }
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "gl-soc-1",
+          "title": "Katie Taylor retires on a win, closing one of women's boxing's defining careers",
+          "summary": "The Irish former undisputed champion beat France's Flora Pili at Croke Park in her final fight, ending her career with 27 fights and a single loss. Taylor's rivalry with Amanda Serrano is widely credited with dragging women's boxing into arena main events and pay-per-view billing over the last five years.",
+          "sources": [
+            {
+              "name": "Morning Star, Sept 13",
+              "url": "https://morningstaronline.co.uk/article/sport-brief-september-13-2026"
+            }
+          ]
+        },
+        {
+          "id": "gl-soc-2",
+          "title": "Rugby Championship: South Africa go 2-1 up on New Zealand, Australia seal their series against Argentina",
+          "summary": "The Springboks beat the All Blacks 29-24 at Nasrec with one Test left, in Baltimore, while Australia drew 28-28 with Argentina to clinch that series 1-0, two results that reshape the picture heading into the competition's final weekend.",
+          "sources": [
+            {
+              "name": "Morning Star, Sept 13",
+              "url": "https://morningstaronline.co.uk/article/sport-brief-september-13-2026"
+            }
+          ]
+        },
+        {
+          "id": "gl-soc-3",
+          "title": "Wheelchair Rugby League: Halifax retain their Super League regular-season title",
+          "summary": "Halifax beat London Roosters 36-30 to top the table again, with Leeds finishing runners-up after beating Wigan 50-34; Sheffield and Edinburgh also won heavily as the top two head into next week's semi-finals, a low-visibility para-sport story with a genuinely competitive top end.",
+          "sources": [
+            {
+              "name": "Morning Star, Sept 13",
+              "url": "https://morningstaronline.co.uk/article/sport-brief-september-13-2026"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "format": "Blog",
+      "title": "What \"club-led\" actually means for the ISL, and who loses power",
+      "summary": "Coverage has reported the new ISL model as a format change to home-and-away scheduling. Nobody has explained the governance mechanics: what decisions clubs now control that FSDL used to hold, whether AIFF's own leverage over the league changes, and what a fee-related relegation like Diamond Harbour's signals about enforcement going forward."
+    },
+    {
+      "id": "opp-2",
+      "format": "Op-ed",
+      "title": "The IOC's Russia conditions are unenforceable as written",
+      "summary": "Most reporting treats the provisional lift as a finished decision. With flag, anthem and hosting questions still open and each international federation left to interpret athlete vetting on its own, there is no mechanism to stop this becoming a patchwork where some sports reinstate Russia fully and others do not, and nobody has mapped which way it is already splitting."
+    },
+    {
+      "id": "opp-3",
+      "format": "Podcast",
+      "title": "Katie Taylor leaves as women's boxing's commercial wave peaks, who inherits the audience",
+      "summary": "Obituary-style coverage of Taylor's career is everywhere. The angle missing is that the Taylor-Serrano trilogy took a decade to build arena and pay-per-view demand for women's boxing, and it is worth asking whether a successor exists who can hold that audience or whether the gate money quietly recedes the way it has after past single-star booms in women's sport."
+    },
+    {
+      "id": "opp-4",
+      "format": "Blog",
+      "title": "Everton's investor search is a mid-table valuation test, not an Everton story",
+      "summary": "Coverage frames this as routine ownership news. Liverpool's $7 billion valuation makes sense for a European Cup-calibre club; the real question is whether a 13th-place finisher commands consortium-style interest purely by playing in the same league, and what that says about how detached Premier League minority-stake pricing has become from footballing performance."
+    },
+    {
+      "id": "opp-5",
+      "format": "Podcast",
+      "title": "India's \"300 of 503 are first-timers\" line is being read as strength, is it",
+      "summary": "The minister's send-off framed a young, inexperienced Asian Games contingent as a depth signal. Nobody has asked the less comfortable version: how much of that turnover is forced by senior athletes' injuries and retirements, Neeraj Chopra among them, rather than genuine pipeline growth, and whether India's medal targets account for the experience gap."
+    },
+    {
+      "id": "opp-6",
+      "format": "Blog",
+      "title": "India's chess boom looks federation-led from the headlines, it isn't",
+      "summary": "The FIDE rating story reads as a national success line, 15 men and 11 women in the world top 100. What is missing from coverage is how much of this is driven by private academies, individual sponsorships and platforms like Chess.com rather than any federation investment, and whether that funding model is durable or concentrated in a handful of cities."
+    }
+  ]
+}
