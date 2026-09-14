@@ -1,0 +1,142 @@
+{
+  "edition": {
+    "title": "Daily Sports Brief",
+    "date": "2026-09-14",
+    "day": "Monday"
+  },
+  "india": {
+    "government": [
+      {
+        "headline": "Annu Rani and two others dropped from Asian Games squad after missing qualifying marks",
+        "summary": "The defending Asian Games javelin champion missed the Athletics Federation of India's qualifying standard (57.50m required, she threw 57.62m short) at the Indian Athletics Series Final and was left out. Long jumper Shahnavaz Khan and sprinter Nithya Gandhe were also cut, taking India's athletics contingent from 77 down to 74.",
+        "sources": ["https://khelnow.com/asian-games/why-annu-rani-dropped-asian-games-202609"]
+      },
+      {
+        "headline": "IOA and BCCI still at odds over cricketers' Asian Games accommodation",
+        "summary": "BCCI has objected to men's cricketers being booked into 3-star rooms in Japan against 4-star for the women's team. The IOA has held its position and is sending an advance team to inspect facilities before a final call, with a reduced-strength squad still on the table if arrangements aren't resolved before the Games open on the 19th.",
+        "sources": [
+          "https://sportscafe.in/cricket/articles/2026/sep/05/ioa-breaks-silence-on-bccis-asian-games-accommodation-concerns",
+          "https://www.sportskeeda.com/cricket/news-indian-olympic-association-stays-firm-team-india-s-3-star-stay-asian-games-2026-reports"
+        ]
+      }
+    ],
+    "markets": [
+      {
+        "headline": "New Delhi confirmed to host the BWF World Championships for the first time in 17 years",
+        "summary": "The hosting win brings badminton's biggest annual event back to India, giving the Badminton Association of India a marquee property to sell to broadcasters and sponsors. Comes as Satwiksairaj Rankireddy and Chirag Shetty won the China Masters men's doubles title this month.",
+        "sources": [
+          "https://www.newsonair.gov.in/new-delhi-to-host-badminton-world-championships-2026-after-17-years",
+          "https://www.olympics.com/en/news/china-masters-2026-badminton-india-men-doubles-final-report"
+        ]
+      }
+    ],
+    "society": [
+      {
+        "headline": "India complete a junior hockey \"golden double\" at the Asia Cup",
+        "summary": "The junior women beat China 1-0 in Moqi, unbeaten throughout and now qualified for the Junior World Cup, while the junior men beat South Korea 4-1 in their final for a record-extending title streak. Hockey India awarded every player ₹3 lakh.",
+        "sources": [
+          "https://www.outlookindia.com/sports/hockey/india-junior-asia-cup-hockey-win-title-hat-trick-qualify-world-cup",
+          "https://www.latestly.com/sports/hockey/india-wins-hockey-junior-mens-asia-cup-2026-men-in-blue-qualify-for-fih-junior-world-cup-7602890.html"
+        ]
+      },
+      {
+        "headline": "Pawan Sehrawat named vice-captain of India's Asian Games kabaddi squad",
+        "summary": "The Pro Kabaddi League star will share leadership duties with Ayan Lohchab as India defends its Asian Games kabaddi title. Sehrawat spoke this week about the gap between PKL's franchise intensity and the pressure of playing under the national flag.",
+        "sources": ["https://khelnow.com/kabaddi/pawan-sehrawat-vice-captain-indian-mens-kabaddi-team-asian-games-202609"]
+      },
+      {
+        "headline": "India Women lose T20I series to South Africa",
+        "summary": "India Women went down in the third and deciding T20I this week, on a multi-format tour expanded to include an extra three-match T20I series ahead of the 2027 Women's Champions Trophy. The ODI leg is still underway.",
+        "sources": ["https://www.olympics.com/en/news/south-africa-vs-india-women-t20-2026-cricket-match-3-report"]
+      }
+    ]
+  },
+  "global": {
+    "government": [
+      {
+        "headline": "Ryder Cup restricts future US qualifying points to American-hosted events",
+        "summary": "The US team announced that from the 2027 edition, Ryder Cup qualifying points can only be earned at tour events held on American soil, a governance change to team selection.",
+        "sources": ["https://www.espn.com/golf/story/_/id/49881222/ryder-cup-points-us-team-based-2027-events"]
+      },
+      {
+        "headline": "Spain and Morocco spar publicly over hosting the 2030 World Cup final",
+        "summary": "Spanish officials have asserted their country \"deserves\" to host the 2030 final, with Morocco pushing back, the dispute overlapping a live Spain-Morocco border and diplomatic crisis, four years before a ball is kicked.",
+        "sources": ["https://www.washingtontimes.com/news/2026/sep/10/morocco-spain-jousting-host-2030-world-cup-final-amid-border-crisis/"]
+      },
+      {
+        "headline": "Ninth Circuit ruling looms in NFL Sunday Ticket antitrust case",
+        "summary": "A pivotal appeals-court ruling is expected imminently in the long-running Sunday Ticket litigation, after subscribers previously won a multibillion-dollar jury verdict that was subsequently overturned.",
+        "sources": ["https://www.sportico.com/law/analysis/2026/nfl-sunday-ticket-ninth-circuit-ruling-expected-1234943142/"]
+      }
+    ],
+    "markets": [
+      {
+        "headline": "PWHL signs its first full-season national US television deal",
+        "summary": "The Professional Women's Hockey League struck a season-long linear TV contract with Scripps Sports for 2026-27, its first, and a commercial-maturation milestone for a three-year-old league.",
+        "sources": ["https://www.hollywoodreporter.com/business/business-news/pwhl-ion-tv-deal-2026-27-season-1236695346/"]
+      },
+      {
+        "headline": "Seattle Seahawks sale at a record $9.6 billion still reshaping NFL valuations",
+        "summary": "NFL owners' approval of the Vinod Khosla-led group's purchase of the Seahawks, a league-record price, continues to ripple through this year's valuation season, with Sportico citing the sale as a key comparable behind a roughly 31% average rise in team values league-wide.",
+        "sources": [
+          "https://www.aljazeera.com/sports/2026/8/27/nfl-champions-seattle-seahawks-sold-to-khosla-group-for-record-9-6-billion",
+          "https://www.sportico.com/valuations/teams/2026/nfl-team-values-2026-dallas-cowboys-los-angeles-rams-1234941607/"
+        ]
+      }
+    ],
+    "society": [
+      {
+        "headline": "Alexander Zverev wins the US Open, extends the American men's Grand Slam drought",
+        "summary": "Zverev beat home favourite Ben Shelton in Sunday's final, stretching a title drought for American men that now runs past two decades.",
+        "sources": [
+          "https://www.washingtontimes.com/news/2026/sep/13/alexander-zverev-beats-ben-shelton-us-open-title-extending-drought/",
+          "https://www.cbssports.com/tennis/news/us-open-2026-results-alexander-zverev-ben-shelton-mens-singles-final/"
+        ]
+      },
+      {
+        "headline": "Elena Rybakina denies Sabalenka a third straight US Open title",
+        "summary": "Rybakina won 6-4, 5-7, 6-2 in Saturday's women's final, ending Aryna Sabalenka's bid for a third consecutive US Open crown.",
+        "sources": ["https://www.aljazeera.com/sports/2026/9/12/elena-rybakina-defeats-aryna-sabalenka-in-us-open-womens-singles-final"]
+      },
+      {
+        "headline": "Champions League's opening week produces genuine underdog results",
+        "summary": "Alongside Real Madrid and Manchester City wins (Haaland scoring both City goals, his 59th Champions League goal in 59 games), Real Betis won on their first appearance in the competition in 21 years and AEK Athens picked up their first group-stage win in two decades.",
+        "sources": ["https://www.uefa.com/uefachampionsleague/news/02a9-218b8c00ab1e-0e070e496ca8-1000--champions-league-matchday-1-real-madrid-man-city-and-dor/"]
+      }
+    ]
+  },
+  "content_opportunities": [
+    {
+      "format": "op-ed",
+      "title": "India's doping cuts sit uneasily next to its 2036 hosting pitch",
+      "angle": "Squad trims for doping suspensions keep being reported as routine, but nobody has connected them to Mandaviya's parallel framing of these Games as chapter one of a 2036 Olympic hosting push, which depends on exactly the governance record these cuts undermine."
+    },
+    {
+      "format": "blog",
+      "title": "The IOA-BCCI accommodation dispute is really a leverage story",
+      "angle": "It reads as a hotel-standard complaint, but the real question is why BCCI has enough institutional weight to threaten fielding a weakened squad against the IOA's own organisers, and what that says about cricket's actual standing inside India's Olympic movement."
+    },
+    {
+      "format": "podcast",
+      "title": "Junior hockey keeps winning while senior funding gets attention only after an injury",
+      "angle": "The junior men's and women's Asia Cup double barely registered against Chopra's injury coverage; worth asking why India's most consistent medal pipeline gets a fraction of the sponsorship conversation reserved for individual star athletes."
+    },
+    {
+      "format": "blog",
+      "title": "PWHL's TV deal is a five-year-old script other women's leagues keep skipping",
+      "angle": "PWHL got a full-season linear deal in year three by consolidating into one league before chasing broadcast money, while properties like the WPL are still negotiating rights format-by-format; a structural lesson nobody has drawn out."
+    },
+    {
+      "format": "op-ed",
+      "title": "Ryder Cup's US-only qualifying rule is protectionism dressed up as team-building",
+      "angle": "A competition marketed on international rivalry is now discouraging its own players from competing internationally, a tension with parallels to domestic-league quota debates in football and cricket."
+    },
+    {
+      "format": "blog",
+      "title": "Sunday Ticket's antitrust fight is a preview of the IPL's own rights bundling risk",
+      "angle": "As IPL media rights consolidate around fewer broadcasters each cycle, the antitrust theory being tested against the NFL, that bundling out-of-market inventory suppresses competition, is a live question BCCI's rights model hasn't faced yet but plausibly will."
+    }
+  ],
+  "artifact_url": "https://claude.ai/code/artifact/bb013012-2f35-4f3d-b658-1fe893614b01",
+  "generated_at": "2026-09-14T04:08:14Z"
+}
