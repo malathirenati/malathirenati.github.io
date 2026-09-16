@@ -1,0 +1,183 @@
+{
+  "date": "2026-09-16",
+  "weekday": "Wednesday",
+  "regions": {
+    "india": {
+      "government": [
+        {
+          "id": "in-gov-1",
+          "title": "India's Asian Games contingent finalised at 766 after late doping-driven changes",
+          "summary": "The squad for Aichi-Nagoya (Sept 19-Oct 4) now stands at 501 athletes (267 men, 234 women) plus 265 support staff. Yash Vir Singh replaces an injured Neeraj Chopra in javelin, Naorem Roshibina Devi comes in for wushu, and Hemanth Pulparambil replaces a volleyball player, while distance runner Abhishek Pal and Greco-Roman wrestler Deepak were dropped over anti-doping violations.",
+          "sources": [
+            {"name": "IndiaSportsHub, Sept 11", "url": "https://www.indiasportshub.com/articles/asian-games-2026-india-s-contingent-revised-to-501-athletes-after-three-replacements-two-anti-doping-drops"}
+          ]
+        },
+        {
+          "id": "in-gov-2",
+          "title": "Pre-Games doping suspension count climbs to 12 across eight sports",
+          "summary": "NADA's crackdown now covers wrestling, weightlifting, judo, swimming, wushu, athletics, shooting and rowing. Named cases include wrestler Mukul Dahiya (mephentermine), weightlifter Deepanshu (stanozolol), wushu's Surya Bhanupratap Singh (enobosarm) and shooter Gaurav Kumar Masoori (propranolol); a 17-year-old swimmer separately drew an 18-month ban for terbutaline.",
+          "sources": [
+            {"name": "Khelnow, Sept 11", "url": "https://khelnow.com/asian-games/indian-athletes-list-suspended-doping-asian-games-202609"}
+          ]
+        },
+        {
+          "id": "in-gov-3",
+          "title": "Delhi HC denies Vinesh Phogat's trials-exemption plea, nudges WFI on maternity rules",
+          "summary": "Justice Swarana Kanta Sharma ruled that WFI's September 7 eligibility circular applies uniformly and declined to waive it for Phogat's postpartum return, but urged the federation to draft formal guidelines for athletes coming back from maternity leave rather than handling each case through litigation.",
+          "sources": [
+            {"name": "NewsX, Sept 11", "url": "https://www.newsx.com/sports/vinesh-phogat-suffers-big-blow-delhi-high-court-rejects-plea-to-compete-in-2026-world-wrestling-championships-trials-270713/"}
+          ]
+        },
+        {
+          "id": "in-gov-4",
+          "title": "Sports Minister cites ₹36,000 crore infrastructure spend at Games send-off",
+          "summary": "At the New Delhi send-off, Mansukh Mandaviya said the government has allocated over ₹36,000 crore for sports infrastructure and that India's Commonwealth Games medal tally rose more than 35% on the previous edition. He referenced the 2036 Olympic hosting bid and said this cycle's trials used independent observers and camera monitoring.",
+          "sources": [
+            {"name": "The News Mill, Sept 8", "url": "https://thenewsmill.com/2026/09/union-sports-minister-mansukh-mandaviya-urges-athletes-to-convert-pressure-into-performance-at-asian-games-2026/"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "in-mkt-1",
+          "title": "Supreme Court to hold final hearings on India's real-money gaming ban",
+          "summary": "A bench led by Chief Justice Surya Kant agreed to hear final challenges to the Promotion and Regulation of Online Gaming Act, 2025. The petitioning PIL argues the ban is unconstitutional and claims roughly 2,000 gaming apps still offer betting-like services despite it, and separately seeks curbs on celebrity endorsements of betting platforms.",
+          "sources": [
+            {"name": "FocusGN, Aug 6", "url": "https://focusgn.com/asia-pacific/indias-supreme-court-to-hear-final-challenges-to-online-gaming-act"}
+          ]
+        },
+        {
+          "id": "in-mkt-2",
+          "title": "JSW and YES Bank lock in Team India sponsorships through the 2026 Games cycle",
+          "summary": "JSW Group renewed as Team India's kit and performance partner across the Commonwealth Games, Asian Games, Youth Olympics and Asian Indoor & Martial Arts Games. YES Bank separately extended its IOA tie-up to become official retail banking partner for the same four-event cycle, covering athletes across 100-plus disciplines; neither deal's financial terms were disclosed.",
+          "sources": [
+            {"name": "Telangana Today, Jul 10", "url": "https://telanganatoday.com/jsw-group-renews-partnership-with-ioa-as-official-kit-partner-for-2026-commonwealth-and-asian-games"},
+            {"name": "Sportsmint Media, Jul 23", "url": "https://sportsmintmedia.com/yes-bank-expands-ioa-partnership-ahead-of-packed-2026-international-sports-calendar/"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "in-soc-1",
+          "title": "PT Usha rebuts complaints over Indian cricketers' Games accommodation",
+          "summary": "Responding to reports of accommodation friction for Indian cricketers in Japan, IOA President PT Usha said on September 16 she'd received no formal complaints: \"They are all athletes, not cricketers... all are Team India,\" pointing to Chef de Mission Sahdev Yadav's on-ground presence to resolve any issues.",
+          "sources": [
+            {"name": "The Tribune, Sept 16", "url": "https://www.tribuneindia.com/news/sports/i-didnt-get-any-complaints-ioa-president-pt-usha-on-indian-cricketers-asian-games-stay"}
+          ]
+        },
+        {
+          "id": "in-soc-2",
+          "title": "PT Usha's viral 80s-nostalgia post revives interest in her track career",
+          "summary": "Riding a social-media trend celebrating 1980s pop culture, Usha shared archival photos from her competing days as the \"Payyoli Express,\" reintroducing younger audiences to her narrow miss at the 1984 LA Olympics and her Asian Games medal haul.",
+          "sources": [
+            {"name": "The Statesman, Sept 12", "url": "https://www.thestatesman.com/sports/back-to-my-era-pt-usha-relives-iconic-track-days-as-80s-nostalgia-trend-goes-viral-1503637599.html"}
+          ]
+        },
+        {
+          "id": "in-soc-3",
+          "title": "Cafu backs grassroots girls'-football initiative in Mumbai slums",
+          "summary": "The two-time World Cup winner visited the Dreaming in Slums Foundation, which uses football to build life skills and confidence among underprivileged girls, playing a friendly match with participants and saying \"India needs to invest for future in football.\"",
+          "sources": [
+            {"name": "ANI, Sept 5", "url": "https://www.aninews.in/news/sports/football/india-needs-to-invest-for-future-in-football-cafu-praises-grassroots-initiative-for-girls20260905113422/"}
+          ]
+        }
+      ]
+    },
+    "global": {
+      "government": [
+        {
+          "id": "gl-gov-1",
+          "title": "Canada begins rolling out $112M in sport funding after \"funding crisis\" report",
+          "summary": "Ottawa started disbursing supplemental funding to national amateur sport bodies, part of a $755 million five-year commitment (plus $118 million annually after) following the Future of Sport in Canada Commission's finding that federal support hadn't kept pace with inflation. A \"playground to podium summit\" is planned for Ottawa in November to allocate further funds.",
+          "sources": [
+            {"name": "Yahoo Sports Canada, Sept 11", "url": "https://ca.sports.yahoo.com/news/ottawa-begins-rolling-long-awaited-185145228.html"}
+          ]
+        },
+        {
+          "id": "gl-gov-2",
+          "title": "PGA Tour rules out further return-path deals for LIV Golf defectors",
+          "summary": "Tour CEO Brian Rolapp said the Tour is \"not currently contemplating a returning member program like the one you saw in January,\" which had let Brooks Koepka rejoin via a $5 million charity payment. With LIV in bankruptcy proceedings, the Tour is instead directing players toward its merit-based qualification path and a new competition model starting in 2028.",
+          "sources": [
+            {"name": "AP via ClickOnDetroit, Sept 15", "url": "https://www.clickondetroit.com/sports/2026/09/15/pga-tour-not-contemplating-path-back-for-liv-players-similar-to-brooks-koepka/"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "gl-mkt-1",
+          "title": "LIV Golf formally files for Chapter 11 as Saudi PIF funding ends",
+          "summary": "LIV filed for bankruptcy protection (with parallel insolvency proceedings in England and Wales) after PIF, which had put in over $5 billion since 2021, said in April it would stop funding the league. PIF is providing roughly $50 million in debtor-in-possession financing; Jon Rahm and Bryson DeChambeau are listed among the largest unsecured creditors. London firm BC Partners is set to finance a slimmed-down 10-event relaunch in 2027.",
+          "sources": [
+            {"name": "Washington Post, Sept 8", "url": "https://www.washingtonpost.com/sports/golf/2026/09/08/liv-golf-bankruptcy-bc-partners-rahm-dechambeau/10e5aa64-abcf-11f1-b498-8697f35a6743_story.html"}
+          ]
+        },
+        {
+          "id": "gl-mkt-2",
+          "title": "F1's Apple TV reach keeps falling even as Apple raises subscription prices",
+          "summary": "Nielsen/Samba data shows 8 of 9 2026 races drew smaller US household audience shares than in 2025 under F1's exclusive Apple TV deal - Miami's reach fell 68% year-over-year, Monaco's 66% - even as Apple raised TV+ pricing to $14.99 monthly. F1 and Apple counter with engagement numbers instead: total hours watched up 13% season-to-date and 30% of 2026 viewers new to Apple TV.",
+          "sources": [
+            {"name": "Yahoo Sports / Sportico, Sept 8", "url": "https://sports.yahoo.com/articles/formula-1s-apple-tv-reach-200000525.html"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "gl-soc-1",
+          "title": "Kaepernick marks 10 years since kneeling, says NFL still blackballing him",
+          "summary": "A decade after his anthem protests, Colin Kaepernick released a memoir, \"The Perilous Fight,\" saying the league \"tried to send a very clear message\" over his 2016 protests against police brutality. He hasn't played since 2016 despite settling a collusion grievance with owners in 2019, and said he'd keep his own children out of contact football until high school over brain-injury concerns.",
+          "sources": [
+            {"name": "NPR, Sept 14", "url": "https://news.wfsu.org/npr-news/2026-09-14/10-years-after-taking-a-knee-colin-kaepernick-is-still-waging-a-perilous-fight"}
+          ]
+        },
+        {
+          "id": "gl-soc-2",
+          "title": "New documents undercut findings of Hawthorn AFL racism investigation",
+          "summary": "Newly surfaced witness statements and a retired Federal Court judge's assessment contradict a 2022 review that accused former Hawthorn and Brisbane coaching staff of racist conduct toward Indigenous players. Players including Shaun Burgoyne and Brad Hill say they saw no such conduct; the AFL had closed its own probe with no adverse findings in 2023, and the parties settled in Federal Court in 2024.",
+          "sources": [
+            {"name": "National Indigenous Times, Sept 9", "url": "https://nit.com.au/09-09-2026/26387/hawthorn-racism-investigation-recordings-and-documents-come-to-light"}
+          ]
+        },
+        {
+          "id": "gl-soc-3",
+          "title": "US wins seventh Women's Basketball World Cup title in nine editions",
+          "summary": "The US beat France 97-79 in Berlin, with Breanna Stewart named MVP after 22 points; Spain took bronze over Germany. The result extends US dominance in the women's game and feeds into ongoing questions about the global investment gap in women's basketball.",
+          "sources": [
+            {"name": "Morning Star, Sept 15", "url": "https://morningstaronline.co.uk/article/sport-brief-september-15-2026"}
+          ]
+        }
+      ]
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "format": "Blog",
+      "title": "Canada's $112M rollout vs India's ₹36,000 crore claim: what \"investment in sport\" actually buys",
+      "summary": "Both figures landed in the same week in entirely separate national conversations. A side-by-side of what each is actually funding, Canada's is fresh federal money responding to a documented funding gap, India's figure is a cumulative infrastructure claim with no breakdown, would show how differently two governments define investing in sport."
+    },
+    {
+      "id": "opp-2",
+      "format": "Op-ed",
+      "title": "The Phogat ruling closed one case; whether WFI writes the rules the court asked for is the real story",
+      "summary": "Coverage stopped at 'HC denies plea.' The court also told WFI to draft maternity-return guidelines, federations have quietly let similar judicial nudges lapse before. Worth tracking whether anything gets drafted, and holding WFI to it."
+    },
+    {
+      "id": "opp-3",
+      "format": "Blog",
+      "title": "What LIV Golf's bankruptcy means for guaranteed contracts when a league folds",
+      "summary": "The bankruptcy itself is heavily covered. Nobody's explained the mechanics for the players: Rahm and DeChambeau are listed as unsecured creditors, meaning their guaranteed money now competes with every other claim in a Chapter 11 proceeding, a genuinely useful explainer on what guaranteed means in sport when the payer disappears."
+    },
+    {
+      "id": "opp-4",
+      "format": "Podcast",
+      "title": "What the Hawthorn documents reveal about how sports \"independent investigations\" go wrong",
+      "summary": "Most coverage treats this as a story about specific coaches being vindicated. The more durable angle is procedural: how a cultural-safety review reached findings that a retired judge later called unsupported by evidence, and what that means for how governing bodies commission and weight these inquiries."
+    },
+    {
+      "id": "opp-5",
+      "format": "Op-ed",
+      "title": "PT Usha's \"they're all athletes, not cricketers\" line points at a two-tier problem",
+      "summary": "The accommodation dispute was reported and closed in a day. The underlying tension, cricket's outsized BCCI money creating implicit hierarchy within IOA-led multi-sport contingents, is a recurring, unexamined pattern worth a proper look at how Indian delegations actually get resourced sport by sport."
+    }
+  ]
+}
