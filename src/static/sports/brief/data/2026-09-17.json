@@ -1,0 +1,227 @@
+{
+  "date": "2026-09-17",
+  "weekday": "Thursday",
+  "regions": {
+    "india": {
+      "government": [
+        {
+          "id": "in-gov-1",
+          "title": "NADA hands an Indian athletics coach a lifetime ban, first of its kind",
+          "summary": "The National Anti-Doping Agency banned coach Rakesh Kumar for life over prohibited substances, reportedly the first lifetime ban handed to an Indian coach rather than an athlete. Powerlifter Gaurav Vats was separately suspended for trafficking banned drugs, and seven athletes were provisionally suspended in the same case, landing days before the Asian Games opening.",
+          "sources": [
+            {"name": "Deccan Herald, Sept 16", "url": "https://www.deccanherald.com/sports/other-sports/indias-doping-woes-coach-gets-life-ban-powerlifter-suspended-for-trafficking-banned-drugs-4148009"},
+            {"name": "The Bridge, Sept 16", "url": "https://thebridge.in/athletics/coach-indian-life-time-ban-doping-57601"}
+          ]
+        },
+        {
+          "id": "in-gov-2",
+          "title": "Delhi High Court orders fresh tennis-federation elections by September 30",
+          "summary": "Ruling on a plea by Somdev Devvarman and other former players, the Delhi High Court directed the All India Tennis Association to rewrite its constitution to comply with the National Sports Governance Act, 2025, and hold fresh elections by month-end, a concrete first test of the new law's power over a long-serving federation administration.",
+          "sources": [
+            {"name": "LiveLaw, Jul 2026", "url": "https://www.livelaw.in/high-court/delhi-high-court/delhi-high-court-directs-fresh-elections-to-all-india-tennis-association-by-september-30-lays-down-timeline-for-constitutional-amendments-538721"},
+            {"name": "The Print", "url": "https://theprint.in/judiciary/ex-players-take-tennis-body-to-match-point-delhi-hc-orders-aita-constitution-rewrite-polls-by-30-sept/2967626/"}
+          ]
+        },
+        {
+          "id": "in-gov-3",
+          "title": "Esports federation dragged to Delhi High Court over Asian Games squad selection",
+          "summary": "A rival body has challenged the Esports Federation of India's process for picking India's Asian Games esports contingent, the third Indian sports federation this year, after tennis and equestrian, to face selection or governance litigation under the new Sports Governance Act. The Youth Affairs & Sports Ministry had separately approved a 15-member esports contingent.",
+          "sources": [
+            {"name": "Exchange4media", "url": "https://www.exchange4media.com/media-others-news/dispute-over-team-india-selection-as-esports-federation-takes-esfi-to-delhi-hc-158274.html"},
+            {"name": "Esports Radar", "url": "https://esportsradar.gg/esfi-reportedly-faces-legal-challenge-over-indias-national-esports-team-selection/"}
+          ]
+        },
+        {
+          "id": "in-gov-4",
+          "title": "IOC flags \"fundamental concerns\" over Ahmedabad's 2036 Olympic bid",
+          "summary": "The IOC has raised significant concerns that need addressing in India's bid to host the 2036 Summer Olympics in Ahmedabad, even as Union Minister Piyush Goyal maintains preparations are \"in full swing.\" India has separately filed a formal bid to host the 2030 Commonwealth Games in Gujarat.",
+          "sources": [
+            {"name": "GamesBids.com", "url": "https://gamesbids.com/eng/summer-olympic-bids/ioc-cautions-indias-2036-olympic-bid-identifying-these-significant-fundamental-concerns/"},
+            {"name": "The Tribune", "url": "https://www.tribuneindia.com/news/sports/indias-preparations-for-2036-olympics-have-started-in-full-swing-union-minister-piyush-goyal"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "in-mkt-1",
+          "title": "Dream11 completes exit from real-money fantasy sports",
+          "summary": "Following India's 2025 ban on real-money online gaming, Dream11 has formally repositioned as a \"global sports engagement platform\" and dropped all real-money contests, pivoting expansion abroad including the UAE. Reporting puts the domestic job toll from the ban at roughly 200,000, a significant hit to a sector that had been among the biggest sponsors in Indian cricket and kabaddi.",
+          "sources": [
+            {"name": "Outlook Respawn", "url": "https://respawn.outlookindia.com/gaming/gaming-news/dream11-pivots-to-global-markets-as-india-bans-fantasy-gaming"},
+            {"name": "Inkl", "url": "https://www.inkl.com/news/dream11-completes-pivot-from-fantasy-sports-to-global-sports-engagement-platform-drops-all-real-money-contests"}
+          ]
+        },
+        {
+          "id": "in-mkt-2",
+          "title": "JioStar widens its cricket broadcast footprint",
+          "summary": "JioStar has picked up exclusive India broadcast and streaming rights for The Hundred 2026 and the European T20 Premier League, plus rights to the historic Japan vs India T20I on September 22, extending its post-merger dominance of Indian cricket media. A separate report examines friction between the ICC and JioStar over rights terms.",
+          "sources": [
+            {"name": "Storyboard18", "url": "https://www.storyboard18.com/brand-marketing/jiostar-acquires-exclusive-india-broadcast-and-streaming-rights-for-the-hundred-2026-105318.htm"},
+            {"name": "CricTracker", "url": "https://www.crictracker.com/cricket-news/jiostar-and-fancode-to-show-historic-japan-vs-india-t20i-on-september-22-2906/"}
+          ]
+        },
+        {
+          "id": "in-mkt-3",
+          "title": "Zee, Sony in talks with ISL clubs over 2026-27 media rights",
+          "summary": "With the new Indian Super League season underway since September 4, reports say Zee and Sony Sports are separately negotiating with clubs over broadcast arrangements for the 2026-27 campaign, as the league continues searching for a settled rights structure.",
+          "sources": [
+            {"name": "Technosports", "url": "https://technosports.co.in/zee-sony-sports-isl-clubs-media-rights-2026-27/"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "in-soc-1",
+          "title": "Asian Games 2026 opens India's campaign in Aichi-Nagoya",
+          "summary": "India's campaign at the Asian Games got underway today with teqball, the first event on its schedule. The contingent spans dozens of disciplines and is the dominant story across Indian sport this week, tying together government funding claims, sponsorship activity and fan interest all at once.",
+          "sources": [
+            {"name": "Olympics.com, Sept 17", "url": "https://www.olympics.com/en/news/asian-games-2026-india-schedule-today-september-17"},
+            {"name": "Business Standard", "url": "https://www.business-standard.com/sports/asian-games/asian-games-2026-india-full-schedule-contingent-medal-prospects-and-more-126091600792_1.html"}
+          ]
+        },
+        {
+          "id": "in-soc-2",
+          "title": "Men's and women's kabaddi teams depart to defend Asian Games gold",
+          "summary": "Both squads left for Japan carrying defending-champion expectations. Raider Pawan Sehrawat spoke of team unity under pressure, while women's captain Pushpa Rana said her side backs itself to retain the gold, a strong fan-culture story given kabaddi's grassroots following in India.",
+          "sources": [
+            {"name": "Business Standard, Sept 15", "url": "https://www.business-standard.com/sports/asian-games/asian-games-2026-india-train-for-kabaddi-gold-as-sehrawat-backs-team-unity-126091501158_1.html"},
+            {"name": "India.com", "url": "https://www.india.com/sports/kabaddi/indian-mens-and-womens-kabaddi-team-set-out-to-aichi-nagoya-for-asian-games-gold-medal-defense-8525407/"}
+          ]
+        },
+        {
+          "id": "in-soc-3",
+          "title": "Satwik-Chirag win maiden China Masters title with fighting comeback",
+          "summary": "Top men's doubles pair Satwiksairaj Rankireddy and Chirag Shetty came from behind to claim their first-ever China Masters Super 750 crown, a confidence boost heading straight into the Asian Games badminton draw.",
+          "sources": [
+            {"name": "Olympics.com", "url": "https://www.olympics.com/en/news/china-masters-2026-badminton-india-men-doubles-final-report"},
+            {"name": "Sunday Guardian", "url": "https://sundayguardianlive.com/sports/china-masters-badminton-2026-results-satwiksairaj-rankireddy-chirag-shetty-clinch-historic-maiden-crown-after-stunning-comeback-badminton-live-news-278623/"}
+          ]
+        },
+        {
+          "id": "in-soc-4",
+          "title": "India's chess Olympiad title defence opens with an early wobble",
+          "summary": "India's open and women's teams, led by Gukesh, Praggnanandhaa, Koneru Humpy and Divya Deshmukh, began their Chess Olympiad title defence in Samarkand. A Thai IM reportedly upset India's number-two board in round one even as other favourites won through, a minor scare in what has otherwise been a dominant Indian chess era.",
+          "sources": [
+            {"name": "Chess.com", "url": "https://www.chess.com/news/view/2026-samarkand-chess-olympiad-round-1"},
+            {"name": "Sunday Guardian, Sept 16", "url": "https://sundayguardianlive.com/sports/chess-olympiad-2026-india-round-1-pairings-d-gukesh-r-praggnanandhaa-koneru-humpy-divya-deshmukh-in-action-today-285797/"}
+          ]
+        }
+      ]
+    },
+    "global": {
+      "government": [
+        {
+          "id": "gl-gov-1",
+          "title": "NFL, NBA, MLB, NHL and MLS ask regulators for lifetime bans on abusive bettors",
+          "summary": "The major US leagues and their players' unions sent a coordinated letter to gambling regulators across 35 states and Washington DC calling for lifetime bans from legal sportsbooks for bettors who harass or threaten athletes, a joint player-safety push as legal betting keeps expanding.",
+          "sources": [
+            {"name": "WBUR/WUSF, Sept 16", "url": "https://www.wusf.org/2026-09-16/major-sports-call-for-bans-of-bettors-who-harass-or-threaten-players"}
+          ]
+        },
+        {
+          "id": "gl-gov-2",
+          "title": "Milan-Cortina 2026's deficit becomes the cautionary number LA28 planners are watching",
+          "summary": "Organisers of the Milan-Cortina Winter Games disclosed a budget shortfall running from roughly €130 million to €310 million that must be covered by municipal, regional and national government funds. The figure has already unsettled Los Angeles City Council members tracking LA28's own budget exposure.",
+          "sources": [
+            {"name": "The Sports Examiner", "url": "https://www.thesportsexaminer.com/milan-cortina-2026-winter-games-board-told-of-e310-million-deficit-requiring-public-funds-theres-an-la28-impact-here/"}
+          ]
+        },
+        {
+          "id": "gl-gov-3",
+          "title": "LA28 host-city groundwork continues via 2026 World Cup test runs",
+          "summary": "West Hollywood is applying lessons from its free public World Cup fan zones this June to plan LA28 programming, including a 17-day Pride House LA backed by $1 million in city sponsorship and outreach to more than 30 international consulates for hospitality houses.",
+          "sources": [
+            {"name": "Beverly Press, Sept 2", "url": "https://beverlypress.com/2026/09/weho-enters-preseason-for-2028-los-angeles-olympics/"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "gl-mkt-1",
+          "title": "NFL owners approve record $9.6bn Seahawks sale to the Khosla family",
+          "summary": "Owners formally signed off on the sale of the Super Bowl-winning franchise by the Estate of Paul G. Allen, a record transaction for the league that has already reset the market for franchise valuations elsewhere in the NFL.",
+          "sources": [
+            {"name": "Sportico, Aug 26", "url": "https://www.sportico.com/business/team-sales/2026/seattle-seahawks-sale-nfl-owners-approve-1234942967/"},
+            {"name": "Bloomberg, Aug 26", "url": "https://www.bloomberg.com/news/articles/2026-08-26/nfl-owners-approve-9-6-billion-seattle-seahawks-sale-to-khoslas"}
+          ]
+        },
+        {
+          "id": "gl-mkt-2",
+          "title": "CNBC's 2026 valuations: Cowboys stay #1, league average jumps 31%",
+          "summary": "CNBC's annual NFL valuation report has the Dallas Cowboys leading around $15-16 billion, with the league-average franchise value climbing roughly 31% year-on-year to about $10.36 billion, a jump partly driven by the Seahawks sale price resetting comparables across the league.",
+          "sources": [
+            {"name": "CNBC, Sept 9", "url": "https://www.cnbc.com/2026/09/09/cnbcs-official-nfl-team-valuations-2026-heres-how-the-32-franchises-stack-up.html"}
+          ]
+        },
+        {
+          "id": "gl-mkt-3",
+          "title": "US Open 2026 closes out a commercially strong fortnight",
+          "summary": "Alexander Zverev beat Ben Shelton in four sets for his second Grand Slam title, while Elena Rybakina beat two-time defending champion Aryna Sabalenka for the women's crown. Trade coverage frames it as a strong commercial Open despite some off-court noise around player conduct and influencer engagement.",
+          "sources": [
+            {"name": "Sportico", "url": "https://www.sportico.com/leagues/tennis/2026/2026-us-open-zverev-shelton-rybakina-sabalenka-1234944953/"},
+            {"name": "ESPN", "url": "https://www.espn.com/tennis/story/_/id/49933388/alexander-zverev-beats-ben-shelton-4-sets-win-2026-us-open"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "gl-soc-1",
+          "title": "Milwaukee Brewers clinch fourth straight NL Central title",
+          "summary": "Milwaukee clinched on a combination of their own win and a Cubs loss, extending Major League Baseball's most notable small-market success story of recent years, built, local coverage says, on \"selfless baseball\" rather than big-market spending, a live contrast point in the sport's competitive-balance debate.",
+          "sources": [
+            {"name": "ESPN, Sept 16", "url": "https://www.espn.com/mlb/story/_/id/49954115/brewers-clinch-4th-nl-central-title-row-win-cubs-loss"}
+          ]
+        },
+        {
+          "id": "gl-soc-2",
+          "title": "F1's new Madrid street circuit debuts as Spanish Grand Prix host",
+          "summary": "Kimi Antonelli won the inaugural race on Madrid's new \"Madring\" circuit, beating Verstappen and Norris as Lewis Hamilton retired early with brake failure; Antonelli's championship lead now stands at 81 points. Madrid replacing Barcelona as Spain's F1 venue was itself a contested civic and sponsorship story when first announced.",
+          "sources": [
+            {"name": "Formula1.com", "url": "https://www.formula1.com/en/latest/article/antonelli-clinches-victory-over-verstappen-and-norris-in-spanish-gp.644ZZfPzRPEaUh2JBHcB9"},
+            {"name": "Motorsport Week, Sept 14", "url": "https://www.motorsportweek.com/2026/09/14/lewis-hamilton-max-verstappen-f1-battle/"}
+          ]
+        },
+        {
+          "id": "gl-soc-3",
+          "title": "Evidence-sealing fight continues in Josh Jacobs domestic violence case",
+          "summary": "The alleged victim in the ongoing case involving the Green Bay Packers running back has filed a motion to permanently seal video evidence, with a hearing now set. The case remains an active thread in this week's NFL news cycle.",
+          "sources": [
+            {"name": "ESPN", "url": "https://www.espn.com/nfl/story/_/id/49951016/woman-josh-jacobs-case-wants-evidence-permanently-sealed"}
+          ]
+        }
+      ]
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "format": "Blog",
+      "title": "India's Sports Governance Act is restructuring federation power one court order at a time",
+      "summary": "Tennis, esports and equestrian bodies have all been pulled into governance litigation in 2026, with a carrom federation naming dispute thrown in. No outlet has connected these into a single trend piece on how the 2025 law is actually reshaping who controls Indian sport, case by case."
+    },
+    {
+      "id": "opp-2",
+      "format": "Op-ed",
+      "title": "Dream11's exit leaves a sponsorship hole in Indian cricket and kabaddi, who fills it?",
+      "summary": "The ban and the job losses are covered. Nobody has mapped which categories of sponsor (fintech, quick commerce, D2C) are actually stepping into the space fantasy apps vacated across IPL, ISL and PKL rosters, a clean market-shift explainer with no competitor yet."
+    },
+    {
+      "id": "opp-3",
+      "format": "Podcast",
+      "title": "Why India's doping cases keep starting with the coach, not the athlete",
+      "summary": "A lifetime ban for a coach is unusual enough to be the story, but coverage treated it as one line in a suspension list. Worth a proper look at what enabler-level doping enforcement says about where the incentive actually sits in Indian athletics."
+    },
+    {
+      "id": "opp-4",
+      "format": "Blog",
+      "title": "Can 35 state regulators actually share a bettor blocklist?",
+      "summary": "The leagues' joint letter got wide pickup as a headline. The harder, unanswered question is infrastructure: US sports betting is regulated state by state, and no outlet has explained whether a \"lifetime ban\" can technically be enforced across that patchwork at all."
+    },
+    {
+      "id": "opp-5",
+      "format": "Op-ed",
+      "title": "Milan-Cortina's €310m hole, translated into LA28 dollars",
+      "summary": "The deficit story and the \"LA28 should worry\" line are both out there separately. Nobody has done the actual arithmetic, scaling Milan-Cortina's shortfall-to-budget ratio onto LA28's much larger projected spend to give a concrete number worth worrying about."
+    }
+  ]
+}
