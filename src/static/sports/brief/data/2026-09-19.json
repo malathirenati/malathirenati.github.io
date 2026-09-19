@@ -1,0 +1,171 @@
+{
+  "date": "2026-09-19",
+  "weekday": "Saturday",
+  "regions": {
+    "india": {
+      "government": [
+        {
+          "id": "in-gov-1",
+          "title": "Asian Games open today in Aichi-Nagoya on the back of an Rs 800 crore campaign",
+          "summary": "The 20th Asian Games run September 19 to October 4 across 43 sports, with six discipline debuts (surfing, freestyle BMX, MMA, padel, teqball, virtual taekwondo). India's 501-athlete contingent (267 men, 234 women, 310 of them Asiad debutants) is backed by over Rs 800 crore in three-year spending, Rs 702.9 crore through the Annual Competition and Training Calendar plus Rs 97.8 crore via TOPS, with the single largest slice (Rs 251.4 crore) funding overseas competition exposure. The Games also double as an LA28 Olympic qualifier in hockey, squash, archery, sailing, surfing and triathlon.",
+          "sources": [
+            {"name": "India.com, Sept 2026", "url": "https://www.india.com/sports/others/sports-ministry-confirms-spending-staggering-700-crores-on-indian-athletes-for-upcoming-asian-games-8525287/"},
+            {"name": "Ministry of Youth Affairs and Sports", "url": "https://yas.gov.in/en/sports/participation-indian-contingent-20th-asian-games-2026-scheduled-be-held-19th-september-4th-0"}
+          ]
+        },
+        {
+          "id": "in-gov-2",
+          "title": "Sports Ministry firefights an accommodation crisis on arrival in Nagoya",
+          "summary": "Roughly 30-35 Indian athletes were left without rooms for hours after landing on September 18, with one female gymnast nearly assigned to share a room with a male coach. Sports Minister Mansukh Mandaviya stood up a three-layer response, airport reception staff, a welcome-centre desk and a backup network of 2,000 local volunteer households, while India's chef de mission blamed organisers for mismanagement after names were dropped from the original room bookings.",
+          "sources": [
+            {"name": "Outlook India, Sept 18", "url": "https://www.outlookindia.com/sports/others/asian-games-2026-aichi-nagoya-indian-athletes-accommodation-crisis-mansukh-mandaviya"},
+            {"name": "Business Standard, Sept 17", "url": "https://www.business-standard.com/sports/asian-games/asiad-2026-indian-contingent-grapples-with-accommodation-woes-in-nagoya-126091700303_1.html"}
+          ]
+        },
+        {
+          "id": "in-gov-3",
+          "title": "BCCI review meeting settles Rohit's ODI status, hands VVS Laxman the Asiad reins",
+          "summary": "BCCI secretary Devajit Saikia publicly backed Rohit Sharma's ODI place, saying he is playing superbly and dismissing retirement speculation for now. VVS Laxman, the board's Centre of Excellence director, will lead India's men's team at the Asian Games while Gautam Gambhir stays focused on the West Indies series; the board decided against creating a standalone Director of Cricket post and discussed injury-management protocols amid IPL workload strain ahead of the 2027 ODI World Cup.",
+          "sources": [
+            {"name": "Outlook India, Sept 2026", "url": "https://www.outlookindia.com/sports/cricket/bcci-review-meeting-live-updates-gautam-gambhir-ajit-agarkar-shubman-gill-rohit-sharma-odi-future-mumbai"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "in-mkt-1",
+          "title": "BCCI books Rs 130 crore-plus in new sponsors, ChatGPT included",
+          "summary": "The board signed ChatGPT, SBI Life and Campa as associate sponsors in a combined deal worth over Rs 130 crore, a 44% jump on the previous cycle, running two seasons to March 2028, starting with the West Indies series from October 27. ChatGPT's entry marks the first AI company in the BCCI's sponsor roster, alongside an insurer and a beverage brand.",
+          "sources": [
+            {"name": "News24, Sept 9", "url": "https://news24online.com/sports/chatgpt-bcci-new-sponsor-sbi-life-campa-130-crore-deals-2026/919988"},
+            {"name": "Sportcal", "url": "https://www.sportcal.com/news/bcci-adds-chatgpt-sbi-life-campa-sponsorships/"}
+          ]
+        },
+        {
+          "id": "in-mkt-2",
+          "title": "Pro Kabaddi League's TV rights face up to a 50% haircut",
+          "summary": "Broadcasters are pushing to cut PKL's media-rights fee by as much as half from the Rs 905 crore benchmark, with JioStar said to be losing Rs 50-100 crore a year on the property as viewership plateaus around 230 million and linear TV audiences shrink. JioStar's 74% stake in league operator Mashal Sports has also deterred rival bidders. Franchise owners are openly citing the Indian Super League's collapse from Rs 275 crore to Rs 8.62 crore in rights value as the cautionary tale.",
+          "sources": [
+            {"name": "Whalesbook, Sept 18", "url": "https://www.whalesbook.com/news/English/media-and-entertainment/Pro-Kabaddi-League-Rights-Talks-Face-50percent-Valuation-Cut-Risk/6aacf6f5ed7f8e81734fc79c"}
+          ]
+        },
+        {
+          "id": "in-mkt-3",
+          "title": "JioStar and FanCode lock in the first-ever India-Japan men's T20I",
+          "summary": "The broadcasters secured digital and linear rights to the historic Japan vs India T20I on September 22, a small deal in isolation, but a marker of India's cricket footprint pushing into new Asian markets in the same week the Asian Games open in Japan.",
+          "sources": [
+            {"name": "Crictracker, Sept 8", "url": "https://www.crictracker.com/cricket-news/jiostar-and-fancode-to-show-historic-japan-vs-india-t20i-on-september-22-2906/"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "in-soc-1",
+          "title": "Teqball debutant Quimcy D'Souza one win from India's first-ever medal in the sport",
+          "summary": "The 24-year-old, competing in a sport with barely any domestic infrastructure, beat Japan's top seed Yuina Sakamoto to reach the women's singles semi-final at her first Asian Games, already guaranteeing India a shot at bronze in one of the six brand-new disciplines added this edition. It's the kind of grassroots breakthrough that gets little attention next to cricket and hockey.",
+          "sources": [
+            {"name": "OnManorama, Sept 18", "url": "https://www.onmanorama.com/sports/other-sports/2026/09/18/debutant-quimcy-dsouza-closes--historic-teqball-medal-for-india.html"},
+            {"name": "National Herald", "url": "https://www.nationalheraldindia.com/sports/asian-games-2026-quimcy-dsouza-closes-in-on-historic-teqball-medal-for-india"}
+          ]
+        },
+        {
+          "id": "in-soc-2",
+          "title": "Harmanpreet Kaur's women's team, not the men's side, headlines India's Games opening",
+          "summary": "India's women's cricket squad, led by Harmanpreet Kaur and Smriti Mandhana, opens its campaign as cricket returns to the Asian Games as an Olympic-qualifying pathway, putting the women's team, rather than the men's, at the centre of India's team-sport story this week.",
+          "sources": [
+            {"name": "BCCI.tv", "url": "https://www.bcci.tv/articles/2026/news/55556363/india-women-s-squad-for-the-2026-asian-games-announced"}
+          ]
+        }
+      ]
+    },
+    "global": {
+      "government": [
+        {
+          "id": "gl-gov-1",
+          "title": "US Senate advances the Protect College Sports Act, 74-24",
+          "summary": "The bipartisan Cantwell-Cruz bill cleared a Senate procedural vote on September 15 and heads to a floor vote. It would create a federal NIL right that pre-empts the state-by-state patchwork, cap agent fees at 5%, let schools voluntarily pool media rights under antitrust protection similar to the NFL and NBA, adopt the House v. NCAA revenue-sharing cap plus a $22.5 million athlete retention fund, grant one penalty-free transfer, require schools to cover athletes' medical costs for five years post-eligibility, and protect Olympic and non-revenue sport rosters at schools with $80 million-plus in athletic revenue. It still needs to clear the House.",
+          "sources": [
+            {"name": "Senate Commerce Committee, Sept 15", "url": "https://www.commerce.senate.gov/press/dem/release/senate-votes-74-24-to-advance-cantwells-bipartisan-protect-college-sports-act/"},
+            {"name": "Washington Times, Sept 17", "url": "https://www.washingtontimes.com/news/2026/sep/17/senate-clears-path-protect-college-sports-act-floor-vote-next-week/"}
+          ]
+        },
+        {
+          "id": "gl-gov-2",
+          "title": "Asian Games host committee caught under-forecasting its own Games",
+          "summary": "Organisers built for roughly 15,000 participants but ended up with over 17,000 once new sports were added, triggering shortages so severe that 4,000-5,000 athletes are being housed on the cruise ship Costa Serena and others in shipping-container-style huts. Record rainfall forced brief evacuations, and South Korea's team was bused to the wrong stadium, a governance embarrassment for the Olympic Council of Asia and Japan's organising committee on the Games' opening day.",
+          "sources": [
+            {"name": "Al Jazeera, Sept 18", "url": "https://www.aljazeera.com/sports/2026/9/18/asian-games-2026-dates-venues-sports-and-a-growing-accommodation-crisis"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "gl-mkt-1",
+          "title": "Riot Games in talks with Polymarket and Kalshi to sponsor its esports leagues",
+          "summary": "Tencent-owned Riot is exploring sponsorships with the two prediction-market platforms for League of Legends and Valorant esports, framing it as a way to fund prize money. Any deal would route betting data exclusively through Riot's data partner GRID to guard against match-fixing. The talks land awkwardly given both platforms are currently blocked in the UK, where the Department for Culture, Media and Sport is separately reviewing whether unlicensed prediction markets should be allowed to sponsor sport at all.",
+          "sources": [
+            {"name": "Bloomberg, Sept 10", "url": "https://www.bloomberg.com/news/articles/2026-09-10/riot-games-discussed-polymarket-kalshi-sponsorships-for-esports"},
+            {"name": "Esports News UK, Sept 11", "url": "https://esports-news.co.uk/2026/09/11/riot-games-in-talks-with-polymarket-and-kalshi-over-sponsorship-deals"}
+          ]
+        },
+        {
+          "id": "gl-mkt-2",
+          "title": "The sponsorship economy keeps grinding: this week's deal sheet",
+          "summary": "Brooks Running became Crystal Palace FC's official footwear partner; McLaren signed SharkNinja across F1, IndyCar and its other racing divisions; the WNBA's Golden State Valkyries named Athleta (Gap Inc.) as off-court apparel partner; and Savannah James took a stake in LOVB Los Angeles ahead of the volleyball league's inaugural 2026-27 season, a steady drumbeat of mid-size deals beneath the week's bigger headlines.",
+          "sources": [
+            {"name": "Sportico, Sept 18", "url": "https://www.sportico.com/personalities/people/2026/sportico-transactions-moves-mergers-roundup-sept-18-2026-1234945267/"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "gl-soc-1",
+          "title": "WNBA dragged into the US transgender-athlete culture war",
+          "summary": "The controversy escalated after Phoenix Mercury guard Sophie Cunningham told ESPN she wanted to protect young girls in a locker room from biological men, a comment political groups amplified, followed by two former NBA players declaring themselves eligible for the 2027 WNBA Draft as a stunt. The league denounced bad-faith actors, but the underlying problem is structural: the WNBA's collective bargaining agreement only says players who are women are eligible, with no actual eligibility criteria for transgender, nonbinary or intersex athletes, leaving a policy vacuum for political actors on both sides to fill.",
+          "sources": [
+            {"name": "CBS Sports, Sept 2026", "url": "https://www.cbssports.com/wnba/news/wnba-trans-athletes-bad-faith/"},
+            {"name": "NPR, Sept 10", "url": "https://www.npr.org/2026/09/10/nx-s1-5957546/wnba-culture-wars"}
+          ]
+        }
+      ]
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "format": "Blog",
+      "title": "The second-tier league reckoning: what PKL's rights crisis says about India's franchise-sport bubble",
+      "summary": "PKL's threatened 50% rights cut and the ISL's prior collapse from Rs 275 crore to Rs 8.62 crore are being covered as separate stories. Nobody has written the pattern piece on what happens to India's post-2019 wave of single-sport leagues once broadcaster losses catch up with valuations built on hype."
+    },
+    {
+      "id": "opp-2",
+      "format": "Op-ed",
+      "title": "Prediction markets are about to become a sponsorship category, someone should map the template before it's normal",
+      "summary": "Coverage of Riot's Polymarket/Kalshi talks has stopped at in discussions. The unexplored angle is that GRID-exclusive data routing is the working template every league will either copy or fight, and the UK-blocked-but-US-open split is a live regulatory arbitrage story nobody has connected to the sponsorship dollars yet."
+    },
+    {
+      "id": "opp-3",
+      "format": "Blog",
+      "title": "Games inflation: how six new sports and 2,000 uncounted delegates broke Nagoya's housing plan",
+      "summary": "The accommodation crisis is being reported athlete-by-athlete (India's gymnast, Korea's bus mix-up). The structural story, organisers repeatedly adding sports to multi-sport Games without re-costing the logistics, hasn't been written as its own explainer."
+    },
+    {
+      "id": "opp-4",
+      "format": "Podcast",
+      "title": "What Indian sport could steal from America's Protect College Sports Act",
+      "summary": "The bill's 5% agent-fee cap, mandated post-eligibility medical cover and antitrust-protected revenue pooling are getting detailed US legal coverage but essentially zero Indian sports-business coverage. A podcast could ask what BCCI, SAI or a future college-sports framework in India would look like borrowing this playbook, genuine white space, not a rehash."
+    },
+    {
+      "id": "opp-5",
+      "format": "Op-ed",
+      "title": "Why an AI chatbot wants its name on Team India's sleeve",
+      "summary": "ChatGPT joining BCCI's sponsor roster got covered as a novelty line item. The sharper question, why AI companies are buying cricket-sponsorship legitimacy in India before they've proven the product fits Indian habits or regulation, hasn't been asked directly."
+    },
+    {
+      "id": "opp-6",
+      "format": "Op-ed",
+      "title": "The WNBA's real failure isn't the culture war, it's forty words of silence in its own CBA",
+      "summary": "Fair warning: the culture-war framing of this story is already heavily covered (NPR, CBS, ESPN, Advocate, Townhall all ran it this month). The gap is narrower and less covered: a labour-contract read of why the league never wrote an eligibility clause in the first place, and what that omission cost it once bad-faith actors moved in."
+    }
+  ]
+}

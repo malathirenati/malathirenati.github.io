@@ -1,0 +1,120 @@
+{
+  "date": "2026-09-15",
+  "weekday": "Tuesday",
+  "regions": {
+    "india": {
+      "government": [
+        {
+          "id": "in-gov-1",
+          "title": "Delhi High Court presses WFI on Vinesh Phogat's trials eligibility",
+          "summary": "Phogat is challenging a September 7 WFI circular that restricts entry to the Senior World Championship trials to specific medallists, National Camp attendees and U20 selectees — criteria she doesn't meet after a maternity break. The federation has separately opened disciplinary proceedings against her over conduct at the Asian Games selection trials. Justice Swarana Kanta Sharma has asked WFI to respond on both fronts, with the case a live test of how India's sports federations treat athletes returning from childbirth.",
+          "sources": [
+            {"name": "The Tribune, Sept 15", "url": "https://www.tribuneindia.com/news/2026-senior-world-wrestling-championship-trials/delhi-hc-seeks-wfis-stand-on-vinesh-phogats-eligibility-for-world-wrestling-championship-trials"}
+          ]
+        },
+        {
+          "id": "in-gov-2",
+          "title": "Teenage swimmer's 18-month doping ban upheld, cut from Asian Games roster",
+          "summary": "The 17-year-old, who had qualified for two events in Aichi-Nagoya, tested positive for the beta-2 agonist terbutaline in February and was formally banned on September 10 despite the Swimming Federation of India's push for an expedited NADA hearing. His twin brother remains in India's contingent. It's the latest addition to a pre-Games doping count that has already climbed to a dozen cases — an awkward backdrop given India's parallel push to be seen as a credible future Olympic host.",
+          "sources": [
+            {"name": "Rozana Spokesman, Sept 10", "url": "https://www.rozanaspokesman.com/sports/100926/teen-swimmer-handed-18-month-ban-ruled-out-of-asian-games.html"},
+            {"name": "Business Standard, Sept 2", "url": "https://www.business-standard.com/sports/other-sports-news/india-s-asiad-2026-campaign-suffers-another-doping-blow-cases-rise-to-12-126090200465_1.html"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "in-mkt-1",
+          "title": "Apollo Tyres replaces Dream11 as India cricket's jersey sponsor in ₹579 crore deal",
+          "summary": "The 2.5-year deal, running to March 2028 and covering 121 bilateral and 21 ICC matches, pays BCCI ₹4.5 crore per bilateral match against Dream11's ₹4 crore — a premium despite the forced switch. BCCI terminated Dream11's contract after the Promotion and Regulation of Online Gaming Act banned real-money gaming apps, leaving India's teams playing sponsor-less through the Men's Asia Cup and a women's ODI series against Australia before this deal closed. JK Tyres and Canva were the other bidders.",
+          "sources": [
+            {"name": "ETV Bharat, Sept 16", "url": "https://www.etvbharat.com/en/!sports/apollo-tyres-replaces-dream11-as-jersey-sponsor-of-indian-cricket-team-enn25091603780"},
+            {"name": "ESPNcricinfo, Sept 15", "url": "https://www.espncricinfo.com/story/apollo-tyres-replaces-dream-11-as-india-team-sponsor-1503120"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "in-soc-1",
+          "title": "India Women beat Sri Lanka to win a record-extending eighth Asia Cup title",
+          "summary": "Shafali Verma and Smriti Mandhana powered India to victory in Saturday's final in Dubai, continuing the women's team's dominance in the format even as the men's side has had a rockier year. The win lands just as the same squad heads into Asian Games T20 competition as defending champions, giving the women's programme a genuine momentum story going into Aichi-Nagoya.",
+          "sources": [
+            {"name": "Cricinfo, Sept 13", "url": "https://www.cricinfo.com/series/women-s-asia-cup-2026-1548888/india-women-vs-sri-lanka-women-final-1548905/match-report"},
+            {"name": "Outlook India, Sept 13", "url": "https://www.outlookindia.com/sports/cricket/india-vs-sri-lanka-live-score-womens-asia-cup-2026-final-ind-w-v-sl-w-highlights-updates-dubai"}
+          ]
+        }
+      ]
+    },
+    "global": {
+      "government": [
+        {
+          "id": "gl-gov-1",
+          "title": "US Senate push for the Protect College Sports Act splits an unusual coalition",
+          "summary": "Backed by Ted Cruz, Maria Cantwell, President Trump and figures like Nick Saban and Deion Sanders, the bill aims to rein in NIL-era spending and \"safeguard\" women's and Olympic sports programmes. Democratic senator Chris Murphy calls it legal cover for schools to collude on capping athlete pay while leaving coach salaries and facility spending untouched; the NAACP and Congressional Black Caucus oppose it on civil-rights grounds, noting the racial gap between who plays and who's setting the limits. Proponents are pushing for a vote before the Senate's midterm recess.",
+          "sources": [
+            {"name": "WSLS, Sept 14", "url": "https://www.wsls.com/news/politics/2026/09/14/protect-college-sports-act-gets-renewed-push-and-fresh-opposition-as-college-football-returns/"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "gl-mkt-1",
+          "title": "Crypto.com and Robinhood ask the Supreme Court to settle sports-betting jurisdiction",
+          "summary": "The two firms want the Court to rule that sports-event contracts on federally registered prediction markets fall under exclusive CFTC oversight, not state gambling law — framing them as financial \"swaps\" that let holders hedge against a game's outcome. Nevada and New Jersey argue they're gambling products subject to state regulation. However it lands, the ruling will decide whether prediction markets scale nationally under federal rules or keep facing a state-by-state patchwork.",
+          "sources": [
+            {"name": "SBC Americas, Sept 14", "url": "https://sbcamericas.com/2026/09/14/crypto-com-sports-betting-supreme-court/"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "gl-soc-1",
+          "title": "Mixed martial arts makes its first appearance at an Asian Games",
+          "summary": "The Olympic Council of Asia has added MMA to the Aichi-Nagoya programme with six medal events — a notable legitimising step for a sport still viewed warily by several conservative federations across the region. It sits alongside cricket's return and a 43-sport, 11,000-athlete programme as the Games try to broaden their relevance beyond the traditional Olympic disciplines.",
+          "sources": [
+            {"name": "OCA, Sept 2026", "url": "https://oca.asia/news/6189-oca-confirms-cricket-and-mma-for-asian-games-2026.html"},
+            {"name": "The Chronicle, Sept 2026", "url": "https://thechronicle.com.ph/mixed-martial-arts-set-to-enter-asian-games-arena-for-first-time-in-2026/"}
+          ]
+        }
+      ]
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "format": "Op-ed",
+      "title": "What the Phogat case says about maternity policy across Indian sport",
+      "summary": "Coverage treats this as one wrestler's eligibility fight. The bigger, unasked question: how many Indian sports federations actually have a written return-from-maternity pathway for selection trials, versus leaving it to case-by-case litigation every time an athlete comes back from childbirth."
+    },
+    {
+      "id": "opp-2",
+      "format": "Blog",
+      "title": "The Apollo Tyres deal is the first hard number on what the gaming ban cost cricket",
+      "summary": "Reports frame this purely as sponsorship news. Nobody's laid out the maths: BCCI extracted a per-match premium over Dream11's rate, but that's one deal — worth checking whether the broader loss of fantasy-sports money across state cricket associations and smaller leagues is being replaced at all, or just papered over at the top."
+    },
+    {
+      "id": "opp-3",
+      "format": "Op-ed",
+      "title": "Prediction markets vs India's blanket gaming ban — two answers to the same question",
+      "summary": "US coverage of the Crypto.com case is entirely domestic. A comparative piece is open: the US is litigating whether sports-outcome contracts are finance or gambling, while India skipped the debate and banned the category outright. Worth asking which approach actually protects consumers better, rather than assuming prohibition is the safer default."
+    },
+    {
+      "id": "opp-4",
+      "format": "Podcast",
+      "title": "Why civil-rights groups and conservative coaches are on opposite sides of a Senate bill",
+      "summary": "The Protect College Sports Act coverage states the positions but doesn't explain the underlying tension well: a bill marketed as athlete protection that its critics say mainly protects the people who aren't athletes. A conversational format could actually unpack the antitrust mechanics of \"collusion\" that Murphy is objecting to."
+    },
+    {
+      "id": "opp-5",
+      "format": "Blog",
+      "title": "India's junior anti-doping problem is a pipeline story, not a scandal story",
+      "summary": "Each positive test gets covered as an isolated incident. Strung together — a 17-year-old swimmer, a rising pre-Games case count now at 12 — this reads more like a gap in junior-level anti-doping education than a series of unrelated lapses, and it's a bad look four years into a decade-long Olympic hosting push nobody's connected it to."
+    },
+    {
+      "id": "opp-6",
+      "format": "Podcast",
+      "title": "MMA's Asian Games debut is a governance story, not a schedule footnote",
+      "summary": "It's being reported as one more entry on the sports list. The more interesting angle is regional: the OCA legitimising a combat sport still restricted or culturally contested in several member federations, and what that could mean for MMA's own long-shot case for eventual Olympic recognition."
+    }
+  ]
+}
