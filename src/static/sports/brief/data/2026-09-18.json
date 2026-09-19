@@ -9,8 +9,10 @@
           "title": "Government put Rs 800.7 crore into Asian Games preparation",
           "summary": "New figures show the sports ministry spent Rs 702.9 crore through its Annual Competition and Training Calendar and Rs 97.8 crore via TOPS on the 501-athlete Aichi-Nagoya contingent, with the single biggest slice (Rs 251.4 crore) going to international exposure trips. TOPS chief N.S. Johal said the squad, 310 of them first-time Asiad competitors and 65 from Khelo India, has momentum to match or better India's 106-medal Hangzhou 2022 haul.",
           "sources": [
-            {"name": "Business Standard, Sept 15", "url": "https://www.business-standard.com/sports/business/asian-games-2026-how-govt-spent-rs-800-7-crore-on-athletes-preparations-126091500956_1.html"},
-            {"name": "The Bridge, Sept 15", "url": "https://thebridge.in"}
+            {
+              "name": "Business Standard, Sept 15",
+              "url": "https://www.business-standard.com/sports/business/asian-games-2026-how-govt-spent-rs-800-7-crore-on-athletes-preparations-126091500956_1.html"
+            }
           ]
         }
       ],
@@ -20,7 +22,10 @@
           "title": "Kabaddi Champions League doubles down with two more franchises",
           "summary": "The KCL is expanding to a 10-team format for season two, adding Jind Jaguars and Kurukshetra Knights. Chairman Balwan Singh pitched the league as a genuine talent pipeline rather than a cricket-style exhibition, noting nine of the 12 players who made India's most recent Asiad kabaddi squads came through it, a concrete claim for a non-cricket league trying to prove its business case.",
           "sources": [
-            {"name": "RevSportz, Sept 17", "url": "https://revsportz.in/kabaddi-champions-league-announces-season-2-with-two-new-franchises/"}
+            {
+              "name": "RevSportz, Sept 17",
+              "url": "https://revsportz.in/kabaddi-champions-league-announces-season-2-with-two-new-franchises/"
+            }
           ]
         }
       ],
@@ -30,8 +35,14 @@
           "title": "Para-shooters deliver a landmark team gold in Changwon",
           "summary": "Millie Shah, Mona Agarwal and Avani Lekhara won team gold at the World Shooting Para Sport World Championships, with Shah and Rakesh Nidagundi also taking individual medals, a strong result for India's Paralympic pipeline that arrived with none of the fanfare around the Asian Games this week, despite Lekhara being a two-time Paralympic gold medallist.",
           "sources": [
-            {"name": "ANI, Sept 16", "url": "https://www.aninews.in/news/sports/others/millie-shah-rakesh-nidagundi-win-medals-at-changwon-2026-wsps-world-championships20260916234031/"},
-            {"name": "The Tribune, Sept 16", "url": "https://www.tribuneindia.com/news/sports/millie-shah-rakesh-nidagundi-win-medals-at-changwon-2026-wsps-world-championships"}
+            {
+              "name": "ANI, Sept 16",
+              "url": "https://www.aninews.in/news/sports/others/millie-shah-rakesh-nidagundi-win-medals-at-changwon-2026-wsps-world-championships20260916234031/"
+            },
+            {
+              "name": "The Tribune, Sept 16",
+              "url": "https://www.tribuneindia.com/news/sports/millie-shah-rakesh-nidagundi-win-medals-at-changwon-2026-wsps-world-championships"
+            }
           ]
         },
         {
@@ -39,8 +50,14 @@
           "title": "Women's cricket, not the men's team, headlines India's Asiad day",
           "summary": "With the Aichi-Nagoya opening ceremony still a day away, India's marquee fixture today is the women's cricket team's quarter-final against hosts Japan under Harmanpreet Kaur, alongside a 3-0 soft-tennis win over Laos and teqball debutant Quimcy D'Souza upsetting Japan's top seed to reach the semi-final in a sport making its Asian Games debut.",
           "sources": [
-            {"name": "The Bridge, Sept 18", "url": "https://thebridge.in/asian-games/2026-live-updates-results-scores-blog-india-softball-cricket-57634"},
-            {"name": "The Tribune, Sept 17", "url": "https://www.tribuneindia.com/news/asian-games-2026/asian-games-2026-olympic-hockey-qualification-cricket-and-kabaddi-dominance-in-focus-as-india-eyes-gold-in-team-sports"}
+            {
+              "name": "The Bridge, Sept 18",
+              "url": "https://thebridge.in/asian-games/2026-live-updates-results-scores-blog-india-softball-cricket-57634"
+            },
+            {
+              "name": "The Tribune, Sept 17",
+              "url": "https://www.tribuneindia.com/news/asian-games-2026/asian-games-2026-olympic-hockey-qualification-cricket-and-kabaddi-dominance-in-focus-as-india-eyes-gold-in-team-sports"
+            }
           ]
         },
         {
@@ -48,8 +65,14 @@
           "title": "India's chess Olympiad defence survives a hotel row and a rating dip",
           "summary": "The title defence in Samarkand opened with Indian GMs Srinath Narayanan and Vidit Gujrathi publicly complaining their team waited five-plus hours with no rooms assigned; FIDE responded by compensating affected teams. On the board, India beat Thailand and Indonesia in the first two rounds, though Gukesh's live rating dropped below 2700 for the first time in four years after a round-two draw.",
           "sources": [
-            {"name": "ANI, Sept 16", "url": "https://www.aninews.in/news/sports/others/fide-announces-compensation-after-accommodation-row-at-chess-olympiad-in-uzbekistan20260916201000/"},
-            {"name": "Chess.com, Sept 17", "url": "https://www.chess.com/news/view/2026-samarkand-chess-olympiad-round-2"}
+            {
+              "name": "ANI, Sept 16",
+              "url": "https://www.aninews.in/news/sports/others/fide-announces-compensation-after-accommodation-row-at-chess-olympiad-in-uzbekistan20260916201000/"
+            },
+            {
+              "name": "Chess.com, Sept 17",
+              "url": "https://www.chess.com/news/view/2026-samarkand-chess-olympiad-round-2"
+            }
           ]
         }
       ]
@@ -61,8 +84,14 @@
           "title": "US Senate advances the Protect College Sports Act",
           "summary": "The bill, a one-time no-penalty transfer rule, a limited antitrust exemption letting schools pool media rights, and the first federal NIL rules, cleared a Senate procedural hurdle with a floor vote expected next week, though the House is in recess until October and the clock runs out when this Congress ends. Nick Saban criticised college sport's drift from development to focusing on money; Senator Jeff Merkley opposed the bill for curbing athletes' bargaining power.",
           "sources": [
-            {"name": "Washington Times, Sept 17", "url": "https://www.washingtontimes.com/news/2026/sep/17/senate-clears-path-protect-college-sports-act-floor-vote-next-week/"},
-            {"name": "KTVZ, Sept 16", "url": "https://ktvz.com/news/government-politics/2026/09/16/congress-considers-protect-college-sports-act-to-regulate-nil-and-transfers/"}
+            {
+              "name": "Washington Times, Sept 17",
+              "url": "https://www.washingtontimes.com/news/2026/sep/17/senate-clears-path-protect-college-sports-act-floor-vote-next-week/"
+            },
+            {
+              "name": "KTVZ, Sept 16",
+              "url": "https://ktvz.com/news/government-politics/2026/09/16/congress-considers-protect-college-sports-act-to-regulate-nil-and-transfers/"
+            }
           ]
         },
         {
@@ -70,8 +99,14 @@
           "title": "Russian athletes take World Athletics ban fight to the IOC and UN",
           "summary": "Russian athletes wrote to the IOC and the UN Human Rights Commissioner calling World Athletics' ongoing ban collective punishment, pointing out that the IOC, FIBA and FIA have all moved toward reinstating Russians and Belarusians under neutral status since the 2022 suspension. World Athletics reaffirmed its ban in July; Russian Athletics has since filed two appeals to the Court of Arbitration for Sport.",
           "sources": [
-            {"name": "Wire copy, Sept 13", "url": "https://whbl.com/2026/09/13/athletics-russian-athletes-appeal-for-end-to-world-athletics-ban/"},
-            {"name": "Sportico", "url": "https://www.sportico.com/leagues/olympics/2026/olympics-conditionally-lift-russian-athlete-ban-1234938161/"}
+            {
+              "name": "Wire copy, Sept 13",
+              "url": "https://whbl.com/2026/09/13/athletics-russian-athletes-appeal-for-end-to-world-athletics-ban/"
+            },
+            {
+              "name": "Sportico",
+              "url": "https://www.sportico.com/leagues/olympics/2026/olympics-conditionally-lift-russian-athlete-ban-1234938161/"
+            }
           ]
         }
       ],
@@ -81,7 +116,10 @@
           "title": "NBA owners weigh $10bn-plus expansion into Las Vegas and Seattle",
           "summary": "The Board of Governors discussed expansion bids reportedly around $10 billion per franchise for the two markets, a sharp jump on recent expansion pricing. No vote has been scheduled and the league stresses nothing is decided, but the number alone resets expectations for what a new NBA franchise costs.",
           "sources": [
-            {"name": "NBC Sports, Sept 15", "url": "https://www.nbcsports.com/nba/news/nba-owners-discussed-expansion-in-las-vegas-seattle-amid-report-of-10-billion-bids"}
+            {
+              "name": "NBC Sports, Sept 15",
+              "url": "https://www.nbcsports.com/nba/news/nba-owners-discussed-expansion-in-las-vegas-seattle-amid-report-of-10-billion-bids"
+            }
           ]
         },
         {
@@ -89,8 +127,14 @@
           "title": "PGA Tour shuts the door on a LIV return as bankruptcy fallout deepens",
           "summary": "Tour CEO Brian Rolapp said the Tour is not currently contemplating a returning member programme for LIV defectors. That lands as LIV Golf works through Chapter 11 (filed September 8, $500m-$1bn in liabilities) after Saudi Arabia's PIF, which had put in over $5bn since 2022, stopped funding it; events and prize money have already been cut. The Tour is meanwhile finalising a two-tier restructure for 2028 with expanded DP World Tour co-events.",
           "sources": [
-            {"name": "InsiderSport, Sept 17", "url": "https://insidersport.com/2026/09/17/pga-tour-shuts-path-liv-golf-stars/"},
-            {"name": "CNBC, Sept 8", "url": "https://www.cnbc.com/2026/09/08/liv-golf-chapter-11-bankruptcy.html"}
+            {
+              "name": "InsiderSport, Sept 17",
+              "url": "https://insidersport.com/2026/09/17/pga-tour-shuts-path-liv-golf-stars/"
+            },
+            {
+              "name": "CNBC, Sept 8",
+              "url": "https://www.cnbc.com/2026/09/08/liv-golf-chapter-11-bankruptcy.html"
+            }
           ]
         },
         {
@@ -98,7 +142,10 @@
           "title": "PWHL lands its first full-season national US broadcast deal",
           "summary": "The Professional Women's Hockey League signed with Scripps Sports for 2026-27: a Saturday Game of the Week on ION, reaching 128 million-plus households, plus two more national games a week on Scripps' free streaming network and the Walter Cup Finals on ION. It lands as the league expands to 12 teams, adding Detroit and Las Vegas.",
           "sources": [
-            {"name": "Sports Video Group, Sept 10", "url": "https://www.sportsvideo.org/2026/09/10/pwhl-scripps-sports-sign-national-television-deal-for-2026-27-season/"}
+            {
+              "name": "Sports Video Group, Sept 10",
+              "url": "https://www.sportsvideo.org/2026/09/10/pwhl-scripps-sports-sign-national-television-deal-for-2026-27-season/"
+            }
           ]
         },
         {
@@ -106,7 +153,10 @@
           "title": "Five major leagues push regulators for a cross-state bettor blocklist",
           "summary": "MLB, MLS, the NBA, NFL and NHL, with their players' associations, formally petitioned state gambling regulators for permanent bans on bettors who threaten athletes or their families, a standardised cross-operator reporting system, and licensing terms that force sportsbooks to flag abusive accounts proactively.",
           "sources": [
-            {"name": "SBC Americas, Sept 15", "url": "https://sbcamericas.com/2026/09/15/pro-leagues-players-abusive-bettors/"}
+            {
+              "name": "SBC Americas, Sept 15",
+              "url": "https://sbcamericas.com/2026/09/15/pro-leagues-players-abusive-bettors/"
+            }
           ]
         }
       ],
@@ -116,8 +166,14 @@
           "title": "Players go public on bettor harassment as gambling ads saturate broadcasts",
           "summary": "Behind this week's regulatory push sits a starker story: NBA guard Fred VanVleet said players carry all of the burden and danger that comes with the league's association to gambling without ever being consulted, as a gambling logo or ad now appears roughly every 13 seconds on US sports TV. The proximate trigger was MLB pitcher Lance McCullers Jr. hiring 24-hour security after a bettor threatened his five-year-old daughter over a bad outing.",
           "sources": [
-            {"name": "AdExchanger, Sept 16", "url": "https://www.adexchanger.com/daily-news-roundup/wednesday-16092026/"},
-            {"name": "SBC Americas, Sept 15", "url": "https://sbcamericas.com/2026/09/15/pro-leagues-players-abusive-bettors/"}
+            {
+              "name": "AdExchanger, Sept 16",
+              "url": "https://www.adexchanger.com/daily-news-roundup/wednesday-16092026/"
+            },
+            {
+              "name": "SBC Americas, Sept 15",
+              "url": "https://sbcamericas.com/2026/09/15/pro-leagues-players-abusive-bettors/"
+            }
           ]
         }
       ]
