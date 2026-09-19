@@ -88,9 +88,42 @@ summaries of roughly 40-80 words, one paragraph each, no bullets. Then 5-8
 "opportunities" — blog, op-ed or podcast angles not already well covered in what
 you read. Those carry no sources by design.
 
-Check every source URL you are about to cite actually resolves, with curl. A
-citation that does not support its own claim is worse than a missing item: make
-sure each URL is the page the summary is about, not merely a page you read.
+### Check every URL before you move on
+
+A citation that does not support its own claim is worse than a missing item.
+Each URL must be the page the summary is about, not merely a page you read.
+
+**Every source URL must have a path.** `https://thebridge.in` is a front door,
+not a citation — it does not show the claim, and the validator rejects it. Only
+`https://thebridge.in/athletics/some-article-slug` counts. If you cannot produce
+the article's own URL, drop that source; if it was the item's only source, drop
+the item.
+
+Run this before going on, with <today> substituted. It prints any URL that is a
+bare homepage and any that does not resolve:
+
+    python3 - <<'EOF'
+    import json, re, subprocess
+    d = json.load(open("src/static/sports/brief/data/<today>.json"))
+    UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/124 Safari/537.36"
+    bad = 0
+    for reg, lenses in d["regions"].items():
+        for lens, items in lenses.items():
+            for it in items:
+                for s in it["sources"]:
+                    u = s["url"]
+                    if re.fullmatch(r"https?://[^/]+/?", u):
+                        print("BARE HOMEPAGE", reg, lens, it["title"][:40], u); bad += 1; continue
+                    code = subprocess.run(["curl","-sS","-o","/dev/null","-L","--max-time","20",
+                        "-A", UA, "-w","%{http_code}", u], capture_output=True, text=True).stdout
+                    if code not in ("200","403","406"):
+                        print("DEAD", code, it["title"][:40], u); bad += 1
+    print("problems:", bad)
+    EOF
+
+Fix everything it reports before continuing. 403 and 406 are bot-blocks from
+real pages, not dead links, so those are fine. Do not substitute a different
+article to silence it — drop the source, or the item.
 
 ## Step 5 — validate
 
@@ -141,6 +174,9 @@ attributes claims to real publications by name.
   summary from a search-result snippet, a headline, or an aggregator blurb.
 - Never construct, guess or complete a URL. If the fetch failed, the item does
   not go in.
+- Every source URL must point at the article itself and must have a path. A
+  bare homepage is not a citation and the validator rejects it, which fails the
+  whole build and stops every other edition deploying too.
 - The URL you cite must be the page the claim comes from. Do not substitute a
   different article because the real one is hard to reach — drop the item.
 - Prefer established news outlets. If the only source for a story is a partisan
