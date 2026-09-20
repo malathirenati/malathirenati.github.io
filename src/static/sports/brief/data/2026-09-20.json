@@ -1,0 +1,208 @@
+{
+  "date": "2026-09-20",
+  "weekday": "Sunday",
+  "regions": {
+    "india": {
+      "government": [
+        {
+          "id": "in-gov-1",
+          "title": "NADA suspends wushu bronze medallist, Asiad-linked doping count hits 12",
+          "summary": "India's anti-doping agency provisionally suspended wushu athlete Surya Bhanupratap Singh, a 2018 Asiad bronze medallist, for testing positive for Ostarine, pulling him off the Games roster days before Nagoya opened. It takes the running tally of Indian athletes flagged since the Glasgow Commonwealth Games to 12, spanning weightlifting, judo, wrestling, shooting, rowing and athletics, and lands the same week India's 500-plus-strong contingent is chasing a medal haul beyond Hangzhou's 106.",
+          "sources": [
+            {"name": "Business Standard, Sept 2", "url": "https://www.business-standard.com/sports/other-sports-news/india-s-asiad-2026-campaign-suffers-another-doping-blow-cases-rise-to-12-126090200465_1.html"}
+          ]
+        },
+        {
+          "id": "in-gov-2",
+          "title": "New Board Rules under the sports governance law strip federations of old immunity",
+          "summary": "Rules now being implemented under India's National Sports Governance Act replace the voluntary 2011 Sports Code with enforceable mandates: federations must hire salaried professional CEOs, a central National Sports Board can suspend recognition or freeze a non-compliant federation's bank accounts, athletes get 10% voting power, and women get 30% of executive-committee seats reserved. Federations are also newly classified as public authorities under the RTI Act, opening their records to citizen requests for the first time.",
+          "sources": [
+            {"name": "ISST, Sept 5", "url": "https://www.isst.co.in/2026/09/05/national-sports-governance-act/"}
+          ]
+        },
+        {
+          "id": "in-gov-3",
+          "title": "Sports Ministry formalises 15-member esports squad, Khelo India funding push continues",
+          "summary": "The Ministry of Youth Affairs and Sports approved a 15-member esports contingent for the Asian Games, cementing government recognition of esports as a medal discipline. Separately, states are racing to lock in Khelo India 2026-31 allocations, with Jammu and Kashmir targeting Rs 1,000-1,200 crore over five years for infrastructure, talent identification and AI-based athlete monitoring against a national scheme outlay of roughly Rs 28,489 crore.",
+          "sources": [
+            {"name": "The Tribune", "url": "https://www.tribuneindia.com/news/sports/myas-approves-15-member-indian-esports-contingent-for-asian-games-2026/amp/"},
+            {"name": "Kashmir Images, Sept 1", "url": "https://thekashmirimages.com/2026/09/01/jk-targets-%E2%82%B91000-1200-crore-under-khelo-india-programme-over-next-five-years/"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "in-mkt-1",
+          "title": "BCCI's 95th AGM locks in IPL 2027 governance shake-up and a centenary countdown",
+          "summary": "At its Mumbai AGM, the board inducted two new IPL Governing Council members ahead of the league's 20th season, cleared the 2026-27 budget, revised umpire and match-referee pay, tightened age-verification rules, and set December 2027 as the start of BCCI's centenary celebrations. A new internal committee under the board's sexual-harassment prevention policy was also approved.",
+          "sources": [
+            {"name": "Possible11, Sept 19", "url": "https://possible11.com/news/bcci-95th-agm-highlights-key-decisions-on-ipl-2027-centenary-year-major-reforms/"},
+            {"name": "BCCI.tv", "url": "https://www.bcci.tv/news/article/update-95th-annual-general-meeting-of-bcci"}
+          ]
+        },
+        {
+          "id": "in-mkt-2",
+          "title": "Sony locks up exclusive Indian broadcast of the Asian Games",
+          "summary": "Sony Sports Network holds sole Indian TV and streaming rights to the Nagoya Games, giving it exclusive commercial control of a 17-day, 43-sport window that includes India's shooting, hockey and cricket medal moments — a significant single-property rights asset regardless of how the medal count finishes.",
+          "sources": [
+            {"name": "IndianTelevision.com", "url": "https://indiantelevision.com/television/sony-secures-exclusive-india-rights-for-2026-asian-games-broadcast/"}
+          ]
+        },
+        {
+          "id": "in-mkt-3",
+          "title": "Indian Football League expands foreign-player quota, ISL shifts to club-led commercial model",
+          "summary": "The AIFF confirmed the IFL's 2026-27 season kicks off October 30 with Nagaland and Odisha added as venues and the on-field foreign-player cap raised to three, citing 2025-26 viewership up fourfold. Separately, Indian Super League clubs are moving to a club-led commercial-rights model and were, as of mid-September, still finalising a broadcast partner ahead of an October 10 kickoff.",
+          "sources": [
+            {"name": "The Tribune, Sept 8", "url": "https://www.tribuneindia.com/news/aiff/indian-football-league-2026-27-to-begin-on-october-30"},
+            {"name": "MyKhel", "url": "https://www.mykhel.com/football/isl-2026-27-broadcast-indian-super-league-clubs-still-mulling-over-tv-rights-ahead-of-october-10-ki-452281.html"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "in-soc-1",
+          "title": "India opens its Asiad medal account: shooting silver, a rout in hockey, heartbreak in teqball",
+          "summary": "The women's 10m air rifle team of Elavenil Valarivan, Sonam Maskar and Vidarsa Vinod won India's first medal of the Games, a silver behind China, while the women's hockey team put 19 unanswered goals past Uzbekistan in their opener. Debutant Quimcy D'Souza's run in teqball, a sport with almost no domestic infrastructure, ended in the semi-final with a narrow two-games-to-love loss to home favourite Yuina Sakamoto, denying India what would have been its first-ever medal in the discipline.",
+          "sources": [
+            {"name": "The Tribune, Sept 20", "url": "https://www.tribuneindia.com/news/sports/asian-games-2026-india-secure-silver-in-womens-10m-air-rifle-team-event"}
+          ]
+        },
+        {
+          "id": "in-soc-2",
+          "title": "Women's cricket, not the men's team, carries India into the Asiad semi-finals",
+          "summary": "India's women beat Japan by eight wickets to reach the semi-finals, then met Bangladesh on September 20 at Nisshin's Korogi Sports Park — the marquee team-sport story of India's Games so far, and a continuing marker of how far the women's game's domestic following has grown since it was a footnote at past multi-sport Games.",
+          "sources": [
+            {"name": "ANI, Sept 18", "url": "https://www.aninews.in/news/sports/cricket/asian-games-2026-indias-womens-cricket-team-storms-into-semis-with-eight-wicket-win-over-japan20260918124148/"}
+          ]
+        },
+        {
+          "id": "in-soc-3",
+          "title": "India's chess teams sweep round three at the Samarkand Olympiad",
+          "summary": "Fielding Gukesh, Nihal Sarin, Praggnanandhaa and Arjun Erigaisi together for the first time at an Olympiad, India's men beat Italy 3-1; the women's team of Koneru Humpy, Vantika Agrawal, Savitha Shri and Divya Deshmukh demolished Greece 3.5-0.5 to stay atop the standings — a story running almost entirely outside the Asian Games news cycle but drawing real domestic attention of its own.",
+          "sources": [
+            {"name": "NewsX, Sept 19", "url": "https://www.newsx.com/sports/chess-olympiad-2026-gukesh-nihal-sarin-lead-india-men-past-italy-women-thrash-greece-35-05-273534/"}
+          ]
+        }
+      ]
+    },
+    "global": {
+      "government": [
+        {
+          "id": "gl-gov-1",
+          "title": "World Athletics holds the line on Russia and Belarus despite a fresh CAS appeal",
+          "summary": "President Sebastian Coe reaffirmed the ban on Russian and Belarusian athletes in place since the 2022 invasion of Ukraine, even as Russian Athletics filed a new challenge at the Court of Arbitration for Sport. Coe said the standoff is about the integrity of competition, not politics, while conceding it needs to be resolved eventually — a harder line than the International Skating Union, which allows some Russians to compete as neutrals.",
+          "sources": [
+            {"name": "ABC News, Sept 14", "url": "https://www.abc.net.au/news/2026-09-14/world-athletics-russia-ban-over-ukraine-war/107148690"}
+          ]
+        },
+        {
+          "id": "gl-gov-2",
+          "title": "Nagoya's housing crunch turns into a typhoon evacuation",
+          "summary": "Organisers who under-planned for 15,000 Games attendees and got over 17,000 are now dealing with record rainfall and a typhoon that forced evacuations and transport mix-ups, including Japan's own team seeking alternate lodging after being housed in shipping-container-style huts and a cruise ship. It compounds a governance embarrassment for the Olympic Council of Asia barely a day into the Games.",
+          "sources": [
+            {"name": "Al Jazeera, Sept 18", "url": "https://www.aljazeera.com/sports/2026/9/18/asian-games-2026-dates-venues-sports-and-a-growing-accommodation-crisis"}
+          ]
+        },
+        {
+          "id": "gl-gov-3",
+          "title": "US college-sports bill heads to a Senate floor vote as lobbying tops $31 million",
+          "summary": "The Protect College Sports Act, which would grant the NCAA and conferences limited antitrust protection, cap revenue-sharing near $48.8 million per school, cap agent fees and pre-empt state NIL laws, is scheduled for a Senate floor vote between September 15 and 26. More than 90 organisations lobbied on it last quarter, led by Amazon, Disney and Paramount Skydance; the AFL-CIO, NAACP and Congressional Black Caucus oppose it, and House action has slipped to at least November.",
+          "sources": [
+            {"name": "Arkansas Advocate, Sept 13", "url": "https://arkansasadvocate.com/2026/09/13/college-football-is-back-so-is-the-fight-over-who-controls-its-billions/"}
+          ]
+        },
+        {
+          "id": "gl-gov-4",
+          "title": "Las Vegas approves another $75 million in public money for a stadium built six years ago",
+          "summary": "The Las Vegas Stadium Authority unanimously approved $75 million in public funding, roughly half of a $158 million expansion, for Allegiant Stadium, just six years after $750 million in public money built it. Critics say the board took no questions before voting and note past job-creation projections for the venue were overstated by more than 200%.",
+          "sources": [
+            {"name": "Nevada Current, Sept 3", "url": "https://nevadacurrent.com/2026/09/03/without-posing-a-single-question-stadium-authority-approves-another-75-million-in-public-funding/"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "gl-mkt-1",
+          "title": "LIV Golf files for bankruptcy after Saudi PIF walks away",
+          "summary": "LIV Golf filed for Chapter 11 on September 8 and struck a restructuring deal with BC Partners to emerge majority player-owned, after Saudi Arabia's Public Investment Fund, which had put in more than $5 billion, pulled its backing citing regional instability and weak TV ratings. Days later, PGA Tour CEO Brian Rolapp ruled out a repeat of the limited returning-member pathway that let defectors rejoin, leaving players like Jon Rahm and Bryson DeChambeau facing real contract uncertainty as pro golf resets around a new two-tier Tour structure due in 2028.",
+          "sources": [
+            {"name": "Axios, Sept 8", "url": "https://www.axios.com/2026/09/08/liv-golf-bankruptcy-saudi"},
+            {"name": "Insider Sport, Sept 17", "url": "https://insidersport.com/2026/09/17/pga-tour-shuts-path-liv-golf-stars/"}
+          ]
+        },
+        {
+          "id": "gl-mkt-2",
+          "title": "PWHL lands its first season-long national US broadcast deal",
+          "summary": "The Professional Women's Hockey League signed with Scripps Sports for 2026-27: a Saturday Game of the Week on ION, reaching 128 million-plus households, plus two more free-to-air games a week and the Walter Cup Finals. The deal lands as the league expands to 12 teams with new franchises in Detroit and Las Vegas.",
+          "sources": [
+            {"name": "Sports Video Group, Sept 10", "url": "https://www.sportsvideo.org/2026/09/10/pwhl-scripps-sports-sign-national-television-deal-for-2026-27-season/"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "gl-soc-1",
+          "title": "Girls' flag football becomes America's fastest-growing high school sport",
+          "summary": "Participation has jumped 551% in four years to more than 102,000 players, with 24 states plus Washington DC now sanctioning it as varsity, up from 12 states in 2024, fuelled by heavy NFL investment and its 2028 Olympic debut. One analysis flags a possible downside: falling participation in girls' lacrosse, softball and track in areas where flag football has grown fastest, raising the question of whether it is growing the athlete pool or redistributing it.",
+          "sources": [
+            {"name": "Axios, Sept 16", "url": "https://www.axios.com/2026/09/16/girls-flag-football-fastest-growing-high-school-sport"}
+          ]
+        },
+        {
+          "id": "gl-soc-2",
+          "title": "Kamila Valieva loses her ISU neutral-athlete status",
+          "summary": "The International Skating Union revoked the status that had let the Russian figure skater compete despite the federation's ban on Russian athletes, reigniting debate over her unresolved 2022 Beijing doping case and over neutral-athlete pathways more broadly.",
+          "sources": [
+            {"name": "CBC Sports, Sept 5", "url": "https://www.cbc.ca/sports/olympics/winter/figure-skating/kamila-valieva-neutral-status-9.7333875"}
+          ]
+        },
+        {
+          "id": "gl-soc-3",
+          "title": "Refereeing body apologises to Manchester United over VAR blunder in the derby",
+          "summary": "PGMOL admitted its VAR wrongly allowed Erling Haaland's derby-winning goal to stand despite an offside in the build-up, apologising directly to United after Roy Keane and Gary Neville led public criticism of the officiating, the latest flashpoint in a running row over VAR's credibility in the Premier League.",
+          "sources": [
+            {"name": "Goal.com, Sept 14", "url": "https://www.goal.com/en/news/var-blunder-in-manchester-derby-referees-body-offer-apologies/blt0e4283576495b30a"}
+          ]
+        }
+      ]
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "format": "Blog",
+      "title": "Federations as public authorities: what the RTI reclassification actually opens up",
+      "summary": "Coverage of the sports governance law's new Board Rules has stayed at the policy-summary level. Nobody has written the practical piece: what a citizen or journalist can now demand from a federation under RTI that they couldn't a year ago, and which federations are quietly resisting compliance."
+    },
+    {
+      "id": "opp-2",
+      "format": "Podcast",
+      "title": "One broadcaster, 43 sports: does Sony's Asiad exclusivity help or starve the smaller disciplines?",
+      "summary": "The rights deal itself has been reported as a business fact. The unexamined question is whether bundling everything from cricket to teqball under one exclusive rights-holder starves discovery for the new, medal-hungry sports that need eyeballs most, versus what an open, multi-platform model might have done for something like Quimcy D'Souza's near-miss."
+    },
+    {
+      "id": "opp-3",
+      "format": "Op-ed",
+      "title": "PIF's exit from LIV and what it signals about the next decade of sovereign wealth in sport",
+      "summary": "Most coverage has framed the bankruptcy as a golf story. The bigger, under-covered angle is what PIF walking away from a $5 billion-plus bet says about where sovereign wealth funds go next once sportswashing stops paying off in ratings, and whether that pattern has any read-through for other state-linked money circling Indian sport."
+    },
+    {
+      "id": "opp-4",
+      "format": "Blog",
+      "title": "Two hockey leagues, opposite trajectories: PWHL's national TV deal versus PKL's rights haircut",
+      "summary": "Both stories have run separately. Nobody has set a third-year US women's league landing expanded linear-TV terms against India's most established outdoor-stadium property fighting to avoid a 50% rights cut in the same month, a sharper comparative piece on what actually drives broadcaster confidence in a sports property."
+    },
+    {
+      "id": "opp-5",
+      "format": "Op-ed",
+      "title": "Nagoya's planning failure is a preview India should study before any future hosting bid",
+      "summary": "The accommodation crisis and typhoon evacuations are being covered as this Games' problem. Given India's periodic interest in hosting a future Asian Games, Commonwealth Games or Olympics, the specific failure mode here, adding sports without recosting logistics, is worth writing up as a checklist, not just a news item."
+    },
+    {
+      "id": "opp-6",
+      "format": "Blog",
+      "title": "The 12-athlete doping count nobody has added up in one place",
+      "summary": "Each positive test (wushu, weightlifting, wrestling, shooting) has been reported as a standalone story. An aggregated explainer of India's pre-Asiad doping toll, and what it means for WADA compliance scrutiny ahead of any future Olympic hosting ambitions, is genuine white space right now."
+    }
+  ]
+}
