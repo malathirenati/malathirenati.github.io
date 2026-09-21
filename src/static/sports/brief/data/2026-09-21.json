@@ -1,0 +1,170 @@
+{
+  "date": "2026-09-21",
+  "weekday": "Monday",
+  "regions": {
+    "india": {
+      "government": [
+        {
+          "id": "in-gov-1",
+          "title": "Supreme Court presses BCCI on why it sits outside the sports governance law",
+          "summary": "A three-judge bench led by Chief Justice Surya Kant has asked the BCCI and state cricket associations to explain why they shouldn't come under the National Sports Governance Act, floating a cricket tribunal to take the litigation load off the court. BCCI is holding its line - it calls itself an autonomous private body that takes no government money - but at its AGM last week said it would fall in line once cricket is formally notified as a \"designated sport.\" The two frameworks clash hardest on conflict-of-interest rules and office-bearer tenure limits.",
+          "sources": [
+            {"name": "CricketAddictor, Sept 9", "url": "https://cricketaddictor.com/cricket-news/supreme-court-questions-bcci-over-resistance-to-national-sports-governance-act-463643/"},
+            {"name": "Business Today, Sept 20", "url": "https://www.businesstoday.in/india/story/we-pay-rs3000-crore-in-tax-every-year-bccis-big-disclosure-at-agm-556663-2026-09-20"}
+          ]
+        },
+        {
+          "id": "in-gov-2",
+          "title": "India moves to formally protest a stripped-down Commonwealth Games 2026",
+          "summary": "Glasgow 2026 keeps only 10 sports, dropping hockey, badminton, table tennis, shooting and wrestling - the disciplines that delivered most of India's 61 medals in Birmingham 2022, wrestling alone accounting for 12. The government plans letters to the CGF leadership reminding it India is under no obligation to send a contingent, and a stakeholder meeting will decide whether India actually turns up in Glasgow.",
+          "sources": [
+            {"name": "Inside Sport", "url": "https://www.insidesport.in/chak-de-india/cwg-india-to-lodge-formal-protest-exclusion-sports-from-commonwealth-games-2026-glasgow/"}
+          ]
+        },
+        {
+          "id": "in-gov-3",
+          "title": "Doping numbers improve, but not fast enough to quiet 2036 Olympic bid doubts",
+          "summary": "India's adverse analytical findings fell in 2025, NADA says, but WADA continues to flag the country as a compliance risk, and the gap between \"improving\" and \"clean enough to host\" is exactly where scrutiny of a prospective 2036 Games bid is concentrating. NADA has since paired with the food-safety regulator to chase contaminated-supplement cases, the single biggest source of accidental positives in Indian sport.",
+          "sources": [
+            {"name": "Deccan Herald, Sept 2026", "url": "https://www.deccanherald.com/sports/rising-doping-violations-threaten-to-derail-indias-ambitious-bid-for-the-2036-olympic-games-3844567"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "in-mkt-1",
+          "title": "IPL auction comes home for 2027, after three seasons offshore",
+          "summary": "The IPL's player auction returns to Indian soil in 2027 for the first time since 2023, reversing a run through Dubai and Abu Dhabi. BCCI is framing it as fan-engagement logic - bigger domestic buzz, tighter operational control - while reportedly planning to send the bigger-ticket 2028 mega-auction back overseas, suggesting a deliberate rotation rather than a permanent homecoming.",
+          "sources": [
+            {"name": "SportsCafe, Sept 16", "url": "https://sportscafe.in/cricket/articles/2026/sep/16/ipl-2027-auction-gets-massive-venue-update-ahead-of-new-season"}
+          ]
+        },
+        {
+          "id": "in-mkt-2",
+          "title": "BCCI puts a number on its tax bill as the governance-law fight sharpens",
+          "summary": "At the 95th AGM, secretary Devajit Saikia told members the board pays roughly Rs 3,000 crore in income tax every year and gets zero central funding - a pointed rebuttal, delivered to applause, aimed at the \"tax-exempt cricket monopoly\" framing that keeps surfacing in the Supreme Court's sports-governance hearings. The disclosure is as much a governance-fight talking point as a financial one.",
+          "sources": [
+            {"name": "Business Today, Sept 20", "url": "https://www.businesstoday.in/india/story/we-pay-rs3000-crore-in-tax-every-year-bccis-big-disclosure-at-agm-556663-2026-09-20"}
+          ]
+        },
+        {
+          "id": "in-mkt-3",
+          "title": "Real-money gaming rules go live, and cricket's sponsorship map is still resettling",
+          "summary": "The 2026 Rules operationalising India's online gaming law now draw hard lines between esports, non-money gaming and money gaming - codifying the split that forced Dream11 to abruptly exit its Team India jersey deal last year. Industry voices call the clarity a green light for \"content-led, IP-driven\" gaming investment; what's still unclear is which category of sponsor actually fills the jersey-money vacuum the ban created across cricket, kabaddi and fantasy-adjacent leagues.",
+          "sources": [
+            {"name": "MyKhel, Sept 2026", "url": "https://www.mykhel.com/more-sports/indias-new-online-gaming-rules-2026-get-industry-backing-mark-major-shift-for-esports-ecosystem-429593.html"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "in-soc-1",
+          "title": "Three silvers and counting, but still no gold - shooting is carrying India's Asiad campaign",
+          "summary": "India's Asian Games medal count reached four through Monday, and every one has come from an air rifle range: Elavenil Valarivan took a rare double - team silver alongside Sonam Maskar and Vidarsa Vinod, then an individual silver of her own - before the men's 10m air rifle team added a third silver. It leaves India mid-table and medal-hungry heading into the rest of the Games, with the shooting range doing more work than every other discipline combined.",
+          "sources": [
+            {"name": "The Week, Sept 20", "url": "https://www.theweek.in/news/sports/2026/09/20/asian-games-2026-double-silver-medal-shooter-elavenil-valarivan.html"},
+            {"name": "The Statesman, Sept 2026", "url": "https://www.thestatesman.com/sports/asian-games-indias-shooting-tally-rises-to-three-medals-with-mens-10m-air-rifle-team-silver-1503640997.html"}
+          ]
+        },
+        {
+          "id": "in-soc-2",
+          "title": "Women's cricket does what the medal table hasn't yet: puts India in an Asiad final",
+          "summary": "India's women beat Bangladesh in Monday's semi-final at Nisshin to reach the gold-medal match, the clearest team-sport highlight of India's Games so far and a marker of how far the domestic following for women's cricket has grown since it was a footnote at past multi-sport events.",
+          "sources": [
+            {"name": "ESPNcricinfo, Sept 20", "url": "https://www.cricinfo.com/series/asian-games-women-s-cricket-competition-2026-1550472/bangladesh-women-vs-india-women-2nd-semi-final-1550479/full-scorecard"}
+          ]
+        },
+        {
+          "id": "in-soc-3",
+          "title": "MMA delivers a first, table tennis sweeps Pakistan, and the unglamorous disciplines have a big day",
+          "summary": "Suchika Tariyal secured what's on track to be India's first-ever Asian Games MMA medal, the women's table tennis team blanked Pakistan 3-0, and India also won in sepak takraw against Japan - three disciplines with a fraction of shooting's funding and visibility, each quietly building a case for more investment out of the new Khelo India outlay.",
+          "sources": [
+            {"name": "Open Magazine, Sept 21", "url": "https://openthemagazine.com/sports/asian-games-2026-shooters-win-indias-third-silver-womens-table-tennis-team-sweeps-pakistan"}
+          ]
+        }
+      ]
+    },
+    "global": {
+      "government": [
+        {
+          "id": "gl-gov-1",
+          "title": "Infantino faces a second, signature-backed complaint to the IOC over Trump ties",
+          "summary": "Human-rights group FairSquare has refiled its ethics complaint against FIFA president Gianni Infantino, this time backed by 100,000 signatures, alleging repeated breaches of Olympic political-neutrality rules - including the claim that a Trump phone call helped get US striker Folarin Balogun's suspension lifted mid-World Cup. Norwegian football's federation and dozens of European Parliament members have separately pushed for an investigation, but the IOC ethics body has no clear enforcement lever over a sitting FIFA president, which is the real story under the headline.",
+          "sources": [
+            {"name": "Inside World Football, Sept 9", "url": "https://www.insideworldfootball.com/2026/09/09/fairsquare-files-new-fifa-ethics-complaint-against-infantino-backed-by-100000-signatures/"},
+            {"name": "ESPN, Sept 2026", "url": "https://www.espn.com/soccer/story/_/id/49357803/gianni-infantino-reported-ioc-donald-trump-ties-world-cup"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "gl-mkt-1",
+          "title": "Premier League's ownership arms race keeps escalating",
+          "summary": "Everton's owners, the Friedkin Group, are sounding out new investors for a significant stake barely two years after buying the club, even as its finances improve - a sign of how competitive Premier League ownership has become after Fenway Sports Group sold roughly a third of Liverpool to a Jeff Bezos-backed consortium at a $7 billion valuation last month. Clubs spent 4.1 billion euros on players league-wide in the latest window; owning a piece of one is now priced accordingly.",
+          "sources": [
+            {"name": "Traders Union, Sept 3", "url": "https://tradersunion.com/news/financial-news/show/3204583-everton-owners-seek-investors-premier-league/"},
+            {"name": "CNBC, Aug 14", "url": "https://www.cnbc.com/2026/08/14/jeff-bezos-group-buys-stake-liverpool-fc.html"}
+          ]
+        },
+        {
+          "id": "gl-mkt-2",
+          "title": "Sponsorship dollars keep flowing well beyond the marquee leagues",
+          "summary": "A single week's transactions roundup shows how broad-based sports sponsorship has become: Crystal Palace tied up with Brooks Running, the WNBA's Golden State Valkyries signed Athleta as apparel partner, Manchester City expanded its SeatGeek ticketing deal, and McLaren Racing struck a cross-series partnership with SharkNinja spanning Formula 1 and IndyCar - alongside smaller deals in rugby, padel and college sport.",
+          "sources": [
+            {"name": "Sportico, Sept 18", "url": "https://sports.yahoo.com/articles/sportico-transactions-moves-mergers-roundup-180000480.html"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "gl-soc-1",
+          "title": "Women's Basketball World Cup smashes its own attendance record",
+          "summary": "Berlin's edition of the tournament drew 236,015 fans across 36 games - up from 145,519 at Sydney 2022, despite two fewer matches - with several sessions at the 12,650-seat Berlin Arena selling out. The US beat France 97-79 in the final for a 12th title and a 36-game World Cup winning streak, but the bigger story is the demand curve: this is now a genuinely commercial international product, not a niche one.",
+          "sources": [
+            {"name": "The Ticketing Business, Sept 2026", "url": "https://www.theticketingbusiness.com/2026/09/womens-basketball-world-cup-sets-record-breaking-attendance/"}
+          ]
+        },
+        {
+          "id": "gl-soc-2",
+          "title": "The WNBA's landmark revenue-sharing deal is now live for a full postseason",
+          "summary": "The seven-year CBA ratified in March - the first real revenue-sharing model in women's professional sport, with the salary cap jumping from $1.5 million to $7 million in a single year - is now shaping the league's first postseason under the new terms, with the format expanding to a 50-game 2027 regular season and a 52-game slate by 2029. It's the clearest financial marker yet of how fast the women's-sports business case has changed in under two years.",
+          "sources": [
+            {"name": "CBS Sports, 2026", "url": "https://www.cbssports.com/wnba/news/wnba-cba-news-deal-details-salaries-explainer/"}
+          ]
+        }
+      ]
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "format": "Blog",
+      "title": "What \"designated sport\" actually threatens to change inside the IPL",
+      "summary": "Coverage of the Supreme Court-BCCI standoff stops at the headline dispute. Nobody has modelled what applying the sports governance law's conflict-of-interest and tenure-cap rules would actually do to IPL franchise ownership structures and BCCI office-bearer terms if cricket is notified as a designated sport."
+    },
+    {
+      "id": "opp-2",
+      "format": "Op-ed",
+      "title": "Follow the money the gaming ban displaced",
+      "summary": "The Dream11 exit and the new 2026 gaming rules have both been covered as standalone regulatory stories. The unasked question a year on: which category of sponsor is actually absorbing the real-money-gaming ad spend that left cricket, kabaddi and fantasy-adjacent sponsorships - and how much of the \"content-led gaming\" pivot is real versus wishful framing."
+    },
+    {
+      "id": "opp-3",
+      "format": "Podcast",
+      "title": "Is Khelo India's new funding formula built to fix India's shooting-only medal problem?",
+      "summary": "India's Asiad medals are, again, all individual-sport and shooting-heavy. The August Khelo India outlay has been reported purely as a topline number. A pointed episode asking whether any of that money is earmarked for team-sport pipelines, or just scaling up what already works, is genuinely missing from current coverage."
+    },
+    {
+      "id": "opp-4",
+      "format": "Blog",
+      "title": "Two multi-sport events, opposite trajectories - and what decides which one a federation still shows up for",
+      "summary": "The Commonwealth Games' shrinking sport list and the Asian Games' continued breadth have run as separate news items. A comparative piece on what actually drives a federation's or a government's calculus on which event to fully resource is unwritten."
+    },
+    {
+      "id": "opp-5",
+      "format": "Blog",
+      "title": "What the WPL's next rights cycle could borrow from the WNBA's revenue-sharing model",
+      "summary": "Indian sports-business coverage of the WNBA's landmark CBA has been essentially nil, and no one has drawn the direct comparison to the WPL's still-forming commercial structure. A concrete, numbers-led piece on what a revenue-sharing formula would mean for WPL player pay is open ground."
+    }
+  ]
+}
