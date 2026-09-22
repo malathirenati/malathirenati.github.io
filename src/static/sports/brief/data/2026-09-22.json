@@ -1,0 +1,173 @@
+{
+  "date": "2026-09-22",
+  "weekday": "Tuesday",
+  "regions": {
+    "india": {
+      "government": [
+        {
+          "id": "in-gov-1",
+          "title": "Cricket vs. the Sports Board: the carve-out fight is still unresolved while the rest of Indian sport moves on",
+          "summary": "The National Sports Governance Board and National Sports Tribunal Rules, notified back in May, are now the dispute-resolution and oversight layer for every recognised national federation — except cricket, which BCCI says shouldn't be covered since it takes no government money. The Supreme Court isn't accepting that at face value: a bench led by Chief Justice Surya Kant has asked BCCI and the state associations to justify the exclusion and floated a dedicated cricket tribunal instead. BCCI's position, restated at its AGM this month, is that it will fall in line only once cricket is formally \"designated\" — a call that sits with the government, not the board.",
+          "sources": [
+            {"name": "Akashvani, May 2026", "url": "https://newsonair.gov.in/government-notifies-national-sports-governance-board-rules-and-national-sports-tribunal-rules-2026/"},
+            {"name": "CricketAddictor, Sept 9", "url": "https://cricketaddictor.com/cricket-news/supreme-court-questions-bcci-over-resistance-to-national-sports-governance-act-463643/"}
+          ]
+        },
+        {
+          "id": "in-gov-2",
+          "title": "A cricket match becomes a diplomatic prop as India play Japan for the first time on Japanese soil",
+          "summary": "India face Japan today in Tochigi in the first-ever senior men's T20I between the two nations, branded the Suzuki Cup under the \"Sport 75\" programme marking 75 years of India-Japan diplomatic relations, timed to coincide with the Asian Games next door in Aichi-Nagoya. Japan's cricket board is calling it a landmark for the sport's growth in Asia; the more practical read is a government-backed soft-power fixture between the world's reigning T20 champions and a side ranked 41st, with India never remotely at risk on the field.",
+          "sources": [
+            {"name": "CricTracker, Sept 22", "url": "https://www.crictracker.com/cricket-news/jiostar-and-fancode-to-show-historic-japan-vs-india-t20i-on-september-22-2906/"}
+          ]
+        },
+        {
+          "id": "in-gov-3",
+          "title": "Doping numbers are improving; WADA's view of the 2036 bid hasn't caught up with the trend line",
+          "summary": "NADA's adverse-finding numbers fell through 2025, driven partly by a joint push with the food-safety regulator against contaminated supplements — the single biggest source of accidental positives in Indian sport. WADA's public posture hasn't moved with the numbers, and India's anti-doping compliance record remains the recurring line item cited against its bid to host the 2036 Olympics, a hosting decision the IOC isn't expected to make before 2027.",
+          "sources": [
+            {"name": "Deccan Herald", "url": "https://www.deccanherald.com/sports/rising-doping-violations-threaten-to-derail-indias-ambitious-bid-for-the-2036-olympic-games-3844567"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "in-mkt-1",
+          "title": "WPL 2027 gets its dates, an October auction in Kochi, and a push into a new city",
+          "summary": "BCCI has confirmed the Women's Premier League's 2027 season for 14 January to 7 February, with the players' auction pencilled in for 28 October in Kochi and Varanasi emerging as a candidate new venue. Locking dates and a host city this early is itself the signal: three seasons in, the WPL is being run on a fixed annual calendar rather than negotiated season to season, which is what franchise sponsors and broadcasters actually price into long-term deals.",
+          "sources": [
+            {"name": "TheSportsTak, Sept 16", "url": "https://thesportstak.com/cricket/story/bcci-announces-wpl-2027-schedule-to-be-held-from-january-14-to-february-7-auction-on-october-28-3285796-2026-09-16"},
+            {"name": "CricketAddictor, Sept 16", "url": "https://cricketaddictor.com/cricket-news/wpl-2027-auction-date-revealed-as-bcci-set-to-introduce-new-stadium-463914/"}
+          ]
+        },
+        {
+          "id": "in-mkt-2",
+          "title": "ISL fixes an October 10 kickoff, giving sponsors a fixed point to sell against",
+          "summary": "The Indian Super League confirmed its 2026-27 season opens on 10 October, after a slow off-season with little movement on the structural questions — promotion-relegation, a functioning second division — that continue to cap how much broadcasters and sponsors are willing to pay for Indian football relative to cricket.",
+          "sources": [
+            {"name": "The Tribune, Sept 5", "url": "https://www.tribuneindia.com/news/asian-competition/indian-super-league-2026-27-season-to-begin-on-october-10"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "in-soc-1",
+          "title": "India's women defend their Asiad cricket gold today — the clearest medal moment of the Games so far",
+          "summary": "India face Sri Lanka in Nagoya this morning for the women's cricket gold medal, having beaten Bangladesh in the semi-final on the back of Shafali Verma's 49-ball century. It lands on day three with India's overall tally still gold-less after two days — six medals, all silver or bronze, every one from the shooting range — making this the single biggest chance yet for the campaign's first gold, and for women's cricket to be the story that carries it.",
+          "sources": [
+            {"name": "ESPNcricinfo", "url": "https://www.cricinfo.com/series/asian-games-women-s-cricket-competition-2026-1550472/bangladesh-women-vs-india-women-2nd-semi-final-1550479/match-report"},
+            {"name": "Business Standard, Sept 21", "url": "https://www.business-standard.com/sports/asian-games/india-at-asian-games-2026-live-updates-india-vs-pakistan-table-tennis-live-score-hockey-india-vs-bangladesh-kabaddi-mma-medal-tally-streaming-day-2-asiad-news-126092100038_1.html"}
+          ]
+        },
+        {
+          "id": "in-soc-2",
+          "title": "Neeraj Chopra's season ends on an ankle tear, taking India's most bankable athlete off the board",
+          "summary": "Chopra has been ruled out of the Asian Games and the rest of 2026 after an ankle ligament tear — a blow to India's medal hopes, but also to the public narrative around this Games, where the reigning Olympic and world javelin champion is the athlete a home audience is most invested in. Indian athletics doesn't have an obvious second name of Chopra's national reach, which turns one injury into a story about how thin the sport's star power actually is beneath him.",
+          "sources": [
+            {"name": "Olympics.com", "url": "https://www.olympics.com/en/news/neeraj-chopra-injury-ankle-ligament-tear-2026-season-end-asian-games-athletics"},
+            {"name": "ESPN", "url": "https://www.espn.com/athletics/story/_/id/49760157/neeraj-chopra-asian-games-ankle-injury-ends-2026-season-early"}
+          ]
+        },
+        {
+          "id": "in-soc-3",
+          "title": "Is India actually investing in its women athletes, or just marketing the idea of it?",
+          "summary": "A pointed essay this month argues sponsorship, funding and academy access for Indian women athletes still lag men's by a wide margin outside the handful who've already broken through nationally, and that government schemes rarely disaggregate spending by gender in any way that lets the claim be checked. Timely, given that women's cricket is doing more to carry India's medal story at this Asiad than any men's team sport.",
+          "sources": [
+            {"name": "Feminism in India, Sept 4", "url": "https://feminisminindia.com/2026/09/04/is-india-investing-enough-in-women-athletes/"}
+          ]
+        }
+      ]
+    },
+    "global": {
+      "government": [
+        {
+          "id": "gl-gov-1",
+          "title": "FairSquare's Infantino complaint moves from a dead end at the IOC to FIFA's own ethics body",
+          "summary": "The IOC rejected FairSquare's original complaint against FIFA president Gianni Infantino in July, ruling that the Trump-ties allegations — including the claim a Trump phone call helped get US striker Folarin Balogun's suspension lifted mid-World Cup — fell outside its jurisdiction. Rather than let it drop, the human-rights group has refiled directly with FIFA's own Ethics Committee this month, backed by more than 100,000 signatures in what it calls its biggest-ever complaint. The redirection is the real story: it confirms no outside body has a clear lever over a sitting FIFA president, which leaves FIFA to judge its own chief.",
+          "sources": [
+            {"name": "Al Jazeera, July 24", "url": "https://www.aljazeera.com/sports/2026/7/24/ioc-rejects-human-rights-groups-complaint-against-trump-ally-infantino"},
+            {"name": "Inside World Football, Sept 9", "url": "https://www.insideworldfootball.com/2026/09/09/fairsquare-files-new-fifa-ethics-complaint-against-infantino-backed-by-100000-signatures/"}
+          ]
+        },
+        {
+          "id": "gl-gov-2",
+          "title": "A federal-state turf war over sports prediction markets is still unresolved, and this NFL season is the test case",
+          "summary": "A Ninth Circuit ruling this year backed state authority to regulate prediction-market platforms like Kalshi as gambling, even as the CFTC pushes its own rulebook treating sports-event contracts as federally regulated derivatives; 44 states have separately told the CFTC directly that it has no jurisdiction here. Neither side has backed down, and law firms are now tracking the standoff as live, unresolved risk for every sportsbook and prediction-market operator building strategy around this year's football season.",
+          "sources": [
+            {"name": "DLA Piper, Sept 2026", "url": "https://www.dlapiper.com/en-us/insights/publications/2026/09/legal-status-at-odds-tracking-developments-in-prediction-markets-and-sports-betting"},
+            {"name": "The Hill", "url": "https://thehill.com/policy/technology/6058357-ninth-circuit-prediction-markets-kalshi-states-cftc/"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "gl-mkt-1",
+          "title": "NFL franchise values keep climbing: Cowboys top $15 billion, every team up double digits",
+          "summary": "Sportico's 2026 valuations put the Dallas Cowboys above $15 billion for the first time, with the average NFL franchise up roughly 31% year on year, driven by media-rights growth and a wave of minority-stake sales at ever-higher multiples. It's the same dynamic reshaping European football ownership — Everton's owners went shopping for fresh investors this month, barely two years after buying the club — just with a bigger unit price.",
+          "sources": [
+            {"name": "Sportico, Aug 2026", "url": "https://www.sportico.com/valuations/teams/2026/nfl-team-values-2026-dallas-cowboys-los-angeles-rams-1234941607/"}
+          ]
+        },
+        {
+          "id": "gl-mkt-2",
+          "title": "Sportsbooks are still winning the market-share fight against prediction-market upstarts — for now",
+          "summary": "Traditional sportsbooks remain the dominant way Americans bet on football this season, but prediction-market platforms are visibly closing the volume gap in the states where the jurisdiction fight above hasn't shut them out — a live experiment in whether a lighter regulatory footprint beats an incumbent sportsbook's product and marketing edge.",
+          "sources": [
+            {"name": "CNBC, Sept 18", "url": "https://www.cnbc.com/2026/09/18/sportsbooks-remain-king-this-football-season-but-upstarts-are-making-a-run-for-the-money.html"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "gl-soc-1",
+          "title": "The WNBA's transgender-eligibility fight has moved from social media to a formal task force, with no policy yet",
+          "summary": "Commissioner Cathy Engelbert's league is now running an internal task force on transgender player eligibility after a summer of public pressure, including from former male pro athletes publicly weighing declaring for the women's league. The WNBA has denounced \"bad-faith actors\" in the debate without stating a rule, leaving one of women's sport's most commercially successful leagues to write eligibility policy in public, under scrutiny from every direction at once.",
+          "sources": [
+            {"name": "ESPN", "url": "https://www.espn.com/wnba/story/_/id/49594734/wnba-task-force-discusses-transgender-athletes-amid-furor"},
+            {"name": "CBS Sports", "url": "https://www.cbssports.com/wnba/news/wnba-trans-athletes-bad-faith/"}
+          ]
+        },
+        {
+          "id": "gl-soc-2",
+          "title": "Sponsors are paying more for female athletes' visibility — and so is the abuse that comes with it",
+          "summary": "Brand spend chasing women's sport is real and growing, but the same visibility is driving a documented rise in targeted online abuse against female athletes, with several leagues and player associations now treating it as a duty-of-care issue rather than a platform-moderation footnote. The commercial upside and the safety cost are accelerating on the same timeline, and coverage rarely puts the two in the same frame.",
+          "sources": [
+            {"name": "Sporting Goods Intelligence Europe", "url": "https://www.sgieurope.com/athlete-economy/social-female-athletes-biggest-asset-and-liability/119760.article"}
+          ]
+        }
+      ]
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "format": "Blog",
+      "title": "What \"Sport 75\" actually tests: whether cricket's Asia growth strategy survives without India carrying it",
+      "summary": "Coverage of today's India-Japan T20I stops at \"historic first.\" Nobody has asked the harder question: Japan sits 41st in the ICC rankings and this fixture exists because of a diplomatic anniversary, not organic demand — what would it actually take to turn a government-backed exhibition into a market, and is anyone besides India funding that."
+    },
+    {
+      "id": "opp-2",
+      "format": "Op-ed",
+      "title": "The real Infantino story is the enforcement gap, not the petition count",
+      "summary": "Every write-up on FairSquare's refiled complaint leads with \"100,000 signatures.\" The more consequential fact is structural: the IOC has now confirmed, in writing, that it has no jurisdiction over a sitting FIFA president's conduct — which means the only body that can discipline Infantino is the one he runs. That's the piece nobody's written."
+    },
+    {
+      "id": "opp-3",
+      "format": "Podcast",
+      "title": "Benchmarking IPL and WPL valuations against this year's NFL and WNBA numbers",
+      "summary": "Indian cricket-business coverage almost never cites this year's NFL or WNBA valuation data, and American sports-business coverage almost never cites the IPL's. A cross-league episode building one comparison table — growth rate, not absolute value — would show whether Indian cricket properties are actually re-rating faster or slower than their US counterparts."
+    },
+    {
+      "id": "opp-4",
+      "format": "Blog",
+      "title": "India's javelin economy is a one-athlete market — what Chopra's injury actually exposes",
+      "summary": "Every outlet has covered the injury as a medal-hopes story. None has quantified the commercial concentration underneath it: how much of Indian athletics' sponsorship, appearance-fee and broadcast-interest revenue runs through one name, and what a season without him does to the pipeline of athletes who'd otherwise get that spotlight."
+    },
+    {
+      "id": "opp-5",
+      "format": "Op-ed",
+      "title": "India already answered the question the US prediction-markets fight is asking",
+      "summary": "The CFTC-versus-states standoff over sports prediction markets is, functionally, the same regulatory question India settled with its 2025 real-money gaming ban: is a sports-outcome contract gambling or a financial instrument. A comparative piece on why India drew a hard line while the US is still litigating it is open ground, and genuinely useful to operators watching both markets."
+    }
+  ]
+}
