@@ -1,0 +1,151 @@
+{
+  "date": "2026-09-23",
+  "weekday": "Wednesday",
+  "regions": {
+    "india": {
+      "government": [
+        {
+          "id": "in-gov-1",
+          "title": "BCCI holds its line on RTI and Governance Act compliance at its 95th AGM",
+          "summary": "Secretary Devajit Saikia told BCCI's AGM the board will comply with the National Sports Governance Act, 2025 only once cricket is formally \"designated\" as a sport under it, and repeated the argument that BCCI should stay outside the RTI Act since it takes no government funding and pays roughly ₹3,000 crore a year in tax. The board also announced centenary celebrations from December 2027 — a transparency-branding contrast with its RTI stance that sits awkwardly side by side.",
+          "sources": [
+            {"name": "Yahoo Sports, Sept 20", "url": "https://sports.yahoo.com/articles/bcci-comply-nsg-act-once-081200581.html"}
+          ]
+        },
+        {
+          "id": "in-gov-2",
+          "title": "Real-money gaming banned nationwide, hitting a business long fused to cricket sponsorship",
+          "summary": "The Promotion and Regulation of Online Gaming Act, 2025 and its 2026 Rules, in force since May, created a new Online Gaming Authority and outlawed real-money fantasy sports, rummy, poker and casino-style games outright — a prohibition rather than a licensing regime, with reach over offshore operators and penalties up to ₹1 crore and three years' imprisonment. Fantasy-sports platforms were among the most visible sponsors on Indian cricket jerseys and broadcasts before this took effect.",
+          "sources": [
+            {"name": "Mondaq, 2026", "url": "https://www.mondaq.com/india/gaming/1785180/play-by-the-new-rules-indias-2026-online-gaming-law-decoded"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "in-mkt-1",
+          "title": "IPL's business value climbs to $20.6 billion",
+          "summary": "A Houlihan Lokey study puts the IPL's enterprise value up 11.4% year on year to $20.6 billion, driven by high-profile part-sales of stakes in Royal Challengers Bengaluru and Rajasthan Royals as new investors bought in — evidence the league's valuation growth is still outrunning India's other sports properties by a wide margin.",
+          "sources": [
+            {"name": "Variety, July 30", "url": "https://variety.com/2026/sports/news/ipl-valuation-rcb-rajasthan-royals-sales-1236822733/"},
+            {"name": "Business Standard, July 30", "url": "https://www.business-standard.com/amp/cricket/news/ipl-s-business-value-rises-to-20-6-billion-in-2026-as-tycoons-flock-126073000665_1.html"}
+          ]
+        },
+        {
+          "id": "in-mkt-2",
+          "title": "Media Partners Asia expects the IPL's next rights cycle to flatten, not grow",
+          "summary": "Analysts project IPL's next broadcast and streaming rights cycle will plateau near $5.4 billion rather than climbing further from the current $6 billion, 2023-27 deal. IPL Governing Council chair Arun Singh Dhumal has pushed back publicly, arguing he sees \"no reason for the value to go down\" given live-sports engagement he ranks second only to the NFL — a real disagreement about where cricket's rights market has peaked.",
+          "sources": [
+            {"name": "SportsPro, April 2026", "url": "https://www.sportspro.com/news/broadcast-ott/ipl-media-broadcast-rights-value-april-arun-singh-dhumal-april-2026/"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "in-soc-1",
+          "title": "India's women beat Sri Lanka for the country's first Asian Games gold of 2026",
+          "summary": "India's women's cricket team beat Sri Lanka on day three in Aichi-Nagoya for India's first gold of the Games, after six medals in the opening two days had all been silver or bronze from the shooting range. The same day brought further medals in badminton, wushu and shooting, and continuing winning runs in kabaddi and hockey — the clearest medal-table momentum of the campaign so far, carried by the women's team.",
+          "sources": [
+            {"name": "Olympics.com, Sept 22", "url": "https://www.olympics.com/en/news/asian-games-2026-live-scores-updates-results-india-september-22"}
+          ]
+        },
+        {
+          "id": "in-soc-2",
+          "title": "India's title defence continues at the 46th Chess Olympiad in Samarkand",
+          "summary": "India's open and women's teams, defending 2024 champions, are through the mid-tournament rounds unbeaten, including a 3-1 win over the Netherlands — sustained domestic interest in a sport that gets a fraction of the sponsorship and airtime cricket commands, despite a comparable run of international success.",
+          "sources": [
+            {"name": "ChessBase India, Sept 2026", "url": "https://chessbase.in/news/46th-fide-chess-olympiad-round-5-report"}
+          ]
+        }
+      ]
+    },
+    "global": {
+      "government": [
+        {
+          "id": "gl-gov-1",
+          "title": "Regional conflict forces F1 to redraw its own calendar mid-season",
+          "summary": "The Azerbaijan Grand Prix has been moved from Sunday 27 September to Saturday 26 September to avoid clashing with Azerbaijan Remembrance Day, and the Bahrain Grand Prix has been relocated entirely, from Bahrain to Sepang, Malaysia, now scheduled for 4 October. F1 says the season-closing Qatar and Abu Dhabi races still stand despite escalating conflict in the region, with Imola floated as a contingency venue if either has to be pulled.",
+          "sources": [
+            {"name": "GPFans, Sept 20", "url": "https://www.gpfans.com/en/f1-news/1090484/f1-schedule-2026-september-azerbaijan-middle-east-conflict/"}
+          ]
+        },
+        {
+          "id": "gl-gov-2",
+          "title": "California signs three bills into law to ready security and logistics for LA28",
+          "summary": "Governor Newsom signed AB 2411, letting the state deploy law enforcement from across California and out of state with temporary certification, AB 2436, extending in-state tuition to Team USA athletes training in California, and AB 191, allowing temporary operational rule changes for Games delivery — layered on top of a $96.5 million Exposition Park upgrade and a further $7 million just committed.",
+          "sources": [
+            {"name": "Office of Gov. Gavin Newsom, Sept 20", "url": "https://www.gov.ca.gov/2026/09/20/governor-newsom-signs-bills-as-los-angeles-readies-for-2028-olympic-and-paralympic-games/"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "gl-mkt-1",
+          "title": "PWHL signs its first season-long national US television deal",
+          "summary": "The Professional Women's Hockey League has signed with Scripps for a Saturday \"Game of the Week\" on ION, reaching more than 128 million households, plus two further national games a week on the free Scripps Sports Network — timed to the league's expansion to 12 teams for 2026-27 and a rare instance of a women's league landing free, over-the-air national coverage before it has fully scaled.",
+          "sources": [
+            {"name": "Sports Video Group, Sept 10", "url": "https://www.sportsvideo.org/2026/09/10/pwhl-scripps-sports-sign-national-television-deal-for-2026-27-season/"}
+          ]
+        },
+        {
+          "id": "gl-mkt-2",
+          "title": "World Athletics tests a new business model with a $10 million invitational",
+          "summary": "The inaugural \"Ultimate Championship,\" a biennial invitational with capped fields and no qualifying heats, ran in Budapest with a $10 million prize purse — a deliberate experiment in whether a shorter, high-stakes format can commercially outperform the sport's traditional championship structure. Team USA won ten golds, and Melissa Jefferson-Wooden set a women's 200m world record of 21.47 seconds.",
+          "sources": [
+            {"name": "World Athletics, Sept 11", "url": "https://en.wikipedia.org/wiki/2026_World_Athletics_Ultimate_Championship"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "gl-soc-1",
+          "title": "Colin Kaepernick keeps the athlete-activism debate live with a new book",
+          "summary": "The National Civil Rights Museum has announced it will host Colin Kaepernick for a talk on his new book, \"The Perilous Fight\" — a decade on from the 2016 kneeling protest that made him the reference point for every subsequent argument about where athlete political speech belongs.",
+          "sources": [
+            {"name": "GlobeNewswire, Sept 22", "url": "https://www.globenewswire.com/news-release/2026/09/22/3366846/0/en/national-civil-rights-museum-to-host-colin-kaepernick-book-talk-on-the-perilous-fight.html"}
+          ]
+        },
+        {
+          "id": "gl-soc-2",
+          "title": "The Presidents Cup returns to a lopsided rivalry and a fanbase invested in changing that",
+          "summary": "The 16th Presidents Cup begins at Medinah Country Club, United States versus an International team that has won only once in the event's history. Scottie Scheffler headlines a US side favoured again, with the International team's long losing run itself now as much a storyline for fans as the golf.",
+          "sources": [
+            {"name": "CBS Sports, Sept 2026", "url": "https://www.cbssports.com/golf/news/presidents-cup-2026-storylines-medinah/"}
+          ]
+        }
+      ]
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "format": "Blog",
+      "title": "Where did the fantasy-sports ad money actually go after India's gaming ban?",
+      "summary": "Every write-up on the 2025 Online Gaming Act covered the ban itself. A year-plus in, nobody has tracked the second-order effect: how much cricket sponsorship and broadcast ad inventory that fantasy-sports platforms used to buy has now shifted to other categories, and at what price."
+    },
+    {
+      "id": "opp-2",
+      "format": "Op-ed",
+      "title": "BCCI wants centenary credit and RTI immunity in the same breath",
+      "summary": "BCCI's AGM paired a \"100 years of history\" centenary announcement with a renewed refusal to open its books under RTI. Nobody has pointed out the contradiction directly: an institution can't market itself as a public heritage asset while insisting it owes the public no transparency."
+    },
+    {
+      "id": "opp-3",
+      "format": "Podcast",
+      "title": "Cricket hasn't tried what athletics just tried",
+      "summary": "World Athletics just ran a $10 million, no-heats invitational as a live business-model experiment. Cricket administrators talk constantly about new formats but have never run an equivalent stripped-down, high-stakes invitational outside franchise leagues. Worth an episode asking why not, with IPL and WPL economics as the comparison point."
+    },
+    {
+      "id": "opp-4",
+      "format": "Blog",
+      "title": "PWHL got free national TV before WPL did — why",
+      "summary": "Two women's leagues, similar age, similar ambition: PWHL just landed a free, over-the-air national US deal reaching 128 million households, while WPL's rights still sit inside India's existing cricket broadcast bundle rather than as a standalone sale. A direct comparison of how each league structured its rights sale is open ground nobody's written."
+    },
+    {
+      "id": "opp-5",
+      "format": "Op-ed",
+      "title": "F1's calendar problem is a preview, not an exception",
+      "summary": "Coverage of the Azerbaijan and Bahrain reshuffles treats each as a one-off logistics story. Read alongside California's new LA28 security legislation, the pattern is broader: major sport is now routinely building conflict and security contingency into scheduling and law, and almost no one is writing about that as a standing trend rather than isolated incidents."
+    }
+  ]
+}
