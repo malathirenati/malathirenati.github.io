@@ -1,0 +1,193 @@
+{
+  "date": "2026-09-26",
+  "weekday": "Saturday",
+  "regions": {
+    "india": {
+      "government": [
+        {
+          "id": "in-gov-1",
+          "title": "Agarkar confirms he's exiting as chief selector; BCCI opens the search",
+          "summary": "Ajit Agarkar has told the BCCI he won't continue as chairman of the men's selection committee once his contract lapses on 4 October. The 18 September AGM authorised office-bearers - not the full board - to handle the appointment, and secretary Devajit Saikia says the hunt for his successor runs alongside filling all five junior-selector posts, with a decision expected in 10-15 days. No candidate has been named, an unusually open-ended handover heading into a home season and the next IPL auction cycle.",
+          "sources": [
+            {"name": "Business Standard, Sept 18", "url": "https://www.business-standard.com/cricket/news/bcci-starts-succession-plan-as-agarkar-decides-to-end-stint-as-selector-126091801488_1.html"}
+          ]
+        },
+        {
+          "id": "in-gov-2",
+          "title": "India's Asiad campaign carries a 12-case doping shadow",
+          "summary": "Twelve Indian athletes - across weightlifting, judo, wrestling, shooting, rowing, wushu and athletics - have returned positive tests since the last Commonwealth Games cycle, with NADA provisionally suspending each pending disciplinary hearings. The cluster sits almost entirely in power and combat sports, including a shooting positive and a wushu case involving the muscle-building agent Enobosarm, even as India's shooters and wrestlers win medals at the same Games.",
+          "sources": [
+            {"name": "Business Standard, Sept 2", "url": "https://www.business-standard.com/sports/other-sports-news/india-s-asiad-2026-campaign-suffers-another-doping-blow-cases-rise-to-12-126090200465_1.html"}
+          ]
+        },
+        {
+          "id": "in-gov-3",
+          "title": "Cabinet locks in a ₹36,441 crore Khelo India top-up through 2031",
+          "summary": "The Union Cabinet's 31 July decision revamped the Khelo India Scheme and folded in enhanced Assistance to National Sports Federations (ANSFs), setting a combined outlay of ₹36,441 crore running to 2031. The money is aimed at grassroots infrastructure, talent identification and federation-level support - base-of-the-pyramid funding that rarely makes headlines against a live medal count, but which the government is framing as the pipeline behind days like today.",
+          "sources": [
+            {"name": "PIB, July 31", "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2292439&reg=48&lang=2"},
+            {"name": "The Statesman, Aug 1", "url": "https://www.thestatesman.com/sports/cabinet-approves-revamped-khelo-india-scheme-ansf-support-with-rs-36441-crore-outlay-1503622964.html"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "in-mkt-1",
+          "title": "A Tehelka sting drags a fresh corruption charge into the IPL",
+          "summary": "A sting operation named Rachit Bhatia - a former Ranji player who now coaches Delhi school cricket - as an alleged broker feeding Chennai Super Kings' playing XI to London bookmakers over Snapchat before five IPL 2025 matches, at a reported Rs 60 lakh a match. He named CSK's Vansh Bedi as his source; Bedi has categorically denied it, says his lawyers are pursuing civil and criminal action against those spreading defamatory content, and the Delhi and District Cricket Association has backed his account, noting he separately reported an approach from another player to its own anti-corruption wing. BCCI hasn't issued a response yet.",
+          "sources": [
+            {"name": "Yahoo Sports, Sept 22", "url": "https://sports.yahoo.com/articles/match-fixing-allegations-hit-ipl-051805929.html"},
+            {"name": "Outlook India, Sept 23", "url": "https://www.outlookindia.com/sports/cricket/vansh-bedi-match-fixing-sting-operation-legal-action"}
+          ]
+        },
+        {
+          "id": "in-mkt-2",
+          "title": "Sony locks up India's Asian Games broadcast rights",
+          "summary": "Sony Sports secured exclusive Indian broadcast and streaming rights for the Aichi-Nagoya Games, running alongside its existing cricket and football portfolios through the same window - a bet that a continental multi-sport event can hold a domestic audience against India's default cricket coverage, at a moment when the country's shooters, wrestlers and kabaddi teams are actually delivering the medals to justify it.",
+          "sources": [
+            {"name": "Indian Television, Sept", "url": "https://indiantelevision.com/television/sony-secures-exclusive-india-rights-for-2026-asian-games-broadcast/"}
+          ]
+        },
+        {
+          "id": "in-mkt-3",
+          "title": "An Olympic sport tries the IPL playbook: Shooting League courts foreign owners",
+          "summary": "The Shooting League of India's second season is under way with NRAI leadership explicitly open to foreign investment in team ownership - an attempt to give one of India's most medal-productive individual sports a recurring, broadcast-friendly franchise economy of the kind cricket and kabaddi already have. The open question is whether a sport with a thin domestic fan base can support franchise-style valuations without a cricket-sized TV audience behind it.",
+          "sources": [
+            {"name": "Business Standard", "url": "https://www.business-standard.com/economy/news/foreign-investors-welcome-in-shooting-league-says-nrai-president-125051701070_1.html"},
+            {"name": "Wikipedia, 2026 Shooting League of India", "url": "https://en.wikipedia.org/wiki/2026_Shooting_League_of_India"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "in-soc-1",
+          "title": "Kabaddi chases a double gold as marathon and badminton deliver on Day 7",
+          "summary": "India's men's and women's kabaddi teams - both unbeaten and defending continental champions - meet Iran in back-to-back finals today. Earlier, Sawan Barwal took silver in the marathon in 2:11:37, and Lakshya Sen is locked in a tough opening contest with Singapore's Loh Kean Yew as PV Sindhu begins her own campaign, with shot put, triple jump and the women's 1500m finals still to come this evening.",
+          "sources": [
+            {"name": "Business Standard, Sept 26", "url": "https://www.business-standard.com/amp/sports/asian-games/asian-games-2026-live-updates-day-7-india-medal-winners-kabaddi-score-india-vs-iran-time-badminton-athletics-table-tennis-streaming-on-september-26-126092600090_1.html"}
+          ]
+        },
+        {
+          "id": "in-soc-2",
+          "title": "Squash's youngest and oldest medal in the same campaign",
+          "summary": "Teenager Anahat Singh and 42-year-old veteran Joshna Chinappa were both assured of medals this week, in women's singles and mixed doubles respectively, alongside Abhay Singh and Velavan Senthilkumar - a rare instance of a fringe Olympic sport producing a genuinely cross-generational Indian story inside one Games.",
+          "sources": [
+            {"name": "Vajiram & Ravi, Sept 25", "url": "https://vajiramandravi.com/current-affairs/asian-games-2026-day-7/"}
+          ]
+        },
+        {
+          "id": "in-soc-3",
+          "title": "Manush Shah and Diya Chitale reach only India's second-ever TT mixed doubles medal",
+          "summary": "The pair's run to the mixed doubles semi-final guarantees India just its second Asian Games medal in the discipline - a marker of table tennis's slow but real progress as a mainstream Indian sport beyond the country's traditional shooting-and-wrestling medal base.",
+          "sources": [
+            {"name": "Vajiram & Ravi, Sept 25", "url": "https://vajiramandravi.com/current-affairs/asian-games-2026-day-7/"}
+          ]
+        }
+      ]
+    },
+    "global": {
+      "government": [
+        {
+          "id": "gl-gov-1",
+          "title": "IOC provisionally lifts its Russia ban, but leaves individual sports to decide",
+          "summary": "The IOC has conditionally cleared Russian athletes to compete toward LA 2028 qualification, barring Russian officials from attending and Russia from hosting, while leaving the flag-and-anthem question unresolved and requiring each athlete's own Olympic Committee to vouch that they don't endorse the war. President Kirsty Coventry framed it as not holding athletes responsible for their government; the response has split federations immediately, with World Athletics keeping its ban and World Aquatics already reinstating Russian competitors - meaning \"is Russia back\" now has a different answer sport by sport.",
+          "sources": [
+            {"name": "Sportico", "url": "https://www.sportico.com/leagues/olympics/2026/olympics-conditionally-lift-russian-athlete-ban-1234938161/"}
+          ]
+        },
+        {
+          "id": "gl-gov-2",
+          "title": "US Senate inches toward one national rulebook for college athlete pay",
+          "summary": "The Protect College Sports Act cleared a Senate procedural vote 77-22 on 17 September, moving toward a final floor vote. It would let college athletes keep NIL income while banning pay-to-play, cap agent fees at 5%, require NIL deals over $600 to be disclosed to schools, and guarantee one penalty-free transfer - an attempt to replace the current patchwork of state NIL laws and NCAA rules with a single federal standard, with quarterback Darian Mensah's reported $6.5 million NIL valuation cited as the scale of what's now at stake.",
+          "sources": [
+            {"name": "TCU360, Sept 25", "url": "https://tcu360.com/2026/09/25/senate-moves-closer-to-vote-on-college-sports-nil-bill/"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "gl-mkt-1",
+          "title": "WNBA team values jump 59% in a year; first team crosses $850 million",
+          "summary": "The Golden State Valkyries now lead the league at an $850 million valuation, with the average WNBA franchise up 59% year-on-year to $427 million - a 345% jump since 2024. The driver is mostly contractual: new media deals with ESPN/ABC, NBC and Amazon are worth roughly $2 billion a year combined, a five-fold increase on the league's previous rights deal, on top of a new CBA that nearly quintuples the salary cap.",
+          "sources": [
+            {"name": "Sportico", "url": "https://www.sportico.com/valuations/teams/2026/wnba-team-values-2026-valkyries-liberty-fever-1234891620/"}
+          ]
+        },
+        {
+          "id": "gl-mkt-2",
+          "title": "NWSL valuations up 77% as owners bet on owning the stadium, not just the team",
+          "summary": "The average NWSL club is now worth $184 million, up 77% in a year and nearly triple 2023's figure, with Angel City FC ($335 million) leading for a third straight year. The clearest pattern is real-estate economics: Kansas City's privately financed stadium and training complex alone generated an estimated $41 million locally in 2025, the league's highest - suggesting the ownership groups profiting most are the ones that built rather than rented their venues.",
+          "sources": [
+            {"name": "Sportico", "url": "https://www.sportico.com/valuations/teams/2026/nwsl-team-values-2026-angel-city-1234886336/"}
+          ]
+        },
+        {
+          "id": "gl-mkt-3",
+          "title": "F1's newest team spent close to $1 billion before its first competitive lap",
+          "summary": "Cadillac's arrival as the grid's 11th team has come with reported startup costs near $1 billion before a single points-paying result, alongside a broader run-up in grid valuations as Ferrari and Mercedes' commercial worth keeps closing in on each other - a reminder that F1's expansion economics increasingly resemble a franchise-fee business as much as a racing one, just as the Baku-Malaysia-Singapore triple-header decides the actual championship.",
+          "sources": [
+            {"name": "Autosport", "url": "https://www.autosport.com/f1/news/the-cadillac-calculus-f1-has-made-that-weighs-up-450m-today-vs-billions-tomorrow/10795676/"},
+            {"name": "PlanetF1", "url": "https://www.planetf1.com/features/f1-team-valuations-2026-ferrari-mercedes-red-bull"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "gl-soc-1",
+          "title": "A brutal fortnight of QB injuries reopens the NFL's workload debate",
+          "summary": "Jaxson Dart, Caleb Williams and Jayden Daniels were all forced off in Week 2-3 losses, part of a wider injury count that's put several teams' seasons in question early. The pattern is feeding a familiar argument: whether an 18-week season and modern hit rules have actually reduced player risk, or just redistributed it toward young, mobile quarterbacks.",
+          "sources": [
+            {"name": "CBS Sports, Sept", "url": "https://www.cbssports.com/nfl/news/2026-nfl-week-3-injury-panic-meter-jaxson-dart-caleb-williams-jayden-daniels/"}
+          ]
+        },
+        {
+          "id": "gl-soc-2",
+          "title": "Laver Cup's \"revenge\" script writes itself - just not for the team seeking revenge",
+          "summary": "Team Europe, not defending champion Team World, took a 3-1 lead after Laver Cup's opening day at the O2, with Carlos Alcaraz and Jakub Mensik winning the deciding doubles rubber. The pre-event narrative had cast Europe as the side needing to avenge last year's 15-9 loss in San Francisco; a day in, they're the ones dictating the contest, with today's session able to put the tie away.",
+          "sources": [
+            {"name": "Sky Sports, Sept 25", "url": "https://www.skysports.com/tennis/news/13591922/laver-cup-carlos-alcaraz-jakub-mensik-win-doubles-to-put-team-europe-3-1-up-vs-team-world-after-opening-day-in-london"},
+            {"name": "Laver Cup, Sept 25", "url": "https://lavercup.com/news/2026/09/25/team-europe-leads-3-1-after-day-1"}
+          ]
+        }
+      ]
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "format": "Blog",
+      "title": "The IPL's fixing pipeline runs through youth coaching, not just bookmaking",
+      "summary": "Coverage of the Tehelka sting has focused on the bookmaker end. The more useful angle is structural: the named broker is a working youth-cricket coach and selector, meaning the actual point of vulnerability sits inside the talent pipeline that feeds the league, not just in London betting rings - and nobody's examined what that implies for junior-cricket vetting."
+    },
+    {
+      "id": "opp-2",
+      "format": "Op-ed",
+      "title": "Two Olympic committees, two different Russias",
+      "summary": "The IOC's conditional lift hands each federation its own reinstatement decision, and they're already diverging - World Athletics still bans, World Aquatics doesn't. No outlet has built the actual sport-by-sport tracker readers would need to know where things stand at any given moment; it's a genuine, fillable gap rather than a hot take."
+    },
+    {
+      "id": "opp-3",
+      "format": "Podcast",
+      "title": "Is 12 doping cases actually a lot?",
+      "summary": "India's pre-Games doping count is being reported purely as scandal. Nobody has asked the harder comparative question on the record: 12 cases against what testing volume, and how does that rate stack up against other national teams at the same Games - a job for an interview with a testing statistician, not another scandal headline."
+    },
+    {
+      "id": "opp-4",
+      "format": "Blog",
+      "title": "What owning the stadium is actually worth, in WNBA terms",
+      "summary": "NWSL's valuation reports have already isolated the stadium-ownership premium - Kansas City's numbers make the case cleanly. Nobody has run the equivalent comparison for the WNBA, where several teams are now facing their own build-versus-rent arena decision as expansion fees climb."
+    },
+    {
+      "id": "opp-5",
+      "format": "Op-ed",
+      "title": "Agarkar's exit is a governance test BCCI keeps failing quietly",
+      "summary": "Office-bearers, not the full board, were handed the call on the next chief selector, with no stated criteria made public. It's a narrower, sharper version of the governance-opacity question already being asked about BCCI's other committees - this time about the one appointment that actually shapes the playing XI."
+    },
+    {
+      "id": "opp-6",
+      "format": "Podcast",
+      "title": "Stress-testing the Shooting League's foreign-investor pitch",
+      "summary": "NRAI's openness to foreign ownership is being reported at face value. An interview-format sanity check against the valuation logic driving the WNBA and NWSL booms - media rights and owned venues - would show how far a sport with no domestic broadcast history actually is from that model."
+    }
+  ]
+}
