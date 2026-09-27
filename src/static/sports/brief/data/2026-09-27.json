@@ -1,0 +1,149 @@
+{
+  "date": "2026-09-27",
+  "weekday": "Sunday",
+  "regions": {
+    "india": {
+      "government": [
+        {
+          "id": "in-gov-1",
+          "title": "NADA's Asiad doping cluster hits 12 cases, spanning seven sports",
+          "summary": "Wushu's Surya Bhanupratap Singh, who tested positive for the muscle-building SARM Enobosarm (Ostarine), became the twelfth Indian athlete provisionally suspended since the last Commonwealth Games cycle, following cases in weightlifting (N Ajith, Sairaj Pardeshi, Harcharan Singh, Vanshita Verma), judo (Arun Kumar, Tulika Maan), shooting, rowing, wrestling and athletics. The cluster is concentrated almost entirely in power and combat sports, running in parallel with, not instead of, India's actual medal count at Aichi-Nagoya.",
+          "sources": [
+            {"name": "Business Standard, Sept 2", "url": "https://www.business-standard.com/sports/other-sports-news/india-s-asiad-2026-campaign-suffers-another-doping-blow-cases-rise-to-12-126090200465_1.html"}
+          ]
+        },
+        {
+          "id": "in-gov-2",
+          "title": "BCCI's AGM adds a POSH committee and a tighter age-verification policy",
+          "summary": "At its 95th Annual General Meeting, the board established a new Internal Committee under the Prevention of Sexual Harassment Policy and adopted an updated Age Verification Policy, administrative moves that sit alongside the AGM's higher-profile decisions on umpire pay and the still-unresolved chief selector question. Support for differently-abled cricketers' facilities was also discussed with state units.",
+          "sources": [
+            {"name": "Yardbarker, Sept 18", "url": "https://www.yardbarker.com/cricket/articles/bcci_agm_2026_ipl_2027_plans_age_rules_sexual_harassment_policy_among_key_decisions/s1_17726_44320106"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "in-mkt-1",
+          "title": "BCCI locks in IPL's 20th-season celebrations and a new umpire pay grade",
+          "summary": "The AGM approved audited 2025-26 accounts and the 2026-27 budget, signed off on year-long plans to mark the IPL's 20th season in 2027, and raised match-official pay under a new grade structure for umpires and referees. Arun Singh Dhumal and M Khairul Jamal Majumdar were elected to the IPL Governing Council, while the board's own centenary celebrations were pencilled in for December 2027 through 2028.",
+          "sources": [
+            {"name": "Yardbarker, Sept 18", "url": "https://www.yardbarker.com/cricket/articles/bcci_agm_2026_ipl_2027_plans_age_rules_sexual_harassment_policy_among_key_decisions/s1_17726_44320106"}
+          ]
+        },
+        {
+          "id": "in-mkt-2",
+          "title": "ISL goes weekend-heavy for 2026-27, chasing bigger match-day audiences",
+          "summary": "The Indian Super League has released its 2026-27 fixture list built around a weekend-centric schedule, a scheduling shift aimed squarely at growing live attendance and broadcast viewership in a calendar that already has to compete with cricket for the same eyeballs.",
+          "sources": [
+            {"name": "The Tribune, Sept 26", "url": "https://www.tribuneindia.com/news/bengaluru-fc/indian-super-league-announces-2026-27-fixtures-with-weekend-centric-schedule"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "in-soc-1",
+          "title": "Kabaddi delivers India's golden double at the Asian Games",
+          "summary": "India's women beat Iran 37-34 and the men followed with a 40-34 win over the same opponents, sweeping both kabaddi golds on Day 8 and pushing the country's medal tally to 28 (4 gold, 11 silver, 13 bronze). It's the clearest evidence yet that India's non-cricket sporting culture has a genuine mass following behind it, not just a medal count.",
+          "sources": [
+            {"name": "Yahoo Sports, Sept 27", "url": "https://sports.yahoo.com/articles/asian-games-2026-day-9-134406294.html"}
+          ]
+        },
+        {
+          "id": "in-soc-2",
+          "title": "Sawan Barwal ends a 44-year Asiad wait in the marathon",
+          "summary": "Barwal's silver-medal run of 2:11:37, a national record, is India's first Asian Games marathon medal in 44 years, a quietly historic result buried under the day's bigger kabaddi headlines but arguably the more remarkable individual story.",
+          "sources": [
+            {"name": "Vajiram & Ravi", "url": "https://vajiramandravi.com/current-affairs/asian-games-2026-day-8/"}
+          ]
+        },
+        {
+          "id": "in-soc-3",
+          "title": "With Neeraj Chopra sidelined, a younger cohort carries the flag today",
+          "summary": "Chopra's season ended early after an ankle ligament tear ruled him out of defending his javelin title. On Day 9, that gap is being filled elsewhere: Anahat Singh and Abhay Singh play for squash gold, Shaili Singh (the Asian U20 long jump record holder) is favourite in the women's long jump final, and Parul Chaudhary defends her 3000m steeplechase title, a changing of the guard playing out in real time rather than as a retirement story.",
+          "sources": [
+            {"name": "Olympics.com", "url": "https://www.olympics.com/en/news/neeraj-chopra-injury-ankle-ligament-tear-2026-season-end-asian-games-athletics"},
+            {"name": "ESPN, Sept 27", "url": "https://www.espn.com/espn/story/_/id/50032169/india-asian-games-2026-aichi-nagoya-full-schedule-medal-events-fixtures-september-27-sunday"}
+          ]
+        }
+      ]
+    },
+    "global": {
+      "government": [
+        {
+          "id": "gl-gov-1",
+          "title": "Infantino opens FIFA to a governance review after his investment plan collapses",
+          "summary": "Gianni Infantino's proposal to sell a 20% stake in FIFA's commercial rights, including World Cup broadcasting, to private investors fell apart in July after leaking before formal council review. UEFA, the Asian Football Confederation and Concacaf pushed back hard enough that Infantino is now offering an independent external review of how FIFA's president, bureau, council and congress actually share decision power, with the Premier League, LaLiga, Serie A and Bundesliga jointly demanding reform and stakeholder suggestions due by 15 October.",
+          "sources": [
+            {"name": "Al Jazeera, Sept 21", "url": "https://www.aljazeera.com/sports/2026/9/21/embattled-gianni-infantino-says-he-is-open-to-talks-over-fifa-reform"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "gl-mkt-1",
+          "title": "LIV Golf restructures away from Saudi ownership, toward a player-majority model",
+          "summary": "LIV Golf is going through a chapter 11-style reorganisation that CEO Scott O'Neil is billing as a player-first ownership model: Saudi Arabia's Public Investment Fund is stepping back to a $49.6 million debtor-in-possession financing role rather than continued control, with post-emergence funding coming from BC Partners Credit and other minority investors. It's the clearest sign yet that the league's founding Saudi-funded, loss-absorbing phase is ending.",
+          "sources": [
+            {"name": "LIV Golf, Sept 8", "url": "https://www.livgolf.com/news/liv-golf-takes-strategic-action"}
+          ]
+        },
+        {
+          "id": "gl-mkt-2",
+          "title": "College football's jersey patch has become premium ad inventory",
+          "summary": "Notre Dame's SoFi patch ($18-20 million a year), Ohio State's JPMorgan Chase deal (about $17 million a year), Illinois-Busey Bank ($30 million over five years) and Michigan State's decade-long MSUFCU tie-up (about $40 million total) show banks specifically chasing uniform space once reserved for apparel brands, a post-NIL market where jersey real estate now rivals stadium naming rights as a revenue line.",
+          "sources": [
+            {"name": "Yahoo Sports", "url": "https://sports.yahoo.com/articles/every-major-college-jersey-patch-213246856.html"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "gl-soc-1",
+          "title": "A women's-sports bar becomes the flashpoint in a widening trans-inclusion clash",
+          "summary": "What began on 6 September with a group in 'XX-XY Athletics' shirts being asked to leave The Sports Bra, a Portland bar built around women's sports, during a Thorns match has escalated into repeated dueling protests outside the venue. On 21-22 September, roughly a dozen anti-trans demonstrators clashed with dozens of counter-protesters, with mutual pepper-spraying, rock-throwing and vandalism reported and no arrests made. A single bar has become a proxy fight for the broader argument over fairness and inclusion in women's sport.",
+          "sources": [
+            {"name": "LGBTQ Nation, Sept 22", "url": "https://www.lgbtqnation.com/2026/09/protesters-pepper-spray-each-other-outside-womens-sports-bar-over-anti-trans-shirt-controversy/"}
+          ]
+        }
+      ]
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "format": "Op-ed",
+      "title": "India's doping numbers need a denominator",
+      "summary": "Twelve cases is being reported as a flat scandal count. Nobody has published the obvious follow-up: 12 positives against what testing volume, and how that rate compares with other Asian Games contingents tested at similar intensity. Without that, '12' is doing more rhetorical work than analytical work."
+    },
+    {
+      "id": "opp-2",
+      "format": "Blog",
+      "title": "Kabaddi and squash have no WNBA-style valuation story yet",
+      "summary": "US women's sports get annual franchise-valuation deep dives, like Sportico's WNBA and NWSL numbers. India's golden generation in kabaddi, squash and shooting gets medal counts but no equivalent read on what that success is actually worth commercially, or could be."
+    },
+    {
+      "id": "opp-3",
+      "format": "Podcast",
+      "title": "What's actually on the table for FIFA's 15 October deadline",
+      "summary": "Coverage of the FIFA governance fight has stayed at the level of 'big leagues demand reform.' An interview-format explainer on the specific proposals, unanimous bureau sign-off versus direct congress votes, would tell readers what a reformed FIFA would actually look like, not just that one is being argued over."
+    },
+    {
+      "id": "opp-4",
+      "format": "Blog",
+      "title": "Who really benefits when a bank buys a jersey patch",
+      "summary": "Every outlet is covering deal sizes: SoFi, JPMorgan Chase, Busey. None have followed the money into the athletic department to see whether Olympic and non-revenue sports see any of it, or whether it's fully captured by football and basketball."
+    },
+    {
+      "id": "opp-5",
+      "format": "Op-ed",
+      "title": "LIV's 'player-first' pivot is a bankruptcy, framed as a mission statement",
+      "summary": "LIV's own release calls this strategic evolution; the mechanics are a chapter 11-style reorganisation with PIF reduced to debtor-in-possession financing. Nobody in mainstream golf coverage has named that gap between the framing and the filing."
+    },
+    {
+      "id": "opp-6",
+      "format": "Podcast",
+      "title": "The Sports Bra is a business story wearing a culture-war costume",
+      "summary": "Coverage has treated the Portland clashes purely as a social-issues story. The under-asked question is commercial: what does a small, mission-driven venue do when it becomes a recurring protest site, weighing insurance costs, foot traffic and staff safety, and what precedent that sets for other women's-sports-focused venues opening elsewhere."
+    }
+  ]
+}
