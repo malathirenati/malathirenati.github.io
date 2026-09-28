@@ -1,0 +1,141 @@
+{
+  "date": "2026-09-28",
+  "weekday": "Monday",
+  "regions": {
+    "india": {
+      "government": [
+        {
+          "id": "in-gov-1",
+          "title": "Agarkar's chief selector tenure ends; BCCI won't name a successor before October 4",
+          "summary": "Ajit Agarkar has stepped aside as India's men's chief selector after his extended term expired, despite a run that included the 2025 Champions Trophy and two T20 World Cup wins. BCCI secretary Devajit Saikia gave no timeline beyond 'after October 4,' with Venkatesh Prasad, Parthiv Patel and Zaheer Khan among names being floated as replacements. It underlines that even a title-winning selection committee carries no security of tenure once results in the longer format slip.",
+          "sources": [
+            {"name": "Crictoday, Sept 28", "url": "https://crictoday.com/news/ajit-agarkar-steps-aside-bcci-to-pick-next-chief-selector-after-october-4-12570046"},
+            {"name": "Khelnow, Sept 3", "url": "https://khelnow.com/cricket/ajit-agarkar-days-numbered-selector-202609"}
+          ]
+        },
+        {
+          "id": "in-gov-2",
+          "title": "Fencing Association puts cash behind India's hunt for a first-ever Asiad medal",
+          "summary": "The Fencing Association of India has announced Rs 10 lakh for gold, Rs 7.5 lakh for silver and Rs 5 lakh for bronze at the Aichi-Nagoya Asian Games, a federation-funded incentive for a 20-strong squad led by Olympian Bhavani Devi that has never won an Asian Games medal in the sport.",
+          "sources": [
+            {"name": "SportsTak, Sept 22", "url": "https://thesportstak.com/asian-games/story/fencing-association-of-india-announces-massive-cash-rewards-for-asian-games-medallists-how-much-will-winners-bag-3286885-2026-09-22"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "in-mkt-1",
+          "title": "Kohli and Rohit's ODI return sells out Thiruvananthapuram",
+          "summary": "The reunited 'Ro-Ko' pairing for the opening ODI against West Indies, the first leg of India's 2027 World Cup build-up, sold out Greenfield International Stadium on ticket demand alone, with Kohli's strong record in Kerala driving local interest. It's an early data point on how much commercial pull India's senior pros still carry in a format both had stepped back from.",
+          "sources": [
+            {"name": "Yahoo Sports, Sept 27", "url": "https://sports.yahoo.com/articles/ind-vs-wi-1st-odi-060602918.html"}
+          ]
+        },
+        {
+          "id": "in-mkt-2",
+          "title": "ISL rebuilds its 2026-27 calendar around weekend fixtures",
+          "summary": "The Indian Super League's newly released fixture list leans heavily on weekend match dates for 2026-27, a direct play for bigger live attendance and broadcast audiences in a domestic calendar that competes with cricket for the same viewing windows.",
+          "sources": [
+            {"name": "The Tribune, Sept 26", "url": "https://www.tribuneindia.com/news/bengaluru-fc/indian-super-league-announces-2026-27-fixtures-with-weekend-centric-schedule"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "in-soc-1",
+          "title": "Squash and athletics power India past 37 medals on Day 9",
+          "summary": "Abhay Singh and Anahat Singh both took squash singles silver, Sarvesh Kushare added high-jump silver and Ancy Sojan Edappilly long-jump silver, while Parul Chaudhary's 3000m steeplechase bronze came with a national record. Tejaswin Shankar (decathlon) and Harita Bhadra (200m) added further bronzes, taking India's tally to 4 gold, 16 silver and 17 bronze.",
+          "sources": [
+            {"name": "Outlook India, Sept 27", "url": "https://www.outlookindia.com/sports/others/asian-games-2026-day-9-wrap-september-27-india-abhay-singh-anahat-singh-ancy-sojan-sarvesh-kushare-harita-bhadra-tejaswin-shankar-parul-chaudhary"}
+          ]
+        },
+        {
+          "id": "in-soc-2",
+          "title": "Day 10: a cricket knockout, a hockey semi-final push, and a javelin final without Neeraj Chopra",
+          "summary": "India face Afghanistan in the men's cricket quarter-final and Bangladesh in men's hockey today, alongside boxing quarter-finals for Lovlina Borgohain, Priya and Kapil Pokhariya. With Chopra out for the season after an ankle ligament tear, the men's javelin final and long jump are being carried by a younger cohort without him for the first time in years, a changing of the guard playing out in real time rather than as a retirement story.",
+          "sources": [
+            {"name": "The Bridge, Sept 28", "url": "https://thebridge.in/asian-games/2026-india-schedule-september-28-57848"}
+          ]
+        }
+      ]
+    },
+    "global": {
+      "government": [
+        {
+          "id": "gl-gov-1",
+          "title": "FIFA's Infantino opens the door to an independent governance review",
+          "summary": "After his plan to sell a 20% stake in FIFA's commercial rights collapsed under pressure from UEFA, the AFC and Concacaf, Gianni Infantino says he is open to an outside review of how power is split between FIFA's president, bureau, council and congress. The Premier League, LaLiga, Serie A and Bundesliga have jointly demanded reform, with stakeholder submissions due by 15 October.",
+          "sources": [
+            {"name": "Al Jazeera, Sept 21", "url": "https://www.aljazeera.com/sports/2026/9/21/embattled-gianni-infantino-says-he-is-open-to-talks-over-fifa-reform"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "gl-mkt-1",
+          "title": "WNBA playoffs open with the league's first extended Finals",
+          "summary": "The first-round bracket tipped off Sunday across four series (Lynx-Liberty, Aces-Fever, Dream-Mystics, Valkyries-Wings), building toward a best-of-seven Finals starting October 17, only the second time in league history the championship round has run to seven games. Golden State's Valkyries, now the WNBA's first team valued above $1 billion, hold the No. 2 seed.",
+          "sources": [
+            {"name": "CBS Sports, Sept 27", "url": "https://www.cbssports.com/wnba/news/2026-wnba-playoffs-bracket-schedule/"}
+          ]
+        },
+        {
+          "id": "gl-mkt-2",
+          "title": "Chelsea trades an ERP firm for a crypto issuer on its shirt front",
+          "summary": "Chelsea have signed US stablecoin issuer Circle Internet Group as front-of-shirt sponsor from 2026-27, with the USDC logo across men's, women's and academy kits. The club had valued the slot above £50 million a year and struggled to fill it after IFS, following a Premier League-blocked Paramount+ approach in 2023, the latest sign of crypto and fintech firms moving into inventory apparel brands used to own outright.",
+          "sources": [
+            {"name": "Yahoo Sports, Sept 2026", "url": "https://sports.yahoo.com/articles/chelsea-close-agreeing-front-shirt-104559647.html"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "gl-soc-1",
+          "title": "Portland's women's-sports-bar protests turn into a criminal case",
+          "summary": "A conservative livestreamer has been charged with assault following the latest clash outside The Sports Bra, the Portland bar built around women's sports that has been a recurring protest site since a 6 September incident over an anti-trans-inclusion shirt. What started as dueling demonstrations has now produced an arrest warrant, moving the story from a culture-war stand-off into an active legal one.",
+          "sources": [
+            {"name": "KOIN, Sept 2026", "url": "https://www.koin.com/news/portland/protected-from-his-violence-arrest-warrant-issued-for-right-wing-live-streamer-after-violent-protest-at-the-sports-bra/"}
+          ]
+        }
+      ]
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "format": "Op-ed",
+      "title": "Three ICC titles wasn't enough tenure security",
+      "summary": "Agarkar's committee delivered a Champions Trophy and two T20 World Cups, and he's still out with no fixed-term contract or published renewal criteria. Nobody has written the piece asking why BCCI selector tenure runs on informal extension rather than any stated performance contract."
+    },
+    {
+      "id": "opp-2",
+      "format": "Blog",
+      "title": "What a sold-out Kerala ODI says about India's 2027 World Cup pricing",
+      "summary": "Ticket demand for a bilateral ODI outstripped a venue built for a global tournament. No outlet has pulled the thread on what that implies for demand-based pricing once actual World Cup tickets go on sale."
+    },
+    {
+      "id": "opp-3",
+      "format": "Podcast",
+      "title": "Does a Rs 10 lakh cash prize actually change behaviour?",
+      "summary": "Individual federations like fencing are now setting their own medal bonuses, separate from the government's official scheme. An interview-format piece comparing incentive design across federations, who pays, how fast, and whether it's ever moved a result, doesn't exist yet."
+    },
+    {
+      "id": "opp-4",
+      "format": "Blog",
+      "title": "Why the WNBA finally went to seven games",
+      "summary": "Every recap mentions the extended Finals format as a fact; none explain the broadcast-economics reasoning behind it, or what it signals about ABC/ESPN's rights-renewal math ahead of the next media-rights cycle."
+    },
+    {
+      "id": "opp-5",
+      "format": "Op-ed",
+      "title": "Chelsea's crypto shirt deal is a symptom, not a headline",
+      "summary": "Coverage has stuck to deal size. The more interesting story is which categories of sponsor (crypto, fintech, sportsbooks) are the only ones now willing to pay list price for a top-flight shirt front, and what that says about where marketing budgets are flowing in 2026."
+    },
+    {
+      "id": "opp-6",
+      "format": "Podcast",
+      "title": "The Sports Bra is now a policing and insurance story",
+      "summary": "An arrest warrant changes the stakes for a small, mission-driven venue: liability, insurance premiums and staff safety costs that no coverage has quantified. The legal and operational angle is being skipped in favour of the culture-war framing."
+    }
+  ]
+}
