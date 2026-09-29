@@ -1,0 +1,144 @@
+{
+  "date": "2026-09-29",
+  "weekday": "Tuesday",
+  "regions": {
+    "india": {
+      "government": [
+        {
+          "id": "in-gov-1",
+          "title": "Supreme Court asks why BCCI sits outside the National Sports Governance Act",
+          "summary": "A three-judge bench led by Chief Justice Surya Kant has directed the BCCI and state cricket associations to justify their exclusion from the National Sports Governance Act, 2025 — questioning whether office-bearer tenure at cricket bodies should be regulated the same way as other national federations. Cricket's administrators must now take instructions from their clients before the matter returns to the bench; no order has been passed yet, but it reopens a governance question the Lodha reforms and 2022 tenure rules never fully settled.",
+          "sources": [
+            {"name": "Yardbarker, Sept 8", "url": "https://www.yardbarker.com/cricket/articles/supreme_court_questions_bccis_exclusion_from_national_sports_governance_act/s1_17728_44281501"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "in-mkt-1",
+          "title": "Muthoot Fincorp takes over Team India's shirt from IDFC First Bank",
+          "summary": "Muthoot Fincorp has signed a ₹150 crore title-sponsorship deal for India's home matches through March 2028, working out to roughly ₹4.85 crore per match across 35 fixtures — up from IDFC First Bank's ₹4.2 crore-per-match rate under its ₹235 crore deal, which ended in August. The tender reportedly drew no bidders at the BCCI's asking price, forcing direct talks with Google Gemini, Spinny and SBI Life before Muthoot closed it, launching as \"Blue Muthoot\" branding from the West Indies series opener.",
+          "sources": [
+            {"name": "Onmanorama, Sept 25", "url": "https://www.onmanorama.com/sports/cricket/2026/09/25/bcci-signs-150-crore-deal-muthoot-fincorp-title-sponsorship-team-india-.html"},
+            {"name": "Business Today, Sept 27", "url": "https://www.businesstoday.in/sports/story/muthoot-fincorp-becomes-bccis-title-sponsor-for-home-cricket-till-2028-558061-2026-09-27"}
+          ]
+        },
+        {
+          "id": "in-mkt-2",
+          "title": "WPL franchises lock in cores ahead of the October 28 mini-auction",
+          "summary": "Women's Premier League retentions are in: Royal Challengers Bengaluru bring back Smriti Mandhana and Shreyanka Patil and re-sign Ellyse Perry after a season out, Mumbai Indians hold Harmanpreet Kaur and Nat Sciver-Brunt, and Delhi Capitals keep Laura Wolvaardt and Jemimah Rodrigues. Notable releases include RCB letting go of Grace Harris and UP Warriorz releasing Amy Jones — teams are clearly buying squad continuity over shuffling stars two seasons in.",
+          "sources": [
+            {"name": "India TV News, Sept 28", "url": "https://www.indiatvnews.com/sports/cricket/wpl-retention-2027-complete-list-of-players-retained-and-purse-remaining-of-all-teams-2026-09-28-1055530"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "in-soc-1",
+          "title": "India's Asiad medal rush rolls on through kabaddi, hockey and squash",
+          "summary": "India moved deeper into medal contention on Days 10-11 in Aichi-Nagoya: the men's volleyball team beat Hong Kong 3-0, the women's squash team came from behind to beat China 2-1, kurash's Pincky Balhara guaranteed a medal with a dominant semifinal win, and the men's cricket team advanced to the quarter-finals against Afghanistan after a rain-hit group match. Esha Singh reached the women's 25m pistol final as India's shooters, archers and athletes kept the tally climbing into the final stretch of the Games.",
+          "sources": [
+            {"name": "Outlook India, Sept 28", "url": "https://www.outlookindia.com/sports/others/asian-games-2026-live-updates-september-28-commentary-highlights-indians-in-action-aichi-nagoya"},
+            {"name": "Outlook India, Sept 29", "url": "https://www.outlookindia.com/sports/others/asian-games-2026-live-updates-september-29-commentary-highlights-indians-in-action-aichi-nagoya"}
+          ]
+        },
+        {
+          "id": "in-soc-2",
+          "title": "Manu Bhaker leaves Aichi-Nagoya without a medal — and her father blames the hosts",
+          "summary": "The two-time Olympic medallist failed to reach the podium across four shooting events, including a fifth-place finish in the 25m pistol team event after a teammate's disqualified shot. Her father, Ram Kishan Bhaker, publicly criticised the Games' organisation, describing squalid venue conditions and four-to-five-hour daily travel to the range — turning a personal form dip into a wider story about how Indian athletes are supported, or not, at an away Games.",
+          "sources": [
+            {"name": "Sunday Guardian, Sept 28", "url": "https://sundayguardianlive.com/sports/manu-bhaker-asian-games-2026-father-slams-shooting-arrangements-after-medal-less-outing-in-japan-says-you-can-smell-this-gutter-294409/"},
+            {"name": "The Tribune, Sept 28", "url": "https://www.tribuneindia.com/news/manu-bhaker/asian-games-2026-manu-bhaker-ends-campaign-without-medal-across-four-events"}
+          ]
+        }
+      ]
+    },
+    "global": {
+      "government": [
+        {
+          "id": "gl-gov-1",
+          "title": "Asian Games' hosting troubles keep surfacing as the Games near their close",
+          "summary": "Japan's decision to skip a traditional Athletes' Village — housing 17,000-plus participants across hotels, container units and the cruise ship Costa Serena — has produced a string of complaints, from undersized beds for tall athletes to teams sleeping in ship lobbies. A September 19 mix-up played North Korea's anthem before a South Korea hockey match, and Seoul formally protested both that error and a September 15 ceremony featuring performers dressed as a 16th-century Japanese warlord who invaded Korea — diplomatic friction that's outlasted the opening week.",
+          "sources": [
+            {"name": "The Bridge, Sept", "url": "https://thebridge.in/asian-games/chaos-at-asian-games-even-before-start-57651"},
+            {"name": "Japan Times, Sept 25", "url": "https://www.japantimes.co.jp/news/2026/09/25/japan/nagoya-asian-games-mishap/"}
+          ]
+        },
+        {
+          "id": "gl-gov-2",
+          "title": "Uzbek MMA fighter provisionally suspended for meldonium at the Asian Games",
+          "summary": "The International Testing Agency has notified Nodirbek Shavkatov of an apparent anti-doping rule violation after an out-of-competition sample collected in Japan on September 22 returned positive for meldonium, a substance that can boost endurance and recovery. He is provisionally suspended from all Asian Games activity while retaining the right to contest the finding before the Court of Arbitration for Sport.",
+          "sources": [
+            {"name": "International Testing Agency", "url": "https://ita.sport/news/asian-games-aichi-nagoya-2026-the-ita-notifies-athlete-nodirbek-shavkatov-of-an-apparent-anti-doping-rule-violation/"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "gl-mkt-1",
+          "title": "Franchise valuations keep climbing — and some see a bubble",
+          "summary": "A summer of blockbuster sales — the Lakers at $12.5 billion, the Seahawks at $9.6 billion, the Yankees valued near $10 billion — has pushed US sports franchise prices to records, driven by mega broadcast deals, legalised betting revenue and investors treating teams as an asset class insulated from AI disruption. Not everyone is convinced it's rational: media figure Bill Simmons has warned owners increasingly treat clubs as \"giant hedge fund plays\" rather than civic institutions.",
+          "sources": [
+            {"name": "Business Standard, Aug 16", "url": "https://www.business-standard.com/sports/business/why-sports-teams-are-selling-for-eye-popping-prices-across-major-leagues-126081600819_1.html"}
+          ]
+        },
+        {
+          "id": "gl-mkt-2",
+          "title": "Real Madrid and Adidas sign a $1.1 billion kit deal through 2034",
+          "summary": "The eight-year renewal, worth roughly €120 million a year, covers Real Madrid's men's, women's, academy and basketball teams and extends a partnership dating to 1980. Club president Florentino Pérez called it \"the most important in the history of football\" — a marker of how far the ceiling on kit deals has moved even as clubs elsewhere struggle to fill sponsorship inventory at their asking price.",
+          "sources": [
+            {"name": "Sportico", "url": "https://www.sportico.com/business/sponsorship/2026/real-madrid-adidas-jersey-kit-sponsorship-1234902875/"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "gl-soc-1",
+          "title": "A confiscated \"Team Taiwan\" towel reopens an old fight over sport and politics",
+          "summary": "Stadium staff at a Taiwan-China baseball semifinal ordered a fan to remove a towel reading \"Taiwan,\" citing the Asian Games' ban on political messaging — Taiwan competes as \"Chinese Taipei\" under a 1981 IOC agreement. Other fans responded by chanting \"Team Taiwan,\" and Taipei's mayor called the label \"not a political taboo.\" By the bronze-medal rematch days later, organisers had quietly removed signage banning the ROC and Rising Sun flags outside the venue, even as the underlying rules stayed in place.",
+          "sources": [
+            {"name": "Focus Taiwan, Sept 27", "url": "https://focustaiwan.tw/sports/202609270011"}
+          ]
+        }
+      ]
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "format": "Op-ed",
+      "title": "Why does cricket keep getting a carve-out from sport's rulebook?",
+      "summary": "Coverage of the Supreme Court hearing stops at \"BCCI must justify itself.\" Nobody has made the legal argument for why cricket administration should, or shouldn't, sit outside the same governance regime that binds every other Indian federation, a decade after Lodha first tried to answer that question."
+    },
+    {
+      "id": "opp-2",
+      "format": "Blog",
+      "title": "The real story in the Muthoot deal is the tender nobody answered",
+      "summary": "Every report leads with the ₹150 crore figure. The more interesting fact — that the BCCI's open tender drew zero bids before it had to go knocking on doors — says more about pricing power shifting away from cricket's biggest sponsorship asset than the final number does."
+    },
+    {
+      "id": "opp-3",
+      "format": "Podcast",
+      "title": "\"Arrangements\" complaints: host failure or India's own planning gap?",
+      "summary": "Bhaker's father isn't the only voice blaming Japan's logistics — Thai, Vietnamese and Chinese contingents reported near-identical chaos. A comparative episode separating genuine OCA/host failures from India's specific travel and accommodation planning would cut through the blame-the-hosts reflex that's dominated coverage."
+    },
+    {
+      "id": "opp-4",
+      "format": "Blog",
+      "title": "What WPL retentions reveal about the import-vs-domestic bet",
+      "summary": "Recaps just list who stayed and who left. A data-driven explainer on how franchises are weighting overseas anchors (Perry, Lanning, Wolvaardt) against domestic uncapped talent, and what that implies for auction-day spending on Indian players, hasn't been written yet."
+    },
+    {
+      "id": "opp-5",
+      "format": "Op-ed",
+      "title": "The Taiwan towel ban is a policy choice dressed up as neutrality",
+      "summary": "Most write-ups treat the OCA's \"no politics\" rule as a neutral fact. An argument piece using this incident to show that declaring a topic off-limits is itself a political act, and that the rule gets enforced unevenly, is missing from current coverage."
+    },
+    {
+      "id": "opp-6",
+      "format": "Podcast",
+      "title": "Are franchise valuations backed by cash flow, or by scarcity?",
+      "summary": "The Simmons \"hedge fund plays\" line gets quoted everywhere as a soundbite; nobody has built a full episode testing it against actual team operating economics versus the scarcity-asset thesis driving Lakers- and Yankees-scale prices."
+    }
+  ]
+}
