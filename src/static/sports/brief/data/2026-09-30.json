@@ -1,0 +1,168 @@
+{
+  "date": "2026-09-30",
+  "weekday": "Wednesday",
+  "regions": {
+    "india": {
+      "government": [
+        {
+          "id": "in-gov-1",
+          "title": "IOC tells India to fix governance and doping before serious 2036 talks begin",
+          "summary": "An IOC official has flagged three \"fundamental concerns\" with India's 2036 Olympic bid: unresolved financial mismanagement and leadership disputes at the Indian Olympic Association (which cost it a reprimand and suspended solidarity payments), India's high rate of doping violations, and a weak underlying medal record - six medals, none gold, at Paris 2024. The message was blunt: the IOA must get its house in order before serious talks regarding hosting the Olympics take place. Government's answer so far is the newly approved Khelo Bharat Niti sports policy, whose effects are years away.",
+          "sources": [
+            {"name": "GamesBids, Sept", "url": "https://gamesbids.com/eng/summer-olympic-bids/ioc-cautions-indias-2036-olympic-bid-identifying-these-significant-fundamental-concerns/"},
+            {"name": "Deccan Herald, Sept", "url": "https://www.deccanherald.com/sports/rising-doping-violations-threaten-to-derail-indias-ambitious-bid-for-the-2036-olympic-games-3844567"}
+          ]
+        },
+        {
+          "id": "in-gov-2",
+          "title": "AIFF wants to rename itself Football Federation of Bharat",
+          "summary": "The All India Football Federation has approved a proposal to become the \"Football Federation of Bharat\" and will now seek Sports Ministry clearance before taking it to FIFA. The timing - announced as the football world's attention sits on the 2026 World Cup - has drawn pushback from fans who'd rather see the federation spend its energy on stronger results, reforms and World Cup progress than a rebrand.",
+          "sources": [
+            {"name": "Deccan Herald, Sept", "url": "https://www.deccanherald.com/sports/football/when-the-world-is-busy-with-fifa-world-cup-aiff-proposes-name-change-of-indian-federation-4047994"},
+            {"name": "ESPN, Sept", "url": "https://www.espn.com/football/story/_/id/49130506/isl-2026-27-indian-super-league-start-september-4-aiff-proposes-renaming-football-federation-bharat"}
+          ]
+        },
+        {
+          "id": "in-gov-3",
+          "title": "BCCI leaves Agarkar's future hanging, ducks the governance-law question again",
+          "summary": "At its AGM, BCCI secretary Devajit Saikia said chief selector Ajit Agarkar's fate - his term lapses within days - hasn't been discussed yet but will be decided at an appropriate time. The board also confirmed its position on the National Sports Governance Act remains unchanged pending government notification, keeping alive the unresolved question of whether cricket administration should answer to the same rules as every other Indian federation.",
+          "sources": [
+            {"name": "Free Press Journal, Sept", "url": "https://www.freepressjournal.in/sports/bcci-agm-2026-ajit-agarkars-future-to-be-decided-within-15-days-says-secretary"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "in-mkt-1",
+          "title": "IPL 2027 auction comes home to Goa after three years abroad",
+          "summary": "BCCI has confirmed Goa - which last hosted in 2009 - as venue for the IPL 2027 player auction, likely December 15-16, ending a run of auctions in Jeddah, Dubai and Abu Dhabi. IPL chairman Arun Dhumal cited a smaller available player pool as the reason it will be a mini-auction rather than a mega-auction. It lands amid a reshuffling season: Delhi Capitals have re-signed Rishabh Pant, Kuldeep Yadav has moved to Lucknow Super Giants, and Chennai Super Kings have brought in Zaheer Khan as head coach.",
+          "sources": [
+            {"name": "Business Today, Sept 24", "url": "https://www.businesstoday.in/sports/ipl/story/ipl-auction-returns-to-india-after-3-years-bcci-confirms-goa-as-venue-for-2027-mega-event-557455-2026-09-24"}
+          ]
+        },
+        {
+          "id": "in-mkt-2",
+          "title": "A year on, Dream11's real-money exit is still reordering sport sponsorship",
+          "summary": "Dream11 says revenue fell 95% overnight after India's 2025 real-money gaming ban, and it lost its Rs 358 crore BCCI cricket sponsorship in the process. It has since rebuilt as a free-to-play, ad-funded platform - brands like Swiggy, Astrotalk and Tata Neu now fund the prize pools instead of user entry fees - and kept its 250-million-account base largely intact. The bigger market story: real-money gaming firms that had bid up sports sponsorship inventory are gone, leaving conventional sponsors facing less competition for the same slots.",
+          "sources": [
+            {"name": "The Signal, Aug 23", "url": "https://thesignal.in/business/2026/08/23/dream11-real-money-gaming-pivot-2026"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "in-soc-1",
+          "title": "Archers hit a world-record score for India's seventh Asiad gold",
+          "summary": "Jyothi Surekha Vennam, Prithika Pradeep and Chikitha Taniparthi won the women's compound team archery final against China on September 30, matching the world-record score of 238 - India's seventh gold of the Aichi-Nagoya Games. As of September 29 India sat 11th in the standings with 47 medals (5 gold, 21 silver, 21 bronze); shooting, kabaddi and the women's cricket team have carried much of the campaign, with boxing, wrestling and a women's hockey semi-final against South Korea still to come on the final days.",
+          "sources": [
+            {"name": "Sunday Guardian, Sept 30", "url": "https://sundayguardianlive.com/live-updates/sports/asian-games-2026-live-updates-september-30-india-in-action-in-archery-boxing-shooting-wrestling-hockey-check-live-medal-tally-results-295513/"},
+            {"name": "Business Standard, Sept 29", "url": "https://www.business-standard.com/amp/sports/asian-games/asian-games-2026-list-of-india-s-medal-winners-updated-medal-tally-126092900372_1.html"}
+          ]
+        },
+        {
+          "id": "in-soc-2",
+          "title": "Neeraj Chopra's season - and Asiad title defence - ends on an ankle tear",
+          "summary": "India's biggest individual track star was ruled out of the Asian Games, where he was defending his javelin title, after an ankle ligament tear closed out his 2026 season early. For a country that has struggled for individual Olympic-level medals outside Chopra, his absence from Aichi-Nagoya is being felt well beyond the javelin circle - a reminder of how thin India's medal depth still is at the very top.",
+          "sources": [
+            {"name": "Olympics.com, Sept", "url": "https://www.olympics.com/en/news/neeraj-chopra-injury-ankle-ligament-tear-2026-season-end-asian-games-athletics"},
+            {"name": "WION, Sept", "url": "https://www.wionews.com/sports/neeraj-chopra-ankle-injury-ruled-out-asian-games-2026-season-1787994481954"}
+          ]
+        }
+      ]
+    },
+    "global": {
+      "government": [
+        {
+          "id": "gl-gov-1",
+          "title": "Russia's Olympic return is happening quietly, sport by sport",
+          "summary": "Since the IOC provisionally lifted its ban on the Russian and Belarusian Olympic Committees in July, ten federations - including judo, taekwondo, boxing, fencing, volleyball and wrestling - have granted Russian athletes full return rights, with five more allowing junior athletes only. Fencer Pavel Graudyn's July world-title gold was Russia's first at a major championship since restrictions eased. Federations are threading a careful line: the International Handball Federation's statement paired support for the IOC's approach with an explicit condemnation of the ongoing war, underlining how unresolved and piecemeal this reintegration still is heading toward Milan-Cortina 2026.",
+          "sources": [
+            {"name": "Moscow Times, Sept 3", "url": "https://www.themoscowtimes.com/2026/09/03/where-can-russian-athletes-compete-after-the-iocs-provisional-ban-lift-a93324"}
+          ]
+        },
+        {
+          "id": "gl-gov-2",
+          "title": "Paris silver medallist suspended - not for doping, but for missing checks",
+          "summary": "French hurdler Cyrena Samba-Mayela, who won 100m hurdles silver at Paris 2024, has been provisionally suspended since September 18 after three whereabouts failures in a year - missed windows for unannounced testing, not a positive test. She faces up to a two-year ban even though her camp says she has never failed a drugs test, a case that's reviving debate over how harshly administrative anti-doping lapses should be punished versus actual violations.",
+          "sources": [
+            {"name": "Citizen Digital, Sept", "url": "https://citizen.digital/article/olympic-medallist-samba-mayela-handed-provisional-doping-ban-n390906"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "gl-mkt-1",
+          "title": "Netflix buys into live baseball as MLB splits rights three ways",
+          "summary": "MLB has signed three-year (2026-2028) media deals with Netflix, NBC and ESPN. Netflix gets its first taste of live baseball - an Opening Night exclusive, the Home Run Derby (moved from ESPN) and the 2026 World Baseball Classic - while NBC returns to regular-season baseball after 26 years, taking over Sunday Night Baseball. ESPN keeps its 39-season partnership and picks up rights to sell MLB.TV. The deals follow the most-watched postseason in eight years and are explicitly designed to chase younger audiences across streaming.",
+          "sources": [
+            {"name": "MLB.com, Sept", "url": "https://www.mlb.com/news/mlb-announces-media-rights-deals-with-espn-nbc-netflix"}
+          ]
+        },
+        {
+          "id": "gl-mkt-2",
+          "title": "LA28 hits its $2 billion sponsorship target two years early",
+          "summary": "LA28 chair Casey Wasserman says the organising committee has already reached its $2 billion domestic sponsorship goal, with at least two more $100-million-plus sponsors expected in 2026. A separate SCAG economic-impact study projects $13.6-17.6 billion in added regional GDP from the Games between 2024 and 2029, with roughly two-thirds of that concentrated in Los Angeles County - a marker of how comfortably the Games are funded well ahead of 2028, in contrast to the cost overruns that have dogged recent hosts.",
+          "sources": [
+            {"name": "The Sports Examiner, Sept", "url": "https://www.thesportsexaminer.com/los-angeles-2028-la28-says-it-has-reached-2-billion-in-sponsorships-new-study-says-2028-games-will-offer-13-6-billion-plus-economic-impact/"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "gl-soc-1",
+          "title": "Minnesota court weighs transgender athletes in girls' sports",
+          "summary": "A Minnesota judge is hearing arguments on whether allowing transgender girls to compete in girls' categories complies with the state's Human Rights Act and Title IX. Plaintiffs argue residual physiological differences displace cisgender girls from opportunities; defenders call exclusion a form of discrimination that damages athletes' wellbeing and social inclusion. No ruling yet, but the outcome is expected to set precedent well beyond Minnesota.",
+          "sources": [
+            {"name": "Sept 29 report", "url": "https://sports-competition.news-articles.net/content/2026/09/29/legal-battle-over-transgender-athletes-in-female-sports.html"}
+          ]
+        },
+        {
+          "id": "gl-soc-2",
+          "title": "Women's sport keeps growing - but mostly in tournament bursts",
+          "summary": "A new industry report finds women's sport audiences and sponsorship continuing to climb through 2026, led by UK women's football and US women's basketball, with broadcasters like the BBC and CBS deepening their commitments and athletes generating record commercial value. Its central caution: growth in several markets still tracks major international tournaments closely, and turning that spike into sustained, year-round following still depends on consistent scheduling, free-to-air access and grassroots investment that most leagues haven't fully built yet.",
+          "sources": [
+            {"name": "GlobeNewswire, Sept 24", "url": "https://www.globenewswire.com/news-release/2026/09/24/3368109/28124/en/women-in-sport-2026-rising-audiences-sponsorship-growth-and-media-investment-unlock-major-commercial-opportunities-according-to-latest-report.html"}
+          ]
+        }
+      ]
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "format": "Op-ed",
+      "title": "The IOC gave India a checklist - has anyone priced out fixing it?",
+      "summary": "Every report repeats the IOC's three concerns. None has costed or timelined what actually clearing the IOA's finances, cutting doping rates and improving the medal count would take before 2036 talks can restart."
+    },
+    {
+      "id": "opp-2",
+      "format": "Blog",
+      "title": "What does the AIFF rename actually cost, and change?",
+      "summary": "Coverage stops at fans wanting results, not rebrands. A concrete breakdown of the FIFA approval process, admin cost and realistic timeline - versus what it changes on the pitch (nothing) - is missing."
+    },
+    {
+      "id": "opp-3",
+      "format": "Podcast",
+      "title": "Who actually filled the Dream11-shaped hole in sponsorship?",
+      "summary": "A year on from the gaming ban, nobody's mapped sport-by-sport which categories of sponsor moved in to replace real-money gaming spend, and which properties are still under-monetised as a result."
+    },
+    {
+      "id": "opp-4",
+      "format": "Blog",
+      "title": "Mini-auctions vs mega-auctions: the actual roster-building difference",
+      "summary": "IPL auction previews focus on venue and dates. An analytical piece on how a smaller player pool changes franchise bidding strategy and squad-building risk compared with a full mega-auction hasn't been written for a general audience."
+    },
+    {
+      "id": "opp-5",
+      "format": "Op-ed",
+      "title": "Russia's reintegration is a federation-by-federation story, not an IOC one",
+      "summary": "Headlines treat the July decision as the whole story. The real, ongoing news is how unevenly individual federations are applying it, and what that patchwork will look like by Milan-Cortina."
+    },
+    {
+      "id": "opp-6",
+      "format": "Podcast",
+      "title": "Whereabouts failures vs positive tests: does the punishment fit?",
+      "summary": "The Samba-Mayela case is being covered as a one-off. A wider episode on whether three missed-location strikes should carry the same weight as an actual adverse finding is an under-covered fairness debate in anti-doping policy."
+    }
+  ]
+}
