@@ -1,0 +1,160 @@
+{
+  "date": "2026-10-03",
+  "weekday": "Saturday",
+  "regions": {
+    "india": {
+      "government": [
+        {
+          "id": "in-gov-1",
+          "title": "India tops the global doping list for a third straight year, right as the 2036 bid gathers pace",
+          "summary": "WADA's latest numbers show India logged 260 adverse findings in 2024 from 7,113 tests, a 3.6% positivity rate, the highest of any country testing over 5,000 athletes. 2025 is trending better (110 findings from 7,068 tests, 1.5%), but the headline ranking lands awkwardly: the IOC flagged doping concerns to an Indian delegation in July, just as the country pushes bids for the 2030 Commonwealth Games and 2036 Olympics.",
+          "sources": [
+            {"name": "SeaAndJob", "url": "https://www.seaandjob.com/india-tops-global-doping-violations-list-for-third-straight-year-wada-report/"},
+            {"name": "Deccan Herald", "url": "https://www.deccanherald.com/sports/rising-doping-violations-threaten-to-derail-indias-ambitious-bid-for-the-2036-olympic-games-3844567"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "in-mkt-1",
+          "title": "IPL 2027 mini-auction comes home after three overseas editions",
+          "summary": "The BCCI is bringing the auction back to India after franchises complained about the cost and hassle of flying delegations to Dubai, Jeddah and Abu Dhabi; the last India-based auction was Kochi in 2023. Organisers now need 100-plus hotel rooms for multiple nights, complicated by India's October-December wedding season. The Impact Player rule's future was deferred to a later Governing Council meeting.",
+          "sources": [
+            {"name": "Exchange4Media", "url": "https://www.exchange4media.com/announcements-news/ipl-2027-auction-comes-home-as-bcci-responds-to-franchise-logistics-concerns-158291.html"}
+          ]
+        },
+        {
+          "id": "in-mkt-2",
+          "title": "Fantasy sports industry drops resistance to the Online Gaming Act",
+          "summary": "The Federation of Indian Fantasy Sports, with Dream11 as a key member, has said it will not challenge the 2025 law in court and will instead focus on compliance, months after the real-money ban forced Dream11 to pause paid contests and MPL to cut 60% of its India staff. It marks the industry settling into the post-ban business model rather than fighting it.",
+          "sources": [
+            {"name": "Storyboard18", "url": "https://www.storyboard18.com/gaming-news/with-dream11-as-key-member-fifs-commits-to-compliance-says-no-to-challenging-online-gaming-act-80612.htm"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "in-soc-1",
+          "title": "India vs Pakistan for cricket gold, no handshake again",
+          "summary": "Shreyas Iyer won the toss and chose to bat first in today's Asian Games men's cricket final at Nisshin; as expected, there was no handshake between the captains. It continues the pattern from recent India-Pakistan meetings, hours after the men's hockey team kicked off its own gold-medal match against Malaysia at 3:30pm, defending the title won in 2022, two days after the women's team ended a 44-year wait for hockey gold by beating China 1-0.",
+          "sources": [
+            {"name": "Business Standard, Oct 3", "url": "https://www.business-standard.com/sports/asian-games/asian-games-2026-live-updates-india-vs-pakistan-cricket-final-live-score-india-vs-malaysia-hockey-gold-wrestling-archery-medal-winners-tally-126100300067_1.html"},
+            {"name": "Outlook India", "url": "https://www.outlookindia.com/sports/hockey/india-vs-china-ind-vs-chn-gold-medal-44-year-womens-hockey-match-asian-games-2026-match-report"}
+          ]
+        },
+        {
+          "id": "in-soc-2",
+          "title": "A 17-year-old archer and a golf-course first headline a strong medal day",
+          "summary": "Kumkum Mohod, 17, became India's first-ever Asian Games medallist in women's individual recurve archery, beating Olympic and world champion Kang Chaeyoung along the way. Separately, Pranavi Urs won India's first women's individual golf gold, finishing 15-under to beat China's Yin Ruoning and Singapore's Shannon Tan. India's medal tally reached 78 (17 gold) by Day 15, holding fifth overall.",
+          "sources": [
+            {"name": "Outlook India, Oct 3", "url": "https://www.outlookindia.com/sports/others/asian-games-2026-live-updates-october-3-day-15-commentary-highlights-indians-in-action-aichi-nagoya"}
+          ]
+        },
+        {
+          "id": "in-soc-3",
+          "title": "A doping ban, a father's cancer, and a boxing gold",
+          "summary": "Parveen Hooda served a 22-month WADA suspension for missed drug tests while nursing her father through stage-3 throat cancer. She won women's 65kg boxing gold at the Asian Games with a 3-2 split-decision win over Chinese Taipei's Chen Nien-chin, a comeback story that sits in sharp contrast with the doping headlines above.",
+          "sources": [
+            {"name": "Daily Jagran", "url": "https://www.thedailyjagran.com/sports/from-doping-ban-to-fathers-cancer-parveen-hoodas-asian-games-gold-came-after-battles-outside-the-ring-10331349"}
+          ]
+        }
+      ]
+    },
+    "global": {
+      "government": [
+        {
+          "id": "gl-gov-1",
+          "title": "Manchester City appeals \"relentlessly\"; punishment hearing looms within weeks",
+          "summary": "City has lodged what it calls a \"comprehensive\" appeal against this week's guilty verdict on almost all 115 Premier League financial charges. A separate hearing will set the sanction; rival clubs are reportedly pushing for a points deduction as high as 30-40, and Premier League executives say they would be \"staggered\" if clubs voted for outright expulsion.",
+          "sources": [
+            {"name": "Washington Times, Oct 2", "url": "https://www.washingtontimes.com/news/2026/oct/2/man-city-lodging-comprehensive-appeal-guilty-verdict-financial-rule/"},
+            {"name": "Sky Sports", "url": "https://www.skysports.com/football/news/13593861/man-city-charges-premier-league-executives-would-be-staggered-if-clubs-vote-for-expulsion-as-punishment"}
+          ]
+        },
+        {
+          "id": "gl-gov-2",
+          "title": "F1's Qatar and Abu Dhabi finale slips further into doubt, Imola put on standby",
+          "summary": "The original September deadline for a Qatar/Abu Dhabi go-ahead has passed; FIA president Stefano Domenicali has pushed the call to mid-October, pending government travel advisories and team safety policies for the region. Imola is on standby to host the finale instead, which would make it F1's first European season-closer since 1997, with over $100 million in combined sanctioning fees riding on the decision.",
+          "sources": [
+            {"name": "Yahoo Sports", "url": "https://sports.yahoo.com/articles/imola-standby-formula-1-awaits-151158412.html"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "gl-mkt-1",
+          "title": "Nike to stop breaking out China sales after a 26% quarterly slide",
+          "summary": "Nike's latest quarter showed Greater China revenue down 26%, part of a wider sales miss blamed on local competition and a stalled turnaround; the stock dropped on the results. The company says it will stop reporting China figures separately going forward, a move analysts read as an attempt to stop a shrinking, increasingly sensitive number from dominating every earnings call.",
+          "sources": [
+            {"name": "GuruFocus", "url": "https://www.gurufocus.com/news/9106505/nike-nke-reports-26-revenue-decline-in-greater-china-amid-strategic-overhaul"},
+            {"name": "Tech Times, Oct 2", "url": "https://techtimes.com/articles/328493/20261002/nike-launches-pace-posts-112b-quarter-china-revenue-down-26-percent.htm"}
+          ]
+        },
+        {
+          "id": "gl-mkt-2",
+          "title": "2027 Cricket World Cup expands to 14 teams, broadcast rights still unsettled",
+          "summary": "The ICC is set to unveil the full schedule for the 2027 World Cup (South Africa, Zimbabwe, Namibia) at a Cape Town launch event, confirming a new 57-match, three-round format. Ten teams have already qualified; four places go through qualifiers in February-March 2027. Star Sports, Sky Sports, Willow TV and SuperSport are confirmed broadcasters, but full rights allocation is still pending.",
+          "sources": [
+            {"name": "Yahoo Sports, Oct 1", "url": "https://sports.yahoo.com/articles/icc-cricket-world-cup-2027-120036706.html"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "gl-soc-1",
+          "title": "Dominican Republic bans Haiti's team from its stadiums after fan clash",
+          "summary": "Haitian fans forced their way through gates at Felix Sanchez Olympic Stadium during a CONCACAF Nations League match Haiti won 4-1; the Dominican sports minister responded with a blanket stadium ban, backed by the president. The clash sits on top of real tension between the countries: mass deportations of undocumented Haitians since 2024, a 2023 border closure, and a Haitian player's post-match comment on shared-island identity that Dominican officials called disrespectful.",
+          "sources": [
+            {"name": "Al Jazeera, Oct 3", "url": "https://www.aljazeera.com/sports/2026/10/3/dominican-republic-bans-haiti-from-its-stadiums-after-football-fans-clash"}
+          ]
+        },
+        {
+          "id": "gl-soc-2",
+          "title": "Taiwan's \"gender-row\" boxer wins Asian Games gold again",
+          "summary": "Lin Yu-ting, disqualified from the 2023 world championships by the now-discredited IBA over gender eligibility but cleared to fight at Paris 2024 by the IOC, beat China's Yang Chengyu 5-0 for women's 60kg gold at the Asian Games. She says she considered retiring after Paris but kept fighting partly to answer those who questioned her eligibility, keeping the Khelif-era boxing gender dispute live in competition rather than just in governance meetings.",
+          "sources": [
+            {"name": "Manila Times, Oct 3", "url": "https://manilatimes.net/2026/10/03/sports/taiwans-gender-row-boxer-wins-gold/2437904"}
+          ]
+        }
+      ]
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "format": "Op-ed",
+      "title": "India's doping numbers are a 2036 bid problem nobody's modelled",
+      "summary": "Coverage treats the WADA ranking and the 2036 bid as parallel stories. Nobody has actually priced how IOC host-evaluation scoring weighs a country's integrity record, or what India's third straight year atop the doping table does to its bid odds against rival cities."
+    },
+    {
+      "id": "opp-2",
+      "format": "Blog",
+      "title": "Who really benefits when fantasy sports stops fighting the regulator",
+      "summary": "FIFS dropping its legal challenge is being reported as capitulation. The more interesting question is which players in the post-ban market, Dream11's pivot, smaller operators, or the banks now handling compliance, actually gain from an industry that stops contesting the rules."
+    },
+    {
+      "id": "opp-3",
+      "format": "Podcast",
+      "title": "What a 30-40 point deduction actually does to the Premier League title race",
+      "summary": "Man City sanction coverage is all about the number and the appeal. Nobody's modelled the competitive scenario: a City side docked enough points to finish mid-table changes European qualification, relegation fights and title odds for a dozen clubs that had nothing to do with the case."
+    },
+    {
+      "id": "opp-4",
+      "format": "Blog",
+      "title": "Nike's China silence as a tell for the wider sportswear market",
+      "summary": "The story is being covered as a Nike-specific stumble. Worth asking whether rivals (Adidas, Anta, Li-Ning) are gaining the share Nike is losing, and whether 'we'll stop reporting that number' is becoming a template move across consumer brands retreating from China."
+    },
+    {
+      "id": "opp-5",
+      "format": "Op-ed",
+      "title": "Sport as the pressure valve for Dominican-Haitian tension",
+      "summary": "The stadium-ban story is being told as a one-off hooliganism incident. It's actually the latest flashpoint in a much longer migration and border conflict; sport keeps surfacing as the arena where that tension becomes visible and punishable, which deserves more context than match reports give it."
+    },
+    {
+      "id": "opp-6",
+      "format": "Podcast",
+      "title": "Lin Yu-ting's gold as a live test of World Boxing's new eligibility rules",
+      "summary": "Her win is being filed as a medal story. It's actually a real-time stress test of the genetic sex-testing framework boxing adopted after Paris 2024, worth unpacking what her continued eligibility and success signals for how that rule will be applied going into LA 2028."
+    }
+  ]
+}
