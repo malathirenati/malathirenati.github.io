@@ -1,0 +1,139 @@
+{
+  "date": "2026-09-24",
+  "weekday": "Thursday",
+  "regions": {
+    "india": {
+      "government": [
+        {
+          "id": "in-gov-1",
+          "title": "BCCI fields five India teams in five weeks to stress-test its bench",
+          "summary": "Between September 22 and October 17, the BCCI is running five squads at once: the Asian Games and Japan T20I group under Shreyas Iyer, a senior ODI side against West Indies featuring Rohit Sharma and Virat Kohli under Shubman Gill's captaincy, a separate West Indies T20I squad, India A split across multi-day and 50-over legs against Australia A, and Rishabh Pant's Rest of India in the Irani Cup. Sixty-nine cricketers are involved. It's less a single selection call than five simultaneous auditions, each with its own selection brief, and the results will shape multiple pathways at once rather than one XI.",
+          "sources": [
+            {"name": "Business Standard, Sept 17", "url": "https://www.business-standard.com/amp/cricket/news/bcci-puts-india-s-bench-strength-on-show-set-to-field-5-teams-in-5-weeks-126091700776_1.html"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "in-mkt-1",
+          "title": "IPL's sponsorship map is redrawn a year after the gaming ban",
+          "summary": "The 2025 Online Gaming Act wiped out a sponsor category that had supplied roughly 40% of IPL broadcast ad revenue and around ₹4,500 crore a year in sports marketing spend, ending Dream11's ₹358 crore national jersey deal and My11Circle's ₹625 crore, five-year IPL fantasy rights. The gap is now filled by Google Gemini (₹270 crore, three years) and Apollo Tyres (₹579 crore, two and a half years) on the national jersey, plus a scatter of franchise deals: Vida with KKR, Birla Estates with GT, Nothing with RCB. Broadcasters are still bracing for an 8-10% ad revenue decline, and the BCCI's 2027 rights renewal now carries real downside risk it didn't have two years ago.",
+          "sources": [
+            {"name": "ThePrint, Mar 2", "url": "https://theprint.in/brandit/fantasy-sports-ban-is-quietly-draining-ipl-2026s-sponsorship-muscle/2867699/"}
+          ]
+        },
+        {
+          "id": "in-mkt-2",
+          "title": "IPL auction returns to India in December after three years abroad",
+          "summary": "The 2027 auction, a mini-auction rather than a full reshuffle, will be held in India in December for the first time since 2023, after three straight editions in Dubai, Jeddah and Abu Dhabi. It's the last auction of the current 2023-27 cycle and lands just ahead of the IPL's 20th edition, which the BCCI wants to mark on a larger scale. The venue isn't finalised — hotel capacity and December's wedding season are both constraints — and the Impact Player rule's future is still unresolved, with most franchises understood to want it dropped.",
+          "sources": [
+            {"name": "Business Standard, Sept 19", "url": "https://www.business-standard.com/cricket/ipl/ipl-2027-player-auction-to-take-place-in-december-no-decision-on-venue-yet-126091900521_1.html"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "in-soc-1",
+          "title": "India's Asian Games tally climbs to 13 medals as the women lead",
+          "summary": "One gold, five silver, seven bronze as of Thursday morning, with the campaign's shape increasingly set by the women's teams: the cricket team's gold over Sri Lanka remains India's only gold so far, and Mirabai Chanu added silver in the 49kg weightlifting with a 198kg total, her first continental medal. Day four also brought two shooting bronzes in the women's skeet team event, a first-ever Asian Games medal for India in soft tennis (Jay Meena, bronze), a bronze in men's double sculls rowing, and a 17-1 rout of Indonesia by the women's hockey team. Manu Bhaker finished fifth in the 10m air pistol final, short of the podium.",
+          "sources": [
+            {"name": "myKhel, Sept 24", "url": "https://www.mykhel.com/more-sports/india-medal-tally-asian-games-2026-full-list-of-medals-on-september-24-latest-news-total-count-454217.html"},
+            {"name": "ETV Bharat, Sept 23", "url": "https://www.etvbharat.com/en/sports/live-blog--asian-games-2026-live-updates-today-india-events-and-medal-summary-enn26092301038"}
+          ]
+        },
+        {
+          "id": "in-soc-2",
+          "title": "Neeraj Chopra's season ends on an ankle ligament tear, missing the Games",
+          "summary": "India's biggest individual athletics draw and defending Asian Games javelin champion is out for the rest of 2026 after an ankle ligament tear, ending his title defence in Aichi-Nagoya before it started. For a campaign already reliant on the women's teams for its best results, losing its most bankable name is as much a sponsorship and attention story as an athletics one, and it puts a question mark over his build-up to LA 2028.",
+          "sources": [
+            {"name": "The Tribune, Sept 2026", "url": "https://www.tribuneindia.com/news/sports/neeraj-chopra-ruled-out-of-asian-games-after-ankle-ligament-tear-ends-2026-season"},
+            {"name": "ESPN, Sept 2026", "url": "https://www.espn.com/athletics/story/_/id/49760157/neeraj-chopra-asian-games-ankle-injury-ends-2026-season-early"}
+          ]
+        }
+      ]
+    },
+    "global": {
+      "government": [
+        {
+          "id": "gl-gov-1",
+          "title": "Sport can't agree on whether Russia and Belarus are back",
+          "summary": "Ten days after the IOC's provisional ban lift, federations are splitting in opposite directions. FIBA and FIA eased their Russia and Belarus restrictions in early September, but the International Biathlon Union refused reinstatement outright on September 18, ruling that neither country had shown genuine distancing from the war in Ukraine or the non-involvement of athletes and federation officials with the armed forces when Russia resubmitted its case in June. World Athletics has separately reaffirmed its own ban. The result is a patchwork: which sports a Russian or Belarusian athlete can compete in now depends entirely on which federation runs it, with no shared standard across Olympic sport.",
+          "sources": [
+            {"name": "Yahoo Sports, Sept 18", "url": "https://sports.yahoo.com/articles/international-biathlon-union-refuses-reinstate-100300794.html"},
+            {"name": "Inside the Games, 2026", "url": "https://insidersport.com/2026/09/03/fiba-fia-follow-ioc-on-russia-athletes/"}
+          ]
+        },
+        {
+          "id": "gl-gov-2",
+          "title": "A doping case opens inside the Asian Games itself",
+          "summary": "Thai badminton player Pitchamon Opatniputh has been provisionally suspended after an out-of-competition sample, taken by the International Testing Agency in Nagoya on September 17, returned an adverse finding for furosemide, a masking-agent diuretic. She's barred from competing, training or attending Games venues while the case proceeds, can request a B-sample test, and faces up to a two-year ban if that sample also comes back positive. It's a reminder that the integrity questions playing out globally around doping enforcement are live at the event India's own athletes are competing in right now.",
+          "sources": [
+            {"name": "Khaosod English, Sept 22", "url": "https://www.khaosodenglish.com/news/2026/09/22/thai-badminton-player-suspended-over-banned-substance/"},
+            {"name": "International Testing Agency, Sept 2026", "url": "https://ita.sport/news/asian-games-aichi-nagoya-2026-the-ita-notifies-athlete-pitchamon-opatniputh-of-an-apparent-anti-doping-rule-violation/"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "gl-mkt-1",
+          "title": "NWSL expansion fees keep resetting the market",
+          "summary": "Columbus joined the NWSL as its 18th franchise at a reported $205 million expansion fee, backed by the Haslam family, the highest yet for the league and up sharply from Denver's $110 million fee barely a year earlier. Sportico's 2026 valuations put the league's average team value up 77% year over year, led by Angel City. It's the clearest sign yet that investor appetite for women's soccer in the US hasn't cooled, even as other women's-sport markets, including India's WPL, are still working out how to price themselves.",
+          "sources": [
+            {"name": "Forbes, Apr 21", "url": "https://www.forbes.com/sites/brettknight/2026/04/21/columbus-and-billionaire-haslams-land-nwsl-expansion-franchise-for-205-million/"},
+            {"name": "Sportico, 2026", "url": "https://www.sportico.com/valuations/teams/2026/nwsl-team-values-2026-angel-city-1234886336/"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "gl-soc-1",
+          "title": "Aichi-Nagoya's accommodation crisis is now the Games' other story",
+          "summary": "Organisers planned for 15,000 participants; more than 17,000 turned up once new sports were added to the programme, and the housing system hasn't coped. Athletes describe cramped rooms, undersized beds and, in some cases, mixed-gender room assignments; South Korea's football team was sent to the wrong venue; hundreds were briefly evacuated after record rainfall; and organisers have resorted to a cruise ship and shipping containers for overflow housing. Nagoya's mayor, Ichiro Hirosawa, maintains "there is no problem holding the Asian Games as planned." Japan's own team is exploring alternative arrangements.",
+          "sources": [
+            {"name": "Al Jazeera, Sept 18", "url": "https://www.aljazeera.com/sports/2026/9/18/asian-games-2026-dates-venues-sports-and-a-growing-accommodation-crisis"}
+          ]
+        },
+        {
+          "id": "gl-soc-2",
+          "title": "China opens a probe into the cyberbullying of diver Quan Hongchan",
+          "summary": "Chinese authorities are investigating what state media has called \"national-level bullying\" of Olympic diving champion Quan Hongchan, who says she has been targeted over her body and appearance by coordinated fan and anti-fan accounts. Her training centre in Guangdong has formally reported the abuse to police, and China's swimming authority has condemned the harassment publicly. The case has become a wider flashpoint over toxic fan culture and narrative control around young athletes in Chinese sport.",
+          "sources": [
+            {"name": "South China Morning Post, 2026", "url": "https://www.scmp.com/news/people-culture/china-personalities/article/3349529/china-authorities-probe-national-level-bullying-diving-icon-quan-hongchan-amid-toxic-fan-culture"}
+          ]
+        }
+      ]
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "format": "Blog",
+      "title": "What does replacement sponsorship actually cost, per eyeball?",
+      "summary": "Coverage of the fantasy-sports ban has totalled up the lost and replacement rupee figures, but nobody has compared effective ad rates: are Google Gemini and Apollo Tyres paying more or less per impression than Dream11 and My11Circle did, and is IPL inventory now structurally cheaper to sponsor than during the gaming boom."
+    },
+    {
+      "id": "opp-2",
+      "format": "Op-ed",
+      "title": "Nagoya couldn't house 17,000 athletes. India wants to host 2036.",
+      "summary": "The Asian Games accommodation crisis and India's 2036 Olympic bid are being covered as separate stories. Nobody has put them side by side to ask what a smaller Asian nation's housing failure at a continental Games implies about India's readiness to house an Olympic-scale crowd a decade from now."
+    },
+    {
+      "id": "opp-3",
+      "format": "Podcast",
+      "title": "Who let Russia back in, and who didn't",
+      "summary": "IOC, FIBA, FIA, World Athletics and the IBU have each landed somewhere different on Russia and Belarus reinstatement, and no single piece has mapped the sport-by-sport divergence into one picture ahead of LA28 qualifying. A discussion format suits the number of moving parts better than a written explainer."
+    },
+    {
+      "id": "opp-4",
+      "format": "Blog",
+      "title": "Why the IPL auction left India for three years, and why it's coming back",
+      "summary": "Every report on the 2027 auction's return notes the fact; none has unpacked the original decision to move to Dubai, Jeddah and Abu Dhabi, the tax and hospitality logic behind it, or what's changed for the BCCI to reverse course now."
+    },
+    {
+      "id": "opp-5",
+      "format": "Op-ed",
+      "title": "Five India cricket teams at once is a selection philosophy, not just depth",
+      "summary": "Coverage of BCCI's five-squads-in-five-weeks month has framed it as a bench-strength flex. The more interesting question, barely touched, is what each simultaneous selection brief signals about who the selectors see as white-ball, red-ball or franchise-first players, and what that means for players caught between pathways."
+    }
+  ]
+}

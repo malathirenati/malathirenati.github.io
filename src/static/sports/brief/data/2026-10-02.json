@@ -1,0 +1,186 @@
+{
+  "date": "2026-10-02",
+  "weekday": "Friday",
+  "regions": {
+    "india": {
+      "government": [
+        {
+          "id": "in-gov-1",
+          "title": "Sports ministry overhauls federation funding, ties it to governance compliance",
+          "summary": "The ministry has raised National Sports Federation funding sharply (national championships in high-priority sports up to Rs 90 lakh from Rs 51 lakh, international tournament support up to Rs 2 crore) but attached new governance strings: federations with budgets over Rs 10 crore must appoint a High Performance Director, hire a full-time CEO, run annual audits and publish selection criteria. At least 20% of budgets must now go to grassroots and age-fraud prevention, foreign coach pay is capped at 30% of a federation's budget, and NSFs have three months to comply before funding is at risk. Football is notably excluded from the priority categories.",
+          "sources": [
+            {"name": "IndiaSportsHub, Sept 2026", "url": "https://www.indiasportshub.com/articles/a-new-era-for-indian-sport-inside-the-sports-ministrys-ambitious-overhaul-of-nsf-funding-and-governance"}
+          ]
+        },
+        {
+          "id": "in-gov-2",
+          "title": "Khelo India 2026-31 gets Rs 36,441 crore, billed as biggest sports investment since independence",
+          "summary": "The scheme's new five-year phase will fund training centres, coaches and talent pathways over the coming decade, announced as part of the Union Budget's sports push. Grassroots advocates have welcomed it as a long-overdue shift from elite-athlete spending toward broad-based infrastructure, though implementation capacity at the state level remains the open question.",
+          "sources": [
+            {"name": "ANI, Aug 25", "url": "https://www.aninews.in/news/sports/others/khelo-india-scheme-2026-31-rs-36441-crore-biggest-investment-in-indian-sports-since-independence20260825185114/"}
+          ]
+        },
+        {
+          "id": "in-gov-3",
+          "title": "Ahmedabad confirmed as host city for India's 2036 Olympic bid",
+          "summary": "The Indian Olympic Association has formally named Ahmedabad, anchored by the Sardar Patel Sports Complex, as its proposed host city as India pushes an increasingly concrete 2036 Summer Games bid, alongside a parallel push to host the 2030 Commonwealth Games in Gujarat.",
+          "sources": [
+            {"name": "Outlook India", "url": "https://www.outlookindia.com/sports/others/indias-2036-olympic-games-bid-ioa-names-ahmedabad-as-host-city"},
+            {"name": "CBC News", "url": "https://www.cbc.ca/news/world/india-olympics-bid-2036-9.6958964"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "in-mkt-1",
+          "title": "Muthoot FinCorp replaces IDFC First as BCCI's title sponsor through 2028",
+          "summary": "The deal, worth an estimated Rs 150-171 crore and covering roughly 35 international matches plus domestic tournaments like the Ranji Trophy, began with India's ODI series against West Indies. It succeeds IDFC First Bank, which paid Rs 4.2 crore per match since 2023, and is the clearest sign yet that mainstream financial brands are stepping into the sponsorship space vacated by the real-money gaming ban.",
+          "sources": [
+            {"name": "BestMediaInfo, Sept 25", "url": "https://bestmediainfo.com/interviews/interview-television/muthoot-fincorp-bags-bcci-title-sponsorship-rights-deal-value-pegged-rs-150-171-crore-12573406"}
+          ]
+        },
+        {
+          "id": "in-mkt-2",
+          "title": "MG Motor set to become ISL's first title sponsor since Hero MotoCorp",
+          "summary": "MG has agreed a two-year deal worth over Rs 25 crore, with the league set to be rebranded the MG Indian Super League from 2026-27. It ends three sponsorless seasons since Hero's near-decade-long association ended in 2023, and arrives alongside the league's new club-led commercial structure and fresh deals with EA Sports, Sportradar and Nivia.",
+          "sources": [
+            {"name": "KhelNow", "url": "https://khelnow.com/football/indian-football-isl-2026-27-mg-title-sponsor"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "in-soc-1",
+          "title": "Vinesh Phogat ruled out of Asian Games wrestling trials by WFI's selection criteria",
+          "summary": "The Olympic medallist and face of the 2023 wrestlers' protest movement has been shut out of contention for the 2026 Asian Games under selection criteria the Wrestling Federation of India says were applied fairly to all. Critics argue the eligibility rules were effectively drawn to exclude her, reviving long-running tension between India's most prominent female wrestler and her federation.",
+          "sources": [
+            {"name": "Olympics.com", "url": "https://www.olympics.com/en/news/asian-games-2026-wrestling-selection-trials-india-vinesh-phogat-eligibility"},
+            {"name": "Outlook India", "url": "https://www.outlookindia.com/sports/others/vinesh-phogat-asian-games-2026-selection-trials-ineligibility-wrestling-federation-of-india-criteria-details"}
+          ]
+        },
+        {
+          "id": "in-soc-2",
+          "title": "India face Pakistan for cricket gold today, with handshakes unlikely again",
+          "summary": "Both teams reached the Asian Games final on Thursday, India hammering Sri Lanka by 124 runs in the semi-final. Since cross-border tensions nearly tipped into war last year, Indian men's and women's teams alike have refused to shake hands with Pakistani players or accept trophies from PCB chief Mohsin Naqvi at multiple tournaments, and today's gold-medal match is expected to follow the same script.",
+          "sources": [
+            {"name": "WDBO / AP, Oct 1", "url": "https://www.wdbo.com/sports/no-handshakes-likely/T75TMYX73E7UBDEDKSEMWEURDY/"}
+          ]
+        },
+        {
+          "id": "in-soc-3",
+          "title": "Women's hockey chases a 44-year-wait-ending gold against defending champions China",
+          "summary": "India meet China in today's final at 3:30pm IST having beaten South Korea 2-0 in the semis. A win would end a decades-long drought in Asian Games women's hockey gold for India, adding to a campaign that has otherwise leaned heavily on team-sport heroics over individual marquee medals.",
+          "sources": [
+            {"name": "NewsX", "url": "https://www.newsx.com/sports/asian-games-2026-womens-hockey-india-beat-south-korea-2-0-face-china-in-gold-medal-final-277907/"},
+            {"name": "Hockey India", "url": "https://www.hockeyindia.org/news/indian-womens-hockey-team-enters-asian-games-2026-final-with-a-2-0-win-over-south-korea-will-meet-china-in-gold-medal-match"}
+          ]
+        },
+        {
+          "id": "in-soc-4",
+          "title": "Taekwondo and badminton now make up half of all sport played in NCR residential societies",
+          "summary": "New play data from FanToPark shows taekwondo (25%) and badminton (22%) have overtaken cricket in Delhi-NCR societies, with roughly 80% of children training in sports on the LA 2028 Olympic roster. The founder notes parents are increasingly signing children up for sports they can't personally coach or play, pointing to latent demand for coaching infrastructure that elite-focused Olympic spending has largely ignored.",
+          "sources": [
+            {"name": "Eastern Herald, Sept 30", "url": "https://easternherald.com/2026/09/30/taekwondo-and-badminton-now-make-up-nearly-half-of-all-sports-played-in-ncr-societies-fantopark-play-data-shows"}
+          ]
+        }
+      ]
+    },
+    "global": {
+      "government": [
+        {
+          "id": "gl-gov-1",
+          "title": "Manchester City found guilty on almost all 115 Premier League financial charges",
+          "summary": "An independent commission ruled City systematically broke financial rules for nearly a decade (2009-2018), using disguised Abu Dhabi funding worth over $1.1 billion and misstating accounts to hide more than $1.2 billion in true costs. Possible sanctions range from large fines to a points deduction reportedly as high as 40-60 points, far beyond Everton's precedent-setting 10-point penalty. City has vowed to appeal \"relentlessly\"; a separate hearing will set the punishment.",
+          "sources": [
+            {"name": "Al Jazeera, Sept 30", "url": "https://www.aljazeera.com/sports/2026/9/30/what-will-happen-to-man-city-after-the-premier-leagues-guilty-verdict"}
+          ]
+        },
+        {
+          "id": "gl-gov-2",
+          "title": "F1's season-finale venues in doubt as Middle East conflict clouds Qatar and Abu Dhabi races",
+          "summary": "Teams expect a final call by mid-October on whether the Qatar and Abu Dhabi Grands Prix can go ahead as scheduled; if not, the 2026 season would instead close out in Europe. Several drivers, including Max Verstappen, have questioned travelling to the region under current conditions, making this one of the clearest instances of regional conflict directly reshaping a global sport's calendar this year.",
+          "sources": [
+            {"name": "Sky Sports", "url": "https://www.skysports.com/f1/news/13591254/formula-1-teams-expect-final-call-on-qatar-abu-dhabi-grands-prix-by-middle-of-october-on-closing-2026-season-races"},
+            {"name": "Yahoo Sports", "url": "https://sports.yahoo.com/articles/decision-over-f1s-qatar-abu-120357193.html"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "gl-mkt-1",
+          "title": "American capital keeps reshaping Premier League ownership",
+          "summary": "A group led by Jeff Bezos, alongside Amit Bhatia and Eduardo Saverin, has bought a minority stake in Liverpool at a $7 billion club valuation with an option to take control later. Separately, Newcastle co-owners Amanda Staveley and Mehrdad Ghodoussi have confirmed they are exiting the club. Commentators are describing it as a full repricing of the league's ownership market, with Gulf and American capital both still circling.",
+          "sources": [
+            {"name": "Sportico, Aug 14", "url": "https://www.sportico.com/business/team-sales/2026/jeff-bezos-liverpool-stake-bhatia-saverin-1234941903/"},
+            {"name": "Soccerway", "url": "https://www.soccerway.com/news/soccer-premier-league-newcastle-confirm-exits-of-shareholders-staveley-and-ghodoussi/fNYuuh5T"}
+          ]
+        },
+        {
+          "id": "gl-mkt-2",
+          "title": "NFL's London ticket prices collapse nearly 90% as international schedule strains demand",
+          "summary": "Cheapest tickets for Saturday's Colts-Commanders game at Tottenham Hotspur Stadium have fallen from an August floor of £185 to £79, and resale prices from a May high near $500-590 to as low as $62. The expanded nine-game international slate appears to be diluting demand for any single fixture, especially a less marquee matchup, and the stadium could miss its usual 60,000-plus attendance for the first time.",
+          "sources": [
+            {"name": "TicketNews", "url": "https://ticketnews.com/2026/10/nfl-cuts-colts-commanders-london-tickets-79"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "gl-soc-1",
+          "title": "Gaza war boycotts reach the chess board at the World Olympiad",
+          "summary": "Pakistan's national team forfeited its match against Israel at the Chess Olympiad in Samarkand citing solidarity with Palestinians, and an Australian women's champion separately refused to play her Israeli opponent. The episodes extend a wider pattern of athletes and federations across sports using boycotts and walkovers to protest the Gaza war, a trend now reaching individual, low-contact sports rather than just team fixtures.",
+          "sources": [
+            {"name": "World Chess / FIDE", "url": "https://worldchess.com/news/pakistan-boycotts-israel-match-as-chess-olympiad-opens-in-controversy"},
+            {"name": "The Canary, Sept 30", "url": "https://www.thecanary.co/sports/2026/09/30/world-chess-olympiad-2026/"}
+          ]
+        },
+        {
+          "id": "gl-soc-2",
+          "title": "Federal judge tosses Riley Gaines' Title IX lawsuit against NCAA over transgender athletes",
+          "summary": "A Georgia federal judge dismissed the suit challenging the NCAA's transgender-athlete participation policy, though Gaines and fellow plaintiffs are expected to appeal to the 11th Circuit. The ruling is a notable setback for one of the most prominent legal campaigns in the broader fight over transgender participation in women's sport, a debate that continues largely independent of the underlying evidence on either side.",
+          "sources": [
+            {"name": "The Hill, Sept 29", "url": "https://thehill.com/regulation/court-battles/6121330-ncaa-transgender-athlete-lawsuit-tossed-riley-gaines-lia-thomas-title-ix"}
+          ]
+        }
+      ]
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "format": "Blog",
+      "title": "The NSF compliance cliff nobody's pricing in",
+      "summary": "Coverage of the ministry's federation overhaul reports the new funding and governance rules as announced policy. Nobody has asked which smaller federations can actually afford a full-time CEO, a High Performance Director and annual audits within three months, and which will quietly shrink grassroots programmes to hit the 20% youth-spend mandate on paper rather than in substance."
+    },
+    {
+      "id": "opp-2",
+      "format": "Op-ed",
+      "title": "Selection criteria as a legal tool for excluding inconvenient athletes",
+      "summary": "The Vinesh Phogat story is being covered as a personality dispute between an athlete and her federation. The more interesting and under-examined angle is how selection criteria can be drafted, in full compliance with procedure, specifically to produce a predetermined roster outcome — a template other Indian federations could just as easily copy."
+    },
+    {
+      "id": "opp-3",
+      "format": "Podcast",
+      "title": "Who actually captures ISL sponsorship value under the new club-led structure",
+      "summary": "The MG title-sponsor story is being told purely as a brand win for Indian football. Nobody has modelled how the ISL's new club-led commercial structure changes who keeps the money — the league body or the individual clubs — and what that means for smaller franchises that can't attract sponsors of their own."
+    },
+    {
+      "id": "opp-4",
+      "format": "Blog",
+      "title": "Chess's Gaza boycotts as a preview of a bigger Olympic movement problem",
+      "summary": "Each boycott or forfeit over Israel's participation — in chess, football, athletics — is being covered as an isolated incident. Nobody has connected the pattern across federations to the much larger reckoning likely coming at the 2026 World Cup and LA 2028, where the same question will arrive at far higher stakes."
+    },
+    {
+      "id": "opp-5",
+      "format": "Op-ed",
+      "title": "India's 2036 bid may be won or lost in residential societies, not SAI academies",
+      "summary": "Olympic-bid coverage focuses entirely on stadiums, cities and IOC diplomacy. The FanToPark data on taekwondo and badminton demand in NCR societies shows urban middle-class appetite for LA28-aligned sports is already outrunning coaching supply — a grassroots signal that bid coverage hasn't touched."
+    },
+    {
+      "id": "opp-6",
+      "format": "Podcast",
+      "title": "Is the NFL's international schedule now cannibalising its own demand",
+      "summary": "The Colts-Commanders ticket collapse is being reported as a one-off story about an unappealing matchup. Nobody has asked the structural question: whether nine international games a season is simply too many for any single market to sustain full-price demand, Jaguars-Eagles excepted."
+    }
+  ]
+}
