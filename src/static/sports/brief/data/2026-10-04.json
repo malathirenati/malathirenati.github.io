@@ -1,0 +1,186 @@
+{
+  "date": "2026-10-04",
+  "weekday": "Sunday",
+  "regions": {
+    "india": {
+      "government": [
+        {
+          "id": "in-gov-1",
+          "title": "Asian Games close in Aichi-Nagoya: India's campaign ends at 85 medals, 4th overall",
+          "summary": "The 2026 Asian Games closed today with a ceremony at Nagoya's Mizuho Park stadium. India finished with 21 gold, 30 silver and 34 bronze medals (85 total) — fourth overall behind China (140+ gold), Japan and South Korea, and 21 medals short of the 2022 Hangzhou tally, though with historic firsts in hockey, kabaddi and archery that the medal count alone understates.",
+          "sources": [
+            {"name": "Yahoo Sports, Oct 4", "url": "https://sports.yahoo.com/articles/asian-games-2026-day-16-144533482.html"},
+            {"name": "myKhel, Oct 4", "url": "https://www.mykhel.com/more-sports/asian-games-2026-where-did-india-finish-medal-tally-gold-medals-and-key-highlights-455407.html"}
+          ]
+        },
+        {
+          "id": "in-gov-2",
+          "title": "A Kurash doping suspension lands right as the 2036 bid is under IOC watch",
+          "summary": "Indian kurash athlete Yash Kumar Chauhan was provisionally suspended after failing a multi-substance dope test at the Asian Games. It is a single case, but it arrives months after the IOC privately flagged India's doping record — alongside Indian Olympic Association governance problems and a weak historical medal haul — as a fundamental concern for the country's 2036 Olympic bid.",
+          "sources": [
+            {"name": "Khelnow, Oct 2026", "url": "https://khelnow.com/asian-games/yash-kumar-chauhan-suspended-doping-asian-games-202610"},
+            {"name": "GamesBids", "url": "https://gamesbids.com/eng/summer-olympic-bids/ioc-cautions-indias-2036-olympic-bid-identifying-these-significant-fundamental-concerns/"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "in-mkt-1",
+          "title": "IPL valuation crosses $20.6 billion as RCB and Rajasthan Royals sales reset the market",
+          "summary": "Hurun's latest ranking puts the IPL's total value up 11.4% on the year, with Royal Challengers Bengaluru now the top-valued franchise at roughly $300 million. Recent ownership sales at RCB and Rajasthan Royals — including fresh American investment — are doing the work of repricing the whole league upward.",
+          "sources": [
+            {"name": "Variety, 2026", "url": "https://variety.com/2026/sports/news/ipl-valuation-rcb-rajasthan-royals-sales-1236822733/"},
+            {"name": "BestMediaInfo", "url": "https://bestmediainfo.com/insights/ipl-valuation-rises-114-to-us206-billion-as-rcb-tops-franchise-rankings-12207703"}
+          ]
+        },
+        {
+          "id": "in-mkt-2",
+          "title": "Sun TV denies an IPL demerger — the stock keeps rallying anyway",
+          "summary": "Sun TV Network told exchanges there is no material price-sensitive information behind demerger chatter around its sports arm. Shares still jumped over 7% on 30 September (having spiked as much as 18-20% on the original rumour), as the market independently prices SunRisers Hyderabad at an estimated ₹13,000-14,000 crore against Sun TV's own roughly ₹24,000 crore market cap.",
+          "sources": [
+            {"name": "Business Today, Sept 30", "url": "https://www.businesstoday.in/sports/ipl/story/sun-tv-denies-ipl-business-demerger-rumour-shares-jump-more-than-7-558829-2026-09-30"}
+          ]
+        },
+        {
+          "id": "in-mkt-3",
+          "title": "Fantasy sports' exit is still draining IPL sponsorship — new money is only partly filling it",
+          "summary": "Real-money fantasy platforms once supplied roughly 40% of IPL broadcast ad revenue and about ₹4,500 crore a year in sports marketing before last year's online gaming ban. Apollo Tyres (₹579 crore) and Google Gemini (₹270 crore) have stepped into the national team jersey and other slots that Dream11 and My11Circle vacated, but EY India still expects an 8-10% drop in annualised ad spend, and smaller properties such as the Pro Kabaddi League have lost rights deals outright.",
+          "sources": [
+            {"name": "ThePrint", "url": "https://theprint.in/brandit/fantasy-sports-ban-is-quietly-draining-ipl-2026s-sponsorship-muscle/2867699/"}
+          ]
+        },
+        {
+          "id": "in-mkt-4",
+          "title": "ISL finds a broadcaster: Sony Sports and YouTube take over from 2026-27",
+          "summary": "Indian football's top league has a new television and streaming home after Sony Sports Network secured the broadcast rights, with YouTube carrying a digital simulcast — ending the uncertainty that had hung over the Indian Super League's media future going into the new season.",
+          "sources": [
+            {"name": "The Bridge", "url": "https://thebridge.in/sports-market/isl-set-for-sony-tv-and-youtube-streaming-from-the-2026-27-season-57912"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "in-soc-1",
+          "title": "Cricket gold beats Pakistan by 19 runs — no handshake, again",
+          "summary": "India retained the Asian Games men's cricket title with a 19-run win over Pakistan at Nisshin. As with recent India-Pakistan meetings, the captains did not shake hands and the medal ceremony was delayed — the rivalry's politics continuing to play out in the small rituals around the match rather than the scorecard.",
+          "sources": [
+            {"name": "Al Jazeera, Oct 3", "url": "https://www.aljazeera.com/sports/2026/10/3/india-beat-arch-rivals-pakistan-to-win-asian-games-t20-cricket-gold"},
+            {"name": "Outlook India", "url": "https://www.outlookindia.com/sports/cricket/india-vs-pakistan-live-score-asian-games-2026-final-match-latest-updates"}
+          ]
+        },
+        {
+          "id": "in-soc-2",
+          "title": "Hockey's double gold: the men retain, the women break a 44-year wait",
+          "summary": "India's men beat Malaysia 5-1 to retain their Asian Games hockey title and book a Los Angeles 2028 Olympic berth. It followed the women's team's own gold two days earlier — a 1-0 win over China, with Lalremsiami's goal and a penalty-stroke save from Savita Punia ending a 44-year gold-medal drought and securing direct LA28 qualification for the women's side too.",
+          "sources": [
+            {"name": "Khelnow, Oct 2026", "url": "https://khelnow.com/hockey/india-malaysia-final-report-asian-games-202610"},
+            {"name": "myKhel, Oct 3", "url": "https://www.mykhel.com/more-sports/sports-bulletin-october-3-india-womens-hockey-clinch-historic-gold-cricket-eye-glory-against-paki-455327.html"}
+          ]
+        },
+        {
+          "id": "in-soc-3",
+          "title": "Kabaddi sweep: both India teams beat Iran for gold",
+          "summary": "India's men came back from an 18-17 half-time deficit to beat Iran 40-34; the women defended their own title with a 37-34 win over the same opponent. Kabaddi remains the one discipline where India treats continental gold as the expected outcome rather than a bonus.",
+          "sources": [
+            {"name": "Open Magazine", "url": "https://openthemagazine.com/sports/asian-games-2026-india-sweep-kabaddi-golds-reach-hockey-semis-two-squash-finals"}
+          ]
+        },
+        {
+          "id": "in-soc-4",
+          "title": "Squash: two finals, two silvers, as Malaysia sweeps singles gold",
+          "summary": "Both Abhay Singh and 17-year-old Anahat Singh reached the Asian Games squash singles finals but lost in straight games, with Malaysia taking both golds. It is still India's best squash showing at a multi-sport Games, and a sign of continued investment in the sport well ahead of any medal payoff.",
+          "sources": [
+            {"name": "Olympics.com", "url": "https://www.olympics.com/en/news/asian-games-2026-squash-singles-finals-report-abhay-anahat-singh"}
+          ]
+        }
+      ]
+    },
+    "global": {
+      "government": [
+        {
+          "id": "gl-gov-1",
+          "title": "FIFA's World Cup ticket practices stay under legal fire months after the final",
+          "summary": "New York, New Jersey, Texas and California have all opened or joined investigations into how FIFA priced and allocated 2026 World Cup tickets, with subpoenas issued over dynamic pricing and seats that did not match what fans paid for. The tournament ended in July; the regulatory fallout has not.",
+          "sources": [
+            {"name": "Football Ground Guide", "url": "https://footballgroundguide.com/news/fifa-faces-continued-investigation-into-world-cup-2026-ticket-practices-following-final.html"},
+            {"name": "ESPN", "url": "https://www.espn.com/soccer/story/_/id/49012713/texas-joins-ny-nj-california-probes-fifa-world-cup-ticket-prices"}
+          ]
+        },
+        {
+          "id": "gl-gov-2",
+          "title": "F1's season-finale venue is still unresolved, with over $100 million riding on it",
+          "summary": "FIA president Stefano Domenicali has pushed the decision on whether Qatar and Abu Dhabi can safely close out the 2026 Formula 1 season to mid-October, past the original deadline. Imola remains on standby as a replacement — which would make it Europe's first season-closing race since 1997 — with combined sanctioning fees for the two Gulf rounds exceeding $100 million.",
+          "sources": [
+            {"name": "Yahoo Sports", "url": "https://sports.yahoo.com/articles/imola-standby-formula-1-awaits-151158412.html"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "gl-mkt-1",
+          "title": "Fever-Aces draws the WNBA's biggest non-Finals playoff audience in 27 years",
+          "summary": "USA Network's broadcast of the Indiana Fever's playoff elimination game against the Las Vegas Aces averaged 2.25 million viewers, peaking at 2.7 million — the league's third-largest playoff audience outside the Finals, behind only a 2024 Fever-Sun game and a 1999 Western Conference final. It held up against NFL Thursday Night Football and a winner-take-all MLB game, underlining how much the Caitlin Clark effect is now worth to broadcasters heading into the next rights cycle.",
+          "sources": [
+            {"name": "Sports Media Watch, Oct 2026", "url": "https://www.sportsmediawatch.com/2026/10/fever-aces-game-3-viewership-usa-network/"}
+          ]
+        },
+        {
+          "id": "gl-mkt-2",
+          "title": "ESPN extends its TGL media rights deal with TMRW Sports",
+          "summary": "ESPN has struck a multi-year extension to keep broadcasting TGL, the Tiger Woods and Rory McIlroy-backed simulcast golf league, confirming the format has enough of an audience base for a US broadcaster to commit well beyond its launch seasons.",
+          "sources": [
+            {"name": "Sports Video Group, Oct 2", "url": "https://sportsvideo.org/2026/10/02/espn-and-tmrw-sports-extend-multi-year-u-s-media-rights-deal-for-tgl"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "gl-soc-1",
+          "title": "Tony Adams turns two decades of addiction support into an academic research hub",
+          "summary": "Former Arsenal captain Tony Adams's Sporting Chance charity has partnered with Loughborough University and The Players' Foundation to launch a national research centre on athlete wellbeing, addiction and the psychology of professional sport. It is a sign that athlete mental health work is moving from charity-run crisis support toward formal, evidence-generating institutions.",
+          "sources": [
+            {"name": "News Today World, Oct 1", "url": "https://newstodayworld.org/breaking-news/2026/10/01/tony-adams-backs-new-athlete-mental-health-research-hub/"}
+          ]
+        }
+      ]
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "format": "Blog",
+      "title": "What an 85-medal Games does and doesn't do for the 2036 bid",
+      "summary": "Coverage treats the final medal tally and the IOC's governance/doping caution as separate stories. Nobody has actually connected this specific medal count, and this specific doping case, to how IOC host-evaluation scoring would move, if at all."
+    },
+    {
+      "id": "opp-2",
+      "format": "Op-ed",
+      "title": "The fantasy-sports ad money didn't vanish, it just changed owners",
+      "summary": "Most coverage frames the Apollo Tyres and Google Gemini deals as replacements for a loss. The sharper story is who actually captured the roughly ₹4,500 crore that used to go to fantasy platforms, and why it landed with a tyre maker and a search company rather than staying in sport-adjacent business."
+    },
+    {
+      "id": "opp-3",
+      "format": "Podcast",
+      "title": "If SunRisers is worth ₹13-14k crore, what does that say about the other nine IPL parents?",
+      "summary": "The Sun TV story is being told as a stock-market curiosity. The real question nobody's run the numbers on: using the same market logic to value every other broadcaster's or conglomerate's hidden IPL stake, several of India's biggest media companies look mispriced too."
+    },
+    {
+      "id": "opp-4",
+      "format": "Blog",
+      "title": "Why hockey converts Asian Games gold into Olympic qualification and most sports don't",
+      "summary": "Both Indian hockey golds came with automatic LA28 qualification attached. Most Asian Games coverage treats every gold as equivalent; almost none of it explains which sports' continental results actually feed Olympic qualification pathways, and why India's medal strategy should weight those disproportionately."
+    },
+    {
+      "id": "opp-5",
+      "format": "Op-ed",
+      "title": "What a 2.25 million playoff audience is actually worth to the WNBA's next TV deal",
+      "summary": "The Fever-Aces viewership is being reported as a record for its own sake. Nobody's priced what sustained audiences of this size, against competing NFL and MLB programming, should do to the per-game rights fee the league can credibly ask for next cycle."
+    },
+    {
+      "id": "opp-6",
+      "format": "Podcast",
+      "title": "Sport's mental-health research hubs are multiplying — do any of them talk to each other?",
+      "summary": "Sporting Chance's new academic hub is one of several athlete mental-health research efforts launched globally this year. The angle nobody's taken: whether these parallel, charity-branded initiatives are converging on shared evidence or just duplicating each other under different names."
+    }
+  ]
+}
