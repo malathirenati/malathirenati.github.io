@@ -1,0 +1,173 @@
+{
+  "date": "2026-10-01",
+  "weekday": "Thursday",
+  "regions": {
+    "india": {
+      "government": [
+        {
+          "id": "in-gov-1",
+          "title": "Sports Secretary skips Asian Games to run BRICS Games prep from home",
+          "summary": "Hari Ranjan Rao has cancelled his trip to Japan to stay back and coordinate the BRICS Traditional and Indigenous Sports Demonstration Games, which India hosts in Ahmedabad on October 12-13 with 21 nations arriving from October 10. Officials call it a logistical call rather than a snub to the Asiad contingent, but the decision signals where the sports ministry is putting its diplomatic weight this month.",
+          "sources": [
+            {"name": "The Bridge, Sept 30", "url": "https://thebridge.in/news/sports-secretary-skips-asian-games-oversee-brics-games-57889"},
+            {"name": "RevSportz, Sept 30", "url": "https://revsportz.in/sports-ministry-officials-skips-asian-games-to-oversee-ahmedabad-brics-games-preparations/"}
+          ]
+        },
+        {
+          "id": "in-gov-2",
+          "title": "Supreme Court agrees to list the real-money gaming ban's constitutional challenge",
+          "summary": "Chief Justice B.R. Gavai has agreed to list consolidated petitions against the Promotion and Regulation of Online Gaming Act, 2025 - the law that criminalised real-money gaming. The cases, transferred from the Karnataka, Madhya Pradesh and Delhi High Courts at the Centre's request, were brought by Head Digital Works (A23) and Bagheera Carrom among others, who argue the Act fails to distinguish skill-based games from pure chance. No hearing date has been confirmed yet.",
+          "sources": [
+            {"name": "LawBeat", "url": "https://lawbeat.in/top-stories/challenge-to-online-gaming-act-supreme-court-agrees-to-list-batch-of-petitions-1531953"},
+            {"name": "Yogonet, Aug 11", "url": "https://www.yogonet.com/international/news/2026/08/11/125813-indias-supreme-court-to-hear-constitutional-challenge-to-nationwide-realmoney-gaming-ban"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "in-mkt-1",
+          "title": "Sun TV jumps 7.7% on an IPL demerger rumour it won't confirm",
+          "summary": "Shares surged as much as 18% intraday and closed up 7.73% on September 30 after reports that Sun TV could spin off its sports arm - SunRisers Hyderabad, plus its SA20 and The Hundred teams. The company's exchange filing to the BSE and NSE called it \"a rumour\" it could not comment on. Brokerages value the SRH franchise alone at roughly Rs 13,000-14,000 crore; IPL-linked revenue made up 33% of Sun TV's latest quarterly turnover.",
+          "sources": [
+            {"name": "Business Today, Sept 30", "url": "https://businesstoday.in/sports/ipl/story/sun-tv-denies-ipl-business-demerger-rumour-shares-jump-more-than-7-558829-2026-09-30"}
+          ]
+        },
+        {
+          "id": "in-mkt-2",
+          "title": "IPL's combined franchise value now estimated at $20.6 billion",
+          "summary": "A fresh valuation puts the league's total worth at $20.6 billion following the RCB and Rajasthan Royals stake sales earlier this year - further evidence that private equity and strategic buyers see IPL ownership as a scarce, appreciating asset even as the league's biggest sponsorship category, real-money gaming, has been regulated out of existence.",
+          "sources": [
+            {"name": "Variety", "url": "https://variety.com/2026/sports/news/ipl-valuation-rcb-rajasthan-royals-sales-1236822733/"}
+          ]
+        },
+        {
+          "id": "in-mkt-3",
+          "title": "Five months into the gaming ban, Dream11 and MPL are still cutting back",
+          "summary": "Dream11 has paused paid contests entirely and Mobile Premier League has cut 60% of its India staff, the clearest sign yet that the real-money gaming industry has not found stable footing since the ban took effect. Dream11's own $43.6 million, three-year BCCI sponsorship collapsed in the process, forcing the board to scramble for a replacement sponsor before last month's Asia Cup.",
+          "sources": [
+            {"name": "LatestLY", "url": "https://latestly.com/gaming/dream11-pauses-paid-contests-mpl-cuts-60-of-india-staff-five-months-under-the-new-online-gaming-rules-7627279.html"},
+            {"name": "Flashscore", "url": "https://www.flashscore.com/news/cricket-test-series-indian-cricket-to-lose-millions-of-dollars-as-online-gambling-ban-bites/rNSLyrKr"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "in-soc-1",
+          "title": "India-Pakistan hockey rivalry headlines a packed Asiad Day 12",
+          "summary": "The men's hockey semi-final against Pakistan (1pm IST, Gifu) is the emotional centre of a busy day that also includes a cricket semi-final against Sri Lanka and medal bouts in wrestling, judo, squash and tennis. Early results were mixed for India - a 3-0 loss to Pakistan in the volleyball quarter-final, while wrestler Aman Sehrawat fought back from 1-6 down to win his freestyle bout 8-6.",
+          "sources": [
+            {"name": "ANI, Sept 30", "url": "https://www.aninews.in/news/sports/others/asian-games-2026-india-pakistan-hockey-clash-headlines-action-packed-day-12-16020260930211929/"},
+            {"name": "India.com, Oct 1", "url": "https://www.india.com/sports/others/asian-games-2026-live-updates-1-october-india-schedule-medal-winners-cricket-shooting-boxing-wrestling-results-scores-of-tennis-squash-india-vs-pakistan-hockey-matches-8531768/"}
+          ]
+        },
+        {
+          "id": "in-soc-2",
+          "title": "Archers deliver India's first 2028 Olympic quota, matching a world record",
+          "summary": "Jyothi Surekha Vennam, Prithika Pradeep and Chikitha Taniparthi swept the women's compound team gold on Day 11, matching the compound world-record score of 238 and making India the first nation to secure a mixed-team quota for LA 2028. It is a rare marquee moment on a campaign otherwise short of individual star turns since Neeraj Chopra's season-ending ankle injury ruled him out of defending his javelin title.",
+          "sources": [
+            {"name": "Deccan Herald, Sept 30", "url": "https://www.deccanherald.com/sports/asian-games-2026-indian-archers-deliver-unforgettable-triple-gold-performance-4166133"},
+            {"name": "Olympics.com", "url": "https://www.olympics.com/en/news/asian-games-2026-archery-compound-india-gold-la-2028-olympics-quota"}
+          ]
+        },
+        {
+          "id": "in-soc-3",
+          "title": "Brazil to play India in Kolkata - a first-ever meeting, on October 3",
+          "summary": "Five-time world champions Brazil will face India in a historic friendly at Salt Lake Stadium, the two countries' first-ever senior men's fixture. Tickets have moved quickly in a city with one of Indian football's deepest fan cultures, and the match is being read locally as a measure of how far the national team's commercial and fan appeal has come, regardless of the scoreline.",
+          "sources": [
+            {"name": "AIFF", "url": "https://www.the-aiff.com/article/india-to-host-five-time-world-champions-brazil-in-historic-kolkata-friendly"},
+            {"name": "Newsdrum", "url": "https://www.newsdrum.in/sports/india-vs-brazil-friendly-on-october-3-venue-tickets-timing-expected-players-12215394"}
+          ]
+        }
+      ]
+    },
+    "global": {
+      "government": [
+        {
+          "id": "gl-gov-1",
+          "title": "Brazil's president bans online betting and casino games days before an election",
+          "summary": "An executive order from President Lula's government prohibits online casino games and tightens sports betting, citing gambling addiction and household debt. The timing - days ahead of elections - has drawn as much political commentary as sporting, with football's establishment warning the move was announced with almost no transition runway for clubs reliant on betting sponsorship.",
+          "sources": [
+            {"name": "Vanguard, Sept 2026", "url": "https://www.vanguardngr.com/2026/09/brazils-president-bans-sports-betting-days-ahead-of-election/"},
+            {"name": "Finance Football, Sept 26", "url": "https://financefootball.com/en/2026/09/26/brazil-bans-online-gambling-and-betting-wiping-r1-billion-from-serie-a/"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "gl-mkt-1",
+          "title": "Nine Brazilian clubs warn the betting ban could push them into insolvency",
+          "summary": "Flamengo, Palmeiras, Corinthians, Sao Paulo, Santos, Gremio, Cruzeiro, Vasco da Gama and America Mineiro issued coordinated statements after the government's September 17 ban announcement. Only 12 of 20 Serie A clubs still carry a betting firm as primary shirt sponsor, a third fewer than last season, and smaller interior clubs say \"no other economic sector could immediately replace this investment.\"",
+          "sources": [
+            {"name": "Insider Sport, Sept 18", "url": "https://insidersport.com/2026/09/18/brazil-clubs-defend-betting-market/"}
+          ]
+        },
+        {
+          "id": "gl-mkt-2",
+          "title": "Saudi PIF's sport spending pullback is now formal policy, not just rumour",
+          "summary": "PIF's 2026-2030 strategy, approved in April, dropped sport entirely from its six priority sectors. LIV Golf's funding ends after this season, having burned through $5.3 billion since launch; Saudi Pro League clubs Al-Hilal, Al-Nassr, Al-Ittihad and Al-Ahli face combined budget cuts of $200-400 million. Only assets tied to hosting rights or physical infrastructure - Newcastle United, 2034 World Cup venues - were spared. Against that backdrop, Manchester United's record GBP 20 million Betway training-kit deal looks like a rare market still willing to pay up for sponsorship inventory.",
+          "sources": [
+            {"name": "Vision2030.ai", "url": "https://vision2030.ai/analysis/saudi-sport-spending-retrenchment-2026/"},
+            {"name": "France24, Aug 4", "url": "https://www.france24.com/en/live-news/20260804-man-utd-sign-reported-record-%C2%A320mn-sponsorship-deal-for-training-kit"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "gl-soc-1",
+          "title": "NBA's biggest-ever roster reshuffle sets up the new season",
+          "summary": "Media Day on September 29 confirmed the scale of the league's summer movement: LeBron James in Philadelphia 76ers colours, Giannis Antetokounmpo at Miami, Kawhi Leonard back in Toronto, Paul George to Boston and Ja Morant in Portland. Training camps opened the same day, preseason starts October 3, and the regular season tips off October 20 on an NBC/Peacock tripleheader.",
+          "sources": [
+            {"name": "NBA.com, Sept 29", "url": "https://www.nba.com/news/starting-5-september-29-2026"}
+          ]
+        },
+        {
+          "id": "gl-soc-2",
+          "title": "The \"trans athletes are dominating women's sport\" claim gets a data check",
+          "summary": "A September 30 analysis pushes back on viral claims - including a widely cited figure of roughly 2,300 titles \"taken\" by transgender athletes - arguing the underlying database is anonymous, uncorroborated and methodologically thin. The underlying policy fights, in US state legislatures and sports federations alike, continue regardless of how shaky the headline statistics turn out to be.",
+          "sources": [
+            {"name": "Rewire News Group, Sept 30", "url": "https://rewirenewsgroup.com/2026/09/30/transgender-athletes-in-sport"},
+            {"name": "IBTimes UK", "url": "https://ibtimes.co.uk/claim-trans-athletes-2293-womens-titles-anonymous-database-1822906"}
+          ]
+        }
+      ]
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "format": "Blog",
+      "title": "The gaming-ban sponsorship hole nobody's mapping below the BCCI",
+      "summary": "Every story about Dream11's collapse tracks the national team's lost sponsorship. Nobody has looked at state cricket associations, Pro Kabaddi, kho-kho and other leagues that leaned on real-money gaming money and have found no replacement at all - a much larger, quieter funding gap."
+    },
+    {
+      "id": "opp-2",
+      "format": "Podcast",
+      "title": "Skill vs chance: the court case regulators abroad are quietly watching",
+      "summary": "Coverage of the Supreme Court's consolidated gaming-act challenge stays procedural - who filed what, where. The substantive constitutional question, and what a skill/chance ruling would mean for fantasy-sports regulation in other markets eyeing similar bans, hasn't been argued out anywhere."
+    },
+    {
+      "id": "opp-3",
+      "format": "Op-ed",
+      "title": "Ahmedabad is hosting 21 countries for a tournament nobody can name",
+      "summary": "The BRICS Traditional and Indigenous Sports Games get press-release coverage and nothing more. A skeptical look at what's actually being played, who's attending, and whether this is substantive sports diplomacy or soft-power theatre is missing."
+    },
+    {
+      "id": "opp-4",
+      "format": "Blog",
+      "title": "What would a listed IPL franchise actually have to disclose?",
+      "summary": "The Sun TV demerger story is being covered purely as a stock-price event. Nobody has gamed out the accounting and governance questions an independently listed IPL franchise would face - player-trading valuation, related-party league rules, disclosure standards."
+    },
+    {
+      "id": "opp-5",
+      "format": "Podcast",
+      "title": "After the spending spree: who's left holding Saudi sport's bag",
+      "summary": "PIF's retrenchment is covered property by property - LIV here, Saudi Pro League there. Nobody has traced it across the full portfolio of smaller leagues, events and sponsorships that took PIF money during the boom years and now sit outside its 2026-2030 priorities."
+    },
+    {
+      "id": "opp-6",
+      "format": "Op-ed",
+      "title": "Hockey is the last India-Pakistan sporting contact left standing",
+      "summary": "Cricket's bilateral freeze between the two countries gets constant attention. The fact that hockey, via multilateral tournaments like today's Asiad semi-final, has quietly become the only regular venue where the teams still meet is a genuinely under-examined asymmetry."
+    }
+  ]
+}
