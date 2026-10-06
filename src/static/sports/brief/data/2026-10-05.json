@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-05",
+  "weekday": "Monday",
+  "regions": {
+    "india": {
+      "government": [
+        {
+          "id": "in-gov-1",
+          "title": "India's Asian Games report card: 85 medals, but only 28.6% gold retention",
+          "summary": "Closing-ceremony glow aside, the numbers invite scrutiny: 21 gold against 28 at Hangzhou 2022, on a total that fell from 107 to 85. Shooting's gold count dropped from seven to three, athletics from six to one, and badminton and tennis return with no individual medals at all - the first time in a decade or four respectively. Boxing, wrestling and hockey moved the other way, but the aggregate slide is the number any 2036-bid review will have to reckon with.",
+          "sources": [
+            {"name": "ETV Bharat, Oct 4", "url": "https://www.etvbharat.com/en/sports/india-asian-game-2026-medal-count-sports-wise-comparison-with-hangzhou-games-enn26100403145"},
+            {"name": "myKhel", "url": "https://www.mykhel.com/more-sports/asian-games-2026-india-report-card-three-sports-that-shone-and-three-that-disappointed-455475.html"}
+          ]
+        },
+        {
+          "id": "in-gov-2",
+          "title": "WFI bars Vinesh Phogat from domestic wrestling, issues show-cause notice",
+          "summary": "The Wrestling Federation of India has suspended Phogat over an alleged rules breach during the 2023 Olympic trials, conducted while WFI itself was under an IOA-appointed panel. President Sanjay Singh says reinstatement is possible if her written explanation is satisfactory. There's no WADA or UWW ban attached; this is a federation dispute, but one that could decide whether she competes again domestically at all.",
+          "sources": [
+            {"name": "Outlook India", "url": "https://www.outlookindia.com/sports/others/vinesh-phogat-future-wrestling-federation-of-india-controversy-legal-options-asian-games-2026-dream"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "in-mkt-1",
+          "title": "ISL gets a title sponsor again: JSW MG Motor India signs on",
+          "summary": "The league will run as the MG Indian Super League for 2026-27, its first title sponsorship in three seasons, landing days before the October 10 kickoff and alongside a freshly inked Sony Sports/YouTube broadcast deal. Two commercial gaps that had hung over Indian football for years closed in the same fortnight.",
+          "sources": [
+            {"name": "ThePrint", "url": "https://theprint.in/sport/isl-2026-27-to-be-known-as-mg-indian-super-league/3059386/"},
+            {"name": "ESPN", "url": "https://www.espn.com/football/story/_/id/49832841/isl-202627-season-begin-october-10"}
+          ]
+        },
+        {
+          "id": "in-mkt-2",
+          "title": "BCCI's 2026-27 domestic season hits a record 1,788 matches",
+          "summary": "Ranji Trophy opens October 11 as part of BCCI's biggest-ever domestic calendar across men's and women's cricket. It's a scale decision taken by the same board that's still absorbing the loss of roughly Rs 1,000 crore in fantasy-sports sponsorship - most of this expanded fixture list will run on grounds with little sponsorship or broadcast revenue of their own.",
+          "sources": [
+            {"name": "NewsX", "url": "https://www.newsx.com/sports/bcci-domestic-schedule-2026-27-new-season-to-see-1788-matches-ranji-trophy-to-start-from-oct-11-check-dates-of-smat-vijay-hazare-trophy-223156/"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "in-soc-1",
+          "title": "Parveen Hooda's boxing gold followed a doping ban and her father's chemotherapy",
+          "summary": "Hooda served a 22-month WADA suspension for whereabouts failures through 2024-25 while her father fought stage-3 throat cancer. Back in competition since May 2025, she won the BFI Cup and a World Boxing Cup title, then beat a 2025 World Championships silver medallist 3-2 for women's 65kg gold at Aichi-Nagoya - a comeback the medal table records as a single line.",
+          "sources": [
+            {"name": "Dainik Jagran", "url": "https://www.thedailyjagran.com/sports/from-doping-ban-to-fathers-cancer-parveen-hoodas-asian-games-gold-came-after-battles-outside-the-ring-10331349"}
+          ]
+        },
+        {
+          "id": "in-soc-2",
+          "title": "Gill's 223* puts India's ODI succession on public display",
+          "summary": "Shubman Gill's unbeaten double-century anchored a record run chase against West Indies on September 30, opening alongside Rohit Sharma, the man he replaced as full-time ODI captain. Rohit's since said his job now is to support him, a handover that's playing out one partnership at a time rather than through any formal announcement.",
+          "sources": [
+            {"name": "Sportskeeda", "url": "https://www.sportskeeda.com/cricket/news-rohit-bhai-just-unleashed-shubman-gill-reflects-historic-opening-partnership-rohit-sharma-ind-vs-wi-2026-2nd-odi"},
+            {"name": "Telangana Today", "url": "https://telanganatoday.com/rohit-sharma-backs-shubman-gill-keeps-2027-world-cup-in-sight"}
+          ]
+        },
+        {
+          "id": "in-soc-3",
+          "title": "Gukesh heads into his first title defence as the out-of-form favourite's underdog",
+          "summary": "D Gukesh will defend his world chess title against Uzbekistan's Javokhir Sindarov in Geneva, with $2.5 million in prize money at stake. His 2026 form has collapsed around the build-up - a last-place finish at the Prague Masters and a slide to world No. 20 - an odd backdrop for a 19-year-old going into his first defence as champion rather than challenger.",
+          "sources": [
+            {"name": "World Chess / FIDE", "url": "https://worldchess.com/news/gukesh-vs-sindarov-everything-you-need-to-know-about-the-2026-world-chess-championship"},
+            {"name": "IndiaSportsHub", "url": "https://www.indiasportshub.com/articles/gukesh-struggles-continue-as-indian-world-champion-slips-to-world-no-20-at-prague-masters"}
+          ]
+        }
+      ]
+    },
+    "global": {
+      "government": [
+        {
+          "id": "gl-gov-1",
+          "title": "Brazil's betting-brand ban on football shirts takes effect today",
+          "summary": "Under Provisional Measure 1,394/2026, betting companies had until October 5 to strip their logos off Serie A shirts, with their operating licences lapsing entirely on October 25. The trigger was over 1,000 complaints against gambling firms since the regulated market opened in January 2025. Shirt sponsorships alone were worth roughly BRL 1.03 billion ($197 million) in 2025 - money clubs like Sao Paulo (73% of 2025 marketing revenue from betting) now have to replace fast.",
+          "sources": [
+            {"name": "Gambling News", "url": "https://gamblingnews.com/news/october-5-deadline-betting-brands-to-vanish-from-brazilian-football-shirts"}
+          ]
+        },
+        {
+          "id": "gl-gov-2",
+          "title": "OCA weighs pushing the 2030 Doha Asian Games back a year",
+          "summary": "With China and Japan increasingly sending junior squads and host cities growing scarce, the Olympic Council of Asia is reviewing a shift to odd-numbered years so the Games fall the year before the Olympics and double as a qualifier, following the Pan American, European and African Games' lead and a push from new IOC president Kirsty Coventry. It's a tacit admission that the Asian Games, as currently timed, is losing relevance.",
+          "sources": [
+            {"name": "Seoul Economic Daily, Oct 2", "url": "https://en.sedaily.com/sports/2026/10/02/doha-asian-games-may-be-pushed-to-2031-to-revive-appeal"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "gl-mkt-1",
+          "title": "Golden State Valkyries become women's sport's first $1 billion franchise",
+          "summary": "The WNBA expansion side turned a $50 million entry fee into a billion-dollar valuation inside two years, after a strategy of making sponsors wait rather than discounting early inventory. It's the clearest data point yet that WNBA expansion economics have fundamentally reset since the league's last wave of new teams.",
+          "sources": [
+            {"name": "Yahoo Sports", "url": "https://sports.yahoo.com/articles/2026-wnba-franchise-valuations-golden-144149230.html"},
+            {"name": "Inc.", "url": "https://www.inc.com/masters-of-scale/wnba-valkyries-1-billion-franchise/91411919"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "gl-soc-1",
+          "title": "Six Dutch federations still require waivers from trans and non-binary athletes",
+          "summary": "An investigation of all 77 Dutch sports federations found football, golf, handball, speed skating, cycling and rugby bodies requiring medical assessments or waivers that conflict with national Olympic committee guidance, while 42 federations have no public policy on the question at all. The country's anti-discrimination coordinator has called it cause for concern and plans to raise it with the sports minister.",
+          "sources": [
+            {"name": "NL Times, Oct 2", "url": "https://nltimes.nl/2026/10/02/least-6-dutch-sports-federations-discriminate-trans-non-binary-athletes"}
+          ]
+        }
+      ]
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "format": "Op-ed",
+      "title": "Brazil and India just ran the same experiment on betting money in sport",
+      "summary": "Both markets banned betting sponsorship within roughly a year of each other - India's fantasy-gaming ban in 2025, Brazil's shirt-ad ban now. Nobody has compared what actually filled the gap in each market, or whether either found genuine replacement revenue versus just absorbing the loss."
+    },
+    {
+      "id": "opp-2",
+      "format": "Blog",
+      "title": "What 1,788 matches actually costs the state associations nobody profiles",
+      "summary": "Coverage of BCCI's record domestic calendar is all schedule, no economics. The real story is whether smaller state associations hosting most of these fixtures can cover costs on venues with no sponsorship or broadcast revenue of their own - a question the record-breaking framing skips entirely."
+    },
+    {
+      "id": "opp-3",
+      "format": "Podcast",
+      "title": "If the Asian Games moves to odd years, what happens to the Commonwealth Games?",
+      "summary": "The OCA's Doha rethink is being covered as an isolated scheduling fix. Nobody's connected it to the Commonwealth Games' own existential funding crisis - if continental Games reposition as Olympic qualifiers, the Commonwealth Games has even less reason to exist, and no one in that movement seems to be saying so publicly yet."
+    },
+    {
+      "id": "opp-4",
+      "format": "Blog",
+      "title": "A federation dispute just became a test case for India's new sports tribunal",
+      "summary": "The Vinesh Phogat-WFI suspension is being reported purely as personality conflict. It's actually the first real workout for the disciplinary machinery set up under the National Sports Governance Act, 2025, and nobody's asked whether that tribunal structure can handle a case this politically charged."
+    },
+    {
+      "id": "opp-5",
+      "format": "Op-ed",
+      "title": "The Valkyries didn't discount their way to $1 billion - why does everyone else still do that?",
+      "summary": "The valuation number is getting covered as a trophy stat. The actual strategic decision, holding sponsorship pricing firm instead of discounting to fill inventory in year one, is the transferable lesson for every new franchise launch, and it's buried under the headline figure."
+    },
+    {
+      "id": "opp-6",
+      "format": "Podcast",
+      "title": "Comeback stories hide a question about whether India's anti-doping system rehabilitates anyone",
+      "summary": "Parveen Hooda's gold is being told purely as human triumph. Missing from that coverage: WADA has separately called doping a big problem in India this year, and nobody has asked whether a case like Hooda's happened because of support systems around banned athletes, or in spite of their absence."
+    }
+  ]
+}

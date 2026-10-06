@@ -1,0 +1,158 @@
+{
+  "date": "2026-10-06",
+  "weekday": "Tuesday",
+  "regions": {
+    "india": {
+      "government": [
+        {
+          "id": "in-gov-1",
+          "title": "Kurash athlete provisionally suspended at Asian Games over three banned substances",
+          "summary": "Yash Kumar Chauhan's September 27 in-competition sample came back positive for an anabolic steroid (metandienone), GW1516 and the stimulant mephentermine, found after he had already been knocked out in the pre-quarterfinals. The Olympic Council of Asia suspended him with immediate effect; he can still contest it before CAS's Anti-Doping Division or request his B-sample be tested. A quiet case, but it lands just as India's own anti-doping and sports-governance machinery is under fresh scrutiny.",
+          "sources": [
+            {"name": "Sunday Guardian, Oct 3", "url": "https://sundayguardianlive.com/sports/asian-games-2026-controversy-indian-athlete-yash-kumar-chauhan-provisionally-suspended-over-multiple-prohibited-substances-what-happens-next-297856/amp/"}
+          ]
+        },
+        {
+          "id": "in-gov-2",
+          "title": "Supreme Court keeps pressing on why BCCI sits outside the sports governance law",
+          "summary": "Chief Justice Surya Kant's bench questioned BCCI's exemption from the National Sports Governance Act on September 8 and told its lawyers to return with clear instructions on regulating office-bearers; no order has been issued yet. A month on it is still unresolved, while the National Sports Board the Act created hasn't been formed either: applications for chairperson and members were due in July, the deadline was extended once already, and the body a committee led by cabinet secretary T V Somanathan is vetting candidates for still isn't seated.",
+          "sources": [
+            {"name": "TechnoSports, Sept 8", "url": "https://technosports.co.in/supreme-court-questions-bcci-exclusion/"},
+            {"name": "ThePrint, Jul 23", "url": "https://theprint.in/sport/more-delay-in-nsb-formation-sports-ministry-extends-deadline-for-applications/2994187/"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "in-mkt-1",
+          "title": "GST relief lands for online gaming, but the Dream11-sized question is still pending",
+          "summary": "In the first final orders under the legacy GST dispute, Delta Corp's demand was cut from roughly Rs 16,000 crore to Rs 117 crore and Pacific Gaming's from Rs 721 crore to Rs 100.8 crore, with no personal penalties imposed on directors. Dream11 and Gameskraft's own orders, the ones that actually matter for an industry still absorbing last year's real-money gaming ban, are expected by October 14.",
+          "sources": [
+            {"name": "Business Today, Oct 3", "url": "https://businesstoday.in/latest/corporate/story/big-relief-for-online-gaming-sanjit-bangar-flags-sharp-gst-demand-cuts-no-director-penalties-559322-2026-10-03"}
+          ]
+        },
+        {
+          "id": "in-mkt-2",
+          "title": "IPL auction comes home to Goa; Impact Player's fate kicked down the road again",
+          "summary": "BCCI secretary Devajit Saikia confirmed the 2027 mini-auction moves to Goa in December, ending three straight years of staging it overseas after franchises complained about cost and logistics. The governing council stopped short of deciding the Impact Player rule's future at the same meeting; franchises built squads around it and want the call deferred to the next mega-auction, so it returns to the agenda in roughly a month.",
+          "sources": [
+            {"name": "Yahoo Sports, Sept 23", "url": "https://sports.yahoo.com/articles/ipl-2027-bcci-decides-stage-071730824.html"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "in-soc-1",
+          "title": "India's women won more than half its Asian Games gold, from a smaller squad",
+          "summary": "Women took 11 of India's 21 golds at Aichi-Nagoya versus 9 of 28 in 2022, their share of the gold tally rising from 32% to 52%, even as the women's contingent shrank by 95 athletes and the overall medal count fell 18%. Archery and boxing both swapped lower-grade medals for golds on an unchanged medal count. It reads as a deliberate bet: fewer athletes, but only the ones ranked to actually win.",
+          "sources": [
+            {"name": "Business Standard, Oct 5", "url": "https://www.business-standard.com/amp/sports/asian-games/asiad-2026-number-of-women-s-sports-gold-rises-despite-18-drop-in-medals-126100500485_1.html"}
+          ]
+        },
+        {
+          "id": "in-soc-2",
+          "title": "121 Indian para-athletes head to Nagoya looking to beat a 111-medal record",
+          "summary": "The Asian Para Games run October 18-24 in the same Aichi-Nagoya venues, with India sending 80 men and 41 women across six sports, athletics and badminton making up the bulk of the squad. The target is to beat the 111 medals India won at Hangzhou 2022, a haul that has had almost none of the pre-event attention the able-bodied Asian Games just got.",
+          "sources": [
+            {"name": "Sunday Guardian", "url": "https://sundayguardianlive.com/sports/whats-next-for-india-after-asian-games-2026-para-games-dates-indian-squad-sports-and-key-details-298441/"}
+          ]
+        }
+      ]
+    },
+    "global": {
+      "government": [
+        {
+          "id": "gl-gov-1",
+          "title": "Kenya folds its anti-narcotics police into the anti-doping fight, with WADA's chief in the room",
+          "summary": "President Ruto told WADA president Witold Banka in Nairobi that Kenya is rewriting its anti-doping law to match the WADA Code, with the new rules live from January 2027, and that the Directorate of Criminal Investigations' Anti-Narcotics Unit will now work doping cases directly. It is the clearest sign yet that Kenya, under sustained pressure over its doping numbers in distance running, is treating this as a law-enforcement problem, not just a sports one.",
+          "sources": [
+            {"name": "The Star Kenya, Oct 5", "url": "https://www.the-star.co.ke/news/2026-10-05-ruto-moves-to-tighten-kenyas-anti-doping-fight"}
+          ]
+        },
+        {
+          "id": "gl-gov-2",
+          "title": "Doha 2030 organisers now openly planning for a one-year postponement",
+          "summary": "The Asian Games host city's own chief executive says the local organising committee is readying for either its scheduled November 2030 dates or a shift to 2031, which would let the Asian Games double as a Brisbane 2032 qualifying event, following the pattern the Pan American and European Games have already set. The final call sits with the OCA and IOC, not Doha, but the fact hosts are now planning around it rather than against it signals where this is heading.",
+          "sources": [
+            {"name": "KhelNow, Oct 2", "url": "https://khelnow.com/asian-games/doha-asian-games-2030-likely-postponed-202610"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "gl-mkt-1",
+          "title": "NY Islanders sell a 15% stake at a $3 billion valuation",
+          "summary": "The minority sale values a franchise that has missed the playoffs more often than made them in recent years, part of a wider re-rating in Sportico's 2026 NHL numbers, where the average team's value is up 160% over five years and the Maple Leafs top the league. Selling a slice rather than the whole team is becoming the preferred way North American owners cash in without giving up control.",
+          "sources": [
+            {"name": "Sportico, Sept 29", "url": "https://www.sportico.com/business/team-sales/2026/new-york-islanders-nhl-stake-billion-1234945887/"}
+          ]
+        },
+        {
+          "id": "gl-mkt-2",
+          "title": "Ballon d'Or leaves Paris for the first time, landing in London on October 26",
+          "summary": "The London Palladium hosts this year's ceremony, with roughly 100 journalists voting across a 30-man shortlist led by Mbappe, Lamine Yamal, Messi, Harry Kane, Vinicius Jr and defending winner Ousmane Dembele. Moving the ceremony itself is as much a commercial signal as a football one, with France Football testing whether the award travels as a standalone media property outside its home market.",
+          "sources": [
+            {"name": "Yahoo Sports", "url": "https://sports.yahoo.com/articles/2026-ballon-dor-ceremony-date-184303091.html"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "gl-soc-1",
+          "title": "Messi plays his last match for Argentina tonight, against Benin of all teams",
+          "summary": "Buenos Aires's Monumental expects 85,000 for a friendly against the world's 93rd-ranked side, the send-off after 207 caps, 125 goals and a 21-year run that included the 2022 World Cup, two Copa Americas and this July's World Cup final loss to Spain. 'I gave it my all. I have nothing left to give, and there are great young players coming up who deserve their chance,' Messi said. Cristian Romero inherits the captain's armband.",
+          "sources": [
+            {"name": "Al Jazeera, Oct 5", "url": "https://www.aljazeera.com/sports/2026/10/5/lionel-messi-argentina-farewell-final-match-benin"}
+          ]
+        },
+        {
+          "id": "gl-soc-2",
+          "title": "Rugby league gets its World Cup squads, and its moment out of cricket and football's shadow",
+          "summary": "England and Australia (the men's Kangaroos and women's Jillaroos) have both named their 2026 Rugby League World Cup squads this week, with Leeds' Jake Connor among the notable omissions from England's 23. It is a reminder that global sport running through October is not just Messi and the Ballon d'Or; codes with far smaller media footprints are hitting their own biggest moments at the same time.",
+          "sources": [
+            {"name": "NRL.com, Oct 5", "url": "https://www.nrl.com/news/2026/10/05/kangaroos-squad-for-2026-rugby-league-world-cup/"},
+            {"name": "Sky Sports", "url": "https://www.skysports.com/rugby-league/news/13595250/rugby-league-world-cup-2026-england-coach-brian-mcdermott-names-23-player-squad-as-leeds-star-jake-connor-misses-out"}
+          ]
+        }
+      ]
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "format": "Blog",
+      "title": "The GST order that actually decides fantasy sports' future lands October 14",
+      "summary": "Coverage has stopped at 'Delta Corp and Pacific Gaming got relief.' Nobody has modelled what the still-pending Dream11 and Gameskraft orders need to say to make the post-ban real-money gaming industry's unit economics work at all, and that number is ten days away."
+    },
+    {
+      "id": "opp-2",
+      "format": "Blog",
+      "title": "A sports governance law with no board yet to enforce it",
+      "summary": "Two threads are being covered separately: the Supreme Court pushing on BCCI's exemption, and the National Sports Board's formation sliding past two deadlines since July. Nobody has named the obvious connection: the law meant to discipline cricket's board cannot yet discipline anything, because its own enforcement body doesn't exist."
+    },
+    {
+      "id": "opp-3",
+      "format": "Podcast",
+      "title": "Why India's Para Games squad gets a fraction of the preview coverage the Asian Games did",
+      "summary": "121 athletes defending a 111-medal haul from the country's best-ever Paralympic-adjacent showing are getting almost no pre-event attention, while the Asian Games got weeks of build-up for a smaller team. Worth asking directly why the attention gap exists and whether it is closing at all."
+    },
+    {
+      "id": "opp-4",
+      "format": "Op-ed",
+      "title": "Argentina football's post-Messi sponsorship cliff",
+      "summary": "Tonight's farewell is being told entirely as sentiment. The commercial story, what the Argentina federation's kit, sponsorship and friendly-match appearance fees were worth specifically because Messi played, and what replaces that revenue, has not been written yet."
+    },
+    {
+      "id": "opp-5",
+      "format": "Podcast",
+      "title": "Minority stakes are the new full sale in North American sports",
+      "summary": "The Islanders' $3 billion valuation on a 15% sale, and the Valkyries hitting a $1 billion valuation without a full-team transaction, both point to the same mechanism: owners monetising a slice rather than the whole franchise. Nobody has done the piece naming this as the dominant structure of the current valuation supercycle, rather than treating each sale as a standalone headline number."
+    },
+    {
+      "id": "opp-6",
+      "format": "Op-ed",
+      "title": "Kenya just treated doping as a policing problem; will anyone else follow?",
+      "summary": "Folding anti-narcotics police into anti-doping enforcement is a meaningfully different model from the testing-and-bans approach every other athletics power uses. It is being reported as a diplomatic visit outcome, not as a policy experiment other doping-troubled federations should be watching closely."
+    }
+  ]
+}
