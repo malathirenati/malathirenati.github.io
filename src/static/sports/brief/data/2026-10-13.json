@@ -1,0 +1,129 @@
+{
+  "date": "2026-10-13",
+  "weekday": "Tuesday",
+  "regions": {
+    "india": {
+      "government": [
+        {
+          "id": "in-gov-1",
+          "title": "Ahmedabad is one of seven cities still in the race for the 2036 Olympics",
+          "summary": "India's Ahmedabad bid, built around the world's largest cricket stadium and the city's upcoming hosting of the 2030 Commonwealth Games, is competing against Qatar (likely Doha-led but spanning Gulf neighbours), South Korea (Seoul), Germany (Munich), South Africa (Cape Town), Hungary (Budapest) and Turkey (Istanbul). India and Qatar are seen as the frontrunners. Other national Olympic bodies have until 31 October to join the race; the IOC executive board, chaired by Kirsty Coventry, expects to approve a shortlist by March 2027, with a full contested vote in 2029 - a deliberate return to an open process after Brisbane 2032 was awarded without one.",
+          "sources": [
+            {"name": "Business Today, Oct 6", "url": "https://www.businesstoday.in/india/story/indias-ahmedabad-bid-among-seven-countries-in-race-for-2036-olympics-559973-2026-10-06"}
+          ]
+        },
+        {
+          "id": "in-gov-2",
+          "title": "Para-shooters accuse PCI officials of demanding a cut of their award money for Asian Para Games selection",
+          "summary": "Shooters including Sandeep Kumar (ranked third in Asia) have filed a representation with the Sports Authority of India alleging that Paralympic Committee of India and Shooting Technical Committee officials pressured athletes to hand over 20% of their government cash awards as a condition of selection, manipulated international quota places and qualifying scores, and allocated wild-card slots by finances rather than ranking. Two of India's 15 international quota places were reportedly forfeited after higher-ranked shooters refused to pay. PCI president Devendra Jhajharia has rejected the allegations as '100% fair'; the Sports Ministry says the squad is already locked in for the Games, which run in Aichi-Nagoya from 18-24 October. The shooters say they may go to the High Court under Article 226 if nothing changes.",
+          "sources": [
+            {"name": "MyKhel, Oct 8", "url": "https://www.mykhel.com/more-sports/para-asian-games-2026-shooters-allege-corruption-extortion-selection-process-455807.html"},
+            {"name": "Devdiscourse, Oct 9", "url": "https://www.devdiscourse.com/article/sports-games/3989449-indian-para-shooters-protest-against-pci-ahead-of-asian-para-games-2026"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "in-mkt-1",
+          "title": "IPL's player auction returns to Indian soil for the first time since 2023",
+          "summary": "BCCI secretary Devajit Saikia has confirmed the IPL 2027 mini-auction will be held in Goa in December, ending a three-year run of auctions staged in Dubai, Jeddah and Abu Dhabi. The board is juggling the calendar around it - an India A women's match has already been shifted to Mohali to free up hotel capacity, since Goa's room supply is tight during wedding season. The venue and exact date are still being finalised, and organisers haven't ruled out the auction moving overseas again if logistics don't work out.",
+          "sources": [
+            {"name": "Free Press Journal, Sept 23", "url": "https://www.freepressjournal.in/sports/ipl-2027-auction-set-for-goa-in-december-bcci-shifts-india-a-women-match-to-mohali"},
+            {"name": "Khel Now, Sept 16", "url": "https://khelnow.com/cricket/ipl-2027-auction-date-venue-and-more-202609"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "in-soc-1",
+          "title": "India's medal haul this week is coming from the disciplines nobody covers",
+          "summary": "Udhayveer Sidhu beat a field that included Olympic medallists to win 10m air pistol gold at the ISSF World Cup in Cairo; 17-year-old Maaya Rajeshwaran won her first ITF singles title; and Putul Sonowal won India's first-ever medal at the World Bowls Champion of Champions. None of these generated anything like the coverage of the ISL opener or the WI ODI series the same week - a reminder of how uneven the attention economy is across Indian sport even when the results are genuinely historic.",
+          "sources": [
+            {"name": "Daily Jagran, Oct 11", "url": "https://www.thedailyjagran.com/lite/sports/issf-world-cup-udhayveer-sidhu-stuns-olympic-medallists-to-clinch-10m-air-pistol-gold-10331911"},
+            {"name": "The Bridge, Oct 10-11", "url": "https://thebridge.in/latest/3"}
+          ]
+        }
+      ]
+    },
+    "global": {
+      "government": [],
+      "markets": [
+        {
+          "id": "gl-mkt-1",
+          "title": "Everton goes up for sale, two years after its last takeover",
+          "summary": "The Friedkin Group confirmed it is exploring investment options for Everton, including a possible sale of its controlling stake, barely two years after buying the club. It lands in the same fortnight as Leicester City's own ownership search, where a $264 million valuation is already being questioned - together the two deals are the clearest live test yet of whether English football valuations built during the recent buying frenzy hold up once a club is outside the Premier League's top tier or financial comfort zone.",
+          "sources": [
+            {"name": "ITV News, Oct 9", "url": "https://www.itv.com/news/granada/2026-10-09/everton-fc-put-up-for-sale"},
+            {"name": "Front Office Sports, Oct 9", "url": "https://frontofficesports.com/article/everton-weighs-sale-two-years-after-takeover/"}
+          ]
+        },
+        {
+          "id": "gl-mkt-2",
+          "title": "DP World Tour moves to shut LIV players out of its conflicting-events loophole for 2027",
+          "summary": "The DP World Tour is notifying current LIV Golf players that fines and tournament suspensions under its conflicting-events rule will resume after this season, reversing the conditional releases that let eight players - including Tyrrell Hatton and Jon Rahm - play LIV through 2026. A new PGA Tour/DP World Tour partnership with the Asian Tour also closes off the mixed-schedule route LIV players had been using. The timing matters: several of the affected players are in the Ryder Cup 2027 conversation, so a tour it governs just made itself the gatekeeper for who's eligible to play.",
+          "sources": [
+            {"name": "Golf Channel, Oct 12", "url": "https://www.golfchannel.com/dp-world-tour/news/dp-world-tour-reportedly-informed-liv-players-that-2027-conditional-releases-are-unlikely"},
+            {"name": "Golf Monthly, Aug 13", "url": "https://www.golfmonthly.com/news/dp-world-tour-set-to-resume-fines-and-sanctions-for-liv-golf-members"}
+          ]
+        },
+        {
+          "id": "gl-mkt-3",
+          "title": "New York sues Polymarket for $4.6 billion, calling it an illegal gambling operation",
+          "summary": "New York's attorney general filed suit against Polymarket, arguing its sports and event contracts amount to unlicensed gambling under state law and seeking $4.6 billion in penalties. It's one state moving unilaterally while the CFTC is still drafting a federal rulebook for prediction markets - the same jurisdictional fight the NFL flagged in its own Supreme Court filing on the sector, now playing out state by state ahead of any federal resolution.",
+          "sources": [
+            {"name": "Fox 5 NY, Sept 24", "url": "https://www.fox5ny.com/news/new-york-sues-polymarket-illegal-gambling-lawsuit"}
+          ]
+        },
+        {
+          "id": "gl-mkt-4",
+          "title": "Sports-betting exchange Novig quadruples its valuation to $2 billion",
+          "summary": "Novig closed a new funding round that puts its valuation at $2 billion, up roughly 4x, as investors keep betting on exchange-style wagering platforms even as regulators tighten scrutiny of the broader prediction-market sector. The raise underlines how much private capital still sees room to grow in sports betting adjacent products despite the legal pressure building on rivals like Polymarket and Kalshi.",
+          "sources": [
+            {"name": "Front Office Sports, Sept 30", "url": "https://frontofficesports.com/article/novig-to-quadruple-valuation-with-new-funding-round/"}
+          ]
+        },
+        {
+          "id": "gl-mkt-5",
+          "title": "Mike Repole builds a quiet stake in Churchill Downs as the stock slides",
+          "summary": "Investor Mike Repole has built up a roughly 1.5% stake in Churchill Downs Inc., the Kentucky Derby's parent company, as its stock has fallen about 33% this year. It's a small position in dollar terms but a signal that at least one high-profile sports-adjacent investor sees value in horse racing's biggest commercial property at a depressed price.",
+          "sources": [
+            {"name": "Casino.org, Oct 9", "url": "https://www.casino.org/news/mike-repole-racing-to-churchill-downs-shares-owns-nearly-1-5-of-the-stock/"}
+          ]
+        }
+      ],
+      "society": []
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "format": "Podcast",
+      "title": "India's disability-sport governance mess is breaking two weeks before the Ahmedabad Olympic pitch gets serious",
+      "summary": "The para-shooters' corruption allegations against the PCI are being covered as an isolated selection dispute, right as India is trying to present itself as a credible, well-governed Olympic host ahead of the IOC's 31 October deadline. Nobody has asked the obvious question: does a federation facing High Court threats over kickback allegations help or hurt the Ahmedabad bid's credibility case."
+    },
+    {
+      "id": "opp-2",
+      "format": "Blog",
+      "title": "Why cricket's biggest auction keeps leaving India - and what actually pulled it back",
+      "summary": "Coverage of the IPL 2027 auction returning to Goa treats it as a hotel-rooms-and-logistics story. The more interesting piece is why the BCCI moved the auction to Dubai, Jeddah and Abu Dhabi in the first place - cost, speed, optics, broadcaster convenience - and what changed to bring it home now, including whether it could still slip overseas again."
+    },
+    {
+      "id": "opp-3",
+      "format": "Op-ed",
+      "title": "Everton just turned the Leicester story from a one-off into a pattern",
+      "summary": "Two Premier League-pedigree clubs are now officially up for sale in the same fortnight, each still being reported as its own standalone story. Put side by side, they're the real-time test of whether English football valuations built during the recent buying frenzy survive outside the top of the market - and the answer will set the price for every mid-table sale that follows."
+    },
+    {
+      "id": "opp-4",
+      "format": "Blog",
+      "title": "The DP World Tour just made itself the referee for Ryder Cup 2027 eligibility",
+      "summary": "The tour's decision to resume fines and suspensions for LIV players is being written up as a labour-relations story about golf's civil war. The sharper angle nobody's written: by closing off the Asian Tour loophole right as Ryder Cup qualification heats up, the tour has quietly given itself leverage over which LIV-affiliated stars make Europe's team."
+    },
+    {
+      "id": "opp-5",
+      "format": "Op-ed",
+      "title": "One state's $4.6 billion lawsuit, one federal rulebook still being drafted - nobody's mapped how they collide",
+      "summary": "New York is suing Polymarket under state gambling law at the same time the CFTC is writing federal rules that could pre-empt that very claim. No one has walked through what happens to New York's case, or every other state-level suit like it, if Washington finishes its rulebook first - a real risk given how slowly the federal process is moving."
+    }
+  ]
+}

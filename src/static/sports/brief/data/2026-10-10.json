@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-10",
+  "weekday": "Saturday",
+  "regions": {
+    "india": {
+      "government": [
+        {
+          "id": "in-gov-1",
+          "title": "Pramod Bhagat and Bhavina Patel named flag bearers as India confirms a 446-strong Para Games contingent",
+          "summary": "Table tennis Paralympic champion Bhavina Patel and badminton's Pramod Bhagat will carry the flag at the Aichi-Nagoya Asian Para Games opening ceremony on 18 October, the sports ministry announced. India's contingent of 446 athletes and officials is one of its largest ever for the event. The announcement lands in the middle of an unresolved internal row: para-shooters have alleged a pay-to-play selection racket and six excluded para-cyclists are planning to protest at the Sports Authority of India's headquarters before the team departs, with no independent review yet ordered.",
+          "sources": [
+            {"name": "News on Air (PIB), Oct 7", "url": "https://newsonair.gov.in/pramod-bhagat-and-bhavina-patel-to-be-flag-bearers-of-indian-contingent-for-asian-para-games/"},
+            {"name": "Deccan Herald, Oct 7", "url": "https://deccanherald.com/sports/india-to-send-446-member-contingent-to-asian-para-games-2729897"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "in-mkt-1",
+          "title": "ISL 2026-27 kicks off today, the first season run entirely on clubs' own commercial rights",
+          "summary": "Bengaluru FC host Sporting Club Delhi this evening in the season opener as the Indian Super League returns to a full home-and-away calendar under the new club-led framework agreed with the AIFF: clubs now own and sell their own sponsorship, broadcast and matchday rights rather than operating under a centrally pooled league deal. It's the biggest structural change to Indian football's top flight since the ISL's 2014 launch, and the first real test of whether individual clubs can build commercial operations that previously sat with the league.",
+          "sources": [
+            {"name": "The CSR Journal, Oct 2026", "url": "https://thecsrjournal.in/prime-time-football-isl-2026-27-targets-weekend-fans-starting-october-10"},
+            {"name": "Free Press Journal", "url": "https://www.freepressjournal.in/sports/isl-to-kick-off-on-october-10-returns-to-traditional-home-and-away-format"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "in-soc-1",
+          "title": "Para-sport's selection row stays unresolved as the team prepares to fly out",
+          "summary": "Shooter Sandeep Kumar's allegation that athletes were asked to surrender 20% of government cash awards for selection, and six para-cyclists' plan to march on SAI headquarters over being left off the squad, remain open grievances with the Games just over a week away. PCI president Devendra Jhajharia maintains selection was \"100% merit-based.\" No independent probe has been ordered as of today, which means India's largest-ever Para Games contingent is travelling under the shadow of an unaddressed governance complaint rather than a resolved one.",
+          "sources": [
+            {"name": "The Print, Oct 8", "url": "https://theprint.in/sport/para-shooters-allege-corruption-in-asiad-selection-pci-chief-says-process-100-merit-based/3064861/"}
+          ]
+        }
+      ]
+    },
+    "global": {
+      "government": [
+        {
+          "id": "gl-gov-1",
+          "title": "2036 Olympics bid field stays at seven, with three weeks left for late entries",
+          "summary": "The IOC's confirmed candidates — India (Ahmedabad), Qatar (Doha), South Korea (Seoul), Germany (Munich), South Africa (Cape Town), Hungary (Budapest) and Turkey (Istanbul) — have until 31 October before the list closes, ahead of a shortlist in March and a contested vote in 2029. India and Qatar continue to be cast as front runners in domestic coverage, though the IOC itself has not indicated a preference at this stage.",
+          "sources": [
+            {"name": "Business Today, Oct 6", "url": "https://www.businesstoday.in/india/story/indias-ahmedabad-bid-among-seven-countries-in-race-for-2036-olympics-559973-2026-10-06"},
+            {"name": "Al Jazeera, Oct 6", "url": "https://www.aljazeera.com/sports/2026/10/6/qatar-and-india-among-seven-countries-bidding-for-2036-olympics-ioc-says"}
+          ]
+        }
+      ],
+      "markets": [],
+      "society": [
+        {
+          "id": "gl-soc-1",
+          "title": "Messi closes a 21-year Argentina career with a penalty and two assists",
+          "summary": "Lionel Messi played his final match for Argentina on 6 October, a 3-0 friendly win over Benin, scoring from the penalty spot and setting up two more goals before an emotional send-off. He finishes with 207 caps, 125 goals and the 2022 World Cup, having first announced in August that he had \"nothing left to give\" at international level. The farewell closes out the most commercially significant individual career in the sport's modern history, built around his and Cristiano Ronaldo's parallel brand-building through the 2010s and 2020s.",
+          "sources": [
+            {"name": "ITV News, Oct 7", "url": "https://www.itv.com/news/2026-10-07/messi-bids-argentina-an-emotional-farewell-after-3-0-win-against-benin"},
+            {"name": "Oman Observer, Oct 7", "url": "https://www.omanobserver.om/article/1197369/sports/messi-bids-tearful-farewell-to-argentina-with-goal-2-assists"}
+          ]
+        }
+      ]
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "format": "Blog",
+      "title": "Who inherits the Messi-sized hole in football's sponsorship map?",
+      "summary": "Coverage of Messi's farewell is all tribute, no business analysis. His international career anchored two decades of individual-athlete marketing. Nobody has mapped which players, leagues or federations actually absorb that commercial weight now that he's gone from the international game."
+    },
+    {
+      "id": "opp-2",
+      "format": "Op-ed",
+      "title": "\"Club-led\" ISL sounds like autonomy. For most clubs it's an unfunded mandate.",
+      "summary": "Today's ISL launch is being covered as a governance win. The harder question: do mid-table ISL clubs actually have the sales, broadcast and sponsorship capability to run what a league office used to run for them, or does this quietly advantage only the two or three biggest-spending owners?"
+    },
+    {
+      "id": "opp-3",
+      "format": "Podcast",
+      "title": "Why para-sport governance complaints only surface right before a Games",
+      "summary": "The shooters' pay-to-play allegation and the cyclists' protest plan are covered as isolated pre-Games drama. The pattern of grievances erupting in the final fortnight before departure, then going quiet once the team leaves, is itself the story nobody has asked about."
+    },
+    {
+      "id": "opp-4",
+      "format": "Blog",
+      "title": "The 2036 bid's \"front-runner\" framing is domestic messaging, not an IOC signal",
+      "summary": "Indian coverage keeps describing Ahmedabad as a front runner for 2036, but the IOC hasn't shortlisted anyone and won't for months. That gap between confident domestic headlines and the actual state of a still-open seven-way race is worth examining on its own."
+    }
+  ]
+}

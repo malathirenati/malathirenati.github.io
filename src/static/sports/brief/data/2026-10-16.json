@@ -1,0 +1,138 @@
+{
+  "date": "2026-10-16",
+  "weekday": "Friday",
+  "regions": {
+    "india": {
+      "government": [
+        {
+          "id": "in-gov-1",
+          "title": "Ahmedabad's 2036 Olympic bid gets a masterplan, with two weeks left for rivals to even enter the race",
+          "summary": "Stadium architects Populous are preparing the masterplan for Ahmedabad's bid, built around the Sardar Vallabhbhai Patel Sports Enclave and the city's 2030 Commonwealth Games hosting run. Other national Olympic committees have until 31 October to join the contest, which already includes Qatar, South Korea, Germany, South Africa, Hungary and Turkey — India and Qatar remain the frontrunners. The IOC, chaired by Kirsty Coventry, expects a shortlist by March 2027 and a full vote in 2029.",
+          "sources": [
+            {"name": "SportBusiness", "url": "https://sportbusiness.com/news/populous-preparing-masterplan-for-ahmedabads-2036-olympic-bid"},
+            {"name": "Business Today, Oct 6", "url": "https://www.businesstoday.in/india/story/indias-ahmedabad-bid-among-seven-countries-in-race-for-2036-olympics-559973-2026-10-06"}
+          ]
+        },
+        {
+          "id": "in-gov-2",
+          "title": "Para-shooters' corruption row with the PCI escalates to the Sports Minister, two days before the Asian Para Games open",
+          "summary": "The protesting shooters, who allege PCI and Shooting Technical Committee officials demanded a cut of their award money for Asian Para Games selection, have now met the Union Sports Minister directly. A PCI official reportedly dismissed the allegations as \"anti-national,\" hardening the stand-off just as the 275-member Indian contingent prepares to leave for Aichi-Nagoya, where the Games run 18-24 October.",
+          "sources": [
+            {"name": "Deccan Chronicle", "url": "https://www.deccanchronicle.com/sports/protesting-para-shooters-meet-sports-minister-allege-corruption-in-pci-1994405"},
+            {"name": "Outlook India", "url": "https://www.outlookindia.com/sports/others/para-shooters-akash-sandeep-kumar-protest-asian-para-games-2026-selection-jp-nautiyal-anti-national-devendra-jhajharia-reaction"}
+          ]
+        },
+        {
+          "id": "in-gov-3",
+          "title": "ICC pulls the Women's Champions Trophy hosting from Sri Lanka and hands it to India",
+          "summary": "The ICC has confirmed India as replacement host for the inaugural Women's Champions Trophy after stripping Sri Lanka of the rights. Sri Lanka's own cricket-transformation committee had lobbied to keep the event; the sports ministry and the president were reportedly informed only at the last moment, and local estimates put the lost economic value above $20 million. It is the latest sign of how much hosting leverage has concentrated around the BCCI relative to the rest of the region's boards.",
+          "sources": [
+            {"name": "Daily Mirror (Sri Lanka), Sept 3", "url": "https://www.dailymirror.lk/breaking-news/Sri-Lanka-loses-over-USD-20-MN-as-ICC-moves-Champions-Trophy-to-India/108-349305"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "in-mkt-1",
+          "title": "Muthoot Fincorp fills the sponsorship hole the online-gambling ban left in Indian cricket",
+          "summary": "BCCI secretary Devajit Saikia has confirmed Kerala-based NBFC Muthoot Fincorp as Team India's title sponsor for home matches, in a deal reported around ₹150 crore running through March 2028. It replaces Dream11, which exited after last year's real-money-gaming ban ended its sponsorship, leaving the BCCI searching for a replacement able to absorb the cost without the gambling-adjacent risk.",
+          "sources": [
+            {"name": "Business Today, Sept 27", "url": "https://www.businesstoday.in/sports/story/muthoot-fincorp-becomes-bccis-title-sponsor-for-home-cricket-till-2028-558061-2026-09-27"},
+            {"name": "Onmanorama, Sept 25", "url": "https://www.onmanorama.com/sports/cricket/2026/09/25/bcci-signs-150-crore-deal-muthoot-fincorp-title-sponsorship-team-india-.html"}
+          ]
+        },
+        {
+          "id": "in-mkt-2",
+          "title": "UAE's Al Fursan completes an eight-month takeover of ISL side Kerala Blasters",
+          "summary": "Al Fursan, a consortium led by Sheikh Ahmad bin Faisal Al Qasimi, has acquired Kerala Blasters FC from Magnum Group, taking over football operations for the 2026-27 season while the deal completes in stages. Ashley Westwood is the new head coach, Ofioh Sporty is installed as operational partner, and the club says new signings are imminent. It's the latest Gulf-backed consortium to move into ISL ownership.",
+          "sources": [
+            {"name": "DT Next, Sept 29", "url": "https://www.dtnext.in/news/sports/al-fursan-acquires-kerala-blasters-fc-from-magnum-group"},
+            {"name": "Onmanorama", "url": "https://www.onmanorama.com/sports/football/2026/09/29/kerala-blasters-new-owners-al-fursan-announcement-live.html"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "in-soc-1",
+          "title": "World champion Gukesh pulls back from classical chess to find his form again",
+          "summary": "D Gukesh is withdrawing from the Grand Chess Tour 2026's classical events — playing only the Rapid and Blitz legs in Warsaw and Zagreb — after a season he calls disappointing: tenth at Tata Steel, joint-last at the Prague Masters, no tournament wins in 2025. He says the lighter load buys \"more dedicated training time\" ahead of defending the title he won on debut in 2024, when he became the youngest-ever world champion.",
+          "sources": [
+            {"name": "The Bridge", "url": "https://thebridge.in/chess/d-gukesh-withdraws-grand-chess-tour-2026-classical-events-56237"},
+            {"name": "Free Press Journal", "url": "https://www.freepressjournal.in/sports/world-champion-d-gukesh-scales-back-tournament-schedule-after-disappointing-run-to-prioritise-title-defence"}
+          ]
+        },
+        {
+          "id": "in-soc-2",
+          "title": "India's largest-ever Para Games contingent leaves under a cloud its own federation created",
+          "summary": "275 athletes travel to Aichi-Nagoya for the Asian Para Games, with Pramod Bhagat and Bhavina Patel named flag bearers and a target of beating the historic Hangzhou medal haul. The send-off sits awkwardly against the selection-corruption allegations above — a reminder that India's growing para-sport success and its governance problems are running on the same track.",
+          "sources": [
+            {"name": "Outlook India", "url": "https://www.outlookindia.com/sports/others/india-at-asian-para-games-2026-full-list-of-athletes-sport-wise-ind-contingent-numbers-aichi-nagoya"},
+            {"name": "Telangana Today, Oct 8", "url": "https://telanganatoday.com/india-targets-100-medals-at-asian-para-games-after-historic-hangzhou-campaign"}
+          ]
+        }
+      ]
+    },
+    "global": {
+      "government": [],
+      "markets": [
+        {
+          "id": "gl-mkt-1",
+          "title": "Denver's NWSL expansion fee more than doubles the league's own record",
+          "summary": "Denver's ownership group, led by IMA Financial's Robert Cohen, paid $110 million for the NWSL's 16th franchise — over twice Bay FC's $53 million fee from 2023 — beating bids from Cleveland and a Cincinnati group backed by Caitlin Clark. It's the latest data point in a run of women's-sport valuations that have moved faster than almost anyone forecast two years ago.",
+          "sources": [
+            {"name": "Front Office Sports, Oct 9", "url": "https://frontofficesports.com/article/nwsl-denver-expansion-fee-womens-sports/"}
+          ]
+        },
+        {
+          "id": "gl-mkt-2",
+          "title": "Liverpool ends a 17-year partnership for a reported £300m-plus shirt deal with Turkish Airlines",
+          "summary": "Turkish Airlines will replace Standard Chartered as Liverpool's main shirt sponsor from June 2027, in a five-year deal reported above £300 million — the club's first change of lead sponsor since 2010. Standard Chartered stays on as a lesser \"Global Partner.\" The reported figure would put it in the same range as Manchester United's Qualcomm deal, among the Premier League's richest sponsorships.",
+          "sources": [
+            {"name": "The Star, Sept 8", "url": "https://www.thestar.com.my/sport/football/2026/09/08/soccer-liverpool-announce-five-year-sponsorship-deal-with-turkish-airlines"}
+          ]
+        },
+        {
+          "id": "gl-mkt-3",
+          "title": "Chelsea raises roughly $957m in debt to fund stadium and squad spending",
+          "summary": "Chelsea's ownership under Todd Boehly has raised close to $957 million in new borrowing, as the free-spending model that defined its early post-takeover years gives way to debt-financed upgrades. It's a reminder that even clubs built on billionaire ownership increasingly lean on leverage once the initial cash injections taper off.",
+          "sources": [
+            {"name": "Front Office Sports, Sept 4", "url": "https://frontofficesports.com/article/chelsea-fc-raises-957m-in-debt-for-upgrades/"}
+          ]
+        }
+      ],
+      "society": []
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "format": "Blog",
+      "title": "Why it's a gold-loan company plugging cricket's sponsorship gap, not a tech or FMCG brand",
+      "summary": "Coverage of Muthoot Fincorp's BCCI deal treats it as a straightforward replacement for Dream11. Nobody's asked why an NBFC is the kind of brand willing to pay this much for exposure once gambling-adjacent money was ruled out — and what that says about which sectors actually want cricket's reach badly enough to pay record rates for it."
+    },
+    {
+      "id": "opp-2",
+      "format": "Op-ed",
+      "title": "Gulf capital is building a second, quieter portfolio in Indian sport — football, not cricket",
+      "summary": "The IPL's foreign-money story is told constantly. Al Fursan's takeover of Kerala Blasters is the latest in a run of Gulf-backed consortiums buying into ISL clubs, and nobody has mapped the pattern or asked what these owners want from a league with nothing like the IPL's commercial scale."
+    },
+    {
+      "id": "opp-3",
+      "format": "Podcast",
+      "title": "What happens when a 20-year-old becomes the face of a billion people's chess hopes",
+      "summary": "Gukesh's scaled-back schedule is being covered as a results and ranking story. The sharper angle nobody's taken is structural: how little protection young world champions get from the pressure of representing a country's entire ambition in an individual sport, and whether federations are built to help them, or just to showcase them."
+    },
+    {
+      "id": "opp-4",
+      "format": "Blog",
+      "title": "Sri Lanka's lost hosting rights are a preview, not an isolated scandal",
+      "summary": "The Women's Champions Trophy move to India is being reported in Colombo as a governance failure at Sri Lanka Cricket. The regional story nobody's written: as BCCI's commercial gravity grows, how much hosting leverage do the subcontinent's smaller boards have left, and which one loses the next event?"
+    },
+    {
+      "id": "opp-5",
+      "format": "Op-ed",
+      "title": "Women's sport's valuations are rising faster than the revenue that's supposed to justify them",
+      "summary": "Denver's $110m NWSL fee and Liverpool's own record shirt deal are each being written up as standalone records. Nobody's laid the fee growth next to the actual media-rights and sponsorship revenue backing it to ask whether this is sustainable repricing or front-loaded optimism that outruns the underlying numbers."
+    }
+  ]
+}

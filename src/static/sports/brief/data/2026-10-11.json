@@ -1,0 +1,111 @@
+{
+  "date": "2026-10-11",
+  "weekday": "Sunday",
+  "regions": {
+    "india": {
+      "government": [
+        {
+          "id": "in-gov-1",
+          "title": "Para Games delegation departs; minister's meeting with protesting shooters ends without a public resolution",
+          "summary": "Sports minister Mansukh Mandaviya met protesting para-shooters on 8 October after they were pulled from a PCI send-off ceremony in Delhi by hotel security and police. Discussions followed with PCI president Devendra Jhajharia, but no outcome was announced. A day earlier the ministry had confirmed Pramod Bhagat and Bhavina Patel as flag bearers for India's 446-strong contingent to the Aichi-Nagoya Asian Para Games (18-24 October). The row stays open as the team departs: the ministry overruled the Cycling Federation's recommendation of six para-cyclists, approving only Paralympian Arshad Shaik, and the shooters' corruption complaint to SAI's Director General has not triggered an independent inquiry.",
+          "sources": [
+            {"name": "The CSR Journal, Oct 8", "url": "https://thecsrjournal.in/sports-minister-to-meet-protesting-para-shooters-on-friday"},
+            {"name": "Outlook India, Oct 9", "url": "https://www.outlookindia.com/sports/others/para-shooters-akash-sandeep-kumar-protest-asian-para-games-2026-selection-jp-nautiyal-anti-national-devendra-jhajharia-reaction"},
+            {"name": "News on Air (PIB), Oct 7", "url": "https://newsonair.gov.in/pramod-bhagat-and-bhavina-patel-to-be-flag-bearers-of-indian-contingent-for-asian-para-games/"}
+          ]
+        },
+        {
+          "id": "in-gov-2",
+          "title": "India frames its 2036 Olympic bid around \"Rising Together\"; first IOC presentation due late October",
+          "summary": "Sports minister Mandaviya and IOA president PT Usha unveiled the theme for Ahmedabad's 2036 bid on 7 October, pitching it as a unifying national project. India's first presentation to the IOC's Future Host Commission is due in late October, one of seven bids still live after the IOC restarted its paused host-selection process in July - the others are Qatar, Germany, South Korea, South Africa, Hungary and Turkey. A host will be chosen by vote only at the IOC's 2029 session, via a newly named \"Strategic Dialogue\" phase that replaces the earlier \"Targeted Dialogue\" step.",
+          "sources": [
+            {"name": "Outlook India, Oct 7", "url": "https://www.outlookindia.com/sports/others/rising-together-india-s-vision-2036-olympic-bid-ioc-indian-olympic-committee-mansukh-mandaviya-pt-usha"},
+            {"name": "Business Today, Oct 6", "url": "https://www.businesstoday.in/india/story/indias-ahmedabad-bid-among-seven-countries-in-race-for-2036-olympics-559973-2026-10-06"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "in-mkt-1",
+          "title": "BCCI summons IPL stakeholders to Mumbai to plan the league's 20th-season celebrations",
+          "summary": "The BCCI will hold a joint meeting of IPL franchise owners, CEOs, host state associations and broadcasters in Mumbai on 15 October to review recent seasons and prepare for IPL 2027 - the competition's 20th edition. At its AGM, the board's general body approved a year-long anniversary celebration starting December 2027, and separately began planning the BCCI's own centenary (December 2027-2028). The agenda covers venue and match-day coordination feedback alongside broadcaster input - a sign of how commercially load-bearing the league's milestone season has become for the board's calendar.",
+          "sources": [
+            {"name": "PTI via Yardbarker, Oct 2026", "url": "https://www.yardbarker.com/cricket/articles/bcci_calls_ipl_stakeholders_meeting_in_mumbai_to_review_past_seasons_and_prepare_for_2027_milestone_celebrations/s1_17726_44410557"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "in-soc-1",
+          "title": "Para-shooters allege a pay-to-play selection racket; PCI official calls the claim \"anti-national\"",
+          "summary": "About ten para-shooters led by Akash and Sandeep Kumar disrupted a Delhi send-off ceremony on 8 October, alleging the Paralympic Committee of India's shooting technical committee demanded a 20% cut of government cash awards and manipulated quota positions and qualification scores for Asian Para Games selection. PCI president Devendra Jhajharia called the process \"100% merit-based.\" Chief coach Jai Prakash Nautiyal denied the allegations outright, branded them \"anti-national\" for their effect on team morale, and said he would pursue legal action after the Games. No independent inquiry has been ordered; the allegations remain unproven either way.",
+          "sources": [
+            {"name": "The Print, Oct 8", "url": "https://theprint.in/sport/para-shooters-allege-corruption-in-asiad-selection-pci-chief-says-process-100-merit-based/3064861/"},
+            {"name": "Outlook India, Oct 9", "url": "https://www.outlookindia.com/sports/others/para-shooters-akash-sandeep-kumar-protest-asian-para-games-2026-selection-jp-nautiyal-anti-national-devendra-jhajharia-reaction"}
+          ]
+        }
+      ]
+    },
+    "global": {
+      "government": [
+        {
+          "id": "gl-gov-1",
+          "title": "2036 Olympic bid field holds at seven as the IOC restarts a paused host race",
+          "summary": "The IOC confirms seven candidates are still pursuing the 2036 Summer Games - India (Ahmedabad), Qatar (Doha), South Korea (Seoul), Germany (Munich), South Africa (Cape Town), Hungary (Budapest) and Turkey (Istanbul) - with entries open until 31 October. The process, paused in 2025, restarted in July 2026 and now runs through the renamed \"Strategic Dialogue\" phase before a vote at the IOC's 2029 session. The IOC itself has given no candidate a formal preference, despite some bidding countries' domestic coverage casting their own entry as a front-runner.",
+          "sources": [
+            {"name": "Business Today, Oct 6", "url": "https://www.businesstoday.in/india/story/indias-ahmedabad-bid-among-seven-countries-in-race-for-2036-olympics-559973-2026-10-06"},
+            {"name": "Al Jazeera, Oct 6", "url": "https://www.aljazeera.com/sports/2026/10/6/qatar-and-india-among-seven-countries-bidding-for-2036-olympics-ioc-says"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "gl-mkt-1",
+          "title": "Everton's US owners explore selling control, less than two years after buying the club",
+          "summary": "The Friedkin Group, which bought roughly 98.8% of Everton in December 2024, hired Moelis & Co. on 9 October to explore \"new investment options,\" including a possible sale of its controlling stake. Everton says its finances have stabilised - revenue hit a record £196.7 million in its last disclosure - and a source says chairman Dan Friedkin feels the stadium-funding phase is largely done, leaving a choice between committing more capital or bringing in a new investor, possibly at a profit, while retaining a stake. No price has been set; the move is being read as an early test of how durable Premier League club valuations are after several seasons of rapid appreciation.",
+          "sources": [
+            {"name": "Front Office Sports, Oct 9", "url": "https://frontofficesports.com/article/everton-weighs-sale-two-years-after-takeover/"},
+            {"name": "Al Jazeera, Oct 9", "url": "https://www.aljazeera.com/sports/2026/10/9/evertons-us-owners-seek-sale-of-controlling-stake-in-premier-league-club"},
+            {"name": "Bloomberg, Oct 9", "url": "https://www.bloomberg.com/news/articles/2026-10-09/everton-considers-sale-in-test-of-football-s-inflated-valuations"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "gl-soc-1",
+          "title": "WNBA Finals set: second-year expansion side Golden State Valkyries reach the championship series",
+          "summary": "The Golden State Valkyries swept defending champions Las Vegas in overtime to reach the WNBA Finals in just their second season, where they'll meet the Atlanta Dream, who swept past New York Liberty. It's the Valkyries' first Finals appearance since the league's newest franchise launched in 2025, and Atlanta's first since 2013. The result lands as the WNBA continues its rapid expansion push, with a brand-new franchise reaching the title series ahead of several longer-established teams.",
+          "sources": [
+            {"name": "Her Way Sports Media, Oct 10", "url": "https://herwaysportsmedia.substack.com/p/whats-happened-10th-october-2026"}
+          ]
+        }
+      ]
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "format": "Blog",
+      "title": "BCCI is already scripting IPL's 20th-anniversary mythology — before anyone answers why the calendar keeps getting more crowded",
+      "summary": "The 15 October stakeholder meeting is framed around celebration planning and past-season review. Nobody's asking the harder adjacent question: with IPL 2027 arriving as a 20th-edition showpiece, is the board using the milestone moment to paper over unresolved player-workload and fixture-congestion complaints that surface every season?"
+    },
+    {
+      "id": "opp-2",
+      "format": "Blog",
+      "title": "Everton's sale is a stress test for the whole Premier League valuation bubble, not just one club",
+      "summary": "Coverage treats this as an Everton ownership story. The more useful piece is the market one: no price has been set, so whatever number eventually surfaces becomes the first real data point on whether recent Premier League valuations, built on a handful of deals during a buying frenzy, can survive a sale where the buyer isn't desperate to get in."
+    },
+    {
+      "id": "opp-3",
+      "format": "Podcast",
+      "title": "Why does India's para-sport selection process only break down in public right before a Games?",
+      "summary": "This is at least the second cycle running where selection grievances erupt in the final fortnight before departure and go quiet once the team leaves. Today adds a new procedural detail - the ministry overruling the Cycling Federation's own recommendation on six para-cyclists - that nobody has asked PCI or SAI to explain on the record, as opposed to treating it as routine pre-Games noise."
+    },
+    {
+      "id": "opp-4",
+      "format": "Blog",
+      "title": "What does Ahmedabad actually have to show the IOC in three weeks?",
+      "summary": "Indian coverage of the 2036 bid stays at the slogan level (\"Rising Together,\" \"front-runner\"). Nobody has unpacked what the IOC's new \"Strategic Dialogue\" phase actually requires as deliverables - venue master-plans, funding strategy documents, legacy planning - or how Ahmedabad's late-October presentation will be scored against six rival bids that have had years longer to prepare some of this."
+    }
+  ]
+}

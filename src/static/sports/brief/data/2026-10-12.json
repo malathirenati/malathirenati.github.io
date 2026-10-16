@@ -1,0 +1,157 @@
+{
+  "date": "2026-10-12",
+  "weekday": "Monday",
+  "regions": {
+    "india": {
+      "government": [
+        {
+          "id": "in-gov-1",
+          "title": "US embassy denies visas to nine Indian wrestlers hours before the U23 Worlds begin",
+          "summary": "Nine wrestlers bound for the U23 World Wrestling Championships in Las Vegas — five Greco-Roman (Samarth Gajanan Mhakave, Dheeraj Kumar Malik, Sachin Kumar, Nikhil, Hardeep) and four women (Parveen, Ahilya Shatrughn Shinde, Neha Sharma, Neha Sangwan) — were turned down for US visas, reportedly on the grounds of being \"under 20 and unemployed.\" The Greco-Roman draw starts today, 12 October, with the women's competition opening Wednesday; the Wrestling Federation of India says it is still pushing the embassy to reconsider, particularly for the women, before that window closes. Six other women wrestlers and all men's freestylers already have visas in hand.",
+          "sources": [
+            {"name": "The Bridge, Oct 11", "url": "https://thebridge.in/wrestling/3-days-u23-world-wrestling-cships-wfi-still-hoping-women-visa-57995"}
+          ]
+        },
+        {
+          "id": "in-gov-2",
+          "title": "IOA sets December 5 for new Executive Council elections under the 2025 governance law",
+          "summary": "The Indian Olympic Association will elect a new Executive Council on 5 December, five days before the current term ends, running the process under the National Sports Governance Act 2025, its 2026 National Sports Bodies Rules, and a revised IOA constitution. Former Delhi/Chandigarh chief election commissioner Sanjay Kumar Srivastava is returning officer. Alongside it, national federations are nominating athlete representatives for a new 10-member Athletes' Commission (polling 3 November) and the General Assembly is adding a \"Sportspersons of Outstanding Merit\" category — president PT Usha has linked the overhaul directly to the credibility case for Ahmedabad's 2036 Olympic bid.",
+          "sources": [
+            {"name": "The Bridge, Oct 10", "url": "https://thebridge.in/others/ioa-elections-on-december-5-sanjay-srivastava-57988"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "in-mkt-1",
+          "title": "JioStar runs a Kohli-Rohit nostalgia film 14 months out from the 2027 World Cup",
+          "summary": "JioStar released a promotional film built around a relaxed, off-camera-style conversation between Virat Kohli and Rohit Sharma — reminiscing on their India careers and mimicking teammates' celebrations — as the opening beat of its marketing push toward the ICC Men's Cricket World Cup 2027. It follows India's 2-1 ODI series win over West Indies and leans on the idea that this could be the pair's last ICC tournament. The broadcaster's December India-Sri Lanka ODI series, which airs on Star Sports and streams on JioHotstar, gives the campaign an immediate commercial tie-in.",
+          "sources": [
+            {"name": "MediaNews4U, Oct 7", "url": "https://www.medianews4u.com/rohit-sharma-and-virat-kohlis-playful-reunion-sets-the-tone-for-jiostars-world-cup-2027-campaign/"}
+          ]
+        },
+        {
+          "id": "in-mkt-2",
+          "title": "Bengaluru's football stadium redevelopment: a decade of delay, revisited",
+          "summary": "A feature traces ten years of stalled plans to modernise Bengaluru's historic football venue, laying out the recurring pattern behind the holdup — overlapping civic authorities, unresolved funding commitments and shifting political priorities — as the city's ISL and grassroots football scene keeps outgrowing the ground it has.",
+          "sources": [
+            {"name": "The Bridge, Oct 11", "url": "https://thebridge.in/sports-market/bangalore-football-stadium-delays-57992"}
+          ]
+        },
+        {
+          "id": "in-mkt-3",
+          "title": "Sikkim opens its bid to become an extreme-sports tourism circuit",
+          "summary": "Sikkim hosted the opening leg of the 2026 Zabarvan Extreme Legends Series, an international mountain-biking event, positioning the state as a venue for adventure-sport tourism alongside its existing trekking and expedition economy.",
+          "sources": [
+            {"name": "The Bridge, Oct 11", "url": "https://thebridge.in/sports-market/sikkim-hosts-international-mountain-biking-event-57997"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "in-soc-1",
+          "title": "Smriti Mandhana named UNICEF India's newest celebrity advocate",
+          "summary": "UNICEF India announced that Smriti Mandhana will serve as a celebrity advocate for children's rights and well-being under its #ForEveryChild campaign. The appointment extends a sport-advocacy relationship that began during the 2026 ICC Women's T20 World Cup, when Mandhana — then vice-captain — supported UNICEF's \"Promise to Children\" push alongside national ambassador Ayushmann Khurrana.",
+          "sources": [
+            {"name": "The Bridge, Oct 11", "url": "https://thebridge.in/sports-market/smriti-mandhana-joins-unicef-india-as-celebrity-advocate-57991"}
+          ]
+        },
+        {
+          "id": "in-soc-2",
+          "title": "India tops the medal table at the Commonwealth Cue Sports Championships",
+          "summary": "India finished with 13 medals at the Commonwealth Cue Sports Championships, including golds for Aditya Mehta, Anupama Ramachandran and Rayaan Razmi — a strong showing for a discipline that gets little mainstream coverage outside multi-sport Games cycles.",
+          "sources": [
+            {"name": "The Bridge, Oct 10", "url": "https://thebridge.in/cue-sports/commonwealth-cue-sports-cships-india-win-13-medals-57989"}
+          ]
+        },
+        {
+          "id": "in-soc-3",
+          "title": "ISL 2026-27 kicks off: Bengaluru FC open with a comeback win",
+          "summary": "Bengaluru FC began the new Indian Super League season with a 3-2 comeback win over SC Delhi, debutant Borja Martinez scoring twice — a routine result, but the season-opener sets the tone for a league still trying to grow its fan base and matchday economics beyond its core markets.",
+          "sources": [
+            {"name": "The Bridge, Oct 10", "url": "https://thebridge.in/football/isl-bengaluru-fc-beats-sc-delhi-57990"}
+          ]
+        }
+      ]
+    },
+    "global": {
+      "government": [],
+      "markets": [
+        {
+          "id": "gl-mkt-1",
+          "title": "NFL asks the Supreme Court to rule fast on who regulates prediction markets",
+          "summary": "The NFL filed an amicus brief urging the Supreme Court to quickly resolve a circuit split over whether states can enforce sports-betting law against prediction-market platforms like Kalshi and Polymarket. The league's filing discloses that on the first Sunday of this season, $1.8 billion of the $3.3 billion traded on prediction markets was NFL-related, and argues the CFTC's proposed rules under-deliver on integrity and consumer protection — including letting 18-year-olds trade on sports where most states require bettors to be 21. New Jersey brought the underlying case; 39 states, DC and 145 tribal nations back it. A Supreme Court watcher quoted in the coverage doubts the Court moves before 2027.",
+          "sources": [
+            {"name": "Front Office Sports, Oct 8", "url": "https://frontofficesports.com/article/nfl-asks-supreme-court-to-hear-prediction-markets-case-as-soon-as-possible/"},
+            {"name": "Gambling.com, Oct 8", "url": "https://www.gambling.com/us/news/nfl-tells-supreme-court-prediction-markets-are-gambling-should-be-regulated-by-states"}
+          ]
+        },
+        {
+          "id": "gl-mkt-2",
+          "title": "Skydance leans on its new sports assets to deal with the NFL",
+          "summary": "Days after closing its takeover of Paramount, Skydance is positioning sports content as the \"leading content engine\" of the combined company, using its CBS NFL rights and broader portfolio as leverage in talks with the league ahead of CBS's media-rights renegotiation window. It's the clearest early signal of how the Ellison-backed company intends to compete with Comcast, Disney and Netflix for live sports as the asset class that still reliably draws an audience.",
+          "sources": [
+            {"name": "Front Office Sports, Oct 7", "url": "https://frontofficesports.com/article/sports-is-key-to-skydance-becoming-leading-content-engine/"}
+          ]
+        },
+        {
+          "id": "gl-mkt-3",
+          "title": "Is Leicester City's $264 million price tag too rich for buyers?",
+          "summary": "Coverage of Leicester City's ownership search asks whether a $264 million valuation holds up for a club that has fallen out of the Premier League's top flight — a live test of whether recent English football valuations, built during a buying frenzy at the top of the market, survive contact with a club that no longer has top-division broadcast revenue.",
+          "sources": [
+            {"name": "Front Office Sports, Oct 9", "url": "https://frontofficesports.com/article/is-leicester-citys-264-million-price-tag-too-rich-for-hungry-investors/"}
+          ]
+        },
+        {
+          "id": "gl-mkt-4",
+          "title": "MLB owners float a 154-game season and expanded playoffs",
+          "summary": "Owners proposed shortening MLB's regular season to 154 games from 2029, expanding the Division Series to best-of-seven and adding a weekly scheduled off day — a trade of fewer gate-revenue dates for a longer, more lucrative postseason broadcast window, and a sign owners now see playoff media rights as worth more than a handful of extra regular-season gates.",
+          "sources": [
+            {"name": "Front Office Sports, Oct 8", "url": "https://frontofficesports.com/article/mlb-owners-propose-shorter-season-expanded-playoffs/"}
+          ]
+        },
+        {
+          "id": "gl-mkt-5",
+          "title": "Court filing details how Jeanie Buss keeps her grip on the Lakers",
+          "summary": "A court filing shows Jeanie Buss was granted a five-year term as Lakers governor under a side arrangement struck with the new ownership group, even as her siblings argue she cannot block a sale of the family's remaining stake — a dispute that is really about who controls the franchise's decision-making, not just who owns the equity.",
+          "sources": [
+            {"name": "Front Office Sports, Oct 8", "url": "https://frontofficesports.com/article/filing-details-jeanie-busss-side-deal-to-remain-lakers-governor/"}
+          ]
+        }
+      ],
+      "society": []
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "format": "Podcast",
+      "title": "Why do Indian sportspeople keep getting denied US visas right before the plane leaves?",
+      "summary": "This is at least the second high-profile case this cycle of Indian athletes losing US visas in the final days before a championship, on criteria (\"under 20, unemployed\") that look generic rather than case-specific. Nobody has asked the US embassy, SAI or the relevant federations to explain the pattern, rejection rate, or appeal process on the record, instead of treating each case as an isolated, unlucky one-off."
+    },
+    {
+      "id": "opp-2",
+      "format": "Blog",
+      "title": "India's Olympic movement is quietly rewriting its own rulebook — and almost no one is covering the mechanics",
+      "summary": "The IOA's December elections, the new Athletes' Commission, and the \"Sportspersons of Outstanding Merit\" category are the first real test of the National Sports Governance Act 2025 in practice. Coverage so far treats this as a procedural footnote to the 2036 bid story. The more useful piece explains what the new rules actually change about who holds power inside Indian sport, and whether the athlete representation is real or cosmetic."
+    },
+    {
+      "id": "opp-3",
+      "format": "Op-ed",
+      "title": "Prediction markets didn't creep up on sports betting — they lapped it in one Sunday",
+      "summary": "The NFL's own filing says prediction markets moved $3.3 billion on a single NFL Sunday, more than half of it NFL-related. That number hasn't been put in context against regulated sportsbook handle for the same slate. Nobody has written the explainer on how fast the balance of power shifted from state-licensed books to unregulated-feeling exchanges, or what it means for the states that built tax revenue models around the old regime."
+    },
+    {
+      "id": "opp-4",
+      "format": "Blog",
+      "title": "Leicester and Everton are the same stress test, told twice — and no one's connecting them",
+      "summary": "Two Premier League-pedigree clubs are being shopped in the same fortnight, each treated by the press as its own isolated ownership story. Put side by side, they're a single data point on whether English football valuations built during the recent buying frenzy survive a market where buyers can walk away — and the answer will set the price for every mid-table club sale that follows."
+    },
+    {
+      "id": "opp-5",
+      "format": "Podcast",
+      "title": "JioStar is marketing a World Cup that's 14 months away. What does that actually buy them?",
+      "summary": "Running a nostalgia campaign around Kohli and Rohit more than a year before the 2027 World Cup is an unusually long lead time even by cricket-media standards. No one has asked what JioStar is actually optimising for this early — subscriber retention through a cricket-light year, ad-rate anchoring, or simply owning the narrative before a rights renewal fight — and whether the approach works if either player isn't actually at the tournament."
+    }
+  ]
+}
