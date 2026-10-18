@@ -1,0 +1,170 @@
+{
+  "date": "2026-10-17",
+  "weekday": "Saturday",
+  "regions": {
+    "india": {
+      "government": [
+        {
+          "id": "in-gov-1",
+          "title": "NADA's doping dragnet widens: coach Yunus Khan and seven athletics figures provisionally suspended",
+          "summary": "The National Anti-Doping Agency has provisionally suspended Mohammad Yunus Khan — Gulveer Singh's former coach at the Army Sports Institute — along with seven others from Indian athletics over alleged complicity in doping violations. It extends a probe that has already swept up more than a dozen sportspersons this year, sharpening scrutiny of the coaching ecosystem behind India's distance-running pipeline just as the sport chases more Asian Games medals.",
+          "sources": [
+            {"name": "Outlook India, Oct 13", "url": "https://www.outlookindia.com/sports/others/mohammad-yunus-khan-athletics-coach-provisionally-suspended-nada-anti-doping-violation-complicity"},
+            {"name": "The Bridge, Oct 2026", "url": "https://thebridge.in/athletics/army-coach-yunus-khan-provisionally-suspended-58012"}
+          ]
+        },
+        {
+          "id": "in-gov-2",
+          "title": "Sports Minister to federations: India can't keep relying on \"a few athletes\" — 2030 targets set",
+          "summary": "Mansukh Mandaviya met National Sports Federations from athletics, shooting, boxing, archery, squash and wushu to review India's fourth-place finish at the Aichi-Nagoya Asian Games, calling for deeper talent pipelines — \"we need to produce 10 more Mirabai Chanus\" — and more sports-science investment. Sports Secretary Hari Ranjan Rao set explicit goals: top-three finishes at both the 2030 Asian Games in Doha and the 2030 Commonwealth Games that Ahmedabad is hosting. Days earlier, Mandaviya had also pitched a BRICS repository to document and exchange knowledge on traditional and indigenous sports at a demonstration event in Ahmedabad.",
+          "sources": [
+            {"name": "Yardbarker, Oct 15", "url": "https://www.yardbarker.com/cricket/articles/sports_minister_mandaviya_calls_for_stronger_talent_pipeline_at_asian_games_review_meet/s1_17725_44431180"},
+            {"name": "Yardbarker, Oct 12", "url": "https://www.yardbarker.com/cricket/articles/sports_minister_mandaviya_proposes_brics_repository_to_preserve_traditional_and_indigenous_sports/s1_17725_44418487"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "in-mkt-1",
+          "title": "BCCI locks in a blockbuster home season — Border-Gavaskar Trophy opens January 21 in Nagpur",
+          "summary": "The BCCI has unveiled India's 2026-27 international home calendar, headlined by a five-Test Border-Gavaskar Trophy against Australia running Nagpur-Chennai-Guwahati-Ranchi-Ahmedabad from January 21 to March 3, 2027 — the series' first return to India since 2022-23. The five-venue, five-Test spread signals how much broadcast and gate-revenue weight the BCCI is willing to put behind its marquee series even in an already congested calendar.",
+          "sources": [
+            {"name": "Cricket.com.au, Oct 2026", "url": "https://www.cricket.com.au/news/4476875/australia-v-india-test-series-border-gavaskar-trophy-2027-schedule-venues-revealed"},
+            {"name": "WION, Oct 2026", "url": "https://wionews.com/sports/bcci-reveals-india-s-bumper-home-schedule-for-2026-27-season-bgt-to-start-on-jan-21-border-gavaskar-trophy-1774518606378"}
+          ]
+        },
+        {
+          "id": "in-mkt-2",
+          "title": "WPL auction locked for October 28 in Kochi, season set for January 14 – February 7",
+          "summary": "The BCCI has confirmed dates for the Women's Premier League's fifth season and fixed the player auction for October 28 in Kochi, giving franchises — and sponsors — a clearer runway to plan budgets around a tournament now firmly embedded in the women's game's commercial calendar.",
+          "sources": [
+            {"name": "MyKhel, Sep 16", "url": "https://www.mykhel.com/cricket/wpl-2027-season-5-dates-announced-for-jan-14-feb7-auction-scheduled-in-kochi-on-oct-28-453355.html"},
+            {"name": "Deccan Chronicle, Sep 16", "url": "https://www.deccanchronicle.com/sports/womens-premier-league-2027-to-be-staged-from-january-14-to-february-7-1987915"}
+          ]
+        },
+        {
+          "id": "in-mkt-3",
+          "title": "Dream11 drops real-money contests for good, completing its pivot away from fantasy sports",
+          "summary": "Dream11 says it has finished converting from a real-money fantasy platform into an \"AI-first\" sports engagement platform for its roughly 300 million users, ending all cash contests under India's Online Gaming Act, 2025. The shift already cost the BCCI its lead team sponsor — a deal reportedly worth close to $44 million through 2026 — and, with rival My11Circle also gone, leaves a sponsorship hole estimated at roughly ₹1,000 crore that Indian cricket's commercial machine is still working to fill.",
+          "sources": [
+            {"name": "Inkl, Oct 15", "url": "https://www.inkl.com/news/dream11-completes-pivot-from-fantasy-sports-to-global-sports-engagement-platform-drops-all-real-money-contests"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "in-soc-1",
+          "title": "Series tied 2-2: India and West Indies meet in a rain-threatened Bengaluru decider — today",
+          "summary": "Four high-scoring, closely fought T20Is have left the five-match series level, and tonight's finale at Chinnaswamy Stadium (7pm IST, toss 6:30pm) carries real washout risk after storms since Thursday. West Indies captain Shai Hope's 261 runs at a strike rate near 190 have carried the tourists' batting, Shreyas Iyer leads India with 159, and a possible recall for veteran seamer Bhuvneshwar Kumar adds a sentimental subplot at a ground famous for dew-assisted chases.",
+          "sources": [
+            {"name": "Yahoo Sports, Oct 17", "url": "https://sports.yahoo.com/articles/india-vs-west-indies-5th-180252253.html"},
+            {"name": "ESPNcricinfo, Oct 17", "url": "https://www.cricinfo.com/series/west-indies-in-india-2026-27-1529215/india-vs-west-indies-5th-t20i-1529234/match-preview"}
+          ]
+        },
+        {
+          "id": "in-soc-2",
+          "title": "Neeraj Chopra, sidelined since an ankle injury cost him the Asian Games, calls 2027 his comeback year",
+          "summary": "Speaking in Mumbai, the two-time Olympic medallist said his season-ending ligament tear means \"my focus now is on staging a strong, solid comeback next year\" en route to the 2028 Los Angeles Olympics. He credited Yash Vir Singh and Rohit Yadav — silver and bronze in javelin at the Asian Games in his and Kishore Jena's absence — as proof of the depth now building behind India's biggest individual star.",
+          "sources": [
+            {"name": "The News Mill, Oct 17", "url": "https://thenewsmill.com/2026/10/neeraj-chopra-aims-for-strong-comeback-next-year-after-injury/"}
+          ]
+        }
+      ]
+    },
+    "global": {
+      "government": [
+        {
+          "id": "gl-gov-1",
+          "title": "IOC scraps 12 standing commissions, including its gender-equality and human-rights panels",
+          "summary": "In a cost-cutting restructuring announced Friday, the International Olympic Committee is shutting 12 of its permanent commissions — among them the Gender Equality, Diversity and Inclusion commission and the Human Rights advisory committee chaired by Phumzile Mlambo-Ngcuka — and replacing them with smaller, often confidential expert working groups convened only as needed. The IOC, under President Kirsty Coventry, frames the move as efficiency; it follows March's decision to route the contested \"protection of the female category\" review to one such closed-membership panel rather than to the standing commission.",
+          "sources": [
+            {"name": "CP24 / AP, Oct 16", "url": "https://cp24.com/news/sports/2026/10/16/ioc-shuts-down-12-olympic-committees-in-switch-to-smaller-expert-advisory-groups"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "gl-mkt-1",
+          "title": "Global sports media rights hit a record $65.8 billion in 2026 — but the industry expects a pullback",
+          "summary": "SportBusiness's Global Media Report puts 2026's worldwide sports-rights value at $65.82 billion, up 15% year-on-year on the strength of the men's football World Cup and the Winter Olympics, with the US now accounting for 53.9% of the global total (up from 46% in 2022) and the NFL and NBA alone making up 30%. The report forecasts a fall to $62.2 billion in 2027 — a reminder that mega-event years inflate the baseline, and the underlying growth rate is far flatter once they're stripped out.",
+          "sources": [
+            {"name": "Reuters via Taylorville Daily News, Oct 14", "url": "https://www.taylorvilledailynews.com/global-sports-media-rights-value-reaches-record-65-8-billion-in-2026/"}
+          ]
+        },
+        {
+          "id": "gl-mkt-2",
+          "title": "Jamaica's top football league lands its biggest-ever local sponsor",
+          "summary": "Legend, a Wisynco Group beverage brand, has been confirmed as title sponsor of the Jamaica Premier League in what the company calls its largest-ever investment in domestic sport, in a long-term deal reported at J$300 million. It's a small deal next to the bigger stories in this brief, but it's exactly the kind of sponsorship money moving into smaller domestic leagues that rarely gets covered outside their home market.",
+          "sources": [
+            {"name": "Jamaica Observer, Oct 13", "url": "https://www.jamaicaobserver.com/2026/10/13/legend-confirmed-new-jpl-title-sponsor-300-million-deal/"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "gl-soc-1",
+          "title": "A Washington high school's girls' cross-country team protests after a transgender runner switches teams midseason",
+          "summary": "The Camas School District said it followed state guidelines after members of the girls' team objected to a transgender athlete moving over from the boys' team partway through the season. The Washington Interscholastic Activities Association's policy lets students compete consistent with their gender identity without medical or legal documentation, leaving eligibility calls to individual schools — the same fault line now on ballot measures in several US states this November.",
+          "sources": [
+            {"name": "CBS Austin / KATU, Oct 14-15", "url": "https://cbsaustin.com/news/nation-world/camas-girls-cross-country-team-protests-after-transgender-athlete-joins-midseason-10-15-2026"}
+          ]
+        },
+        {
+          "id": "gl-soc-2",
+          "title": "Milwaukee's Brewers sweep the Dodgers, reach their first World Series since 1982",
+          "summary": "The lowest-spending team left in the postseason swept the defending-champion Dodgers to win the NLCS, with Game 1 of the World Series set for October 23 in Milwaukee against the winner of the Guardians-Rays ALCS. Milwaukee is framing it as the end of \"44 years of heartbreak\" — a small-market, player-development-driven run that stands out against a postseason otherwise dominated by payroll-story coverage.",
+          "sources": [
+            {"name": "The Big Lead, Oct 15", "url": "https://www.thebiglead.com/updated-world-series-schedule-milwaukee-brewers-guardians-rays/"}
+          ]
+        },
+        {
+          "id": "gl-soc-3",
+          "title": "LeBron James's 76ers era is already here — and the NBA built opening night around it",
+          "summary": "James made his preseason Philadelphia debut after an off-season move from the Lakers, and the league has put his regular-season bow front and center: the October 20 opener lands at Madison Square Garden's Knicks banner ceremony, in a scheduling slot that also happens to suit European prime time, where the NBA's Amazon Prime viewership has grown by triple digits year-on-year.",
+          "sources": [
+            {"name": "ESPN, Oct 2026", "url": "https://www.espn.com/nba/story/_/id/50137673/lebron-james-scores-10-points-18-minutes-76ers-debut"},
+            {"name": "Fox News/OutKick, Aug 11", "url": "https://www.foxnews.com/sports/nba-prioritize-european-audience-announcement-unique-2026-27-season-opener"}
+          ]
+        }
+      ]
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "format": "Op-ed",
+      "title": "What a confidential panel on \"the female category\" means now that the IOC's human-rights and gender commissions are gone",
+      "summary": "Coverage of the IOC's committee cull has mostly been a straight \"cost-cutting\" story. The angle nobody's pressed: the one contested policy question this restructuring foreshadowed — eligibility in the female category — was already handed to a closed-membership panel in March, months before the wider commissions disappeared. Nobody has traced that sequence or asked what due process looks like once it runs through bodies with no public membership list."
+    },
+    {
+      "id": "opp-2",
+      "format": "Blog",
+      "title": "Who actually fills India's ₹1,000-crore cricket-sponsorship hole now that Dream11 is gone for good",
+      "summary": "Dream11's pivot is being covered as a corporate-strategy story. The market story nobody's written is quantitative: with both big fantasy-gaming sponsors gone under the 2025 gaming law, who is actually bidding to fill that revenue gap across the BCCI, IPL franchises and broadcasters — and on what timeline, given how thin the pool of brands willing to pay cricket rates has suddenly become?"
+    },
+    {
+      "id": "opp-3",
+      "format": "Podcast",
+      "title": "India just built a National Sports Tribunal — will cases like Yunus Khan's ever reach open court again?",
+      "summary": "The NADA suspensions are being reported purely as a doping scandal. The structural story getting no airtime is that these disputes will increasingly be routed through the new National Sports Tribunal created under the National Sports Governance Act rather than through the courts — a genuine shift in athlete due process that no one has explained in plain terms yet."
+    },
+    {
+      "id": "opp-4",
+      "format": "Blog",
+      "title": "The World Cup/Olympics effect: why every sports-rights \"record\" quietly comes with a forecast to fall",
+      "summary": "The $65.8bn media-rights headline is being run everywhere as a pure growth story. Buried in the same report is its own forecast of a drop to $62.2bn in 2027 — nobody has laid out how mega-event years systematically inflate the baseline, or compared that pattern with India's own IPL rights plateau as a parallel case."
+    },
+    {
+      "id": "opp-5",
+      "format": "Podcast",
+      "title": "Low spend, high development: how the Brewers built a pennant winner while business media watched the big spenders",
+      "summary": "MLB's postseason business coverage is almost entirely about payroll. The Brewers sweeping the Dodgers on a fraction of the budget is the counter-narrative nobody in sports-business media has turned into an actual explainer of what their player-development model does differently."
+    },
+    {
+      "id": "opp-6",
+      "format": "Blog",
+      "title": "Behind the Camas, Washington headline: how state eligibility rules for trans athletes actually differ, state by state",
+      "summary": "The Camas protest is being covered as a culture-war flashpoint, loudly, on every side. What's missing from that shouting match is a calm, comparative explainer of how eligibility policy actually works across states — Washington's \"no documentation required\" standard versus the stricter rules now on several states' ballots this November — written for readers who want the mechanics, not the outrage."
+    }
+  ]
+}
