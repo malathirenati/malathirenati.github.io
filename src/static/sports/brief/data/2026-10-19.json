@@ -1,0 +1,189 @@
+{
+  "date": "2026-10-19",
+  "weekday": "Monday",
+  "regions": {
+    "india": {
+      "government": [
+        {
+          "id": "in-gov-1",
+          "title": "Ahmedabad's 2036 Olympic bid is now formally in a seven-way race",
+          "summary": "The IOC confirmed on October 6 that Ahmedabad -- already building out as the 2030 Commonwealth Games host -- is one of seven declared bidders for the 2036 Summer Games, alongside Doha, Seoul, Munich, Cape Town, Budapest and Istanbul. National Olympic committees have until October 31 to join; a shortlist follows in March, with a contested member vote expected only in 2029.",
+          "sources": [
+            {"name": "Business Today, Oct 6", "url": "https://www.businesstoday.in/india/story/indias-ahmedabad-bid-among-seven-countries-in-race-for-2036-olympics-559973-2026-10-06"},
+            {"name": "WECT, Oct 6", "url": "https://www.wect.com/2026/10/06/ioc-confirms-india-qatar-among-7-bidders-who-want-host-2036-olympics/"}
+          ]
+        },
+        {
+          "id": "in-gov-2",
+          "title": "Indian football's governance reset is now live, not just agreed",
+          "summary": "The sports ministry had to mediate between the AIFF and FSDL after their Master Rights Agreement lapsed last December, stalling the league. The club-led commercial framework they settled on in July is now actually running the 2026-27 ISL season, with the ministry-brokered structure being tested for the first time on real fixtures and real money rather than on paper.",
+          "sources": [
+            {"name": "IANS, Jan 14", "url": "https://ianslive.in/kerala-blasters-confirm-their-participation-in-isl-2026--20260114164757"},
+            {"name": "Fox Mandal", "url": "https://foxmandal.in/news/isl-2026-27-the-new-club-led-framework-moves-from-agreement-to-implementation/"}
+          ]
+        },
+        {
+          "id": "in-gov-3",
+          "title": "WADA's \"worst doping offender\" tag still hangs over Indian sport's credibility abroad",
+          "summary": "India was named by WADA as the world's leading source of doping violations for a third consecutive year, a label that keeps surfacing in how the country's bids and federations get scrutinised -- including, implicitly, in any Olympic-hosting pitch. The National Anti-Doping (Amendment) Act, 2025 is the government's legislative answer, tightening NADA's enforcement powers, but the compliance gap it's meant to close is still the live story.",
+          "sources": [
+            {"name": "EWN, Dec 18", "url": "https://www.ewn.co.za/2025/12/18/wada-names-india-worst-doping-offender-for-third-straight-year-1"},
+            {"name": "Drishti IAS", "url": "https://www.drishtiias.com/daily-updates/daily-news-analysis/national-anti-doping-amendment-act-2025/print_manually"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "in-mkt-1",
+          "title": "Muthoot Fincorp ends the BCCI's title-sponsor hunt -- at a price nobody wanted to pay first",
+          "summary": "The BCCI's tender for Team India's title rights drew no serious bids by the August 13 deadline at its Rs 4.75-4.85 crore-per-match ask; it fell back on direct talks and signed Kochi-based Muthoot Fincorp on September 24, for roughly Rs 4.5 crore a match through March 2028, replacing IDFC First Bank's Rs 4.2 crore deal. SBI Life, Campa and ChatGPT picked up the associate-partner slots instead -- a reminder of how thin the real bidding pool was for a rights category everyone assumes is a seller's market.",
+          "sources": [
+            {"name": "MyKhel, Sept 24", "url": "https://www.mykhel.com/cricket/muthoot-fincorp-becomes-india-crickets-new-title-sponsor-454323.html"},
+            {"name": "MyKhel, Aug 22", "url": "https://www.mykhel.com/cricket/bcci-title-sponsor-deal-hits-roadblock-as-4-75-crore-per-match-base-price-tests-market-451021.html"}
+          ]
+        },
+        {
+          "id": "in-mkt-2",
+          "title": "IPL 2027 auction heads to Goa in December",
+          "summary": "The BCCI has locked the next IPL player auction into Goa this December, giving all ten franchises a fixed date to firm up retention calls and purse planning -- the first concrete marker of the 2027 cycle even as this year's IPL business (title sponsor churn, broadcast numbers) is still being digested.",
+          "sources": [
+            {"name": "Ratopati", "url": "https://english.ratopati.com/story/80597/ipl-2027-auction-to-be-held-in-goa-in-december"}
+          ]
+        },
+        {
+          "id": "in-mkt-3",
+          "title": "ISL's new financial discipline has its first casualty",
+          "summary": "Diamond Harbour FC, promoted from the 2025-26 I-League, failed to pay the ISL's administrative fee and forfeits its place: it plays the season as a non-points team and loses ISL status for 2027-28 by default. Churchill Brothers steps in instead of Jamshedpur FC, pending regulatory sign-off -- an early, concrete test of whether the club-led model actually enforces financial standards on smaller clubs or just shifts who absorbs the cost.",
+          "sources": [
+            {"name": "Fox Mandal", "url": "https://foxmandal.in/news/isl-2026-27-the-new-club-led-framework-moves-from-agreement-to-implementation/"},
+            {"name": "MyKhel", "url": "https://www.mykhel.com/football/isl-2026-27-season-to-be-played-with-13-teams-aiff-confirmation-means-curtains-for-diamond-harbour-450749.html"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "in-soc-1",
+          "title": "Asian Para Games open in Aichi-Nagoya -- India banks 17 medals on day one",
+          "summary": "India's 168-athlete contingent -- its fifth Asian Para Games campaign -- opened with 6 gold, 6 silver and 5 bronze, sitting fourth behind China, Iran and Uzbekistan. Avani Lekhara took gold in the women's 10m air rifle standing SH1, and Pranav Soorma won the men's club throw F51. Today (day two), Sumit Antil defends his javelin F64 title, Sheetal Devi opens her archery campaign, and Pramod Bhagat faces Korea in the SL3 badminton quarter-final -- the Games run through October 24.",
+          "sources": [
+            {"name": "Stadium Rant", "url": "https://www.stadiumrant.com/asian-para-games-2026-day-two-live-schedule/"},
+            {"name": "Sunday Guardian Live, Oct 19", "url": "https://sundayguardianlive.com/sports/asian-para-games-2026-india-schedule-october-19-sheetal-devi-in-archery-action-avani-lekhara-eyes-gold-medal-in-shooting-nishad-kumar-leads-athletics-campaign-event-timings-live-streaming-details-308210/"}
+          ]
+        },
+        {
+          "id": "in-soc-2",
+          "title": "India's chess team settles for silver and bronze defending its Olympiad double gold",
+          "summary": "At the Chess Olympiad in Samarkand, India's open team won silver and the women's team bronze -- retaining the Nona Gaprindashvili Trophy -- a step down from the historic double gold of two years ago, but still enough for the Prime Minister to publicly hail the squad's \"exemplary determination.\" The story underneath the medal count: a young, deep bench is still the best in the world on paper, even on an off week.",
+          "sources": [
+            {"name": "News on Air, Sept 27", "url": "https://newsonair.gov.in/india-retains-nona-gaprindashvili-trophy-at-chess-olympiad-with-open-silver-womens-bronze/"}
+          ]
+        },
+        {
+          "id": "in-soc-3",
+          "title": "Asian Games close the books: India's second-best haul ever, just short of its own record",
+          "summary": "India's largest-ever Asian Games contingent -- 492 athletes across 35 sports -- finished fourth overall in Aichi-Nagoya with 85 medals (21 gold, 27 silver, 37 bronze), overtaking Malaysia late in the competition. It's below the record 106 India won at Hangzhou in 2022, but still the country's second-best showing at the Games.",
+          "sources": [
+            {"name": "News on Air", "url": "https://newsonair.gov.in/asian-games-2026-conclude-in-nagoya-india-finishes-4th-with-85-medals/"},
+            {"name": "Khel Now", "url": "https://khelnow.com/asian-games/final-medal-tally-asian-games-202610"}
+          ]
+        }
+      ]
+    },
+    "global": {
+      "government": [
+        {
+          "id": "gl-gov-1",
+          "title": "Seven cities, one 2036 Olympic slot -- and a decade-long process just to pick a shortlist",
+          "summary": "Ahmedabad, Doha, Seoul, Munich, Cape Town, Budapest and Istanbul have all declared for the 2036 Summer Games under a freshly published 30-page IOC bidding handbook. The timeline alone is the story: entries close October 31, a shortlist follows in March 2027, and the actual host vote isn't expected until 2029 -- a process stretched out far beyond what most bid cities' political cycles can comfortably sustain.",
+          "sources": [
+            {"name": "WECT, Oct 6", "url": "https://www.wect.com/2026/10/06/ioc-confirms-india-qatar-among-7-bidders-who-want-host-2036-olympics/"}
+          ]
+        },
+        {
+          "id": "gl-gov-2",
+          "title": "ICC shelves its two-tier Test plan after four full members dig in against it",
+          "summary": "Faced with opposition from four full-member boards, the ICC has withdrawn its push for a two-tier World Test Championship and is instead weighing a straightforward expansion of the WTC to 12 teams for the 2027-29 cycle -- a less disruptive but also less decisive answer to Test cricket's long-running competitiveness problem.",
+          "sources": [
+            {"name": "SportBusiness", "url": "https://www.sportbusiness.com/news/icc-forced-to-shelve-two-tier-test-system-amid-member-opposition/"}
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "gl-mkt-1",
+          "title": "Everton goes up for sale less than two years after its last takeover",
+          "summary": "The Friedkin Group -- which bought Everton in December 2024 after the collapsed 777 Partners deal, and also owns Roma -- confirmed on October 9 that it's exploring a sale, potentially of a controlling stake, after a difficult transfer window that saw the club sell Iliman Ndiaye. Manager David Moyes said he was \"surprised,\" having expected the owners to stay for decades; the club frames its new stadium as the foundation the next owner would inherit.",
+          "sources": [
+            {"name": "KSAT, Oct 9", "url": "https://www.ksat.com/sports/2026/10/09/everton-up-for-sale-after-us-owner-says-it-is-exploring-investment-options/"}
+          ]
+        },
+        {
+          "id": "gl-mkt-2",
+          "title": "UFC's pay-per-view era is actually over now -- and 2026 is the first year living with it",
+          "summary": "The $7.7 billion, seven-year UFC-Paramount deal announced last year took effect this year, folding every UFC card into a Paramount+ subscription and ending the sport's decades-old PPV model outright. It's one of the clearest live tests yet of whether a combat-sports audience built on pay-per-walk-up economics will actually convert to flat-fee streaming.",
+          "sources": [
+            {"name": "Casino.org", "url": "https://www.casino.org/news/tko-paramount-announce-seven-year-ufc-media-rights-deal/"}
+          ]
+        }
+      ],
+      "society": [
+        {
+          "id": "gl-soc-1",
+          "title": "Rays one win from the World Series after salvaging Game 5",
+          "summary": "Drew Rasmussen's seven strong innings carried Tampa Bay to a 3-1 win over Cleveland, putting the Rays 3-2 up in the ALCS and one victory from a first World Series berth since 2020. The winner meets Milwaukee, chasing its first pennant since 1982, for Game 1 on October 23 in Milwaukee.",
+          "sources": [
+            {"name": "ESPN, Oct 18", "url": "https://www.espn.com/mlb/game/_/gameId/401930515/rays-guardians"},
+            {"name": "MLB.com, Oct 16", "url": "https://www.mlb.com/brewers/news/2026-mlb-world-series-faq-schedule-times-teams-and-more"}
+          ]
+        },
+        {
+          "id": "gl-soc-2",
+          "title": "Rugby League World Cup survives a host collapse and opens to a record crowd",
+          "summary": "After France withdrew as host, organisers relocated the entire 2026 tournament to Australia and New Zealand on short notice. It opened October 15 to a record crowd for a Kiwis-Kangaroos clash that holders Australia edged 24-22 -- proof a global event can be rebuilt around an existing rugby league heartland rather than cancelled when a host falls through.",
+          "sources": [
+            {"name": "New Straits Times", "url": "https://www.nst.com.my/amp/sports/others/2026/10/1556404/holders-australia-edge-new-zealand-24-22-open-rugby-league-world-cup"},
+            {"name": "NRL.com, Oct 16", "url": "https://www.nrl.com/news/2026/10/16/this-world-cup-feels-different-record-crowd-treated-to-epic-opener/"}
+          ]
+        }
+      ]
+    }
+  },
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "format": "Blog",
+      "title": "The BCCI sponsor \"roadblock\" wasn't a market failure -- it was BCCI mispricing its own rights",
+      "summary": "Coverage of the title-sponsor hunt treats the lack of bidders as evidence sponsorship money is tight. Nobody's run the comparison that actually settles it: Muthoot's eventual rate against what IDFC First Bank was paying, against jersey-sponsor ROI data from comparable boards, to show whether BCCI simply asked for more than the market would bear."
+    },
+    {
+      "id": "opp-2",
+      "format": "Op-ed",
+      "title": "Diamond Harbour FC's exile is the first real stress test of \"club-led\" Indian football",
+      "summary": "It's been reported as a scheduling footnote. The actual question nobody's asked: does a club-led commercial model that bankrupts a newly promoted small club on an admin fee look any different, from a governance-equity standpoint, than the AIFF dysfunction it replaced?"
+    },
+    {
+      "id": "opp-3",
+      "format": "Podcast",
+      "title": "India wins medals faster per athlete at the Para Games than at the Asian Games -- so why is the coverage inverted?",
+      "summary": "India's Asian Games effort (492 athletes, 85 medals) gets the marquee treatment; the Para Games campaign (168 athletes, 17 medals on day one alone) runs a noticeably better medals-per-athlete rate and gets a fraction of the broadcast or sponsor attention. Nobody has actually put those two efficiency numbers side by side."
+    },
+    {
+      "id": "opp-4",
+      "format": "Blog",
+      "title": "UFC killing pay-per-view is a preview of what JioStar wants to do to Indian cricket",
+      "summary": "The Paramount-UFC switch to flat-fee streaming is being covered purely as a combat-sports story. The unexamined India angle: JioStar is simultaneously betting on subscription bundling across cricket, WWE and now potentially UFC content in India -- the same all-inclusive logic, untested at Indian price points."
+    },
+    {
+      "id": "opp-5",
+      "format": "Op-ed",
+      "title": "Ahmedabad is bidding to host two mega-events on overlapping infrastructure, and nobody's stress-tested that",
+      "summary": "The 2036 Olympic bid coverage treats Ahmedabad's 2030 Commonwealth Games hosting as a credibility asset. It's rarely treated as a resourcing risk -- the same stadiums, transit and hospitality capacity being asked to prove themselves twice within six years, on two different international standards."
+    },
+    {
+      "id": "opp-6",
+      "format": "Podcast",
+      "title": "Everton's ownership churn in five years is a private-equity pattern, not a one-off",
+      "summary": "Moshiri's exit, 777 Partners' collapse, Friedkin's takeover and now a sale review inside two years -- each has been covered as its own story. Strung together, it's a case study in flip-style ownership reaching clubs that were never flagged as PE-owned, worth examining against the broader wave hitting mid-table Premier League clubs."
+    }
+  ]
+}
